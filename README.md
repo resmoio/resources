@@ -1,2 +1,3 @@
-# resources
+# Resources
+
 Resmo resources documentation
