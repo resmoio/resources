@@ -1,4 +1,4 @@
-# GitHub Resource Documentation
+# GitHub Resources
 
 | Resource | Key | Collection Method |         
 | --- | --- | --- |
