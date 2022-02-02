@@ -1,4 +1,6 @@
-# Jira Software is built for every member of your software team to plan, track, and release great software.
+# Jira
+
+Jira Software is built for every member of your software team to plan, track, and release great software.
 
 | Resource | Key | Collection Method |
 | --- | --- | --- |

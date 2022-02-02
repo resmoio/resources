@@ -1,4 +1,6 @@
-# Opsgenie is a modern incident management platform
+# Opsgenie
+
+Opsgenie is a modern incident management platform
 
 | Resource | Key | Collection Method |
 | --- | --- | --- |

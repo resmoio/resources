@@ -1,5 +1,7 @@
 # Amazon Web Services
 
+Cloud service
+
 | Resource | Key | Collection Method |
 | --- | --- | --- |
 | The EC2 instances, virtual machines. | aws_ec2_instance | Polling |

@@ -1,4 +1,6 @@
-# New Relic One is the leading observability platform where Dev and Ops teams come together to solve problems with data
+# NewRelic
+
+New Relic One is the leading observability platform where Dev and Ops teams come together to solve problems with data
 
 | Resource | Key | Collection Method |
 | --- | --- | --- |

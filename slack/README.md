@@ -1,4 +1,6 @@
-# Slack is your digital HQ. Meet the new features keeping teams connected in a work-from-anywhere world.
+# Slack
+
+Slack is your digital HQ. Meet the new features keeping teams connected in a work-from-anywhere world.
 
 | Resource | Key | Collection Method |
 | --- | --- | --- |

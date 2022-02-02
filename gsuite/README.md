@@ -1,4 +1,6 @@
-# Google Workspace is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google
+# Google Workspace
+
+Google Workspace (formerly GSuite) is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google
 
 | Resource | Key | Collection Method |
 | --- | --- | --- |

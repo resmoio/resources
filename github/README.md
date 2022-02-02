@@ -1,4 +1,6 @@
-# GitHub is a provider of Internet hosting for software development and version control using Git. Resmo collects important data in your Github organization and repositories to detect changes that might be ..
+# Github
+
+GitHub is a provider of Internet hosting for software development and version control using Git. Resmo collects important data in your Github organization and repositories to detect changes that might be ..
 
 | Resource | Key | Collection Method |
 | --- | --- | --- |
