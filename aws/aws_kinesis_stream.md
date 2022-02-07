@@ -1,2 +1,22 @@
-# aws\_kinesis\_stream
+---
+description: aws_kinesis_stream
+---
 
+# Kinesis Stream
+
+Schema
+```
+{
+	accountId: String,
+	arn: String,
+	creationTimestamp: Date,
+	encryptionType: String,
+	keyId: String,
+	mode: String,
+	name: String,
+	region: String,
+	retentionPeriodHours: Int,
+	shardLevelMetrics: List<String>,
+	status: String,
+}
+```
