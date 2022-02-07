@@ -4,12 +4,12 @@ Gitlab is a provider of Internet hosting for software development and version co
 
 | Resource | Key | Supports Events |
 | --- | --- | --- |
-| Group | [gitlab, group] |  |
-| Group Member | [gitlab, group, member] |  |
-| Group Variable | [gitlab, group, variable] |  |
-| Merge Request | [gitlab, merge, request] |  |
-| Project | [gitlab, project] |  |
-| Project Member | [gitlab, project, member] |  |
-| Project Variable | [gitlab, project, variable] |  |
-| User | [gitlab, user] |  |
+| Group | gitlab\_group |  |
+| Group Member | gitlab\_group\_member |  |
+| Group Variable | gitlab\_group\_variable |  |
+| Merge Request | gitlab\_merge\_request |  |
+| Project | gitlab\_project |  |
+| Project Member | gitlab\_project\_member |  |
+| Project Variable | gitlab\_project\_variable |  |
+| User | gitlab\_user |  |
 

@@ -4,5 +4,5 @@ Confluence is your remote-friendly team workspace where knowledge and collaborat
 
 | Resource | Key | Supports Events |
 | --- | --- | --- |
-| Space | [confluence, space] |  |
+| Space | confluence\_space |  |
 

@@ -4,9 +4,9 @@ Slack is your digital HQ. Meet the new features keeping teams connected in a wor
 
 | Resource | Key | Supports Events |
 | --- | --- | --- |
-| Channel | [slack, channel] |  |
-| Channel Member | [slack, channel, member] |  |
-| Team | [slack, team] |  |
-| User | [slack, user] |  |
-| User Group | [slack, user, group] |  |
+| Channel | slack\_channel |  |
+| Channel Member | slack\_channel\_member |  |
+| Team | slack\_team |  |
+| User | slack\_user |  |
+| User Group | slack\_user\_group |  |
 

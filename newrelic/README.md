@@ -4,16 +4,16 @@ New Relic One is the leading observability platform where Dev and Ops teams come
 
 | Resource | Key | Supports Events |
 | --- | --- | --- |
-| account | [newrelic, account] |  |
-| Alert Policy | [newrelic, alert, policy] |  |
-| API Key | [newrelic, api, key] |  |
-| Browser Application | [newrelic, browser, application] |  |
-| Dashboard | [newrelic, dashboard] |  |
-| Device Configuration | [newrelic, device, configuration] |  |
-| Infrastructure Host | [newrelic, infrastructure, host] |  |
-| Mobile Application | [newrelic, mobile, application] |  |
-| Muting Rule | [newrelic, muting, rule] |  |
-| Notification Channel | [newrelic, notification, channel] |  |
-| Synthetic Monitor | [newrelic, synthetic, monitor] |  |
-| Workload | [newrelic, workload] |  |
+| account | newrelic\_account |  |
+| Alert Policy | newrelic\_alert\_policy |  |
+| API Key | newrelic\_api\_key |  |
+| Browser Application | newrelic\_browser\_application |  |
+| Dashboard | newrelic\_dashboard |  |
+| Device Configuration | newrelic\_device\_configuration |  |
+| Infrastructure Host | newrelic\_infrastructure\_host |  |
+| Mobile Application | newrelic\_mobile\_application |  |
+| Muting Rule | newrelic\_muting\_rule |  |
+| Notification Channel | newrelic\_notification\_channel |  |
+| Synthetic Monitor | newrelic\_synthetic\_monitor |  |
+| Workload | newrelic\_workload |  |
 

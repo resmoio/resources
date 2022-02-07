@@ -4,17 +4,17 @@ GitHub is a provider of Internet hosting for software development and version co
 
 | Resource | Key | Supports Events |
 | --- | --- | --- |
-| Deploy Key | [github, deploy, key] |  |
-| Deployment | [github, deployment] |  |
-| Deployment Environment | [github, deployment, env] |  |
-| Issue | [github, issue] |  |
-| Organization | [github, org] |  |
-| Organization Blocked User | [github, org, blocked, user] |  |
-| Organization Invitation | [github, org, invitation] |  |
-| Organization Member | [github, org, member] |  |
-| Pull Request | [github, pull, request] |  |
-| Repository | [github, repo] |  |
-| Team | [github, team] |  |
-| Team Member | [github, team, member] |  |
-| Team Repository | [github, team, repo] |  |
+| Deploy Key | github\_deploy\_key |  |
+| Deployment | github\_deployment |  |
+| Deployment Environment | github\_deployment\_env |  |
+| Issue | github\_issue |  |
+| Organization | github\_org |  |
+| Organization Blocked User | github\_org\_blocked\_user |  |
+| Organization Invitation | github\_org\_invitation |  |
+| Organization Member | github\_org\_member |  |
+| Pull Request | github\_pull\_request |  |
+| Repository | github\_repo |  |
+| Team | github\_team |  |
+| Team Member | github\_team\_member |  |
+| Team Repository | github\_team\_repo |  |
 

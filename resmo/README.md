@@ -4,8 +4,8 @@ You can even query your Resmo resources and changes from Resmo itself! Pretty ex
 
 | Resource | Key | Supports Events |
 | --- | --- | --- |
-| Account | [resmo, account] |  |
-| Integration | [resmo, integration] |  |
-| Resources | [resmo, resources] |  |
-| User | [resmo, user] |  |
+| Account | resmo\_account |  |
+| Integration | resmo\_integration |  |
+| Resources | resmo\_resources |  |
+| User | resmo\_user |  |
 

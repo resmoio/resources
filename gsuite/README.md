@@ -4,18 +4,18 @@ Google Workspace (formerly GSuite) is a collection of cloud computing, productiv
 
 | Resource | Key | Supports Events |
 | --- | --- | --- |
-| Application Specific Password | [gsuite, asp] |  |
-| Customer | [gsuite, customer] |  |
-| Domain | [gsuite, domain] |  |
-| Group | [gsuite, group] |  |
-| Group Member | [gsuite, group, member] |  |
-| Group Settings | [gsuite, group, settings] |  |
-| Mobile Device | [gsuite, mobile, device] |  |
-| Organizational Unit | [gsuite, org, unit] |  |
-| Building | [gsuite, resource, building] |  |
-| Calendar | [gsuite, resource, calendar] |  |
-| Role | [gsuite, role] |  |
-| Role Assignment | [gsuite, role, assignment] |  |
-| Token | [gsuite, token] |  |
-| user | [gsuite, user] |  |
+| Application Specific Password | gsuite\_asp |  |
+| Customer | gsuite\_customer |  |
+| Domain | gsuite\_domain |  |
+| Group | gsuite\_group |  |
+| Group Member | gsuite\_group\_member |  |
+| Group Settings | gsuite\_group\_settings |  |
+| Mobile Device | gsuite\_mobile\_device |  |
+| Organizational Unit | gsuite\_org\_unit |  |
+| Building | gsuite\_resource\_building |  |
+| Calendar | gsuite\_resource\_calendar |  |
+| Role | gsuite\_role |  |
+| Role Assignment | gsuite\_role\_assignment |  |
+| Token | gsuite\_token |  |
+| user | gsuite\_user |  |
 

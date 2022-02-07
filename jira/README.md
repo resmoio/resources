@@ -4,8 +4,8 @@ Jira Software is built for every member of your software team to plan, track, an
 
 | Resource | Key | Supports Events |
 | --- | --- | --- |
-| Filter | [jira, filter] |  |
-| Group | [jira, group] |  |
-| Project | [jira, project] |  |
-| User | [jira, user] |  |
+| Filter | jira\_filter |  |
+| Group | jira\_group |  |
+| Project | jira\_project |  |
+| User | jira\_user |  |
 
