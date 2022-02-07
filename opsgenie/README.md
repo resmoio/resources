@@ -1,8 +1,7 @@
-# Opsgenie Resources
+# Opsgenie
 
 Opsgenie is a modern incident management platform
 
-<<<<<<< HEAD
 | Resource | Key | Supports Events |
 | --- | --- | --- |
 | Account | [opsgenie, account] |  |
@@ -17,3 +16,4 @@ Opsgenie is a modern incident management platform
 | Team | [opsgenie, team] |  |
 | Team Routing Rule | [opsgenie, team, routing, rule] |  |
 | User | [opsgenie, user] |  |
+
