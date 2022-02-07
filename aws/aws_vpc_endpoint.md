@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_endpoint
+description: VPC Endpoint
 ---
 
-# VPC Endpoint
+# aws_vpc_endpoint
 
 Schema
 ```

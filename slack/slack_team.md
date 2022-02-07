@@ -1,8 +1,8 @@
 ---
-description: slack_team
+description: Team
 ---
 
-# Team
+# slack_team
 
 Schema
 ```

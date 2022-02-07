@@ -1,8 +1,8 @@
 ---
-description: aws_iam_role
+description: IAM Role
 ---
 
-# IAM Role
+# aws_iam_role
 
 Schema
 ```

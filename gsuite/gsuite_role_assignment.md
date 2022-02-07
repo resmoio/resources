@@ -1,8 +1,8 @@
 ---
-description: gsuite_role_assignment
+description: Role Assignment
 ---
 
-# Role Assignment
+# gsuite_role_assignment
 
 Schema
 ```

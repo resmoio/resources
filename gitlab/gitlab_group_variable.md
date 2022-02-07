@@ -1,8 +1,8 @@
 ---
-description: gitlab_group_variable
+description: Group Variable
 ---
 
-# Group Variable
+# gitlab_group_variable
 
 Schema
 ```

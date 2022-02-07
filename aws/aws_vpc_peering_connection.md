@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_peering_connection
+description: VPC Peering Connection
 ---
 
-# VPC Peering Connection
+# aws_vpc_peering_connection
 
 Schema
 ```

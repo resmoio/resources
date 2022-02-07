@@ -1,8 +1,8 @@
 ---
-description: aws_iam_password_policy
+description: IAM Password Policy
 ---
 
-# IAM Password Policy
+# aws_iam_password_policy
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: newrelic_workload
+description: Workload
 ---
 
-# Workload
+# newrelic_workload
 
 Schema
 ```

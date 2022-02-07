@@ -1,8 +1,8 @@
 ---
-description: opsgenie_integration
+description: Integration
 ---
 
-# Integration
+# opsgenie_integration
 
 Schema
 ```

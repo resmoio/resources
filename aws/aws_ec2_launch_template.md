@@ -1,8 +1,8 @@
 ---
-description: aws_ec2_launch_template
+description: EC2 Launch Template
 ---
 
-# EC2 Launch Template
+# aws_ec2_launch_template
 
 Schema
 ```

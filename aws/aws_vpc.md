@@ -1,8 +1,8 @@
 ---
-description: aws_vpc
+description: VPC
 ---
 
-# VPC
+# aws_vpc
 
 Schema
 ```

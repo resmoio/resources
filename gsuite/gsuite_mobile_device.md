@@ -1,8 +1,8 @@
 ---
-description: gsuite_mobile_device
+description: Mobile Device
 ---
 
-# Mobile Device
+# gsuite_mobile_device
 
 Schema
 ```

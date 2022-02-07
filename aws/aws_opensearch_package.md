@@ -1,8 +1,8 @@
 ---
-description: aws_opensearch_package
+description: OpenSearch Package
 ---
 
-# OpenSearch Package
+# aws_opensearch_package
 
 Schema
 ```

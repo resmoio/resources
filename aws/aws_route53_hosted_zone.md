@@ -1,8 +1,8 @@
 ---
-description: aws_route53_hosted_zone
+description: Route53 Hosted Zone
 ---
 
-# Route53 Hosted Zone
+# aws_route53_hosted_zone
 
 Schema
 ```

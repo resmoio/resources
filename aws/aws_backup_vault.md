@@ -1,8 +1,8 @@
 ---
-description: aws_backup_vault
+description: Backup Vault
 ---
 
-# Backup Vault
+# aws_backup_vault
 
 Schema
 ```

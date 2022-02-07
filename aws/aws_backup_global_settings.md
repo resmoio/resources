@@ -1,8 +1,8 @@
 ---
-description: aws_backup_global_settings
+description: Backup Global Settings
 ---
 
-# Backup Global Settings
+# aws_backup_global_settings
 
 Schema
 ```

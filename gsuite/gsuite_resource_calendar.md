@@ -1,8 +1,8 @@
 ---
-description: gsuite_resource_calendar
+description: Calendar
 ---
 
-# Calendar
+# gsuite_resource_calendar
 
 Schema
 ```

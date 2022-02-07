@@ -1,8 +1,8 @@
 ---
-description: newrelic_mobile_application
+description: Mobile Application
 ---
 
-# Mobile Application
+# newrelic_mobile_application
 
 Schema
 ```

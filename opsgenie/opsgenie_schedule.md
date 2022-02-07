@@ -1,8 +1,8 @@
 ---
-description: opsgenie_schedule
+description: Schedule
 ---
 
-# Schedule
+# opsgenie_schedule
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_backup_plan
+description: Backup Plan
 ---
 
-# Backup Plan
+# aws_backup_plan
 
 Schema
 ```

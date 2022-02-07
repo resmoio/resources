@@ -1,8 +1,8 @@
 ---
-description: github_org
+description: Organization
 ---
 
-# Organization
+# github_org
 
 Schema
 ```

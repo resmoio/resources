@@ -1,8 +1,8 @@
 ---
-description: aws_rds_cluster_snapshot
+description: RDS Cluster Snapshot
 ---
 
-# RDS Cluster Snapshot
+# aws_rds_cluster_snapshot
 
 Schema
 ```

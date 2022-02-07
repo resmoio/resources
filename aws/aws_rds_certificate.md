@@ -1,8 +1,8 @@
 ---
-description: aws_rds_certificate
+description: RDS Certificate
 ---
 
-# RDS Certificate
+# aws_rds_certificate
 
 Schema
 ```

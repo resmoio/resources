@@ -1,8 +1,8 @@
 ---
-description: gitlab_user
+description: User
 ---
 
-# User
+# gitlab_user
 
 Schema
 ```

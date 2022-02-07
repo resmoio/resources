@@ -1,8 +1,8 @@
 ---
-description: newrelic_api_key
+description: API Key
 ---
 
-# API Key
+# newrelic_api_key
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: confluence_space
+description: Space
 ---
 
-# Space
+# confluence_space
 
 Schema
 ```

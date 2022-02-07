@@ -1,8 +1,8 @@
 ---
-description: opsgenie_forwarding_rule
+description: Forwarding Rule
 ---
 
-# Forwarding Rule
+# opsgenie_forwarding_rule
 
 Schema
 ```

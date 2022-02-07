@@ -1,8 +1,8 @@
 ---
-description: aws_backup_region_settings
+description: Backup Region Settings
 ---
 
-# Backup Region Settings
+# aws_backup_region_settings
 
 Schema
 ```

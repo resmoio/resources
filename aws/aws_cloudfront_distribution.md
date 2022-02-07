@@ -1,8 +1,8 @@
 ---
-description: aws_cloudfront_distribution
+description: CloudFront Distribution
 ---
 
-# CloudFront Distribution
+# aws_cloudfront_distribution
 
 Schema
 ```

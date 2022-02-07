@@ -1,8 +1,8 @@
 ---
-description: gsuite_org_unit
+description: Organizational Unit
 ---
 
-# Organizational Unit
+# gsuite_org_unit
 
 Schema
 ```

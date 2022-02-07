@@ -1,8 +1,8 @@
 ---
-description: newrelic_dashboard
+description: Dashboard
 ---
 
-# Dashboard
+# newrelic_dashboard
 
 Schema
 ```

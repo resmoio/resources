@@ -1,8 +1,8 @@
 ---
-description: aws_sns_subscription
+description: SNS Subscription
 ---
 
-# SNS Subscription
+# aws_sns_subscription
 
 Schema
 ```

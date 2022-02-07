@@ -1,8 +1,8 @@
 ---
-description: aws_backup_selection
+description: Backup Selection
 ---
 
-# Backup Selection
+# aws_backup_selection
 
 Schema
 ```

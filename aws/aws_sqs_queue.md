@@ -1,8 +1,8 @@
 ---
-description: aws_sqs_queue
+description: SQS Queue
 ---
 
-# SQS Queue
+# aws_sqs_queue
 
 Schema
 ```

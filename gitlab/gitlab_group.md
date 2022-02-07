@@ -1,8 +1,8 @@
 ---
-description: gitlab_group
+description: Group
 ---
 
-# Group
+# gitlab_group
 
 Schema
 ```

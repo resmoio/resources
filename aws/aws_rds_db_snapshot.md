@@ -1,8 +1,8 @@
 ---
-description: aws_rds_db_snapshot
+description: RDS DB Snapshot
 ---
 
-# RDS DB Snapshot
+# aws_rds_db_snapshot
 
 Schema
 ```

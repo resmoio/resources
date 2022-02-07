@@ -1,8 +1,8 @@
 ---
-description: aws_rds_instance
+description: RDS Instance
 ---
 
-# RDS Instance
+# aws_rds_instance
 
 Schema
 ```

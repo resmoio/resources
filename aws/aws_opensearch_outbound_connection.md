@@ -1,8 +1,8 @@
 ---
-description: aws_opensearch_outbound_connection
+description: OpenSearch Outbound Connection
 ---
 
-# OpenSearch Outbound Connection
+# aws_opensearch_outbound_connection
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: newrelic_synthetic_monitor
+description: Synthetic Monitor
 ---
 
-# Synthetic Monitor
+# newrelic_synthetic_monitor
 
 Schema
 ```

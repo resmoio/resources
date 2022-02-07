@@ -1,8 +1,8 @@
 ---
-description: aws_rds_db_parameter_group
+description: RDS DB Parameter Group
 ---
 
-# RDS DB Parameter Group
+# aws_rds_db_parameter_group
 
 Schema
 ```

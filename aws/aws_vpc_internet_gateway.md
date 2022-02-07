@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_internet_gateway
+description: VPC Internet Gateway
 ---
 
-# VPC Internet Gateway
+# aws_vpc_internet_gateway
 
 Schema
 ```

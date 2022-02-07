@@ -1,8 +1,8 @@
 ---
-description: gsuite_resource_building
+description: Building
 ---
 
-# Building
+# gsuite_resource_building
 
 Schema
 ```

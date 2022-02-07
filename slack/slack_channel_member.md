@@ -1,8 +1,8 @@
 ---
-description: slack_channel_member
+description: Channel Member
 ---
 
-# Channel Member
+# slack_channel_member
 
 Schema
 ```

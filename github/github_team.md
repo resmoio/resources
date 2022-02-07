@@ -1,8 +1,8 @@
 ---
-description: github_team
+description: Team
 ---
 
-# Team
+# github_team
 
 Schema
 ```

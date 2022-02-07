@@ -1,8 +1,8 @@
 ---
-description: github_pull_request
+description: Pull Request
 ---
 
-# Pull Request
+# github_pull_request
 
 Schema
 ```

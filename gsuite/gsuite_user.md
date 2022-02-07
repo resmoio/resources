@@ -1,8 +1,8 @@
 ---
-description: gsuite_user
+description: user
 ---
 
-# user
+# gsuite_user
 
 Schema
 ```

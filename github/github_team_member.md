@@ -1,8 +1,8 @@
 ---
-description: github_team_member
+description: Team Member
 ---
 
-# Team Member
+# github_team_member
 
 Schema
 ```

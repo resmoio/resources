@@ -1,8 +1,8 @@
 ---
-description: gsuite_group
+description: Group
 ---
 
-# Group
+# gsuite_group
 
 Schema
 ```

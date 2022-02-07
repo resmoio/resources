@@ -1,8 +1,8 @@
 ---
-description: jira_group
+description: Group
 ---
 
-# Group
+# jira_group
 
 Schema
 ```

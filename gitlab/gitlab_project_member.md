@@ -1,8 +1,8 @@
 ---
-description: gitlab_project_member
+description: Project Member
 ---
 
-# Project Member
+# gitlab_project_member
 
 Schema
 ```

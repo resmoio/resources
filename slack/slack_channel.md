@@ -1,8 +1,8 @@
 ---
-description: slack_channel
+description: Channel
 ---
 
-# Channel
+# slack_channel
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: opsgenie_notification_rule
+description: Notification Rule
 ---
 
-# Notification Rule
+# opsgenie_notification_rule
 
 Schema
 ```

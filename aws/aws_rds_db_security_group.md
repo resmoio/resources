@@ -1,8 +1,8 @@
 ---
-description: aws_rds_db_security_group
+description: RDS DB Security Group
 ---
 
-# RDS DB Security Group
+# aws_rds_db_security_group
 
 Schema
 ```

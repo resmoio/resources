@@ -1,8 +1,8 @@
 ---
-description: aws_secretsmanager_secret
+description: Secrets Manager Secret
 ---
 
-# Secrets Manager Secret
+# aws_secretsmanager_secret
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_sns_topic
+description: SNS Topic
 ---
 
-# SNS Topic
+# aws_sns_topic
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: resmo_integration
+description: Integration
 ---
 
-# Integration
+# resmo_integration
 
 Schema
 ```

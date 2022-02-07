@@ -1,8 +1,8 @@
 ---
-description: aws_autoscaling_launch_configuration
+description: Autoscaling Launch Configuration
 ---
 
-# Autoscaling Launch Configuration
+# aws_autoscaling_launch_configuration
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_eventbridge_rule
+description: EventBridge Rule
 ---
 
-# EventBridge Rule
+# aws_eventbridge_rule
 
 Schema
 ```

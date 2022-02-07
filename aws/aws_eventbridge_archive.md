@@ -1,8 +1,8 @@
 ---
-description: aws_eventbridge_archive
+description: EventBridge Archive
 ---
 
-# EventBridge Archive
+# aws_eventbridge_archive
 
 Schema
 ```

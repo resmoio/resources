@@ -1,8 +1,8 @@
 ---
-description: aws_autoscaling_group
+description: Autoscaling Group
 ---
 
-# Autoscaling Group
+# aws_autoscaling_group
 
 Schema
 ```

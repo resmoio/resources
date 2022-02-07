@@ -1,8 +1,8 @@
 ---
-description: aws_ec2_snapshot
+description: EC2 Snapshot
 ---
 
-# EC2 Snapshot
+# aws_ec2_snapshot
 
 Schema
 ```

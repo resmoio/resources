@@ -1,8 +1,8 @@
 ---
-description: aws_kms_alias
+description: KMS Alias
 ---
 
-# KMS Alias
+# aws_kms_alias
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_ecs_service
+description: ECS Service
 ---
 
-# ECS Service
+# aws_ecs_service
 
 Schema
 ```

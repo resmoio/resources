@@ -1,8 +1,8 @@
 ---
-description: aws_iam_user
+description: IAM User
 ---
 
-# IAM User
+# aws_iam_user
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_backup_framework
+description: Backup Framework
 ---
 
-# Backup Framework
+# aws_backup_framework
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_eventbridge_connection
+description: EventBridge Connection
 ---
 
-# EventBridge Connection
+# aws_eventbridge_connection
 
 Schema
 ```

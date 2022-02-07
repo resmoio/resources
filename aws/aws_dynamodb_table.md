@@ -1,8 +1,8 @@
 ---
-description: aws_dynamodb_table
+description: DynamoDB Table
 ---
 
-# DynamoDB Table
+# aws_dynamodb_table
 
 Schema
 ```

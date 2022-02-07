@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_security_group
+description: VPC Security Group
 ---
 
-# VPC Security Group
+# aws_vpc_security_group
 
 Schema
 ```

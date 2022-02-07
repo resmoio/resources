@@ -1,8 +1,8 @@
 ---
-description: opsgenie_team
+description: Team
 ---
 
-# Team
+# opsgenie_team
 
 Schema
 ```

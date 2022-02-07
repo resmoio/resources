@@ -1,8 +1,8 @@
 ---
-description: aws_kms_grant
+description: KMS Grant
 ---
 
-# KMS Grant
+# aws_kms_grant
 
 Schema
 ```

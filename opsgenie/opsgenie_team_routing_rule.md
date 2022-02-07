@@ -1,8 +1,8 @@
 ---
-description: opsgenie_team_routing_rule
+description: Team Routing Rule
 ---
 
-# Team Routing Rule
+# opsgenie_team_routing_rule
 
 Schema
 ```

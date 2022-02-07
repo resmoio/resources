@@ -1,8 +1,8 @@
 ---
-description: aws_eventbridge_event_source
+description: EventBridge Event Source
 ---
 
-# EventBridge Event Source
+# aws_eventbridge_event_source
 
 Schema
 ```

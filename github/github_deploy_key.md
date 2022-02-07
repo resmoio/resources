@@ -1,8 +1,8 @@
 ---
-description: github_deploy_key
+description: Deploy Key
 ---
 
-# Deploy Key
+# github_deploy_key
 
 Schema
 ```

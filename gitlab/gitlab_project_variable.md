@@ -1,8 +1,8 @@
 ---
-description: gitlab_project_variable
+description: Project Variable
 ---
 
-# Project Variable
+# gitlab_project_variable
 
 Schema
 ```

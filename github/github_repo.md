@@ -1,8 +1,8 @@
 ---
-description: github_repo
+description: Repository
 ---
 
-# Repository
+# github_repo
 
 Schema
 ```

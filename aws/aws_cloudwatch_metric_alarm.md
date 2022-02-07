@@ -1,8 +1,8 @@
 ---
-description: aws_cloudwatch_metric_alarm
+description: CloudWatch Metric Alarm
 ---
 
-# CloudWatch Metric Alarm
+# aws_cloudwatch_metric_alarm
 
 Schema
 ```

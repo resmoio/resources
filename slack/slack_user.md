@@ -1,8 +1,8 @@
 ---
-description: slack_user
+description: User
 ---
 
-# User
+# slack_user
 
 Schema
 ```

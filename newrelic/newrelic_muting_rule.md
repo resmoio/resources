@@ -1,8 +1,8 @@
 ---
-description: newrelic_muting_rule
+description: Muting Rule
 ---
 
-# Muting Rule
+# newrelic_muting_rule
 
 Schema
 ```

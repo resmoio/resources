@@ -1,8 +1,8 @@
 ---
-description: aws_s3_bucket
+description: S3 Bucket
 ---
 
-# S3 Bucket
+# aws_s3_bucket
 
 Schema
 ```

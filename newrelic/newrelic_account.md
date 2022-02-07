@@ -1,8 +1,8 @@
 ---
-description: newrelic_account
+description: account
 ---
 
-# account
+# newrelic_account
 
 Schema
 ```

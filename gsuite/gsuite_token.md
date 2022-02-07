@@ -1,8 +1,8 @@
 ---
-description: gsuite_token
+description: Token
 ---
 
-# Token
+# gsuite_token
 
 Schema
 ```

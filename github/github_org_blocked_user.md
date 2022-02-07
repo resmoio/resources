@@ -1,8 +1,8 @@
 ---
-description: github_org_blocked_user
+description: Organization Blocked User
 ---
 
-# Organization Blocked User
+# github_org_blocked_user
 
 Schema
 ```

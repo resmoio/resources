@@ -1,8 +1,8 @@
 ---
-description: newrelic_notification_channel
+description: Notification Channel
 ---
 
-# Notification Channel
+# newrelic_notification_channel
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_cloudwatch_log_group
+description: CloudWatch Log Group
 ---
 
-# CloudWatch Log Group
+# aws_cloudwatch_log_group
 
 Schema
 ```

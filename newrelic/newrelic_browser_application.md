@@ -1,8 +1,8 @@
 ---
-description: newrelic_browser_application
+description: Browser Application
 ---
 
-# Browser Application
+# newrelic_browser_application
 
 Schema
 ```

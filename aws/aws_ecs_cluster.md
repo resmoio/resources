@@ -1,8 +1,8 @@
 ---
-description: aws_ecs_cluster
+description: ECS Cluster
 ---
 
-# ECS Cluster
+# aws_ecs_cluster
 
 Schema
 ```

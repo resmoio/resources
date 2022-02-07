@@ -1,8 +1,8 @@
 ---
-description: newrelic_alert_policy
+description: Alert Policy
 ---
 
-# Alert Policy
+# newrelic_alert_policy
 
 Schema
 ```

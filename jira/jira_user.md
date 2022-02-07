@@ -1,8 +1,8 @@
 ---
-description: jira_user
+description: User
 ---
 
-# User
+# jira_user
 
 Schema
 ```

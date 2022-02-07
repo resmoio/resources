@@ -1,8 +1,8 @@
 ---
-description: aws_ec2_instance
+description: EC2 Instance
 ---
 
-# EC2 Instance
+# aws_ec2_instance
 
 Schema
 ```

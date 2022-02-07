@@ -1,8 +1,8 @@
 ---
-description: opsgenie_user
+description: User
 ---
 
-# User
+# opsgenie_user
 
 Schema
 ```

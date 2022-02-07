@@ -1,8 +1,8 @@
 ---
-description: aws_ec2_volume
+description: EC2 Volume
 ---
 
-# EC2 Volume
+# aws_ec2_volume
 
 Schema
 ```

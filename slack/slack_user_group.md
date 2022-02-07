@@ -1,8 +1,8 @@
 ---
-description: slack_user_group
+description: User Group
 ---
 
-# User Group
+# slack_user_group
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_ecs_task
+description: ECS Task
 ---
 
-# ECS Task
+# aws_ecs_task
 
 Schema
 ```

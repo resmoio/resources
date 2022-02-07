@@ -1,8 +1,8 @@
 ---
-description: github_issue
+description: Issue
 ---
 
-# Issue
+# github_issue
 
 Schema
 ```

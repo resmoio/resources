@@ -1,8 +1,8 @@
 ---
-description: aws_rds_cluster_parameter_group
+description: RDS Cluster Parameter Group
 ---
 
-# RDS Cluster Parameter Group
+# aws_rds_cluster_parameter_group
 
 Schema
 ```

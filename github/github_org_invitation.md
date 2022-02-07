@@ -1,8 +1,8 @@
 ---
-description: github_org_invitation
+description: Organization Invitation
 ---
 
-# Organization Invitation
+# github_org_invitation
 
 Schema
 ```

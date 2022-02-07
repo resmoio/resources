@@ -1,8 +1,8 @@
 ---
-description: gsuite_customer
+description: Customer
 ---
 
-# Customer
+# gsuite_customer
 
 Schema
 ```

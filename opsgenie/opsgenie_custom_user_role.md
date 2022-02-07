@@ -1,8 +1,8 @@
 ---
-description: opsgenie_custom_user_role
+description: Custom User Role
 ---
 
-# Custom User Role
+# opsgenie_custom_user_role
 
 Schema
 ```

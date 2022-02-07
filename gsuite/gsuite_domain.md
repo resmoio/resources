@@ -1,8 +1,8 @@
 ---
-description: gsuite_domain
+description: Domain
 ---
 
-# Domain
+# gsuite_domain
 
 Schema
 ```

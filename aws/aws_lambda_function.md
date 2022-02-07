@@ -1,8 +1,8 @@
 ---
-description: aws_lambda_function
+description: Lambda Function
 ---
 
-# Lambda Function
+# aws_lambda_function
 
 Schema
 ```

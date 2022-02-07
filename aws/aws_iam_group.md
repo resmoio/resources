@@ -1,8 +1,8 @@
 ---
-description: aws_iam_group
+description: IAM Group
 ---
 
-# IAM Group
+# aws_iam_group
 
 Schema
 ```

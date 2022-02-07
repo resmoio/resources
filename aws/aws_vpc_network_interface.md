@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_network_interface
+description: VPC Network Interface
 ---
 
-# VPC Network Interface
+# aws_vpc_network_interface
 
 Schema
 ```

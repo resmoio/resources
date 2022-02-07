@@ -1,8 +1,8 @@
 ---
-description: opsgenie_escalation
+description: Escalation
 ---
 
-# Escalation
+# opsgenie_escalation
 
 Schema
 ```

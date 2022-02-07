@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_network_acl
+description: VPC Network ACL
 ---
 
-# VPC Network ACL
+# aws_vpc_network_acl
 
 Schema
 ```

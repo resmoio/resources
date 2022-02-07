@@ -1,8 +1,8 @@
 ---
-description: gsuite_role
+description: Role
 ---
 
-# Role
+# gsuite_role
 
 Schema
 ```

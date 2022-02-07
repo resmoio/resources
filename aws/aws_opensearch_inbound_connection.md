@@ -1,8 +1,8 @@
 ---
-description: aws_opensearch_inbound_connection
+description: OpenSearch Inbound Connection
 ---
 
-# OpenSearch Inbound Connection
+# aws_opensearch_inbound_connection
 
 Schema
 ```

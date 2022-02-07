@@ -1,8 +1,8 @@
 ---
-description: aws_elb_target_group
+description: ELB Target Group
 ---
 
-# ELB Target Group
+# aws_elb_target_group
 
 Schema
 ```

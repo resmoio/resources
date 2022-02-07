@@ -1,8 +1,8 @@
 ---
-description: aws_ec2_ami
+description: EC2 AMI
 ---
 
-# EC2 AMI
+# aws_ec2_ami
 
 Schema
 ```

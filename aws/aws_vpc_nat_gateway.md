@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_nat_gateway
+description: VPC NAT Gateway
 ---
 
-# VPC NAT Gateway
+# aws_vpc_nat_gateway
 
 Schema
 ```

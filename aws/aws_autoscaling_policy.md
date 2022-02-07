@@ -1,8 +1,8 @@
 ---
-description: aws_autoscaling_policy
+description: Autoscaling Policy
 ---
 
-# Autoscaling Policy
+# aws_autoscaling_policy
 
 Schema
 ```

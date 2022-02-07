@@ -1,8 +1,8 @@
 ---
-description: aws_kms_key
+description: KMS Key
 ---
 
-# KMS Key
+# aws_kms_key
 
 Schema
 ```

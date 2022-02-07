@@ -1,8 +1,8 @@
 ---
-description: aws_acm_certificate
+description: ACM Certificate
 ---
 
-# ACM Certificate
+# aws_acm_certificate
 
 Schema
 ```

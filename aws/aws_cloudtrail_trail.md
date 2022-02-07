@@ -1,8 +1,8 @@
 ---
-description: aws_cloudtrail_trail
+description: CloudTrail
 ---
 
-# CloudTrail
+# aws_cloudtrail_trail
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_rds_cluster
+description: RDS Cluster
 ---
 
-# RDS Cluster
+# aws_rds_cluster
 
 Schema
 ```

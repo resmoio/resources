@@ -1,8 +1,8 @@
 ---
-description: aws_eventbridge_event_bus
+description: EventBridge Event Bus
 ---
 
-# EventBridge Event Bus
+# aws_eventbridge_event_bus
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: jira_filter
+description: Filter
 ---
 
-# Filter
+# jira_filter
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_subnet
+description: VPC Subnet
 ---
 
-# VPC Subnet
+# aws_vpc_subnet
 
 Schema
 ```

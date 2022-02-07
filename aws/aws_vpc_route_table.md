@@ -1,8 +1,8 @@
 ---
-description: aws_vpc_route_table
+description: VPC Route Table
 ---
 
-# VPC Route Table
+# aws_vpc_route_table
 
 Schema
 ```

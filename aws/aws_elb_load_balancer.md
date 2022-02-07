@@ -1,8 +1,8 @@
 ---
-description: aws_elb_load_balancer
+description: ELB Load Balancer
 ---
 
-# ELB Load Balancer
+# aws_elb_load_balancer
 
 Schema
 ```

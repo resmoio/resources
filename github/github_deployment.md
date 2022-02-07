@@ -1,8 +1,8 @@
 ---
-description: github_deployment
+description: Deployment
 ---
 
-# Deployment
+# github_deployment
 
 Schema
 ```

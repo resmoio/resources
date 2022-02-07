@@ -1,8 +1,8 @@
 ---
-description: aws_ecs_task_definition_family
+description: ECS Task Definition Family
 ---
 
-# ECS Task Definition Family
+# aws_ecs_task_definition_family
 
 Schema
 ```

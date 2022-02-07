@@ -1,8 +1,8 @@
 ---
-description: resmo_resources
+description: Resources
 ---
 
-# Resources
+# resmo_resources
 
 Schema
 ```

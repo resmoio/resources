@@ -1,8 +1,8 @@
 ---
-description: aws_kinesis_stream
+description: Kinesis Stream
 ---
 
-# Kinesis Stream
+# aws_kinesis_stream
 
 Schema
 ```

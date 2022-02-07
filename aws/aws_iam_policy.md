@@ -1,8 +1,8 @@
 ---
-description: aws_iam_policy
+description: IAM Policy
 ---
 
-# IAM Policy
+# aws_iam_policy
 
 Schema
 ```

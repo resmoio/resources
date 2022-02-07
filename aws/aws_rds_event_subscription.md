@@ -1,8 +1,8 @@
 ---
-description: aws_rds_event_subscription
+description: RDS Event Subscription
 ---
 
-# RDS Event Subscription
+# aws_rds_event_subscription
 
 Schema
 ```

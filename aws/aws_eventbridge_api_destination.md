@@ -1,8 +1,8 @@
 ---
-description: aws_eventbridge_api_destination
+description: EventBridge API Destination
 ---
 
-# EventBridge API Destination
+# aws_eventbridge_api_destination
 
 Schema
 ```

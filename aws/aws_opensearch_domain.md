@@ -1,8 +1,8 @@
 ---
-description: aws_opensearch_domain
+description: OpenSearch Domain
 ---
 
-# OpenSearch Domain
+# aws_opensearch_domain
 
 Schema
 ```

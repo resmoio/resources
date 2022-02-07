@@ -1,8 +1,8 @@
 ---
-description: opsgenie_policy
+description: Policy
 ---
 
-# Policy
+# opsgenie_policy
 
 Schema
 ```

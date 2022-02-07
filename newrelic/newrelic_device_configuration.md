@@ -1,8 +1,8 @@
 ---
-description: newrelic_device_configuration
+description: Device Configuration
 ---
 
-# Device Configuration
+# newrelic_device_configuration
 
 Schema
 ```

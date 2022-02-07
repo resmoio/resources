@@ -1,8 +1,8 @@
 ---
-description: aws_cloudformation_stack_set
+description: CloudFormation StackSet
 ---
 
-# CloudFormation StackSet
+# aws_cloudformation_stack_set
 
 Schema
 ```

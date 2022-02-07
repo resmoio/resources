@@ -1,8 +1,8 @@
 ---
-description: gitlab_project
+description: Project
 ---
 
-# Project
+# gitlab_project
 
 Schema
 ```

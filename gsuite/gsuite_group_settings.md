@@ -1,8 +1,8 @@
 ---
-description: gsuite_group_settings
+description: Group Settings
 ---
 
-# Group Settings
+# gsuite_group_settings
 
 Schema
 ```

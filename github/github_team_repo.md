@@ -1,8 +1,8 @@
 ---
-description: github_team_repo
+description: Team Repository
 ---
 
-# Team Repository
+# github_team_repo
 
 Schema
 ```

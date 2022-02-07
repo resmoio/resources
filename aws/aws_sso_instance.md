@@ -1,8 +1,8 @@
 ---
-description: aws_sso_instance
+description: SSO Instance
 ---
 
-# SSO Instance
+# aws_sso_instance
 
 Schema
 ```

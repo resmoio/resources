@@ -1,8 +1,8 @@
 ---
-description: gitlab_merge_request
+description: Merge Request
 ---
 
-# Merge Request
+# gitlab_merge_request
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_backup_copy_job
+description: Backup Copy Job
 ---
 
-# Backup Copy Job
+# aws_backup_copy_job
 
 Schema
 ```

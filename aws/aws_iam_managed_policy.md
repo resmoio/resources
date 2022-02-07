@@ -1,8 +1,8 @@
 ---
-description: aws_iam_managed_policy
+description: IAM Managed Policy
 ---
 
-# IAM Managed Policy
+# aws_iam_managed_policy
 
 Schema
 ```

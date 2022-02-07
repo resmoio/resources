@@ -1,8 +1,8 @@
 ---
-description: resmo_account
+description: Account
 ---
 
-# Account
+# resmo_account
 
 Schema
 ```

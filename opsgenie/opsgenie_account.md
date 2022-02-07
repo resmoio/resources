@@ -1,8 +1,8 @@
 ---
-description: opsgenie_account
+description: Account
 ---
 
-# Account
+# opsgenie_account
 
 Schema
 ```

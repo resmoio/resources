@@ -1,8 +1,8 @@
 ---
-description: opsgenie_service
+description: Service
 ---
 
-# Service
+# opsgenie_service
 
 Schema
 ```

@@ -1,8 +1,8 @@
 ---
-description: aws_wafv2_web_acl
+description: WAF V2 Web ACL
 ---
 
-# WAF V2 Web ACL
+# aws_wafv2_web_acl
 
 Schema
 ```

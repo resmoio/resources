@@ -1,8 +1,8 @@
 ---
-description: aws_cloudwatch_composite_alarm
+description: CloudWatch Composite Alarm
 ---
 
-# CloudWatch Composite Alarm
+# aws_cloudwatch_composite_alarm
 
 Schema
 ```

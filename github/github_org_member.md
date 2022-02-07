@@ -1,8 +1,8 @@
 ---
-description: github_org_member
+description: Organization Member
 ---
 
-# Organization Member
+# github_org_member
 
 Schema
 ```

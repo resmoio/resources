@@ -1,8 +1,8 @@
 ---
-description: newrelic_infrastructure_host
+description: Infrastructure Host
 ---
 
-# Infrastructure Host
+# newrelic_infrastructure_host
 
 Schema
 ```

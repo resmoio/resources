@@ -1,8 +1,8 @@
 ---
-description: jira_project
+description: Project
 ---
 
-# Project
+# jira_project
 
 Schema
 ```
