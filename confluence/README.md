@@ -2,7 +2,7 @@
 
 Confluence is your remote-friendly team workspace where knowledge and collaboration meet.
 
-| Resource | Key | Collection Method |
+| Resource | Key | Supports Events |
 | --- | --- | --- |
-|  | confluence_space | Polling |
+| Space | [confluence, space] |  |
 

@@ -2,10 +2,10 @@
 
 Jira Software is built for every member of your software team to plan, track, and release great software.
 
-| Resource | Key | Collection Method |
+| Resource | Key | Supports Events |
 | --- | --- | --- |
-|  | jira_filter | Polling |
-|  | jira_group | Polling |
-|  | jira_project | Polling |
-|  | jira_user | Polling |
+| Filter | [jira, filter] |  |
+| Group | [jira, group] |  |
+| Project | [jira, project] |  |
+| User | [jira, user] |  |
 

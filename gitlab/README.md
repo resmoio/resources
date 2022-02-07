@@ -2,14 +2,14 @@
 
 Gitlab is a provider of Internet hosting for software development and version control using Git. Resmo collects important data in your Gitlab groups and projects to detect changes that might be ..
 
-| Resource | Key | Collection Method |
+| Resource | Key | Supports Events |
 | --- | --- | --- |
-|  | gitlab_group | Polling |
-|  | gitlab_group_member | Polling |
-|  | gitlab_group_variable | Polling |
-|  | gitlab_merge_request | Polling |
-|  | gitlab_project | Polling |
-|  | gitlab_project_member | Polling |
-|  | gitlab_project_variable | Polling |
-|  | gitlab_user | Polling |
+| Group | [gitlab, group] |  |
+| Group Member | [gitlab, group, member] |  |
+| Group Variable | [gitlab, group, variable] |  |
+| Merge Request | [gitlab, merge, request] |  |
+| Project | [gitlab, project] |  |
+| Project Member | [gitlab, project, member] |  |
+| Project Variable | [gitlab, project, variable] |  |
+| User | [gitlab, user] |  |
 

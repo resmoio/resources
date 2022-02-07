@@ -2,90 +2,90 @@
 
 Cloud service
 
-| Resource | Key | Collection Method |
+| Resource | Key | Supports Events |
 | --- | --- | --- |
-| The EC2 instances, virtual machines. | aws_ec2_instance | Polling |
-| The EC2 | aws_ec2_ami | Polling |
-| The EC2 volumes hold disk data | aws_ec2_volume | Polling |
-| The EC2 snapshots | aws_ec2_snapshot | Polling |
-|  | aws_ec2_launch_template | Polling |
-|  | aws_vpc | Polling |
-|  | aws_vpc_subnet | Polling |
-|  | aws_vpc_security_group | Polling |
-|  | aws_vpc_route_table | Polling |
-|  | aws_vpc_internet_gateway | Polling |
-|  | aws_vpc_nat_gateway | Polling |
-|  | aws_vpc_network_acl | Polling |
-|  | aws_vpc_endpoint | Polling |
-|  | aws_vpc_peering_connection | Polling |
-|  | aws_vpc_network_interface | Polling |
-|  | aws_lambda_function | Polling |
-|  | aws_dynamodb_table | Polling |
-|  | aws_sns_topic | Polling |
-|  | aws_sns_subscription | Polling |
-|  | aws_sqs_queue | Polling |
-|  | aws_kms_grant | Polling |
-|  | aws_kms_alias | Polling |
-|  | aws_kms_key | Polling |
-|  | aws_kinesis_stream | Polling |
-|  | aws_acm_certificate | Polling |
-|  | aws_cloudwatch_log_group | Polling |
-|  | aws_cloudwatch_metric_alarm | Polling |
-|  | aws_cloudwatch_composite_alarm | Polling |
-|  | aws_sso_instance | Polling |
-|  | aws_secretsmanager_secret | Polling |
-|  | aws_cloudfront_distribution | Polling |
-|  | aws_rds_cluster | Polling |
-|  | aws_rds_cluster_snapshot | Polling |
-|  | aws_rds_cluster_parameter_group | Polling |
-|  | aws_rds_instance | Polling |
-|  | aws_rds_db_snapshot | Polling |
-|  | aws_rds_db_parameter_group | Polling |
-|  | aws_rds_certificate | Polling |
-|  | aws_rds_db_security_group | Polling |
-|  | aws_rds_event_subscription | Polling |
-|  | aws_opensearch_domain | Polling |
-|  | aws_opensearch_inbound_connection | Polling |
-|  | aws_opensearch_outbound_connection | Polling |
-|  | aws_opensearch_package | Polling |
-|  | aws_eventbridge_api_destination | Polling |
-|  | aws_eventbridge_archive | Polling |
-|  | aws_eventbridge_connection | Polling |
-|  | aws_eventbridge_event_bus | Polling |
-|  | aws_eventbridge_event_source | Polling |
-|  | aws_eventbridge_rule | Polling |
-|  | aws_backup_copy_job | Polling |
-|  | aws_backup_framework | Polling |
-|  | aws_backup_global_settings | Polling |
-|  | aws_backup_backup_job | Polling |
-|  | aws_backup_plan | Polling |
-|  | aws_backup_region_settings | Polling |
-|  | aws_backup_report_job | Polling |
-|  | aws_backup_report_plan | Polling |
-|  | aws_backup_restore_job | Polling |
-|  | aws_backup_selection | Polling |
-|  | aws_backup_vault | Polling |
-|  | aws_wafv2_web_acl | Polling |
-|  | aws_waf_web_acl | Polling |
-| CloudFormation Stack | aws_cloudformation_stack | Polling |
-| CloudFormation StackSet | aws_cloudformation_stack_set | Polling |
-|  | aws_ecs_task_definition | Polling |
-|  | aws_ecs_task | Polling |
-|  | aws_ecs_task_definition_family | Polling |
-|  | aws_ecs_service | Polling |
-|  | aws_ecs_cluster | Polling |
-|  | aws_autoscaling_group | Polling |
-|  | aws_autoscaling_launch_configuration | Polling |
-|  | aws_autoscaling_policy | Polling |
-|  | aws_elb_load_balancer | Polling |
-|  | aws_elb_target_group | Polling |
-|  | aws_cloudtrail_trail | Polling |
-|  | aws_iam_role | Polling |
-|  | aws_iam_user | Polling |
-| The IAM Group | aws_iam_group | Polling |
-|  | aws_iam_policy | Polling |
-|  | aws_iam_password_policy | Polling |
-|  | aws_s3_bucket | Polling |
-|  | aws_route53_hosted_zone | Polling |
-|  | aws_iam_managed_policy | Polling |
+| ACM Certificate | [aws, acm, certificate] |  |
+| Autoscaling Group | [aws, autoscaling, group] |  |
+| Autoscaling Launch Configuration | [aws, autoscaling, launch, configuration] |  |
+| Autoscaling Policy | [aws, autoscaling, policy] |  |
+| Backup Job | [aws, backup, backup, job] |  |
+| Backup Copy Job | [aws, backup, copy, job] |  |
+| Backup Framework | [aws, backup, framework] |  |
+| Backup Global Settings | [aws, backup, global, settings] |  |
+| Backup Plan | [aws, backup, plan] |  |
+| Backup Region Settings | [aws, backup, region, settings] |  |
+| Backup Report Job | [aws, backup, report, job] |  |
+| Backup Report Plan | [aws, backup, report, plan] |  |
+| Backup Restore Job | [aws, backup, restore, job] |  |
+| Backup Selection | [aws, backup, selection] |  |
+| Backup Vault | [aws, backup, vault] |  |
+| CloudFormation Stack | [aws, cloudformation, stack] |  |
+| CloudFormation StackSet | [aws, cloudformation, stack, set] |  |
+| CloudFront Distribution | [aws, cloudfront, distribution] |  |
+| CloudTrail | [aws, cloudtrail, trail] |  |
+| CloudWatch Composite Alarm | [aws, cloudwatch, composite, alarm] |  |
+| CloudWatch Log Group | [aws, cloudwatch, log, group] |  |
+| CloudWatch Metric Alarm | [aws, cloudwatch, metric, alarm] |  |
+| DynamoDB Table | [aws, dynamodb, table] |  |
+| EC2 AMI | [aws, ec2, ami] |  |
+| EC2 Instance | [aws, ec2, instance] |  |
+| EC2 Launch Template | [aws, ec2, launch, template] |  |
+| EC2 Snapshot | [aws, ec2, snapshot] |  |
+| EC2 Volume | [aws, ec2, volume] |  |
+| ECS Cluster | [aws, ecs, cluster] |  |
+| ECS Service | [aws, ecs, service] |  |
+| ECS Task | [aws, ecs, task] |  |
+| ECS Task Definition | [aws, ecs, task, definition] |  |
+| ECS Task Definition Family | [aws, ecs, task, definition, family] |  |
+| ELB Load Balancer | [aws, elb, load, balancer] |  |
+| ELB Target Group | [aws, elb, target, group] |  |
+| EventBridge API Destination | [aws, eventbridge, api, destination] |  |
+| EventBridge Archive | [aws, eventbridge, archive] |  |
+| EventBridge Connection | [aws, eventbridge, connection] |  |
+| EventBridge Event Bus | [aws, eventbridge, event, bus] |  |
+| EventBridge Event Source | [aws, eventbridge, event, source] |  |
+| EventBridge Rule | [aws, eventbridge, rule] |  |
+| IAM Group | [aws, iam, group] |  |
+| IAM Managed Policy | [aws, iam, managed, policy] |  |
+| IAM Password Policy | [aws, iam, password, policy] |  |
+| IAM Policy | [aws, iam, policy] |  |
+| IAM Role | [aws, iam, role] |  |
+| IAM User | [aws, iam, user] |  |
+| Kinesis Stream | [aws, kinesis, stream] |  |
+| KMS Alias | [aws, kms, alias] |  |
+| KMS Grant | [aws, kms, grant] |  |
+| KMS Key | [aws, kms, key] |  |
+| Lambda Function | [aws, lambda, function] |  |
+| OpenSearch Domain | [aws, opensearch, domain] |  |
+| OpenSearch Inbound Connection | [aws, opensearch, inbound, connection] |  |
+| OpenSearch Outbound Connection | [aws, opensearch, outbound, connection] |  |
+| OpenSearch Package | [aws, opensearch, package] |  |
+| RDS Certificate | [aws, rds, certificate] |  |
+| RDS Cluster | [aws, rds, cluster] |  |
+| RDS Cluster Parameter Group | [aws, rds, cluster, parameter, group] |  |
+| RDS Cluster Snapshot | [aws, rds, cluster, snapshot] |  |
+| RDS DB Parameter Group | [aws, rds, db, parameter, group] |  |
+| RDS DB Security Group | [aws, rds, db, security, group] |  |
+| RDS DB Snapshot | [aws, rds, db, snapshot] |  |
+| RDS Event Subscription | [aws, rds, event, subscription] |  |
+| RDS Instance | [aws, rds, instance] |  |
+| Route53 Hosted Zone | [aws, route53, hosted, zone] |  |
+| S3 Bucket | [aws, s3, bucket] |  |
+| Secrets Manager Secret | [aws, secretsmanager, secret] |  |
+| SNS Subscription | [aws, sns, subscription] |  |
+| SNS Topic | [aws, sns, topic] |  |
+| SQS Queue | [aws, sqs, queue] |  |
+| SSO Instance | [aws, sso, instance] |  |
+| VPC | [aws, vpc] |  |
+| VPC Endpoint | [aws, vpc, endpoint] |  |
+| VPC Internet Gateway | [aws, vpc, internet, gateway] |  |
+| VPC NAT Gateway | [aws, vpc, nat, gateway] |  |
+| VPC Network ACL | [aws, vpc, network, acl] |  |
+| VPC Network Interface | [aws, vpc, network, interface] |  |
+| VPC Peering Connection | [aws, vpc, peering, connection] |  |
+| VPC Route Table | [aws, vpc, route, table] |  |
+| VPC Security Group | [aws, vpc, security, group] |  |
+| VPC Subnet | [aws, vpc, subnet] |  |
+| WAF Web ACL | [aws, waf, web, acl] |  |
+| WAF V2 Web ACL | [aws, wafv2, web, acl] |  |
 

@@ -2,18 +2,18 @@
 
 Opsgenie is a modern incident management platform
 
-| Resource | Key | Collection Method |
+| Resource | Key | Supports Events |
 | --- | --- | --- |
-|  | opsgenie_account | Polling |
-|  | opsgenie_integration | Polling |
-|  | opsgenie_user | Polling |
-|  | opsgenie_team_routing_rule | Polling |
-|  | opsgenie_escalation | Polling |
-|  | opsgenie_service | Polling |
-|  | opsgenie_notification_rule | Polling |
-|  | opsgenie_custom_user_role | Polling |
-|  | opsgenie_forwarding_rule | Polling |
-|  | opsgenie_policy | Polling |
-|  | opsgenie_schedule | Polling |
-|  | opsgenie_team | Polling |
+| Account | [opsgenie, account] |  |
+| Custom User Role | [opsgenie, custom, user, role] |  |
+| Escalation | [opsgenie, escalation] |  |
+| Forwarding Rule | [opsgenie, forwarding, rule] |  |
+| Integration | [opsgenie, integration] |  |
+| Notification Rule | [opsgenie, notification, rule] |  |
+| Policy | [opsgenie, policy] |  |
+| Schedule | [opsgenie, schedule] |  |
+| Service | [opsgenie, service] |  |
+| Team | [opsgenie, team] |  |
+| Team Routing Rule | [opsgenie, team, routing, rule] |  |
+| User | [opsgenie, user] |  |
 

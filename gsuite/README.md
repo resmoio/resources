@@ -2,20 +2,20 @@
 
 Google Workspace (formerly GSuite) is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google
 
-| Resource | Key | Collection Method |
+| Resource | Key | Supports Events |
 | --- | --- | --- |
-|  | gsuite_asp | Polling |
-|  | gsuite_customer | Polling |
-|  | gsuite_domain | Polling |
-|  | gsuite_group | Polling |
-|  | gsuite_group_settings | Polling |
-|  | gsuite_group_member | Polling |
-|  | gsuite_mobile_device | Polling |
-|  | gsuite_org_unit | Polling |
-|  | gsuite_resource_building | Polling |
-|  | gsuite_resource_calendar | Polling |
-|  | gsuite_role | Polling |
-|  | gsuite_role_assignment | Polling |
-|  | gsuite_token | Polling |
-|  | gsuite_user | Polling |
+| Application Specific Password | [gsuite, asp] |  |
+| Customer | [gsuite, customer] |  |
+| Domain | [gsuite, domain] |  |
+| Group | [gsuite, group] |  |
+| Group Member | [gsuite, group, member] |  |
+| Group Settings | [gsuite, group, settings] |  |
+| Mobile Device | [gsuite, mobile, device] |  |
+| Organizational Unit | [gsuite, org, unit] |  |
+| Building | [gsuite, resource, building] |  |
+| Calendar | [gsuite, resource, calendar] |  |
+| Role | [gsuite, role] |  |
+| Role Assignment | [gsuite, role, assignment] |  |
+| Token | [gsuite, token] |  |
+| user | [gsuite, user] |  |
 

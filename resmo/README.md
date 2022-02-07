@@ -2,10 +2,10 @@
 
 You can even query your Resmo resources and changes from Resmo itself! Pretty exciting, huh?
 
-| Resource | Key | Collection Method |
+| Resource | Key | Supports Events |
 | --- | --- | --- |
-|  | resmo_account | Polling |
-|  | resmo_integration | Polling |
-|  | resmo_resources | Polling |
-|  | resmo_user | Polling |
+| Account | [resmo, account] |  |
+| Integration | [resmo, integration] |  |
+| Resources | [resmo, resources] |  |
+| User | [resmo, user] |  |
 
