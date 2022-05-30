@@ -1,3 +1,3 @@
 # Resources
 
-Resmo resources documentation
+Resmo resources documentation (auto-generated)
