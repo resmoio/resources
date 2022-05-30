@@ -1,17 +1,14 @@
 ---
-description: Project Variable
+description: GitLab Project Variable
 ---
+gitlab_project_variable
+-----------------------
 
-# gitlab_project_variable
-
-Schema
-```
-{
-	environmentScope: String,
-	key: String,
-	masked: Boolean,
-	projectId: String,
-	protected: Boolean,
-	variableType: String,
-}
-```
+| **Name**         | **Type** | **Nullable** |
+| ---------------- | -------- | ------------ |
+| environmentScope | String   | &check;      |
+| key              | String   | &cross;      |
+| masked           | Boolean  | &check;      |
+| projectId        | String   | &check;      |
+| protected        | Boolean  | &check;      |
+| variableType     | String   | &check;      |

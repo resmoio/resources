@@ -1,16 +1,14 @@
 ---
-description: Account
+description: Resmo Account
 ---
+resmo_account
+-------------
 
-# resmo_account
-
-Schema
-```
-{
-	domain: String,
-	id: String,
-	isEnabled: Boolean,
-	name: String,
-	ownerId: String,
-}
-```
+| **Name**  | **Type** | **Nullable** |
+| --------- | -------- | ------------ |
+| domain    | String   | &cross;      |
+| id        | String   | &cross;      |
+| isEnabled | Boolean  | &cross;      |
+| name      | String   | &cross;      |
+| ownerId   | String   | &cross;      |
+| settings  | JSON     | &cross;      |

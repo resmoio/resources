@@ -1,19 +1,16 @@
 ---
-description: API Key
+description: New Relic API Key
 ---
+newrelic_api_key
+----------------
 
-# newrelic_api_key
-
-Schema
-```
-{
-	accountId: Int,
-	createdAt: Date,
-	id: String,
-	ingestType: String,
-	name: String,
-	notes: String,
-	type: String,
-	userId: Int,
-}
-```
+| **Name**   | **Type** | **Nullable** |
+| ---------- | -------- | ------------ |
+| accountId  | Int      | &cross;      |
+| createdAt  | Date     | &cross;      |
+| id         | String   | &cross;      |
+| ingestType | String   | &check;      |
+| name       | String   | &cross;      |
+| notes      | String   | &check;      |
+| type       | String   | &cross;      |
+| userId     | Int      | &check;      |

@@ -1,16 +1,13 @@
 ---
-description: EventBridge Event Bus
+description: Amazon Web Services EventBridge Event Bus
 ---
+aws_eventbridge_event_bus
+-------------------------
 
-# aws_eventbridge_event_bus
-
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	name: String,
-	policy: JSON,
-	region: String,
-}
-```
+| **Name**  | **Type** | **Nullable** |
+| --------- | -------- | ------------ |
+| accountId | String   | &cross;      |
+| arn       | String   | &cross;      |
+| name      | String   | &cross;      |
+| policy    | JSON     | &check;      |
+| region    | String   | &cross;      |

@@ -1,17 +1,20 @@
 ---
-description: Organization Blocked User
+description: GitHub Organization Blocked User
 ---
+github_org_blocked_user
+-----------------------
 
-# github_org_blocked_user
+| **Name**       | **Type** | **Nullable** |
+| -------------- | -------- | ------------ |
+| id             | Long     | &cross;      |
+| login          | String   | &check;      |
+| nodeId         | String   | &check;      |
+| organizationId | String   | &cross;      |
+| siteAdmin      | Boolean  | &check;      |
+| type           | String   | &check;      |
 
-Schema
-```
-{
-	id: Long,
-	login: String,
-	nodeId: String,
-	organizationId: String,
-	siteAdmin: Boolean,
-	type: String,
-}
-```
+#### Organization
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | Long     | &cross;      |
+| login    | String   | &cross;      |

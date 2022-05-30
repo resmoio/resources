@@ -1,24 +1,27 @@
 ---
-description: Synthetic Monitor
+description: New Relic Synthetic Monitor
 ---
+newrelic_synthetic_monitor
+--------------------------
 
-# newrelic_synthetic_monitor
+| **Name**      | **Type**  | **Nullable** |
+| ------------- | --------- | ------------ |
+| accountId     | Int       | &cross;      |
+| alertSeverity | String    | &check;      |
+| entityType    | String    | &check;      |
+| guid          | String    | &cross;      |
+| monitorId     | String    | &check;      |
+| monitorType   | String    | &check;      |
+| monitoredUrl  | String    | &check;      |
+| name          | String    | &check;      |
+| period        | Int       | &check;      |
+| permalink     | String    | &check;      |
+| reporting     | Boolean   | &check;      |
+| tags          | List<Tag> | &check;      |
+| type          | String    | &check;      |
 
-Schema
-```
-{
-	accountId: Int,
-	alertSeverity: String,
-	entityType: String,
-	guid: String,
-	monitorId: String,
-	monitorType: String,
-	monitoredUrl: String,
-	name: String,
-	period: Int,
-	permalink: String,
-	reporting: Boolean,
-	tags: List<Tag>,
-	type: String,
-}
-```
+#### Tag
+| **Name** | **Type**     | **Nullable** |
+| -------- | ------------ | ------------ |
+| key      | String       | &cross;      |
+| values   | List<String> | &cross;      |

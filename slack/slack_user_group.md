@@ -1,31 +1,28 @@
 ---
-description: User Group
+description: Slack User Group
 ---
+slack_user_group
+----------------
 
-# slack_user_group
-
-Schema
-```
-{
-	autoProvision: Boolean,
-	autoType: String,
-	channels: List<String>,
-	createdBy: String,
-	dateCreate: Date,
-	dateDelete: Date,
-	dateUpdate: Date,
-	deletedBy: String,
-	description: String,
-	enterpriseSubteamId: String,
-	external: Boolean,
-	groups: List<String>,
-	handle: String,
-	id: String,
-	name: String,
-	subteam: Boolean,
-	teamId: String,
-	updatedBy: String,
-	usergroup: Boolean,
-	users: List<String>,
-}
-```
+| **Name**            | **Type**     | **Nullable** |
+| ------------------- | ------------ | ------------ |
+| autoProvision       | Boolean      | &check;      |
+| autoType            | String       | &check;      |
+| channels            | List<String> | &check;      |
+| createdBy           | String       | &check;      |
+| dateCreate          | Date         | &check;      |
+| dateDelete          | Date         | &check;      |
+| dateUpdate          | Date         | &check;      |
+| deletedBy           | String       | &check;      |
+| description         | String       | &check;      |
+| enterpriseSubteamId | String       | &check;      |
+| external            | Boolean      | &check;      |
+| groups              | List<String> | &check;      |
+| handle              | String       | &check;      |
+| id                  | String       | &cross;      |
+| name                | String       | &check;      |
+| subteam             | Boolean      | &check;      |
+| teamId              | String       | &cross;      |
+| updatedBy           | String       | &check;      |
+| usergroup           | Boolean      | &check;      |
+| users               | List<String> | &check;      |

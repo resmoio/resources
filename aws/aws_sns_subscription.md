@@ -1,23 +1,20 @@
 ---
-description: SNS Subscription
+description: Amazon Web Services SNS Subscription
 ---
+aws_sns_subscription
+--------------------
 
-# aws_sns_subscription
-
-Schema
-```
-{
-	accountId: String,
-	confirmationWasAuthenticated: Boolean,
-	endpoint: String,
-	filterPolicy: JSON,
-	owner: String,
-	pendingConfirmation: Boolean,
-	protocol: String,
-	rawMessageDelivery: Boolean,
-	redrivePolicy: JSON,
-	region: String,
-	subscriptionArn: String,
-	topicArn: String,
-}
-```
+| **Name**                     | **Type** | **Nullable** |
+| ---------------------------- | -------- | ------------ |
+| accountId                    | String   | &cross;      |
+| confirmationWasAuthenticated | Boolean  | &cross;      |
+| endpoint                     | String   | &cross;      |
+| filterPolicy                 | JSON     | &check;      |
+| owner                        | String   | &cross;      |
+| pendingConfirmation          | Boolean  | &cross;      |
+| protocol                     | String   | &cross;      |
+| rawMessageDelivery           | Boolean  | &cross;      |
+| redrivePolicy                | JSON     | &check;      |
+| region                       | String   | &cross;      |
+| subscriptionArn              | String   | &cross;      |
+| topicArn                     | String   | &cross;      |

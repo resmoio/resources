@@ -1,16 +1,22 @@
 ---
-description: Team Member
+description: GitHub Team Member
 ---
+github_team_member
+------------------
 
-# github_team_member
+| **Name**       | **Type** | **Nullable** |
+| -------------- | -------- | ------------ |
+| organizationId | String   | &cross;      |
+| role           | String   | &cross;      |
+| state          | String   | &cross;      |
+| teamId         | Long     | &cross;      |
+| user           | User     | &cross;      |
 
-Schema
-```
-{
-	organizationId: String,
-	role: String,
-	state: String,
-	teamId: Long,
-	user: User,
-}
-```
+#### User
+| **Name**  | **Type** | **Nullable** |
+| --------- | -------- | ------------ |
+| id        | Long     | &cross;      |
+| login     | String   | &cross;      |
+| nodeId    | String   | &cross;      |
+| siteAdmin | Boolean  | &check;      |
+| type      | String   | &check;      |

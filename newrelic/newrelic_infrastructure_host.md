@@ -1,20 +1,23 @@
 ---
-description: Infrastructure Host
+description: New Relic Infrastructure Host
 ---
+newrelic_infrastructure_host
+----------------------------
 
-# newrelic_infrastructure_host
+| **Name**      | **Type**  | **Nullable** |
+| ------------- | --------- | ------------ |
+| accountId     | Int       | &cross;      |
+| alertSeverity | String    | &check;      |
+| entityType    | String    | &check;      |
+| guid          | String    | &cross;      |
+| indexedAt     | Date      | &check;      |
+| name          | String    | &cross;      |
+| reporting     | Boolean   | &check;      |
+| tags          | List<Tag> | &cross;      |
+| type          | String    | &cross;      |
 
-Schema
-```
-{
-	accountId: Int,
-	alertSeverity: String,
-	entityType: String,
-	guid: String,
-	indexedAt: Date,
-	name: String,
-	reporting: Boolean,
-	tags: List<Tag>,
-	type: String,
-}
-```
+#### Tag
+| **Name** | **Type**     | **Nullable** |
+| -------- | ------------ | ------------ |
+| key      | String       | &cross;      |
+| values   | List<String> | &cross;      |

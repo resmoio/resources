@@ -1,21 +1,18 @@
 ---
-description: RDS Certificate
+description: Amazon Web Services RDS Certificate
 ---
+aws_rds_certificate
+-------------------
 
-# aws_rds_certificate
-
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	customerOverride: Boolean,
-	customerOverrideValidTill: String,
-	id: String,
-	region: String,
-	thumbprint: String,
-	type: String,
-	validFrom: String,
-	validTill: String,
-}
-```
+| **Name**                  | **Type** | **Nullable** |
+| ------------------------- | -------- | ------------ |
+| accountId                 | String   | &cross;      |
+| arn                       | String   | &cross;      |
+| customerOverride          | Boolean  | &check;      |
+| customerOverrideValidTill | String   | &check;      |
+| id                        | String   | &cross;      |
+| region                    | String   | &cross;      |
+| thumbprint                | String   | &check;      |
+| type                      | String   | &check;      |
+| validFrom                 | String   | &check;      |
+| validTill                 | String   | &check;      |

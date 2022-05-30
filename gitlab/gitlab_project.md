@@ -1,88 +1,119 @@
 ---
-description: Project
+description: GitLab Project
 ---
+gitlab_project
+--------------
 
-# gitlab_project
+| **Name**                                  | **Type**                  | **Nullable** |
+| ----------------------------------------- | ------------------------- | ------------ |
+| allowMergeOnSkippedPipeline               | String                    | &check;      |
+| analyticsAccessLevel                      | String                    | &check;      |
+| archived                                  | Boolean                   | &check;      |
+| autoCancelPendingPipelines                | String                    | &check;      |
+| autoDevopsDeployStrategy                  | String                    | &check;      |
+| autoDevopsEnabled                         | Boolean                   | &check;      |
+| autocloseReferencedIssues                 | Boolean                   | &check;      |
+| buildCoverageRegex                        | String                    | &check;      |
+| buildTimeout                              | Int                       | &check;      |
+| buildsAccessLevel                         | String                    | &check;      |
+| canCreateMergeRequestIn                   | Boolean                   | &check;      |
+| ciConfigPath                              | String                    | &check;      |
+| ciDefaultGitDepth                         | Int                       | &check;      |
+| ciForwardDeploymentEnabled                | Boolean                   | &check;      |
+| ciJobTokenScopeEnabled                    | Boolean                   | &check;      |
+| complianceFrameworks                      | List<String>              | &cross;      |
+| containerExpirationPolicy                 | ContainerExpirationPolicy | &check;      |
+| containerRegistryAccessLevel              | String                    | &check;      |
+| containerRegistryEnabled                  | Boolean                   | &check;      |
+| containerRegistryImagePrefix              | String                    | &check;      |
+| createdAt                                 | Date                      | &check;      |
+| creatorId                                 | Int                       | &check;      |
+| defaultBranch                             | String                    | &check;      |
+| description                               | String                    | &check;      |
+| emailsDisabled                            | String                    | &check;      |
+| emptyRepo                                 | Boolean                   | &check;      |
+| externalAuthorizationClassificationLabel  | String                    | &check;      |
+| forkingAccessLevel                        | String                    | &check;      |
+| forksCount                                | Int                       | &check;      |
+| id                                        | String                    | &cross;      |
+| importStatus                              | String                    | &check;      |
+| issuesAccessLevel                         | String                    | &check;      |
+| issuesEnabled                             | Boolean                   | &check;      |
+| jobsEnabled                               | Boolean                   | &check;      |
+| keepLatestArtifact                        | Boolean                   | &check;      |
+| lastActivityAt                            | Date                      | &check;      |
+| lfsEnabled                                | Boolean                   | &check;      |
+| mergeCommitTemplate                       | String                    | &check;      |
+| mergeMethod                               | String                    | &check;      |
+| mergeRequestsAccessLevel                  | String                    | &check;      |
+| mergeRequestsEnabled                      | Boolean                   | &check;      |
+| name                                      | String                    | &check;      |
+| nameWithNamespace                         | String                    | &check;      |
+| namespace                                 | Namespace                 | &check;      |
+| onlyAllowMergeIfAllDiscussionsAreResolved | Boolean                   | &check;      |
+| onlyAllowMergeIfPipelineSucceeds          | Boolean                   | &check;      |
+| openIssuesCount                           | Int                       | &check;      |
+| operationsAccessLevel                     | String                    | &check;      |
+| packagesEnabled                           | Boolean                   | &check;      |
+| pagesAccessLevel                          | String                    | &check;      |
+| path                                      | String                    | &check;      |
+| pathWithNamespace                         | String                    | &check;      |
+| permissions                               | Permissions               | &check;      |
+| printingMergeRequestLinkEnabled           | Boolean                   | &check;      |
+| publicJobs                                | Boolean                   | &check;      |
+| removeSourceBranchAfterMerge              | Boolean                   | &check;      |
+| repositoryAccessLevel                     | String                    | &check;      |
+| requestAccessEnabled                      | Boolean                   | &check;      |
+| requirementsEnabled                       | Boolean                   | &check;      |
+| resolveOutdatedDiffDiscussions            | Boolean                   | &check;      |
+| restrictUserDefinedVariables              | Boolean                   | &check;      |
+| securityAndComplianceEnabled              | Boolean                   | &check;      |
+| serviceDeskAddress                        | String                    | &check;      |
+| serviceDeskEnabled                        | Boolean                   | &check;      |
+| sharedRunnersEnabled                      | Boolean                   | &check;      |
+| sharedWithGroups                          | List<String>              | &cross;      |
+| snippetsAccessLevel                       | String                    | &check;      |
+| snippetsEnabled                           | Boolean                   | &check;      |
+| squashCommitTemplate                      | String                    | &check;      |
+| squashOption                              | String                    | &check;      |
+| starCount                                 | Int                       | &check;      |
+| suggestionCommitMessage                   | String                    | &check;      |
+| tagList                                   | List<String>              | &cross;      |
+| topics                                    | List<String>              | &cross;      |
+| visibility                                | String                    | &check;      |
+| webUrl                                    | String                    | &check;      |
+| wikiAccessLevel                           | String                    | &check;      |
+| wikiEnabled                               | Boolean                   | &check;      |
 
-Schema
-```
-{
-	allowMergeOnSkippedPipeline: String,
-	analyticsAccessLevel: String,
-	archived: Boolean,
-	autoCancelPendingPipelines: String,
-	autoDevopsDeployStrategy: String,
-	autoDevopsEnabled: Boolean,
-	autocloseReferencedIssues: Boolean,
-	buildCoverageRegex: String,
-	buildTimeout: Int,
-	buildsAccessLevel: String,
-	canCreateMergeRequestIn: Boolean,
-	ciConfigPath: String,
-	ciDefaultGitDepth: Int,
-	ciForwardDeploymentEnabled: Boolean,
-	ciJobTokenScopeEnabled: Boolean,
-	complianceFrameworks: List<String>,
-	containerExpirationPolicy: ContainerExpirationPolicy,
-	containerRegistryAccessLevel: String,
-	containerRegistryEnabled: Boolean,
-	containerRegistryImagePrefix: String,
-	createdAt: Date,
-	creatorId: Int,
-	defaultBranch: String,
-	description: String,
-	emailsDisabled: String,
-	emptyRepo: Boolean,
-	externalAuthorizationClassificationLabel: String,
-	forkingAccessLevel: String,
-	forksCount: Int,
-	id: String,
-	importStatus: String,
-	issuesAccessLevel: String,
-	issuesEnabled: Boolean,
-	jobsEnabled: Boolean,
-	keepLatestArtifact: Boolean,
-	lastActivityAt: Date,
-	lfsEnabled: Boolean,
-	mergeCommitTemplate: String,
-	mergeMethod: String,
-	mergeRequestsAccessLevel: String,
-	mergeRequestsEnabled: Boolean,
-	name: String,
-	nameWithNamespace: String,
-	namespace: Namespace,
-	onlyAllowMergeIfAllDiscussionsAreResolved: Boolean,
-	onlyAllowMergeIfPipelineSucceeds: Boolean,
-	openIssuesCount: Int,
-	operationsAccessLevel: String,
-	packagesEnabled: Boolean,
-	pagesAccessLevel: String,
-	path: String,
-	pathWithNamespace: String,
-	permissions: Permissions,
-	printingMergeRequestLinkEnabled: Boolean,
-	publicJobs: Boolean,
-	removeSourceBranchAfterMerge: Boolean,
-	repositoryAccessLevel: String,
-	requestAccessEnabled: Boolean,
-	requirementsEnabled: Boolean,
-	resolveOutdatedDiffDiscussions: Boolean,
-	restrictUserDefinedVariables: Boolean,
-	securityAndComplianceEnabled: Boolean,
-	serviceDeskAddress: String,
-	serviceDeskEnabled: Boolean,
-	sharedRunnersEnabled: Boolean,
-	sharedWithGroups: List<String>,
-	snippetsAccessLevel: String,
-	snippetsEnabled: Boolean,
-	squashCommitTemplate: String,
-	squashOption: String,
-	starCount: Int,
-	suggestionCommitMessage: String,
-	tagList: List<String>,
-	topics: List<String>,
-	visibility: String,
-	wikiAccessLevel: String,
-	wikiEnabled: Boolean,
-}
-```
+#### ContainerExpirationPolicy
+| **Name**      | **Type** | **Nullable** |
+| ------------- | -------- | ------------ |
+| cadence       | String   | &check;      |
+| enabled       | Boolean  | &check;      |
+| keepN         | Int      | &check;      |
+| nameRegex     | String   | &check;      |
+| nameRegexKeep | String   | &check;      |
+| nextRunAt     | Date     | &check;      |
+| olderThan     | String   | &check;      |
+
+#### Namespace
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| fullPath | String   | &check;      |
+| id       | Int      | &check;      |
+| kind     | String   | &check;      |
+| name     | String   | &check;      |
+| parentId | String   | &check;      |
+| path     | String   | &check;      |
+
+#### Permissions
+| **Name**      | **Type**           | **Nullable** |
+| ------------- | ------------------ | ------------ |
+| groupAccess   | Permissions.Access | &check;      |
+| projectAccess | Permissions.Access | &check;      |
+
+#### Permissions.Access
+| **Name**          | **Type** | **Nullable** |
+| ----------------- | -------- | ------------ |
+| accessLevel       | Int      | &check;      |
+| notificationLevel | String   | &check;      |

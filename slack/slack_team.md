@@ -1,25 +1,44 @@
 ---
-description: Team
+description: Slack Team
 ---
+slack_team
+----------
 
-# slack_team
+| **Name**         | **Type**        | **Nullable** |
+| ---------------- | --------------- | ------------ |
+| billingPlan      | String          | &check;      |
+| defaultChannels  | List<String>    | &check;      |
+| discoverable     | String          | &check;      |
+| domain           | String          | &check;      |
+| emailDomain      | String          | &check;      |
+| enterpriseDomain | String          | &check;      |
+| enterpriseId     | String          | &check;      |
+| enterpriseName   | String          | &check;      |
+| fields           | List<TeamField> | &check;      |
+| id               | String          | &cross;      |
+| isVerified       | Boolean         | &check;      |
+| name             | String          | &cross;      |
+| preferences      | TeamPreferences | &check;      |
+| url              | String          | &check;      |
 
-Schema
-```
-{
-	billingPlan: String,
-	defaultChannels: List<String>,
-	discoverable: String,
-	domain: String,
-	emailDomain: String,
-	enterpriseDomain: String,
-	enterpriseId: String,
-	enterpriseName: String,
-	fields: List<TeamField>,
-	id: String,
-	isVerified: Boolean,
-	name: String,
-	preferences: TeamPreferences,
-	url: String,
-}
-```
+#### TeamField
+| **Name**       | **Type**     | **Nullable** |
+| -------------- | ------------ | ------------ |
+| fieldName      | String       | &check;      |
+| hint           | String       | &check;      |
+| id             | String       | &check;      |
+| isHidden       | Boolean      | &check;      |
+| isProtected    | Boolean      | &check;      |
+| label          | String       | &check;      |
+| ordering       | Int          | &check;      |
+| possibleValues | List<String> | &check;      |
+| type           | String       | &check;      |
+
+#### TeamPreferences
+| **Name**             | **Type** | **Nullable** |
+| -------------------- | -------- | ------------ |
+| allowMessageDeletion | Boolean  | &check;      |
+| disableFileUploads   | String   | &check;      |
+| displayRealNames     | Boolean  | &check;      |
+| msgEditWindowMins    | Int      | &check;      |
+| whoCanPostGeneral    | String   | &check;      |

@@ -1,16 +1,13 @@
 ---
-description: Device Configuration
+description: New Relic Device Configuration
 ---
+newrelic_device_configuration
+-----------------------------
 
-# newrelic_device_configuration
-
-Schema
-```
-{
-	appVersion: String,
-	deviceId: String,
-	deviceName: String,
-	operatingSystem: String,
-	userId: Int,
-}
-```
+| **Name**        | **Type** | **Nullable** |
+| --------------- | -------- | ------------ |
+| appVersion      | String   | &cross;      |
+| deviceId        | String   | &cross;      |
+| deviceName      | String   | &cross;      |
+| operatingSystem | String   | &cross;      |
+| userId          | Int      | &cross;      |

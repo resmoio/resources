@@ -1,25 +1,22 @@
 ---
-description: EC2 AMI
+description: Amazon Web Services EC2 AMI
 ---
+aws_ec2_ami
+-----------
 
-# aws_ec2_ami
-
-Schema
-```
-{
-	accountId: String,
-	arch: String,
-	creationDate: String,
-	description: String,
-	hypervisor: String,
-	id: String,
-	kernelId: String,
-	name: String,
-	platform: String,
-	platformDetails: String,
-	region: String,
-	state: String,
-	tags: Map<String,String>,
-	virtualization: String,
-}
-```
+| **Name**        | **Type**           | **Nullable** |
+| --------------- | ------------------ | ------------ |
+| accountId       | String             | &cross;      |
+| arch            | String             | &cross;      |
+| creationDate    | String             | &cross;      |
+| description     | String             | &check;      |
+| hypervisor      | String             | &cross;      |
+| id              | String             | &cross;      |
+| kernelId        | String             | &check;      |
+| name            | String             | &cross;      |
+| platform        | String             | &check;      |
+| platformDetails | String             | &cross;      |
+| region          | String             | &cross;      |
+| state           | String             | &cross;      |
+| tags            | Map<String,String> | &cross;      |
+| virtualization  | String             | &cross;      |

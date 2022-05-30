@@ -1,23 +1,41 @@
 ---
-description: Backup Selection
+description: Amazon Web Services Backup Selection
 ---
+aws_backup_selection
+--------------------
 
-# aws_backup_selection
+| **Name**         | **Type**        | **Nullable** |
+| ---------------- | --------------- | ------------ |
+| accountId        | String          | &cross;      |
+| backupPlanId     | String          | &cross;      |
+| conditions       | Conditions      | &check;      |
+| creationDate     | String          | &check;      |
+| creatorRequestId | String          | &check;      |
+| iamRoleArn       | String          | &cross;      |
+| id               | String          | &cross;      |
+| listOfTags       | List<Condition> | &check;      |
+| name             | String          | &cross;      |
+| notResources     | List<String>    | &check;      |
+| region           | String          | &cross;      |
+| resources        | List<String>    | &check;      |
 
-Schema
-```
-{
-	accountId: String,
-	backupPlanId: String,
-	conditions: Conditions,
-	creationDate: Date,
-	creatorRequestId: String,
-	iamRoleArn: String,
-	id: String,
-	listOfTags: List<Condition>,
-	name: String,
-	notResources: List<String>,
-	region: String,
-	resources: List<String>,
-}
-```
+#### Condition
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| key      | String   | &cross;      |
+| type     | String   | &cross;      |
+| value    | String   | &cross;      |
+
+#### Conditions
+| **Name**        | **Type**                            | **Nullable** |
+| --------------- | ----------------------------------- | ------------ |
+| stringEquals    | List<Conditions.ConditionParameter> | &check;      |
+| stringLike      | List<Conditions.ConditionParameter> | &check;      |
+| stringNotEquals | List<Conditions.ConditionParameter> | &check;      |
+| stringNotLike   | List<Conditions.ConditionParameter> | &check;      |
+
+#### Conditions.ConditionParameter
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| key      | String   | &cross;      |
+| value    | String   | &cross;      |

@@ -1,14 +1,11 @@
 ---
-description: Group
+description: JIRA Group
 ---
+jira_group
+----------
 
-# jira_group
-
-Schema
-```
-{
-	id: String,
-	name: String,
-	site: String,
-}
-```
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
+| site     | String   | &check;      |

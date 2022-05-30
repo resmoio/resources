@@ -1,22 +1,28 @@
 ---
-description: Filter
+description: JIRA Filter
 ---
+jira_filter
+-----------
 
-# jira_filter
+| **Name**         | **Type**         | **Nullable** |
+| ---------------- | ---------------- | ------------ |
+| description      | String           | &check;      |
+| editPermissions  | List<Permission> | &check;      |
+| favouritedCount  | Int              | &check;      |
+| id               | String           | &cross;      |
+| jql              | String           | &check;      |
+| name             | String           | &check;      |
+| owner            | String           | &check;      |
+| sharePermissions | List<Permission> | &check;      |
+| sharedUsers      | List<String>     | &check;      |
+| site             | String           | &cross;      |
+| subscriptions    | List<String>     | &check;      |
 
-Schema
-```
-{
-	description: String,
-	editPermissions: List<Permission>,
-	favouritedCount: Int,
-	id: String,
-	jql: String,
-	name: String,
-	owner: String,
-	sharePermissions: List<Permission>,
-	sharedUsers: List<String>,
-	site: String,
-	subscriptions: List<String>,
-}
-```
+#### Permission
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| group    | String   | &check;      |
+| id       | Int      | &cross;      |
+| project  | Int      | &check;      |
+| type     | String   | &check;      |
+| user     | String   | &check;      |

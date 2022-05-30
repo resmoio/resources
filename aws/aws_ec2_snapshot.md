@@ -1,21 +1,18 @@
 ---
-description: EC2 Snapshot
+description: Amazon Web Services EC2 Snapshot
 ---
+aws_ec2_snapshot
+----------------
 
-# aws_ec2_snapshot
-
-Schema
-```
-{
-	accountId: String,
-	description: String,
-	encrypted: Boolean,
-	id: String,
-	kmsKeyID: String,
-	name: String,
-	region: String,
-	state: String,
-	tags: Map<String,String>,
-	volumeSize: Int,
-}
-```
+| **Name**    | **Type**           | **Nullable** |
+| ----------- | ------------------ | ------------ |
+| accountId   | String             | &cross;      |
+| description | String             | &cross;      |
+| encrypted   | Boolean            | &cross;      |
+| id          | String             | &cross;      |
+| kmsKeyID    | String             | &check;      |
+| name        | String             | &cross;      |
+| region      | String             | &cross;      |
+| state       | String             | &cross;      |
+| tags        | Map<String,String> | &cross;      |
+| volumeSize  | Int                | &cross;      |

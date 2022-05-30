@@ -1,22 +1,19 @@
 ---
-description: CloudWatch Composite Alarm
+description: Amazon Web Services CloudWatch Composite Alarm
 ---
+aws_cloudwatch_composite_alarm
+------------------------------
 
-# aws_cloudwatch_composite_alarm
-
-Schema
-```
-{
-	accountId: String,
-	actionsEnabled: Boolean,
-	alarmActions: List<String>,
-	alarmArn: String,
-	alarmConfigurationUpdatedTimestamp: String,
-	alarmDescription: String,
-	alarmName: String,
-	alarmRule: String,
-	insufficientDataActions: List<String>,
-	okActions: List<String>,
-	region: String,
-}
-```
+| **Name**                           | **Type**     | **Nullable** |
+| ---------------------------------- | ------------ | ------------ |
+| accountId                          | String       | &cross;      |
+| actionsEnabled                     | Boolean      | &check;      |
+| alarmActions                       | List<String> | &check;      |
+| alarmArn                           | String       | &cross;      |
+| alarmConfigurationUpdatedTimestamp | String       | &check;      |
+| alarmDescription                   | String       | &check;      |
+| alarmName                          | String       | &cross;      |
+| alarmRule                          | String       | &check;      |
+| insufficientDataActions            | List<String> | &check;      |
+| okActions                          | List<String> | &check;      |
+| region                             | String       | &cross;      |

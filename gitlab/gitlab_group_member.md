@@ -1,20 +1,17 @@
 ---
-description: Group Member
+description: GitLab Group Member
 ---
+gitlab_group_member
+-------------------
 
-# gitlab_group_member
-
-Schema
-```
-{
-	accessLevel: Int,
-	createdAt: Date,
-	expiresAt: Date,
-	groupId: String,
-	membershipState: String,
-	name: String,
-	state: String,
-	userId: String,
-	username: String,
-}
-```
+| **Name**        | **Type** | **Nullable** |
+| --------------- | -------- | ------------ |
+| accessLevel     | Int      | &check;      |
+| createdAt       | Date     | &check;      |
+| expiresAt       | Date     | &check;      |
+| groupId         | String   | &check;      |
+| membershipState | String   | &check;      |
+| name            | String   | &check;      |
+| state           | String   | &check;      |
+| userId          | String   | &cross;      |
+| username        | String   | &check;      |

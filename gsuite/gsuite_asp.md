@@ -1,17 +1,14 @@
 ---
-description: Application Specific Password
+description: Google Workspace Application Specific Password
 ---
+gsuite_asp
+----------
 
-# gsuite_asp
-
-Schema
-```
-{
-	codeId: Int,
-	creationTime: Date,
-	customerId: String,
-	lastTimeUsed: Date,
-	name: String,
-	userId: String,
-}
-```
+| **Name**     | **Type** | **Nullable** |
+| ------------ | -------- | ------------ |
+| codeId       | Int      | &cross;      |
+| creationTime | Date     | &cross;      |
+| customerId   | String   | &cross;      |
+| lastTimeUsed | Date     | &cross;      |
+| name         | String   | &cross;      |
+| userId       | String   | &cross;      |

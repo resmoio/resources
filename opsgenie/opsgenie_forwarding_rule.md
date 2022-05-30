@@ -1,17 +1,21 @@
 ---
-description: Forwarding Rule
+description: Opsgenie Forwarding Rule
 ---
+opsgenie_forwarding_rule
+------------------------
 
-# opsgenie_forwarding_rule
+| **Name**    | **Type** | **Nullable** |
+| ----------- | -------- | ------------ |
+| accountName | String   | &check;      |
+| alias       | String   | &cross;      |
+| endDate     | Date     | &check;      |
+| fromUser    | User     | &check;      |
+| id          | String   | &cross;      |
+| startDate   | Date     | &check;      |
+| toUser      | User     | &check;      |
 
-Schema
-```
-{
-	alias: String,
-	endDate: Date,
-	fromUser: User,
-	id: String,
-	startDate: Date,
-	toUser: User,
-}
-```
+#### User
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &check;      |
+| username | String   | &check;      |

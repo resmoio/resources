@@ -1,31 +1,34 @@
 ---
-description: ELB Target Group
+description: Amazon Web Services ELB Target Group
 ---
+aws_elb_target_group
+--------------------
 
-# aws_elb_target_group
+| **Name**                   | **Type**           | **Nullable** |
+| -------------------------- | ------------------ | ------------ |
+| accountId                  | String             | &cross;      |
+| attributes                 | Map<String,String> | &check;      |
+| healthCheckEnabled         | Boolean            | &check;      |
+| healthCheckIntervalSeconds | Int                | &check;      |
+| healthCheckPath            | String             | &check;      |
+| healthCheckPort            | String             | &check;      |
+| healthCheckProtocol        | String             | &check;      |
+| healthCheckTimeoutSeconds  | Int                | &check;      |
+| healthyThresholdCount      | Int                | &check;      |
+| ipAddressType              | String             | &check;      |
+| loadBalancerArns           | List<String>       | &check;      |
+| matcher                    | Matcher            | &check;      |
+| port                       | Int                | &check;      |
+| protocolVersion            | String             | &check;      |
+| region                     | String             | &cross;      |
+| targetGroupArn             | String             | &cross;      |
+| targetGroupName            | String             | &cross;      |
+| targetType                 | String             | &check;      |
+| unhealthyThresholdCount    | Int                | &check;      |
+| vpcId                      | String             | &check;      |
 
-Schema
-```
-{
-	accountId: String,
-	attributes: Map<String,String>,
-	healthCheckEnabled: Boolean,
-	healthCheckIntervalSeconds: Int,
-	healthCheckPath: String,
-	healthCheckPort: String,
-	healthCheckProtocol: String,
-	healthCheckTimeoutSeconds: Int,
-	healthyThresholdCount: Int,
-	ipAddressType: String,
-	loadBalancerArns: List<String>,
-	matcher: Matcher,
-	port: Int,
-	protocolVersion: String,
-	region: String,
-	targetGroupArn: String,
-	targetGroupName: String,
-	targetType: String,
-	unhealthyThresholdCount: Int,
-	vpcId: String,
-}
-```
+#### Matcher
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| grpcCode | String   | &check;      |
+| httpCode | String   | &check;      |

@@ -1,21 +1,24 @@
 ---
-description: Backup Report Job
+description: Amazon Web Services Backup Report Job
 ---
+aws_backup_report_job
+---------------------
 
-# aws_backup_report_job
+| **Name**          | **Type**          | **Nullable** |
+| ----------------- | ----------------- | ------------ |
+| accountId         | String            | &cross;      |
+| completionTime    | String            | &check;      |
+| creationTime      | String            | &check;      |
+| id                | String            | &cross;      |
+| region            | String            | &cross;      |
+| reportDestination | ReportDestination | &check;      |
+| reportPlanArn     | String            | &cross;      |
+| reportTemplate    | String            | &cross;      |
+| status            | String            | &cross;      |
+| statusMessage     | String            | &check;      |
 
-Schema
-```
-{
-	accountId: String,
-	completionTime: Date,
-	creationTime: Date,
-	id: String,
-	region: String,
-	reportDestination: ReportDestination,
-	reportPlanArn: String,
-	reportTemplate: String,
-	status: String,
-	statusMessage: String,
-}
-```
+#### ReportDestination
+| **Name**     | **Type**     | **Nullable** |
+| ------------ | ------------ | ------------ |
+| s3BucketName | String       | &cross;      |
+| s3Keys       | List<String> | &cross;      |

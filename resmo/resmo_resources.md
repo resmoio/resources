@@ -1,15 +1,12 @@
 ---
-description: Resources
+description: Resmo Resources
 ---
+resmo_resources
+---------------
 
-# resmo_resources
-
-Schema
-```
-{
-	accountId: String,
-	count: Long,
-	integrationId: String,
-	resourceType: String,
-}
-```
+| **Name**        | **Type** | **Nullable** |
+| --------------- | -------- | ------------ |
+| integrationId   | String   | &cross;      |
+| integrationName | String   | &cross;      |
+| resourceType    | String   | &cross;      |
+| total           | Long     | &cross;      |

@@ -1,24 +1,21 @@
 ---
-description: Calendar
+description: Google Workspace Calendar
 ---
+gsuite_resource_calendar
+------------------------
 
-# gsuite_resource_calendar
-
-Schema
-```
-{
-	buildingId: String,
-	capacity: Int,
-	customerId: String,
-	floorName: String,
-	floorSection: String,
-	generatedResourceName: String,
-	resourceCategory: String,
-	resourceDescription: String,
-	resourceEmail: String,
-	resourceId: String,
-	resourceName: String,
-	resourceType: String,
-	userVisibleDescription: String,
-}
-```
+| **Name**               | **Type** | **Nullable** |
+| ---------------------- | -------- | ------------ |
+| buildingId             | String   | &check;      |
+| capacity               | Int      | &check;      |
+| customerId             | String   | &cross;      |
+| floorName              | String   | &check;      |
+| floorSection           | String   | &check;      |
+| generatedResourceName  | String   | &check;      |
+| resourceCategory       | String   | &check;      |
+| resourceDescription    | String   | &check;      |
+| resourceEmail          | String   | &check;      |
+| resourceId             | String   | &cross;      |
+| resourceName           | String   | &check;      |
+| resourceType           | String   | &check;      |
+| userVisibleDescription | String   | &check;      |

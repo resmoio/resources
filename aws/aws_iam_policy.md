@@ -1,19 +1,28 @@
 ---
-description: IAM Policy
+description: Amazon Web Services IAM Policy
 ---
+aws_iam_policy
+--------------
 
-# aws_iam_policy
+| **Name**         | **Type**           | **Nullable** |
+| ---------------- | ------------------ | ------------ |
+| accountId        | String             | &cross;      |
+| arn              | String             | &cross;      |
+| defaultVersionId | String             | &check;      |
+| description      | String             | &check;      |
+| document         | JSON               | &check;      |
+| id               | String             | &cross;      |
+| name             | String             | &cross;      |
+| tags             | Map<String,String> | &cross;      |
 
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	defaultVersionId: String,
-	description: String,
-	document: JSON,
-	id: String,
-	name: String,
-	tags: Map<String,String>,
-}
-```
+#### IAMPolicyBase
+| **Name**         | **Type**           | **Nullable** |
+| ---------------- | ------------------ | ------------ |
+| accountId        | String             | &cross;      |
+| arn              | String             | &cross;      |
+| defaultVersionId | String             | &check;      |
+| description      | String             | &check;      |
+| document         | JSON               | &check;      |
+| id               | String             | &cross;      |
+| name             | String             | &cross;      |
+| tags             | Map<String,String> | &cross;      |

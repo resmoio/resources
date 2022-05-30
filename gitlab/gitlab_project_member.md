@@ -1,20 +1,17 @@
 ---
-description: Project Member
+description: GitLab Project Member
 ---
+gitlab_project_member
+---------------------
 
-# gitlab_project_member
-
-Schema
-```
-{
-	accessLevel: Int,
-	createdAt: Date,
-	expiresAt: Date,
-	membershipState: String,
-	name: String,
-	projectId: String,
-	state: String,
-	userId: String,
-	username: String,
-}
-```
+| **Name**        | **Type** | **Nullable** |
+| --------------- | -------- | ------------ |
+| accessLevel     | Int      | &check;      |
+| createdAt       | Date     | &check;      |
+| expiresAt       | Date     | &check;      |
+| membershipState | String   | &check;      |
+| name            | String   | &check;      |
+| projectId       | String   | &check;      |
+| state           | String   | &check;      |
+| userId          | String   | &cross;      |
+| username        | String   | &check;      |

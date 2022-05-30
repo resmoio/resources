@@ -1,17 +1,15 @@
 ---
-description: Service
+description: Opsgenie Service
 ---
+opsgenie_service
+----------------
 
-# opsgenie_service
-
-Schema
-```
-{
-	description: String,
-	id: String,
-	isExternal: Boolean,
-	name: String,
-	tags: List<String>,
-	teamId: String,
-}
-```
+| **Name**    | **Type**     | **Nullable** |
+| ----------- | ------------ | ------------ |
+| accountName | String       | &check;      |
+| description | String       | &cross;      |
+| id          | String       | &cross;      |
+| isExternal  | Boolean      | &check;      |
+| name        | String       | &cross;      |
+| tags        | List<String> | &check;      |
+| teamId      | String       | &check;      |
