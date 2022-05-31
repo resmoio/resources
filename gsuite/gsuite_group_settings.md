@@ -1,72 +1,69 @@
 ---
-description: Group Settings
+description: Google Workspace Group Settings
 ---
+gsuite_group_settings
+---------------------
 
-# gsuite_group_settings
-
-Schema
-```
-{
-	allowExternalMembers: String,
-	allowGoogleCommunication: String,
-	allowWebPosting: String,
-	archiveOnly: String,
-	customFooterText: String,
-	customReplyTo: String,
-	customRolesEnabledForSettingsToBeMerged: String,
-	customerId: String,
-	defaultMessageDenyNotificationText: String,
-	description: String,
-	email: String,
-	enableCollaborativeInbox: String,
-	favoriteRepliesOnTop: String,
-	includeCustomFooter: String,
-	includeInGlobalAddressList: String,
-	isArchived: String,
-	maxMessageBytes: Int,
-	membersCanPostAsTheGroup: String,
-	messageDisplayFont: String,
-	messageModerationLevel: String,
-	name: String,
-	primaryLanguage: String,
-	replyTo: String,
-	sendMessageDenyNotification: String,
-	showInGroupDirectory: String,
-	spamModerationLevel: String,
-	whoCanAdd: String,
-	whoCanAddReferences: String,
-	whoCanApproveMembers: String,
-	whoCanApproveMessages: String,
-	whoCanAssignTopics: String,
-	whoCanAssistContent: String,
-	whoCanBanUsers: String,
-	whoCanContactOwner: String,
-	whoCanDeleteAnyPost: String,
-	whoCanDeleteTopics: String,
-	whoCanDiscoverGroup: String,
-	whoCanEnterFreeFormTags: String,
-	whoCanHideAbuse: String,
-	whoCanInvite: String,
-	whoCanJoin: String,
-	whoCanLeaveGroup: String,
-	whoCanLockTopics: String,
-	whoCanMakeTopicsSticky: String,
-	whoCanMarkDuplicate: String,
-	whoCanMarkFavoriteReplyOnAnyTopic: String,
-	whoCanMarkFavoriteReplyOnOwnTopic: String,
-	whoCanMarkNoResponseNeeded: String,
-	whoCanModerateContent: String,
-	whoCanModerateMembers: String,
-	whoCanModifyMembers: String,
-	whoCanModifyTagsAndCategories: String,
-	whoCanMoveTopicsIn: String,
-	whoCanMoveTopicsOut: String,
-	whoCanPostAnnouncements: String,
-	whoCanPostMessage: String,
-	whoCanTakeTopics: String,
-	whoCanUnassignTopic: String,
-	whoCanUnmarkFavoriteReplyOnAnyTopic: String,
-	whoCanViewGroup: String,
-	whoCanViewMembership: String,
-}
-```
+| **Name**                                | **Type** | **Nullable** |
+| --------------------------------------- | -------- | ------------ |
+| allowExternalMembers                    | String   | &check;      |
+| allowGoogleCommunication                | String   | &check;      |
+| allowWebPosting                         | String   | &check;      |
+| archiveOnly                             | String   | &check;      |
+| customFooterText                        | String   | &check;      |
+| customReplyTo                           | String   | &check;      |
+| customRolesEnabledForSettingsToBeMerged | String   | &check;      |
+| customerId                              | String   | &cross;      |
+| defaultMessageDenyNotificationText      | String   | &check;      |
+| description                             | String   | &check;      |
+| email                                   | String   | &cross;      |
+| enableCollaborativeInbox                | String   | &check;      |
+| favoriteRepliesOnTop                    | String   | &check;      |
+| includeCustomFooter                     | String   | &check;      |
+| includeInGlobalAddressList              | String   | &check;      |
+| isArchived                              | String   | &check;      |
+| maxMessageBytes                         | Int      | &check;      |
+| membersCanPostAsTheGroup                | String   | &check;      |
+| messageDisplayFont                      | String   | &check;      |
+| messageModerationLevel                  | String   | &check;      |
+| name                                    | String   | &check;      |
+| primaryLanguage                         | String   | &check;      |
+| replyTo                                 | String   | &check;      |
+| sendMessageDenyNotification             | String   | &check;      |
+| showInGroupDirectory                    | String   | &check;      |
+| spamModerationLevel                     | String   | &check;      |
+| whoCanAdd                               | String   | &check;      |
+| whoCanAddReferences                     | String   | &check;      |
+| whoCanApproveMembers                    | String   | &check;      |
+| whoCanApproveMessages                   | String   | &check;      |
+| whoCanAssignTopics                      | String   | &check;      |
+| whoCanAssistContent                     | String   | &check;      |
+| whoCanBanUsers                          | String   | &check;      |
+| whoCanContactOwner                      | String   | &check;      |
+| whoCanDeleteAnyPost                     | String   | &check;      |
+| whoCanDeleteTopics                      | String   | &check;      |
+| whoCanDiscoverGroup                     | String   | &check;      |
+| whoCanEnterFreeFormTags                 | String   | &check;      |
+| whoCanHideAbuse                         | String   | &check;      |
+| whoCanInvite                            | String   | &check;      |
+| whoCanJoin                              | String   | &check;      |
+| whoCanLeaveGroup                        | String   | &check;      |
+| whoCanLockTopics                        | String   | &check;      |
+| whoCanMakeTopicsSticky                  | String   | &check;      |
+| whoCanMarkDuplicate                     | String   | &check;      |
+| whoCanMarkFavoriteReplyOnAnyTopic       | String   | &check;      |
+| whoCanMarkFavoriteReplyOnOwnTopic       | String   | &check;      |
+| whoCanMarkNoResponseNeeded              | String   | &check;      |
+| whoCanModerateContent                   | String   | &check;      |
+| whoCanModerateMembers                   | String   | &check;      |
+| whoCanModifyMembers                     | String   | &check;      |
+| whoCanModifyTagsAndCategories           | String   | &check;      |
+| whoCanMoveTopicsIn                      | String   | &check;      |
+| whoCanMoveTopicsOut                     | String   | &check;      |
+| whoCanPostAnnouncements                 | String   | &check;      |
+| whoCanPostMessage                       | String   | &check;      |
+| whoCanTakeTopics                        | String   | &check;      |
+| whoCanUnassignTopic                     | String   | &check;      |
+| whoCanUnmarkFavoriteReplyOnAnyTopic     | String   | &check;      |
+| whoCanViewGroup                         | String   | &check;      |
+| whoCanViewMembership                    | String   | &check;      |

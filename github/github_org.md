@@ -1,48 +1,53 @@
 ---
-description: Organization
+description: GitHub Organization
 ---
+github_org
+----------
 
-# github_org
+| **Name**                             | **Type** | **Nullable** |
+| ------------------------------------ | -------- | ------------ |
+| billingEmail                         | String   | &check;      |
+| blog                                 | String   | &check;      |
+| collaborators                        | Long     | &check;      |
+| company                              | String   | &check;      |
+| createdAt                            | Date     | &check;      |
+| defaultRepositoryPermission          | String   | &check;      |
+| description                          | String   | &check;      |
+| email                                | String   | &check;      |
+| followers                            | Long     | &check;      |
+| following                            | Long     | &check;      |
+| hasOrganizationProjects              | Boolean  | &check;      |
+| hasRepositoryProjects                | Boolean  | &check;      |
+| id                                   | Long     | &cross;      |
+| isVerified                           | Boolean  | &check;      |
+| location                             | String   | &check;      |
+| login                                | String   | &cross;      |
+| membersAllowedRepositoryCreationType | String   | &check;      |
+| membersCanCreateInternalRepositories | Boolean  | &check;      |
+| membersCanCreatePages                | Boolean  | &check;      |
+| membersCanCreatePrivateRepositories  | Boolean  | &check;      |
+| membersCanCreatePublicRepositories   | Boolean  | &check;      |
+| membersCanCreateRepositories         | Boolean  | &check;      |
+| membersCanForkPrivateRepositories    | Boolean  | &check;      |
+| name                                 | String   | &check;      |
+| nodeId                               | String   | &check;      |
+| organizationId                       | String   | &cross;      |
+| ownedPrivateRepos                    | Long     | &check;      |
+| plan                                 | Plan     | &check;      |
+| privateGists                         | Long     | &check;      |
+| publicGists                          | Long     | &check;      |
+| publicRepos                          | Long     | &check;      |
+| totalPrivateRepos                    | Long     | &check;      |
+| twitterUsername                      | String   | &check;      |
+| twoFactorRequirementEnabled          | Boolean  | &check;      |
+| type                                 | String   | &check;      |
+| updatedAt                            | Date     | &check;      |
 
-Schema
-```
-{
-	billingEmail: String,
-	blog: String,
-	collaborators: Long,
-	company: String,
-	createdAt: Date,
-	defaultRepositoryPermission: String,
-	description: String,
-	diskUsage: Long,
-	email: String,
-	followers: Long,
-	following: Long,
-	hasOrganizationProjects: Boolean,
-	hasRepositoryProjects: Boolean,
-	id: Long,
-	isVerified: Boolean,
-	location: String,
-	login: String,
-	membersAllowedRepositoryCreationType: String,
-	membersCanCreateInternalRepositories: Boolean,
-	membersCanCreatePages: Boolean,
-	membersCanCreatePrivateRepositories: Boolean,
-	membersCanCreatePublicRepositories: Boolean,
-	membersCanCreateRepositories: Boolean,
-	membersCanForkPrivateRepositories: Boolean,
-	name: String,
-	nodeId: String,
-	organizationId: String,
-	ownedPrivateRepos: Long,
-	plan: Plan,
-	privateGists: Long,
-	publicGists: Long,
-	publicRepos: Long,
-	totalPrivateRepos: Long,
-	twitterUsername: String,
-	twoFactorRequirementEnabled: Boolean,
-	type: String,
-	updatedAt: Date,
-}
-```
+#### Plan
+| **Name**     | **Type** | **Nullable** |
+| ------------ | -------- | ------------ |
+| filledSeats  | Int      | &check;      |
+| name         | String   | &check;      |
+| privateRepos | Int      | &check;      |
+| seats        | Int      | &check;      |
+| space        | Int      | &check;      |

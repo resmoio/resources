@@ -1,15 +1,12 @@
 ---
-description: Backup Region Settings
+description: Amazon Web Services Backup Region Settings
 ---
+aws_backup_region_settings
+--------------------------
 
-# aws_backup_region_settings
-
-Schema
-```
-{
-	accountId: String,
-	region: String,
-	resourceTypeManagementPreference: Map<String,Boolean>,
-	resourceTypeOptInPreference: Map<String,Boolean>,
-}
-```
+| **Name**                         | **Type**            | **Nullable** |
+| -------------------------------- | ------------------- | ------------ |
+| accountId                        | String              | &cross;      |
+| region                           | String              | &cross;      |
+| resourceTypeManagementPreference | Map<String,Boolean> | &check;      |
+| resourceTypeOptInPreference      | Map<String,Boolean> | &check;      |

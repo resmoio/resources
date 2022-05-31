@@ -1,26 +1,23 @@
 ---
-description: Backup Restore Job
+description: Amazon Web Services Backup Restore Job
 ---
+aws_backup_restore_job
+----------------------
 
-# aws_backup_restore_job
-
-Schema
-```
-{
-	accountId: String,
-	backupSizeInBytes: Long,
-	completionDate: Date,
-	createdResourceArn: String,
-	creationDate: Date,
-	expectedCompletionTimeMinutes: Long,
-	iamRoleArn: String,
-	id: String,
-	percentDone: String,
-	recoveryPointArn: String,
-	region: String,
-	resourceType: String,
-	restoreJobAccountId: String,
-	status: String,
-	statusMessage: String,
-}
-```
+| **Name**                      | **Type** | **Nullable** |
+| ----------------------------- | -------- | ------------ |
+| accountId                     | String   | &cross;      |
+| backupSizeInBytes             | Long     | &check;      |
+| completionDate                | String   | &check;      |
+| createdResourceArn            | String   | &check;      |
+| creationDate                  | String   | &check;      |
+| expectedCompletionTimeMinutes | Long     | &check;      |
+| iamRoleArn                    | String   | &cross;      |
+| id                            | String   | &cross;      |
+| percentDone                   | String   | &check;      |
+| recoveryPointArn              | String   | &cross;      |
+| region                        | String   | &cross;      |
+| resourceType                  | String   | &cross;      |
+| restoreJobAccountId           | String   | &cross;      |
+| status                        | String   | &cross;      |
+| statusMessage                 | String   | &check;      |

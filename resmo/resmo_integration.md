@@ -1,21 +1,18 @@
 ---
-description: Integration
+description: Resmo Integration
 ---
+resmo_integration
+-----------------
 
-# resmo_integration
-
-Schema
-```
-{
-	createdAt: Timestamp,
-	deletedAt: Timestamp,
-	description: String,
-	errorDetail: String,
-	id: String,
-	isEnabled: Boolean,
-	isReady: Boolean,
-	name: String,
-	tags: List<String>,
-	type: String,
-}
-```
+| **Name**    | **Type**     | **Nullable** |
+| ----------- | ------------ | ------------ |
+| createdAt   | Timestamp    | &cross;      |
+| deletedAt   | Timestamp    | &check;      |
+| description | String       | &check;      |
+| errorDetail | String       | &check;      |
+| id          | String       | &cross;      |
+| isEnabled   | Boolean      | &cross;      |
+| isReady     | Boolean      | &cross;      |
+| name        | String       | &cross;      |
+| tags        | List<String> | &cross;      |
+| type        | String       | &cross;      |

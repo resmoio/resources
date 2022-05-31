@@ -1,27 +1,24 @@
 ---
-description: SQS Queue
+description: Amazon Web Services SQS Queue
 ---
+aws_sqs_queue
+-------------
 
-# aws_sqs_queue
-
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	createdTimestamp: String,
-	deduplicationScope: String,
-	delaySeconds: Int,
-	fifoQueue: Boolean,
-	fifoThroughputLimit: String,
-	kmsDataKeyReusePeriodSeconds: Int,
-	kmsMasterKeyId: String,
-	maxMessageSize: Int,
-	name: String,
-	policy: JSON,
-	region: String,
-	retentionPeriod: Int,
-	sqsManagedSseEnabled: Boolean,
-	visibilityTimeout: Int,
-}
-```
+| **Name**                     | **Type** | **Nullable** |
+| ---------------------------- | -------- | ------------ |
+| accountId                    | String   | &cross;      |
+| arn                          | String   | &cross;      |
+| createdTimestamp             | String   | &check;      |
+| deduplicationScope           | String   | &check;      |
+| delaySeconds                 | Int      | &check;      |
+| fifoQueue                    | Boolean  | &cross;      |
+| fifoThroughputLimit          | String   | &check;      |
+| kmsDataKeyReusePeriodSeconds | Int      | &check;      |
+| kmsMasterKeyId               | String   | &check;      |
+| maxMessageSize               | Int      | &check;      |
+| name                         | String   | &cross;      |
+| policy                       | JSON     | &check;      |
+| region                       | String   | &cross;      |
+| retentionPeriod              | Int      | &check;      |
+| sqsManagedSseEnabled         | Boolean  | &cross;      |
+| visibilityTimeout            | Int      | &check;      |

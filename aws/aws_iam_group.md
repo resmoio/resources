@@ -1,17 +1,26 @@
 ---
-description: IAM Group
+description: Amazon Web Services IAM Group
 ---
+aws_iam_group
+-------------
 
-# aws_iam_group
+| **Name**         | **Type**             | **Nullable** |
+| ---------------- | -------------------- | ------------ |
+| accountId        | String               | &cross;      |
+| attachedPolicies | List<AttachedPolicy> | &cross;      |
+| id               | String               | &cross;      |
+| name             | String               | &cross;      |
+| path             | String               | &check;      |
+| policies         | List<GroupPolicy>    | &cross;      |
 
-Schema
-```
-{
-	accountId: String,
-	attachedPolicies: List<AttachedPolicy>,
-	id: String,
-	name: String,
-	path: String,
-	policies: List<GroupPolicy>,
-}
-```
+#### AttachedPolicy
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| arn      | String   | &cross;      |
+| name     | String   | &cross;      |
+
+#### GroupPolicy
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| document | JSON     | &check;      |
+| name     | String   | &cross;      |

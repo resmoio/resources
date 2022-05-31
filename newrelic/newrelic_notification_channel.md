@@ -1,16 +1,13 @@
 ---
-description: Notification Channel
+description: New Relic Notification Channel
 ---
+newrelic_notification_channel
+-----------------------------
 
-# newrelic_notification_channel
-
-Schema
-```
-{
-	accountId: Int,
-	associatedPolicies: List<String>,
-	id: String,
-	name: String,
-	type: String,
-}
-```
+| **Name**           | **Type**     | **Nullable** |
+| ------------------ | ------------ | ------------ |
+| accountId          | Int          | &cross;      |
+| associatedPolicies | List<String> | &cross;      |
+| id                 | String       | &cross;      |
+| name               | String       | &cross;      |
+| type               | String       | &cross;      |

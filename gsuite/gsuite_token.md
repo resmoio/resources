@@ -1,18 +1,15 @@
 ---
-description: Token
+description: Google Workspace Token
 ---
+gsuite_token
+------------
 
-# gsuite_token
-
-Schema
-```
-{
-	anonymous: Boolean,
-	clientId: String,
-	customerId: String,
-	displayText: String,
-	nativeApp: Boolean,
-	scopes: List<String>,
-	userId: String,
-}
-```
+| **Name**    | **Type**     | **Nullable** |
+| ----------- | ------------ | ------------ |
+| anonymous   | Boolean      | &cross;      |
+| clientId    | String       | &cross;      |
+| customerId  | String       | &cross;      |
+| displayText | String       | &cross;      |
+| nativeApp   | Boolean      | &cross;      |
+| scopes      | List<String> | &cross;      |
+| userId      | String       | &cross;      |

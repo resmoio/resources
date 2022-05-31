@@ -1,24 +1,30 @@
 ---
-description: Deployment
+description: GitHub Deployment
 ---
+github_deployment
+-----------------
 
-# github_deployment
+| **Name**            | **Type** | **Nullable** |
+| ------------------- | -------- | ------------ |
+| createdAt           | Date     | &check;      |
+| creator             | User     | &check;      |
+| description         | String   | &check;      |
+| environment         | String   | &check;      |
+| id                  | Long     | &cross;      |
+| nodeId              | String   | &cross;      |
+| organizationId      | String   | &cross;      |
+| originalEnvironment | String   | &check;      |
+| ref                 | String   | &check;      |
+| repositoryId        | String   | &cross;      |
+| sha                 | String   | &check;      |
+| task                | String   | &check;      |
+| updatedAt           | Date     | &check;      |
 
-Schema
-```
-{
-	createdAt: Date,
-	creator: User,
-	description: String,
-	environment: String,
-	id: Long,
-	nodeId: String,
-	organizationId: String,
-	originalEnvironment: String,
-	ref: String,
-	repositoryId: String,
-	sha: String,
-	task: String,
-	updatedAt: Date,
-}
-```
+#### User
+| **Name**  | **Type** | **Nullable** |
+| --------- | -------- | ------------ |
+| id        | Long     | &check;      |
+| login     | String   | &check;      |
+| nodeId    | String   | &check;      |
+| siteAdmin | Boolean  | &check;      |
+| type      | String   | &check;      |

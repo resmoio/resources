@@ -1,80 +1,127 @@
 ---
-description: RDS Cluster
+description: Amazon Web Services RDS Cluster
 ---
+aws_rds_cluster
+---------------
 
-# aws_rds_cluster
+| **Name**                           | **Type**                         | **Nullable** |
+| ---------------------------------- | -------------------------------- | ------------ |
+| accountId                          | String                           | &cross;      |
+| activityStreamKinesisStreamName    | String                           | &check;      |
+| activityStreamKmsKeyId             | String                           | &check;      |
+| activityStreamMode                 | String                           | &check;      |
+| activityStreamStatus               | String                           | &check;      |
+| allocatedStorage                   | Int                              | &check;      |
+| arn                                | String                           | &cross;      |
+| associatedRoles                    | List<DBClusterRole>              | &check;      |
+| autoMinorVersionUpgrade            | Boolean                          | &check;      |
+| automaticRestartTime               | String                           | &check;      |
+| availabilityZones                  | List<String>                     | &check;      |
+| backtrackConsumedChangeRecords     | Long                             | &check;      |
+| backtrackWindow                    | Long                             | &check;      |
+| backupRetentionPeriod              | Int                              | &check;      |
+| capacity                           | Int                              | &check;      |
+| characterSetName                   | String                           | &check;      |
+| cloneGroupId                       | String                           | &check;      |
+| clusterCreateTime                  | String                           | &check;      |
+| copyTagsToSnapshot                 | Boolean                          | &check;      |
+| crossAccountClone                  | Boolean                          | &check;      |
+| customEndpoints                    | List<String>                     | &check;      |
+| dbClusterInstanceClass             | String                           | &check;      |
+| dbClusterMembers                   | List<DBClusterMember>            | &check;      |
+| dbClusterOptionGroupMemberships    | List<DBClusterOptionGroupStatus> | &check;      |
+| dbClusterParameterGroup            | String                           | &check;      |
+| dbClusterResourceId                | String                           | &check;      |
+| dbSubnetGroup                      | String                           | &check;      |
+| deletionProtection                 | Boolean                          | &check;      |
+| domainMemberships                  | List<DomainMembership>           | &check;      |
+| enabledCloudwatchLogsExports       | List<String>                     | &check;      |
+| endpoint                           | String                           | &check;      |
+| engine                             | String                           | &check;      |
+| engineMode                         | String                           | &check;      |
+| engineVersion                      | String                           | &check;      |
+| globalWriteForwardingRequested     | Boolean                          | &check;      |
+| globalWriteForwardingStatus        | String                           | &check;      |
+| hostedZoneId                       | String                           | &check;      |
+| httpEndpointEnabled                | Boolean                          | &check;      |
+| iamDatabaseAuthenticationEnabled   | Boolean                          | &check;      |
+| id                                 | String                           | &cross;      |
+| iops                               | Int                              | &check;      |
+| kmsKeyId                           | String                           | &check;      |
+| masterUsername                     | String                           | &check;      |
+| monitoringInterval                 | Int                              | &check;      |
+| monitoringRoleArn                  | String                           | &check;      |
+| multiAZ                            | Boolean                          | &check;      |
+| name                               | String                           | &check;      |
+| pendingModifiedValues              | ClusterPendingModifiedValues     | &check;      |
+| percentProgress                    | String                           | &check;      |
+| performanceInsightsEnabled         | Boolean                          | &check;      |
+| performanceInsightsKMSKeyId        | String                           | &check;      |
+| performanceInsightsRetentionPeriod | Int                              | &check;      |
+| port                               | Int                              | &check;      |
+| preferredBackupWindow              | String                           | &check;      |
+| preferredMaintenanceWindow         | String                           | &check;      |
+| publiclyAccessible                 | Boolean                          | &check;      |
+| readReplicaIdentifiers             | List<String>                     | &check;      |
+| readerEndpoint                     | String                           | &check;      |
+| region                             | String                           | &cross;      |
+| replicationSourceIdentifier        | String                           | &check;      |
+| scalingConfigurationInfo           | ScalingConfigurationInfo         | &check;      |
+| status                             | String                           | &check;      |
+| storageEncrypted                   | Boolean                          | &check;      |
+| storageType                        | String                           | &check;      |
+| tagList                            | Map<String,String>               | &check;      |
+| vpcSecurityGroups                  | List<VpcSecurityGroupMembership> | &check;      |
 
-Schema
-```
-{
-	accountId: String,
-	activityStreamKinesisStreamName: String,
-	activityStreamKmsKeyId: String,
-	activityStreamMode: String,
-	activityStreamStatus: String,
-	allocatedStorage: Int,
-	arn: String,
-	associatedRoles: List<DBClusterRole>,
-	autoMinorVersionUpgrade: Boolean,
-	automaticRestartTime: String,
-	availabilityZones: List<String>,
-	backtrackConsumedChangeRecords: Long,
-	backtrackWindow: Long,
-	backupRetentionPeriod: Int,
-	capacity: Int,
-	characterSetName: String,
-	cloneGroupId: String,
-	clusterCreateTime: String,
-	copyTagsToSnapshot: Boolean,
-	crossAccountClone: Boolean,
-	customEndpoints: List<String>,
-	dbClusterInstanceClass: String,
-	dbClusterMembers: List<DBClusterMember>,
-	dbClusterOptionGroupMemberships: List<DBClusterOptionGroupStatus>,
-	dbClusterParameterGroup: String,
-	dbClusterResourceId: String,
-	dbSubnetGroup: String,
-	deletionProtection: Boolean,
-	domainMemberships: List<DomainMembership>,
-	earliestBacktrackTime: String,
-	earliestRestorableTime: String,
-	enabledCloudwatchLogsExports: List<String>,
-	endpoint: String,
-	engine: String,
-	engineMode: String,
-	engineVersion: String,
-	globalWriteForwardingRequested: Boolean,
-	globalWriteForwardingStatus: String,
-	hostedZoneId: String,
-	httpEndpointEnabled: Boolean,
-	iamDatabaseAuthenticationEnabled: Boolean,
-	id: String,
-	iops: Int,
-	kmsKeyId: String,
-	latestRestorableTime: String,
-	masterUsername: String,
-	monitoringInterval: Int,
-	monitoringRoleArn: String,
-	multiAZ: Boolean,
-	name: String,
-	pendingModifiedValues: ClusterPendingModifiedValues,
-	percentProgress: String,
-	performanceInsightsEnabled: Boolean,
-	performanceInsightsKMSKeyId: String,
-	performanceInsightsRetentionPeriod: Int,
-	port: Int,
-	preferredBackupWindow: String,
-	preferredMaintenanceWindow: String,
-	publiclyAccessible: Boolean,
-	readReplicaIdentifiers: List<String>,
-	readerEndpoint: String,
-	region: String,
-	replicationSourceIdentifier: String,
-	scalingConfigurationInfo: ScalingConfigurationInfo,
-	status: String,
-	storageEncrypted: Boolean,
-	storageType: String,
-	tagList: Map<String,String>,
-	vpcSecurityGroups: List<VpcSecurityGroupMembership>,
-}
-```
+#### ClusterPendingModifiedValues
+| **Name**                         | **Type** | **Nullable** |
+| -------------------------------- | -------- | ------------ |
+| dbClusterIdentifier              | String   | &check;      |
+| engineVersion                    | String   | &check;      |
+| iamDatabaseAuthenticationEnabled | Boolean  | &check;      |
+| masterUserPassword               | String   | &check;      |
+
+#### DBClusterMember
+| **Name**                      | **Type** | **Nullable** |
+| ----------------------------- | -------- | ------------ |
+| dbClusterParameterGroupStatus | String   | &check;      |
+| dbInstanceIdentifier          | String   | &cross;      |
+| isClusterWriter               | Boolean  | &check;      |
+| promotionTier                 | Int      | &check;      |
+
+#### DBClusterOptionGroupStatus
+| **Name**                 | **Type** | **Nullable** |
+| ------------------------ | -------- | ------------ |
+| dbClusterOptionGroupName | String   | &cross;      |
+| status                   | String   | &check;      |
+
+#### DBClusterRole
+| **Name**    | **Type** | **Nullable** |
+| ----------- | -------- | ------------ |
+| featureName | String   | &check;      |
+| roleArn     | String   | &cross;      |
+| status      | String   | &check;      |
+
+#### DomainMembership
+| **Name**    | **Type** | **Nullable** |
+| ----------- | -------- | ------------ |
+| domain      | String   | &check;      |
+| fqdn        | String   | &check;      |
+| iamRoleName | String   | &check;      |
+| status      | String   | &check;      |
+
+#### ScalingConfigurationInfo
+| **Name**              | **Type** | **Nullable** |
+| --------------------- | -------- | ------------ |
+| autoPause             | Boolean  | &check;      |
+| maxCapacity           | Int      | &check;      |
+| minCapacity           | Int      | &check;      |
+| secondsBeforeTimeout  | Int      | &check;      |
+| secondsUntilAutoPause | Int      | &check;      |
+| timeoutAction         | String   | &check;      |
+
+#### VpcSecurityGroupMembership
+| **Name**           | **Type** | **Nullable** |
+| ------------------ | -------- | ------------ |
+| status             | String   | &check;      |
+| vpcSecurityGroupId | String   | &cross;      |

@@ -1,12 +1,11 @@
-# Slack
-
+Slack
+=====
 Slack is your digital HQ. Meet the new features keeping teams connected in a work-from-anywhere world.
 
-| Resource | Key | Supports Events |
-| --- | --- | --- |
-| Channel | slack\_channel |  |
-| Channel Member | slack\_channel\_member |  |
-| Team | slack\_team |  |
-| User | slack\_user |  |
-| User Group | slack\_user\_group |  |
-
+| **Resources**  | **Key**                                             | **Supports Events** |
+| -------------- | --------------------------------------------------- | ------------------- |
+| Channel        | [slack\_channel](slack\_channel.md)                 |                     |
+| Channel Member | [slack\_channel\_member](slack\_channel\_member.md) |                     |
+| Team           | [slack\_team](slack\_team.md)                       |                     |
+| User           | [slack\_user](slack\_user.md)                       |                     |
+| User Group     | [slack\_user\_group](slack\_user\_group.md)         |                     |

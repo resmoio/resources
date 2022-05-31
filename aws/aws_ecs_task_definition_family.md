@@ -1,14 +1,11 @@
 ---
-description: ECS Task Definition Family
+description: Amazon Web Services ECS Task Definition Family
 ---
+aws_ecs_task_definition_family
+------------------------------
 
-# aws_ecs_task_definition_family
-
-Schema
-```
-{
-	accountId: String,
-	name: String,
-	region: String,
-}
-```
+| **Name**  | **Type** | **Nullable** |
+| --------- | -------- | ------------ |
+| accountId | String   | &cross;      |
+| name      | String   | &cross;      |
+| region    | String   | &cross;      |

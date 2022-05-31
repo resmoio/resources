@@ -1,23 +1,20 @@
 ---
-description: RDS Event Subscription
+description: Amazon Web Services RDS Event Subscription
 ---
+aws_rds_event_subscription
+--------------------------
 
-# aws_rds_event_subscription
-
-Schema
-```
-{
-	accountId: String,
-	custSubscriptionId: String,
-	customerAwsId: String,
-	enabled: Boolean,
-	eventCategoriesList: List<String>,
-	eventSubscriptionArn: String,
-	region: String,
-	snsTopicArn: String,
-	sourceIdsList: List<String>,
-	sourceType: String,
-	status: String,
-	subscriptionCreationTime: String,
-}
-```
+| **Name**                 | **Type**     | **Nullable** |
+| ------------------------ | ------------ | ------------ |
+| accountId                | String       | &cross;      |
+| custSubscriptionId       | String       | &cross;      |
+| customerAwsId            | String       | &cross;      |
+| enabled                  | Boolean      | &check;      |
+| eventCategoriesList      | List<String> | &check;      |
+| eventSubscriptionArn     | String       | &check;      |
+| region                   | String       | &cross;      |
+| snsTopicArn              | String       | &check;      |
+| sourceIdsList            | List<String> | &check;      |
+| sourceType               | String       | &check;      |
+| status                   | String       | &check;      |
+| subscriptionCreationTime | String       | &check;      |

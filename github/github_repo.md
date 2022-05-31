@@ -1,58 +1,97 @@
 ---
-description: Repository
+description: GitHub Repository
 ---
+github_repo
+-----------
 
-# github_repo
+| **Name**            | **Type**     | **Nullable** |
+| ------------------- | ------------ | ------------ |
+| allowAutoMerge      | Boolean      | &check;      |
+| allowMergeCommit    | Boolean      | &check;      |
+| allowRebaseMerge    | Boolean      | &check;      |
+| allowSquashMerge    | Boolean      | &check;      |
+| archived            | Boolean      | &check;      |
+| createdAt           | String       | &check;      |
+| defaultBranch       | String       | &check;      |
+| deleteBranchOnMerge | Boolean      | &check;      |
+| description         | String       | &check;      |
+| disabled            | Boolean      | &check;      |
+| fork                | Boolean      | &check;      |
+| forks               | Long         | &check;      |
+| forksCount          | Long         | &check;      |
+| fullName            | String       | &check;      |
+| hasDownloads        | Boolean      | &check;      |
+| hasIssues           | Boolean      | &check;      |
+| hasPages            | Boolean      | &check;      |
+| hasProjects         | Boolean      | &check;      |
+| hasWiki             | Boolean      | &check;      |
+| homepage            | String       | &check;      |
+| id                  | Long         | &cross;      |
+| isTemplate          | Boolean      | &check;      |
+| language            | String       | &check;      |
+| license             | License      | &check;      |
+| name                | String       | &cross;      |
+| networkCount        | Long         | &check;      |
+| nodeId              | String       | &cross;      |
+| openIssues          | Long         | &check;      |
+| openIssuesCount     | Long         | &check;      |
+| organization        | Organization | &check;      |
+| organizationId      | String       | &cross;      |
+| owner               | Owner        | &check;      |
+| parent              | Repo         | &check;      |
+| permissions         | Permissions  | &check;      |
+| private             | Boolean      | &check;      |
+| source              | Repo         | &check;      |
+| stargazersCount     | Long         | &check;      |
+| subscribersCount    | Long         | &check;      |
+| templateRepository  | Repo         | &check;      |
+| topics              | List<String> | &check;      |
+| updatedAt           | String       | &check;      |
+| visibility          | String       | &check;      |
+| watchers            | Long         | &check;      |
+| watchersCount       | Long         | &check;      |
 
-Schema
-```
-{
-	allowAutoMerge: Boolean,
-	allowMergeCommit: Boolean,
-	allowRebaseMerge: Boolean,
-	allowSquashMerge: Boolean,
-	archived: Boolean,
-	createdAt: String,
-	defaultBranch: String,
-	deleteBranchOnMerge: Boolean,
-	description: String,
-	disabled: Boolean,
-	fork: Boolean,
-	forks: Long,
-	forksCount: Long,
-	fullName: String,
-	hasDownloads: Boolean,
-	hasIssues: Boolean,
-	hasPages: Boolean,
-	hasProjects: Boolean,
-	hasWiki: Boolean,
-	homepage: String,
-	id: Long,
-	isTemplate: Boolean,
-	language: String,
-	license: License,
-	name: String,
-	networkCount: Long,
-	nodeId: String,
-	openIssues: Long,
-	openIssuesCount: Long,
-	organization: Organization,
-	organizationId: String,
-	owner: Owner,
-	parent: Repo,
-	permissions: Permissions,
-	private: Boolean,
-	pushedAt: String,
-	size: Long,
-	source: Repo,
-	stargazersCount: Long,
-	subscribersCount: Long,
-	tempCloneToken: String,
-	templateRepository: Repo,
-	topics: List<String>,
-	updatedAt: String,
-	visibility: String,
-	watchers: Long,
-	watchersCount: Long,
-}
-```
+#### License
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| key      | String   | &check;      |
+| name     | String   | &check;      |
+| nodeId   | String   | &check;      |
+| spdxId   | String   | &check;      |
+| url      | String   | &check;      |
+
+#### Organization
+| **Name**  | **Type** | **Nullable** |
+| --------- | -------- | ------------ |
+| id        | Long     | &cross;      |
+| login     | String   | &cross;      |
+| nodeId    | String   | &cross;      |
+| siteAdmin | Boolean  | &check;      |
+| type      | String   | &check;      |
+
+#### Owner
+| **Name**  | **Type** | **Nullable** |
+| --------- | -------- | ------------ |
+| id        | Long     | &check;      |
+| login     | String   | &check;      |
+| nodeId    | String   | &check;      |
+| siteAdmin | Boolean  | &check;      |
+| type      | String   | &check;      |
+
+#### Permissions
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| admin    | Boolean  | &check;      |
+| pull     | Boolean  | &check;      |
+| push     | Boolean  | &check;      |
+
+#### Repo
+| **Name**    | **Type** | **Nullable** |
+| ----------- | -------- | ------------ |
+| description | String   | &check;      |
+| fullName    | String   | &check;      |
+| id          | Int      | &check;      |
+| name        | String   | &check;      |
+| nodeId      | String   | &check;      |
+| owner       | Owner    | &check;      |
+| private     | Boolean  | &check;      |

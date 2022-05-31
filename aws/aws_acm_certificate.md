@@ -1,37 +1,34 @@
 ---
-description: ACM Certificate
+description: Amazon Web Services ACM Certificate
 ---
+aws_acm_certificate
+-------------------
 
-# aws_acm_certificate
-
-Schema
-```
-{
-	accountId: String,
-	certificateArn: String,
-	certificateAuthorityArn: String,
-	createdAt: String,
-	domainName: String,
-	extendedKeyUsages: List<String>,
-	failureReason: String,
-	importedAt: String,
-	inUseBy: List<String>,
-	issuedAt: String,
-	issuer: String,
-	keyAlgorithm: String,
-	keyUsages: List<String>,
-	notAfter: String,
-	notBefore: String,
-	options: String,
-	region: String,
-	renewalEligibility: String,
-	revocationReason: String,
-	revokedAt: String,
-	serial: String,
-	signatureAlgorithm: String,
-	status: String,
-	subject: String,
-	subjectAlternativeNames: List<String>,
-	type: String,
-}
-```
+| **Name**                | **Type**     | **Nullable** |
+| ----------------------- | ------------ | ------------ |
+| accountId               | String       | &cross;      |
+| certificateArn          | String       | &cross;      |
+| certificateAuthorityArn | String       | &check;      |
+| createdAt               | String       | &check;      |
+| domainName              | String       | &cross;      |
+| extendedKeyUsages       | List<String> | &check;      |
+| failureReason           | String       | &check;      |
+| importedAt              | String       | &check;      |
+| inUseBy                 | List<String> | &check;      |
+| issuedAt                | String       | &check;      |
+| issuer                  | String       | &check;      |
+| keyAlgorithm            | String       | &cross;      |
+| keyUsages               | List<String> | &check;      |
+| notAfter                | String       | &check;      |
+| notBefore               | String       | &check;      |
+| options                 | String       | &check;      |
+| region                  | String       | &cross;      |
+| renewalEligibility      | String       | &cross;      |
+| revocationReason        | String       | &check;      |
+| revokedAt               | String       | &check;      |
+| serial                  | String       | &check;      |
+| signatureAlgorithm      | String       | &cross;      |
+| status                  | String       | &cross;      |
+| subject                 | String       | &check;      |
+| subjectAlternativeNames | List<String> | &check;      |
+| type                    | String       | &cross;      |

@@ -1,22 +1,19 @@
 ---
-description: Kinesis Stream
+description: Amazon Web Services Kinesis Stream
 ---
+aws_kinesis_stream
+------------------
 
-# aws_kinesis_stream
-
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	creationTimestamp: Date,
-	encryptionType: String,
-	keyId: String,
-	mode: String,
-	name: String,
-	region: String,
-	retentionPeriodHours: Int,
-	shardLevelMetrics: List<String>,
-	status: String,
-}
-```
+| **Name**             | **Type**     | **Nullable** |
+| -------------------- | ------------ | ------------ |
+| accountId            | String       | &cross;      |
+| arn                  | String       | &cross;      |
+| creationTimestamp    | String       | &check;      |
+| encryptionType       | String       | &cross;      |
+| keyId                | String       | &check;      |
+| mode                 | String       | &cross;      |
+| name                 | String       | &cross;      |
+| region               | String       | &cross;      |
+| retentionPeriodHours | Int          | &cross;      |
+| shardLevelMetrics    | List<String> | &cross;      |
+| status               | String       | &cross;      |

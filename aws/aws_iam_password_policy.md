@@ -1,23 +1,20 @@
 ---
-description: IAM Password Policy
+description: Amazon Web Services IAM Password Policy
 ---
+aws_iam_password_policy
+-----------------------
 
-# aws_iam_password_policy
-
-Schema
-```
-{
-	accountId: String,
-	allowUsersToChangePassword: Boolean,
-	defined: Boolean,
-	expirePasswords: Boolean,
-	hardExpiry: Boolean,
-	maxPasswordAge: Int,
-	minimumPasswordLength: Int,
-	passwordReusePrevention: Int,
-	requireLowercaseCharacters: Boolean,
-	requireNumbers: Boolean,
-	requireSymbols: Boolean,
-	requireUppercaseCharacters: Boolean,
-}
-```
+| **Name**                   | **Type** | **Nullable** |
+| -------------------------- | -------- | ------------ |
+| accountId                  | String   | &cross;      |
+| allowUsersToChangePassword | Boolean  | &check;      |
+| defined                    | Boolean  | &cross;      |
+| expirePasswords            | Boolean  | &check;      |
+| hardExpiry                 | Boolean  | &check;      |
+| maxPasswordAge             | Int      | &check;      |
+| minimumPasswordLength      | Int      | &check;      |
+| passwordReusePrevention    | Int      | &check;      |
+| requireLowercaseCharacters | Boolean  | &check;      |
+| requireNumbers             | Boolean  | &check;      |
+| requireSymbols             | Boolean  | &check;      |
+| requireUppercaseCharacters | Boolean  | &check;      |

@@ -1,26 +1,33 @@
 ---
-description: Backup Vault
+description: Amazon Web Services Backup Vault
 ---
+aws_backup_vault
+----------------
 
-# aws_backup_vault
+| **Name**               | **Type**           | **Nullable** |
+| ---------------------- | ------------------ | ------------ |
+| accessPolicy           | JSON               | &check;      |
+| accountId              | String             | &cross;      |
+| arn                    | String             | &cross;      |
+| creationDate           | String             | &check;      |
+| creatorRequestId       | String             | &cross;      |
+| encryptionKeyArn       | String             | &check;      |
+| lockDate               | String             | &check;      |
+| locked                 | Boolean            | &check;      |
+| maxRetentionDays       | Long               | &check;      |
+| minRetentionDays       | Long               | &check;      |
+| name                   | String             | &cross;      |
+| notification           | Notification       | &check;      |
+| numberOfRecoveryPoints | Long               | &cross;      |
+| region                 | String             | &cross;      |
+| tags                   | Map<String,String> | &cross;      |
 
-Schema
-```
-{
-	accessPolicy: JSON,
-	accountId: String,
-	arn: String,
-	creationDate: Date,
-	creatorRequestId: String,
-	encryptionKeyArn: String,
-	lockDate: Date,
-	locked: Boolean,
-	maxRetentionDays: Long,
-	minRetentionDays: Long,
-	name: String,
-	notification: Notification,
-	numberOfRecoveryPoints: Long,
-	region: String,
-	tags: Map<String,String>,
-}
-```
+#### Notification
+| **Name**          | **Type**     | **Nullable** |
+| ----------------- | ------------ | ------------ |
+| backupVaultEvents | List<String> | &check;      |
+| snsTopicArn       | String       | &cross;      |
+
+#### ResourceCustomComparable
+| **Name** | **Type** | **Nullable** || -------- | -------- | ------------ |
+

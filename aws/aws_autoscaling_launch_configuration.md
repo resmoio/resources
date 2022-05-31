@@ -1,33 +1,56 @@
 ---
-description: Autoscaling Launch Configuration
+description: Amazon Web Services Autoscaling Launch Configuration
 ---
+aws_autoscaling_launch_configuration
+------------------------------------
 
-# aws_autoscaling_launch_configuration
+| **Name**                     | **Type**                 | **Nullable** |
+| ---------------------------- | ------------------------ | ------------ |
+| accountId                    | String                   | &cross;      |
+| arn                          | String                   | &cross;      |
+| associatePublicIpAddress     | Boolean                  | &check;      |
+| blockDeviceMappings          | List<BlockDeviceMapping> | &check;      |
+| classicLinkVPCId             | String                   | &check;      |
+| classicLinkVPCSecurityGroups | List<String>             | &check;      |
+| createdTime                  | String                   | &check;      |
+| ebsOptimized                 | Boolean                  | &check;      |
+| iamInstanceProfile           | String                   | &check;      |
+| imageId                      | String                   | &check;      |
+| instanceMonitoring           | Boolean                  | &check;      |
+| instanceType                 | String                   | &check;      |
+| kernelId                     | String                   | &check;      |
+| keyName                      | String                   | &check;      |
+| metadataOptions              | InstanceMetadataOptions  | &check;      |
+| name                         | String                   | &cross;      |
+| placementTenancy             | String                   | &check;      |
+| ramdiskId                    | String                   | &check;      |
+| region                       | String                   | &cross;      |
+| securityGroups               | List<String>             | &check;      |
+| spotPrice                    | String                   | &check;      |
+| userData                     | String                   | &check;      |
 
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	associatePublicIpAddress: Boolean,
-	blockDeviceMappings: List<BlockDeviceMapping>,
-	classicLinkVPCId: String,
-	classicLinkVPCSecurityGroups: List<String>,
-	createdTime: String,
-	ebsOptimized: Boolean,
-	iamInstanceProfile: String,
-	imageId: String,
-	instanceMonitoring: Boolean,
-	instanceType: String,
-	kernelId: String,
-	keyName: String,
-	metadataOptions: InstanceMetadataOptions,
-	name: String,
-	placementTenancy: String,
-	ramdiskId: String,
-	region: String,
-	securityGroups: List<String>,
-	spotPrice: String,
-	userData: String,
-}
-```
+#### BlockDeviceMapping
+| **Name**    | **Type**               | **Nullable** |
+| ----------- | ---------------------- | ------------ |
+| deviceName  | String                 | &check;      |
+| ebs         | BlockDeviceMapping.Ebs | &check;      |
+| noDevice    | Boolean                | &check;      |
+| virtualName | String                 | &check;      |
+
+#### BlockDeviceMapping.Ebs
+| **Name**            | **Type** | **Nullable** |
+| ------------------- | -------- | ------------ |
+| deleteOnTermination | Boolean  | &check;      |
+| encrypted           | Boolean  | &check;      |
+| iops                | Int      | &check;      |
+| snapshotId          | String   | &check;      |
+| throughput          | Int      | &check;      |
+| volumeSize          | Int      | &check;      |
+| volumeType          | String   | &check;      |
+
+#### InstanceMetadataOptions
+| **Name**                | **Type** | **Nullable** |
+| ----------------------- | -------- | ------------ |
+| httpEndpoint            | String   | &check;      |
+| httpPutResponseHopLimit | Int      | &check;      |
+| httpTokens              | String   | &check;      |

@@ -1,19 +1,16 @@
 ---
-description: Deploy Key
+description: GitHub Deploy Key
 ---
+github_deploy_key
+-----------------
 
-# github_deploy_key
-
-Schema
-```
-{
-	createdAt: Date,
-	id: Long,
-	key: String,
-	organizationId: String,
-	readOnly: Boolean,
-	repositoryId: String,
-	title: String,
-	verified: Boolean,
-}
-```
+| **Name**       | **Type** | **Nullable** |
+| -------------- | -------- | ------------ |
+| createdAt      | Date     | &check;      |
+| id             | Long     | &cross;      |
+| key            | String   | &cross;      |
+| organizationId | String   | &cross;      |
+| readOnly       | Boolean  | &check;      |
+| repositoryId   | String   | &cross;      |
+| title          | String   | &check;      |
+| verified       | Boolean  | &check;      |

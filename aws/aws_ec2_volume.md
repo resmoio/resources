@@ -1,25 +1,22 @@
 ---
-description: EC2 Volume
+description: Amazon Web Services EC2 Volume
 ---
+aws_ec2_volume
+--------------
 
-# aws_ec2_volume
-
-Schema
-```
-{
-	accountId: String,
-	createTime: String,
-	encrypted: Boolean,
-	id: String,
-	iops: Int,
-	kmsKeyID: String,
-	name: String,
-	region: String,
-	size: Int,
-	state: String,
-	tags: Map<String,String>,
-	volumeId: String,
-	volumeType: String,
-	zone: String,
-}
-```
+| **Name**   | **Type**           | **Nullable** |
+| ---------- | ------------------ | ------------ |
+| accountId  | String             | &cross;      |
+| createTime | String             | &check;      |
+| encrypted  | Boolean            | &check;      |
+| id         | String             | &cross;      |
+| iops       | Int                | &check;      |
+| kmsKeyID   | String             | &check;      |
+| name       | String             | &check;      |
+| region     | String             | &cross;      |
+| size       | Int                | &check;      |
+| state      | String             | &check;      |
+| tags       | Map<String,String> | &check;      |
+| volumeId   | String             | &check;      |
+| volumeType | String             | &check;      |
+| zone       | String             | &check;      |

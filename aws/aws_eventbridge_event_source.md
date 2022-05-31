@@ -1,20 +1,17 @@
 ---
-description: EventBridge Event Source
+description: Amazon Web Services EventBridge Event Source
 ---
+aws_eventbridge_event_source
+----------------------------
 
-# aws_eventbridge_event_source
-
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	createdBy: String,
-	creationTime: Date,
-	expirationTime: Date,
-	name: String,
-	region: String,
-	state: String,
-	tags: Map<String,String>,
-}
-```
+| **Name**       | **Type**           | **Nullable** |
+| -------------- | ------------------ | ------------ |
+| accountId      | String             | &cross;      |
+| arn            | String             | &cross;      |
+| createdBy      | String             | &cross;      |
+| creationTime   | String             | &check;      |
+| expirationTime | String             | &check;      |
+| name           | String             | &cross;      |
+| region         | String             | &cross;      |
+| state          | String             | &cross;      |
+| tags           | Map<String,String> | &cross;      |

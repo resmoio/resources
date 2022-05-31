@@ -1,20 +1,17 @@
 ---
-description: User
+description: Resmo User
 ---
+resmo_user
+----------
 
-# resmo_user
-
-Schema
-```
-{
-	accountId: String,
-	createdAt: Timestamp,
-	email: String,
-	id: String,
-	isActive: Boolean,
-	isEnabled: Boolean,
-	isVerified: Boolean,
-	name: String,
-	role: String,
-}
-```
+| **Name**   | **Type**  | **Nullable** |
+| ---------- | --------- | ------------ |
+| accountId  | String    | &cross;      |
+| createdAt  | Timestamp | &cross;      |
+| email      | String    | &cross;      |
+| id         | String    | &cross;      |
+| isActive   | Boolean   | &cross;      |
+| isEnabled  | Boolean   | &cross;      |
+| isVerified | Boolean   | &cross;      |
+| name       | String    | &cross;      |
+| role       | String    | &cross;      |

@@ -1,18 +1,15 @@
 ---
-description: Organizational Unit
+description: Google Workspace Organizational Unit
 ---
+gsuite_org_unit
+---------------
 
-# gsuite_org_unit
-
-Schema
-```
-{
-	customerId: String,
-	description: String,
-	name: String,
-	orgUnitId: String,
-	orgUnitPath: String,
-	parentOrgUnitId: String,
-	parentOrgUnitPath: String,
-}
-```
+| **Name**          | **Type** | **Nullable** |
+| ----------------- | -------- | ------------ |
+| customerId        | String   | &cross;      |
+| description       | String   | &cross;      |
+| name              | String   | &cross;      |
+| orgUnitId         | String   | &cross;      |
+| orgUnitPath       | String   | &cross;      |
+| parentOrgUnitId   | String   | &cross;      |
+| parentOrgUnitPath | String   | &cross;      |

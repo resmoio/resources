@@ -1,18 +1,15 @@
 ---
-description: Group Member
+description: Google Workspace Group Member
 ---
+gsuite_group_member
+-------------------
 
-# gsuite_group_member
-
-Schema
-```
-{
-	customerId: String,
-	email: String,
-	groupId: String,
-	id: String,
-	role: String,
-	status: String,
-	type: String,
-}
-```
+| **Name**   | **Type** | **Nullable** |
+| ---------- | -------- | ------------ |
+| customerId | String   | &cross;      |
+| email      | String   | &check;      |
+| groupId    | String   | &cross;      |
+| id         | String   | &cross;      |
+| role       | String   | &check;      |
+| status     | String   | &check;      |
+| type       | String   | &check;      |

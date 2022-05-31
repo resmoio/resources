@@ -1,22 +1,19 @@
 ---
-description: EventBridge API Destination
+description: Amazon Web Services EventBridge API Destination
 ---
+aws_eventbridge_api_destination
+-------------------------------
 
-# aws_eventbridge_api_destination
-
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	connectionArn: String,
-	creationTime: Date,
-	httpMethod: String,
-	invocationEndpoint: String,
-	invocationRateLimitPerSecond: Int,
-	lastModifiedTime: Date,
-	name: String,
-	region: String,
-	state: String,
-}
-```
+| **Name**                     | **Type** | **Nullable** |
+| ---------------------------- | -------- | ------------ |
+| accountId                    | String   | &cross;      |
+| arn                          | String   | &cross;      |
+| connectionArn                | String   | &cross;      |
+| creationTime                 | String   | &check;      |
+| httpMethod                   | String   | &cross;      |
+| invocationEndpoint           | String   | &cross;      |
+| invocationRateLimitPerSecond | Int      | &cross;      |
+| lastModifiedTime             | String   | &check;      |
+| name                         | String   | &cross;      |
+| region                       | String   | &cross;      |
+| state                        | String   | &cross;      |

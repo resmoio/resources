@@ -1,18 +1,22 @@
 ---
-description: VPC
+description: Amazon Web Services VPC
 ---
+aws_vpc
+-------
 
-# aws_vpc
+| **Name**                | **Type**                      | **Nullable** |
+| ----------------------- | ----------------------------- | ------------ |
+| accountId               | String                        | &cross;      |
+| cidr                    | String                        | &check;      |
+| cidrBlockAssociationSet | List<CIDRBlockAssociationSet> | &cross;      |
+| id                      | String                        | &cross;      |
+| isDefault               | Boolean                       | &cross;      |
+| region                  | String                        | &cross;      |
+| tags                    | Map<String,String>            | &cross;      |
 
-Schema
-```
-{
-	accountId: String,
-	cidr: String,
-	cidrBlockAssociationSet: List<CIDRBlockAssociationSet>,
-	id: String,
-	isDefault: Boolean,
-	region: String,
-	tags: Map<String,String>,
-}
-```
+#### CIDRBlockAssociationSet
+| **Name**       | **Type** | **Nullable** |
+| -------------- | -------- | ------------ |
+| associationId  | String   | &cross;      |
+| cidrBlock      | String   | &check;      |
+| cidrBlockState | String   | &cross;      |

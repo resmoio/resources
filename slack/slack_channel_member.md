@@ -1,14 +1,11 @@
 ---
-description: Channel Member
+description: Slack Channel Member
 ---
+slack_channel_member
+--------------------
 
-# slack_channel_member
-
-Schema
-```
-{
-	channelId: String,
-	teamId: String,
-	userId: String,
-}
-```
+| **Name**  | **Type** | **Nullable** |
+| --------- | -------- | ------------ |
+| channelId | String   | &cross;      |
+| teamId    | String   | &cross;      |
+| userId    | String   | &cross;      |

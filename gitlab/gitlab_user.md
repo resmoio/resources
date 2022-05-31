@@ -1,30 +1,27 @@
 ---
-description: User
+description: GitLab User
 ---
+gitlab_user
+-----------
 
-# gitlab_user
-
-Schema
-```
-{
-	bio: String,
-	bot: Boolean,
-	createdAt: Date,
-	followers: Int,
-	following: Int,
-	id: String,
-	jobTitle: String,
-	linkedin: String,
-	location: String,
-	name: String,
-	organization: String,
-	pronouns: String,
-	publicEmail: String,
-	skype: String,
-	state: String,
-	twitter: String,
-	username: String,
-	websiteUrl: String,
-	workInformation: String,
-}
-```
+| **Name**        | **Type** | **Nullable** |
+| --------------- | -------- | ------------ |
+| bio             | String   | &check;      |
+| bot             | Boolean  | &check;      |
+| createdAt       | Date     | &check;      |
+| followers       | Int      | &check;      |
+| following       | Int      | &check;      |
+| id              | String   | &cross;      |
+| jobTitle        | String   | &check;      |
+| linkedin        | String   | &check;      |
+| location        | String   | &check;      |
+| name            | String   | &check;      |
+| organization    | String   | &check;      |
+| pronouns        | String   | &check;      |
+| publicEmail     | String   | &check;      |
+| skype           | String   | &check;      |
+| state           | String   | &check;      |
+| twitter         | String   | &check;      |
+| username        | String   | &check;      |
+| websiteUrl      | String   | &check;      |
+| workInformation | String   | &check;      |

@@ -1,30 +1,32 @@
 ---
-description: Secrets Manager Secret
+description: Amazon Web Services Secrets Manager Secret
 ---
+aws_secretsmanager_secret
+-------------------------
 
-# aws_secretsmanager_secret
+| **Name**          | **Type**           | **Nullable** |
+| ----------------- | ------------------ | ------------ |
+| accountId         | String             | &cross;      |
+| arn               | String             | &cross;      |
+| createdDate       | String             | &check;      |
+| deletedDate       | String             | &check;      |
+| description       | String             | &check;      |
+| kmsKeyId          | String             | &check;      |
+| lastAccessedDate  | String             | &check;      |
+| lastChangedDate   | String             | &check;      |
+| lastRotatedDate   | String             | &check;      |
+| name              | String             | &cross;      |
+| owningService     | String             | &check;      |
+| primaryRegion     | String             | &check;      |
+| region            | String             | &cross;      |
+| resourcePolicy    | JSON               | &check;      |
+| rotationEnabled   | Boolean            | &check;      |
+| rotationLambdaARN | String             | &check;      |
+| rotationRules     | RotationRulesType  | &cross;      |
+| tags              | Map<String,String> | &cross;      |
+| versionsToStages  | Map<String,List>   | &cross;      |
 
-Schema
-```
-{
-	accountId: String,
-	arn: String,
-	createdDate: Date,
-	deletedDate: Date,
-	description: String,
-	kmsKeyId: String,
-	lastAccessedDate: Date,
-	lastChangedDate: Date,
-	lastRotatedDate: Date,
-	name: String,
-	owningService: String,
-	primaryRegion: String,
-	region: String,
-	resourcePolicy: JSON,
-	rotationEnabled: Boolean,
-	rotationLambdaARN: String,
-	rotationRules: RotationRulesType,
-	tags: Map<String,String>,
-	versionsToStages: Map<String,List>,
-}
-```
+#### RotationRulesType
+| **Name**               | **Type** | **Nullable** |
+| ---------------------- | -------- | ------------ |
+| automaticallyAfterDays | Long     | &check;      |

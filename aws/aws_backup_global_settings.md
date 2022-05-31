@@ -1,14 +1,10 @@
 ---
-description: Backup Global Settings
+description: Amazon Web Services Backup Global Settings
 ---
+aws_backup_global_settings
+--------------------------
 
-# aws_backup_global_settings
-
-Schema
-```
-{
-	accountId: String,
-	lastUpdateTime: Date,
-	settings: Map<String,String>,
-}
-```
+| **Name**  | **Type**           | **Nullable** |
+| --------- | ------------------ | ------------ |
+| accountId | String             | &cross;      |
+| settings  | Map<String,String> | &cross;      |

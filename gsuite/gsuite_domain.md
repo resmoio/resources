@@ -1,17 +1,22 @@
 ---
-description: Domain
+description: Google Workspace Domain
 ---
+gsuite_domain
+-------------
 
-# gsuite_domain
+| **Name**      | **Type**          | **Nullable** |
+| ------------- | ----------------- | ------------ |
+| creationTime  | Date              | &check;      |
+| customerId    | String            | &cross;      |
+| domainAliases | List<DomainAlias> | &check;      |
+| domainName    | String            | &cross;      |
+| isPrimary     | Boolean           | &check;      |
+| verified      | Boolean           | &check;      |
 
-Schema
-```
-{
-	creationTime: Date,
-	customerId: String,
-	domainAliases: List<DomainAlias>,
-	domainName: String,
-	isPrimary: Boolean,
-	verified: Boolean,
-}
-```
+#### DomainAlias
+| **Name**         | **Type** | **Nullable** |
+| ---------------- | -------- | ------------ |
+| creationTime     | Date     | &cross;      |
+| domainAliasName  | String   | &cross;      |
+| parentDomainName | String   | &cross;      |
+| verified         | Boolean  | &cross;      |

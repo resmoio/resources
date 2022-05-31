@@ -1,17 +1,14 @@
 ---
-description: Group
+description: Google Workspace Group
 ---
+gsuite_group
+------------
 
-# gsuite_group
-
-Schema
-```
-{
-	adminCreated: Boolean,
-	customerId: String,
-	description: String,
-	email: String,
-	id: String,
-	name: String,
-}
-```
+| **Name**     | **Type** | **Nullable** |
+| ------------ | -------- | ------------ |
+| adminCreated | Boolean  | &check;      |
+| customerId   | String   | &cross;      |
+| description  | String   | &check;      |
+| email        | String   | &cross;      |
+| id           | String   | &check;      |
+| name         | String   | &check;      |

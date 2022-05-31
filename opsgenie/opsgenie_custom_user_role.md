@@ -1,16 +1,14 @@
 ---
-description: Custom User Role
+description: Opsgenie Custom User Role
 ---
+opsgenie_custom_user_role
+-------------------------
 
-# opsgenie_custom_user_role
-
-Schema
-```
-{
-	disallowedRights: List<String>,
-	extendedRole: String,
-	grantedRights: List<String>,
-	id: String,
-	name: String,
-}
-```
+| **Name**         | **Type**     | **Nullable** |
+| ---------------- | ------------ | ------------ |
+| accountName      | String       | &cross;      |
+| disallowedRights | List<String> | &cross;      |
+| extendedRole     | String       | &cross;      |
+| grantedRights    | List<String> | &cross;      |
+| id               | String       | &cross;      |
+| name             | String       | &cross;      |

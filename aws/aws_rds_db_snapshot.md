@@ -1,45 +1,42 @@
 ---
-description: RDS DB Snapshot
+description: Amazon Web Services RDS DB Snapshot
 ---
+aws_rds_db_snapshot
+-------------------
 
-# aws_rds_db_snapshot
-
-Schema
-```
-{
-	accountId: String,
-	allocatedStorage: Int,
-	arn: String,
-	attributes: Map<String,List>,
-	availabilityZone: String,
-	dbInstanceIdentifier: String,
-	dbiResourceId: String,
-	encrypted: Boolean,
-	engine: String,
-	engineVersion: String,
-	iamDatabaseAuthenticationEnabled: Boolean,
-	id: String,
-	instanceCreateTime: String,
-	iops: Int,
-	kmsKeyId: String,
-	licenseModel: String,
-	masterUsername: String,
-	optionGroupName: String,
-	originalSnapshotCreateTime: String,
-	percentProgress: Int,
-	port: Int,
-	processorFeatures: Map<String,String>,
-	region: String,
-	snapshotCreateTime: String,
-	snapshotTarget: String,
-	snapshotType: String,
-	sourceDBSnapshotIdentifier: String,
-	sourceRegion: String,
-	status: String,
-	storageType: String,
-	tagList: Map<String,String>,
-	tdeCredentialArn: String,
-	timezone: String,
-	vpcId: String,
-}
-```
+| **Name**                         | **Type**           | **Nullable** |
+| -------------------------------- | ------------------ | ------------ |
+| accountId                        | String             | &cross;      |
+| allocatedStorage                 | Int                | &check;      |
+| arn                              | String             | &cross;      |
+| attributes                       | Map<String,List>   | &check;      |
+| availabilityZone                 | String             | &check;      |
+| dbInstanceIdentifier             | String             | &check;      |
+| dbiResourceId                    | String             | &check;      |
+| encrypted                        | Boolean            | &check;      |
+| engine                           | String             | &check;      |
+| engineVersion                    | String             | &check;      |
+| iamDatabaseAuthenticationEnabled | Boolean            | &check;      |
+| id                               | String             | &cross;      |
+| instanceCreateTime               | String             | &check;      |
+| iops                             | Int                | &check;      |
+| kmsKeyId                         | String             | &check;      |
+| licenseModel                     | String             | &check;      |
+| masterUsername                   | String             | &check;      |
+| optionGroupName                  | String             | &check;      |
+| originalSnapshotCreateTime       | String             | &check;      |
+| percentProgress                  | Int                | &check;      |
+| port                             | Int                | &check;      |
+| processorFeatures                | Map<String,String> | &check;      |
+| region                           | String             | &cross;      |
+| snapshotCreateTime               | String             | &check;      |
+| snapshotTarget                   | String             | &check;      |
+| snapshotType                     | String             | &check;      |
+| sourceDBSnapshotIdentifier       | String             | &check;      |
+| sourceRegion                     | String             | &check;      |
+| status                           | String             | &check;      |
+| storageType                      | String             | &check;      |
+| tagList                          | Map<String,String> | &check;      |
+| tdeCredentialArn                 | String             | &check;      |
+| timezone                         | String             | &check;      |
+| vpcId                            | String             | &check;      |

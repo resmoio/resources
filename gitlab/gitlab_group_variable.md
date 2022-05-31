@@ -1,17 +1,14 @@
 ---
-description: Group Variable
+description: GitLab Group Variable
 ---
+gitlab_group_variable
+---------------------
 
-# gitlab_group_variable
-
-Schema
-```
-{
-	environmentScope: String,
-	groupId: String,
-	key: String,
-	masked: Boolean,
-	protected: Boolean,
-	variableType: String,
-}
-```
+| **Name**         | **Type** | **Nullable** |
+| ---------------- | -------- | ------------ |
+| environmentScope | String   | &check;      |
+| groupId          | String   | &check;      |
+| key              | String   | &cross;      |
+| masked           | Boolean  | &check;      |
+| protected        | Boolean  | &check;      |
+| variableType     | String   | &check;      |
