@@ -11,6 +11,7 @@ aws_s3_bucket
 | creationDate                   | String                    | &cross;      |
 | kmsMasterKeyID                 | String                    | &check;      |
 | logging                        | LoggingEnabled            | &check;      |
+| mfaDelete                      | String                    | &check;      |
 | name                           | String                    | &cross;      |
 | policy                         | JSON                      | &check;      |
 | policyStatus                   | PolicyStatus              | &check;      |
