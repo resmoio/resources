@@ -17,7 +17,7 @@ gsuite_user
 | emails                     | List<Email>        | &check;      |
 | externalIds                | List<ExternalId>   | &check;      |
 | gender                     | Gender             | &check;      |
-| id                         | String             | &check;      |
+| id                         | String             | &cross;      |
 | ims                        | List<Im>           | &check;      |
 | includeInGlobalAddressList | Boolean            | &check;      |
 | ipWhitelisted              | Boolean            | &check;      |
@@ -35,7 +35,7 @@ gsuite_user
 | organizations              | List<Organization> | &check;      |
 | phones                     | List<Phone>        | &check;      |
 | posixAccounts              | List<PosixAccount> | &check;      |
-| primaryEmail               | String             | &cross;      |
+| primaryEmail               | String             | &check;      |
 | recoveryEmail              | String             | &check;      |
 | recoveryPhone              | String             | &check;      |
 | relations                  | List<Relation>     | &check;      |
