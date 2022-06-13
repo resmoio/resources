@@ -13,7 +13,7 @@ gandi_domain
 | fqdn_unicode           | String       | &cross;      |
 | href                   | String       | &check;      |
 | id                     | String       | &cross;      |
-| nameserver             | Nameserver   | &check;      |
+| nameserver             | Nameserver   | &cross;      |
 | nameserver_information | List<String> | &check;      |
 | orga_owner             | String       | &check;      |
 | owner                  | String       | &check;      |
@@ -42,7 +42,7 @@ gandi_domain
 #### Nameserver
 | **Name** | **Type**     | **Nullable** |
 | -------- | ------------ | ------------ |
-| current  | String       | &check;      |
+| current  | String       | &cross;      |
 | hosts    | List<String> | &check;      |
 
 #### Restorable
