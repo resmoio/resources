@@ -19,7 +19,7 @@ cloudflare_zone_page_rule
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
 | id       | String   | &check;      |
-| value    | String   | &check;      |
+| value    | JSON     | &check;      |
 
 #### Target
 | **Name**    | **Type** | **Nullable** |
