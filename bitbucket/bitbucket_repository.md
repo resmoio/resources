@@ -18,7 +18,6 @@ bitbucket_repository
 | owner             | Owner            | &cross;      |
 | project           | Project          | &check;      |
 | scm               | String           | &check;      |
-| size              | Int              | &check;      |
 | slug              | String           | &check;      |
 | type              | String           | &check;      |
 | uuid              | String           | &cross;      |
