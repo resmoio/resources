@@ -11,7 +11,7 @@ bitbucket_deploy_key
 | key          | String     | &cross;      |
 | label        | String     | &check;      |
 | last_used    | String     | &check;      |
-| owner        | Owner      | &cross;      |
+| owner        | Owner      | &check;      |
 | repository   | Repository | &cross;      |
 | workspace_id | String     | &cross;      |
 
@@ -21,7 +21,7 @@ bitbucket_deploy_key
 | account_id   | String   | &check;      |
 | display_name | String   | &check;      |
 | type         | String   | &check;      |
-| uuid         | String   | &cross;      |
+| uuid         | String   | &check;      |
 
 #### Repository
 | **Name**  | **Type** | **Nullable** |
