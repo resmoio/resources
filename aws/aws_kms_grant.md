@@ -16,7 +16,7 @@ aws_kms_grant
 | name              | String           | &cross;      |
 | operations        | List<String>     | &check;      |
 | region            | String           | &cross;      |
-| retiringPrincipal | String           | &cross;      |
+| retiringPrincipal | String           | &check;      |
 
 #### GrantConstraints
 | **Name**                | **Type**           | **Nullable** |
