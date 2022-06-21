@@ -36,10 +36,8 @@ github_pull_request
 | nodeId              | String              | &cross;      |
 | number              | Long                | &cross;      |
 | organization        | Organization        | &check;      |
-| organizationId      | String              | &cross;      |
 | rebaseable          | Boolean             | &check;      |
 | repository          | Repository          | &check;      |
-| repositoryId        | String              | &cross;      |
 | requestedReviewers  | List<User>          | &check;      |
 | requestedTeams      | List<RequestedTeam> | &check;      |
 | reviewComments      | Long                | &check;      |
@@ -122,8 +120,8 @@ github_pull_request
 #### Organization
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | Long     | &cross;      |
-| login    | String   | &cross;      |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### Owner
 | **Name**  | **Type** | **Nullable** |
@@ -148,8 +146,8 @@ github_pull_request
 #### Repository
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | Long     | &cross;      |
-| name     | String   | &cross;      |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### RequestedTeam
 | **Name**    | **Type** | **Nullable** |

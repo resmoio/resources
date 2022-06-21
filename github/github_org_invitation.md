@@ -4,19 +4,19 @@ description: GitHub Organization Invitation
 github_org_invitation
 ---------------------
 
-| **Name**       | **Type** | **Nullable** |
-| -------------- | -------- | ------------ |
-| createdAt      | Date     | &check;      |
-| email          | String   | &check;      |
-| failedAt       | Date     | &check;      |
-| failedReason   | String   | &check;      |
-| id             | Long     | &cross;      |
-| inviter        | Inviter  | &check;      |
-| login          | String   | &cross;      |
-| nodeId         | String   | &check;      |
-| organizationId | String   | &cross;      |
-| role           | String   | &check;      |
-| teamCount      | Int      | &check;      |
+| **Name**     | **Type**     | **Nullable** |
+| ------------ | ------------ | ------------ |
+| createdAt    | Date         | &check;      |
+| email        | String       | &check;      |
+| failedAt     | Date         | &check;      |
+| failedReason | String       | &check;      |
+| id           | Long         | &cross;      |
+| inviter      | Inviter      | &check;      |
+| login        | String       | &cross;      |
+| nodeId       | String       | &check;      |
+| organization | Organization | &check;      |
+| role         | String       | &check;      |
+| teamCount    | Int          | &check;      |
 
 #### Inviter
 | **Name**  | **Type** | **Nullable** |
@@ -30,5 +30,5 @@ github_org_invitation
 #### Organization
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | Long     | &cross;      |
-| login    | String   | &cross;      |
+| id       | String   | &check;      |
+| name     | String   | &check;      |

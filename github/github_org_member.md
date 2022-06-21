@@ -4,18 +4,18 @@ description: GitHub Organization Member
 github_org_member
 -----------------
 
-| **Name**       | **Type** | **Nullable** |
-| -------------- | -------- | ------------ |
-| organizationId | String   | &cross;      |
-| role           | String   | &cross;      |
-| state          | String   | &cross;      |
-| user           | User     | &cross;      |
+| **Name**     | **Type**     | **Nullable** |
+| ------------ | ------------ | ------------ |
+| organization | Organization | &check;      |
+| role         | String       | &cross;      |
+| state        | String       | &cross;      |
+| user         | User         | &cross;      |
 
 #### Organization
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | Long     | &cross;      |
-| login    | String   | &cross;      |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### User
 | **Name**  | **Type** | **Nullable** |

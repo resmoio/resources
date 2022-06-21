@@ -4,13 +4,19 @@ description: GitHub Team Repository
 github_team_repo
 ----------------
 
-| **Name**       | **Type**    | **Nullable** |
-| -------------- | ----------- | ------------ |
-| organizationId | String      | &cross;      |
-| permissions    | Permissions | &cross;      |
-| repository     | Repository  | &cross;      |
-| roleName       | String      | &check;      |
-| teamId         | Long        | &cross;      |
+| **Name**     | **Type**     | **Nullable** |
+| ------------ | ------------ | ------------ |
+| organization | Organization | &check;      |
+| permissions  | Permissions  | &cross;      |
+| repository   | Repository   | &cross;      |
+| roleName     | String       | &check;      |
+| team         | Team         | &check;      |
+
+#### Organization
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### Owner
 | **Name**  | **Type** | **Nullable** |
@@ -41,3 +47,9 @@ github_team_repo
 | nodeId      | String   | &cross;      |
 | owner       | Owner    | &cross;      |
 | private     | Boolean  | &check;      |
+
+#### Team
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &check;      |
+| name     | String   | &check;      |

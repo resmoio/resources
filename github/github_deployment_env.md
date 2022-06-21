@@ -11,9 +11,9 @@ github_deployment_env
 | id                     | Long                   | &cross;      |
 | name                   | String                 | &cross;      |
 | nodeId                 | String                 | &cross;      |
-| organizationId         | String                 | &cross;      |
+| organization           | Organization           | &check;      |
 | protectionRules        | List<ProtectionRule>   | &check;      |
-| repositoryId           | String                 | &cross;      |
+| repository             | Repository             | &check;      |
 | updatedAt              | Date                   | &check;      |
 
 #### DeploymentBranchPolicy
@@ -21,6 +21,12 @@ github_deployment_env
 | -------------------- | -------- | ------------ |
 | customBranchPolicies | Boolean  | &check;      |
 | protectedBranches    | Boolean  | &check;      |
+
+#### Organization
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### ProtectionRule
 | **Name**  | **Type**        | **Nullable** |
@@ -30,6 +36,12 @@ github_deployment_env
 | reviewers | List<Reviewers> | &check;      |
 | type      | String          | &cross;      |
 | waitTimer | Int             | &check;      |
+
+#### Repository
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### Reviewer
 | **Name**    | **Type** | **Nullable** |

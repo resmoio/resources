@@ -36,8 +36,6 @@ github_repo
 | openIssues          | Long         | &check;      |
 | openIssuesCount     | Long         | &check;      |
 | organization        | Organization | &check;      |
-| organizationId      | String       | &cross;      |
-| owner               | Owner        | &check;      |
 | parent              | Repo         | &check;      |
 | permissions         | Permissions  | &check;      |
 | private             | Boolean      | &check;      |
@@ -65,7 +63,7 @@ github_repo
 | --------- | -------- | ------------ |
 | id        | Long     | &cross;      |
 | login     | String   | &cross;      |
-| nodeId    | String   | &cross;      |
+| nodeId    | String   | &check;      |
 | siteAdmin | Boolean  | &check;      |
 | type      | String   | &check;      |
 

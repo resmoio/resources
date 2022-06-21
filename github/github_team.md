@@ -4,22 +4,21 @@ description: GitHub Team
 github_team
 -----------
 
-| **Name**       | **Type**     | **Nullable** |
-| -------------- | ------------ | ------------ |
-| createdAt      | Date         | &check;      |
-| description    | String       | &check;      |
-| id             | Long         | &cross;      |
-| membersCount   | Long         | &check;      |
-| name           | String       | &cross;      |
-| nodeId         | String       | &cross;      |
-| organization   | Organization | &check;      |
-| organizationId | String       | &cross;      |
-| parent         | Parent       | &check;      |
-| permission     | String       | &check;      |
-| privacy        | String       | &check;      |
-| reposCount     | Long         | &check;      |
-| slug           | String       | &cross;      |
-| updatedAt      | Date         | &check;      |
+| **Name**     | **Type**     | **Nullable** |
+| ------------ | ------------ | ------------ |
+| createdAt    | Date         | &check;      |
+| description  | String       | &check;      |
+| id           | Long         | &cross;      |
+| membersCount | Long         | &check;      |
+| name         | String       | &cross;      |
+| nodeId       | String       | &cross;      |
+| organization | Organization | &check;      |
+| parent       | Parent       | &check;      |
+| permission   | String       | &check;      |
+| privacy      | String       | &check;      |
+| reposCount   | Long         | &check;      |
+| slug         | String       | &cross;      |
+| updatedAt    | Date         | &check;      |
 
 #### Organization
 | **Name**    | **Type** | **Nullable** |

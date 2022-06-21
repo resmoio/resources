@@ -20,10 +20,8 @@ github_issue
 | milestone         | Milestone    | &check;      |
 | nodeId            | String       | &cross;      |
 | number            | Long         | &cross;      |
-| organization      | Organization | &cross;      |
-| organizationId    | String       | &cross;      |
-| repository        | Repository   | &cross;      |
-| repositoryId      | String       | &cross;      |
+| organization      | Organization | &check;      |
+| repository        | Repository   | &check;      |
 | state             | String       | &check;      |
 | title             | String       | &check;      |
 | updatedAt         | Date         | &check;      |
@@ -59,8 +57,8 @@ github_issue
 #### Organization
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | Long     | &cross;      |
-| login    | String   | &cross;      |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### Owner
 | **Name**  | **Type** | **Nullable** |
@@ -74,8 +72,8 @@ github_issue
 #### Repository
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | Long     | &cross;      |
-| name     | String   | &cross;      |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### User
 | **Name**  | **Type** | **Nullable** |

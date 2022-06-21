@@ -4,13 +4,25 @@ description: GitHub Team Member
 github_team_member
 ------------------
 
-| **Name**       | **Type** | **Nullable** |
-| -------------- | -------- | ------------ |
-| organizationId | String   | &cross;      |
-| role           | String   | &cross;      |
-| state          | String   | &cross;      |
-| teamId         | Long     | &cross;      |
-| user           | User     | &cross;      |
+| **Name**     | **Type**     | **Nullable** |
+| ------------ | ------------ | ------------ |
+| organization | Organization | &check;      |
+| role         | String       | &cross;      |
+| state        | String       | &cross;      |
+| team         | Team         | &check;      |
+| user         | User         | &cross;      |
+
+#### Organization
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
+
+#### Team
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &check;      |
+| name     | String   | &check;      |
 
 #### User
 | **Name**  | **Type** | **Nullable** |
