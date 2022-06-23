@@ -12,7 +12,7 @@ github_org_invitation
 | failedReason | String       | &check;      |
 | id           | Long         | &cross;      |
 | inviter      | Inviter      | &check;      |
-| login        | String       | &cross;      |
+| login        | String       | &check;      |
 | nodeId       | String       | &check;      |
 | organization | Organization | &check;      |
 | role         | String       | &check;      |
