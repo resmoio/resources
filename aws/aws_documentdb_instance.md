@@ -24,7 +24,6 @@ aws_documentdb_instance
 | engineVersion                | String                           | &check;      |
 | instanceCreateTime           | String                           | &check;      |
 | kmsKeyId                     | String                           | &check;      |
-| latestRestorableTime         | String                           | &check;      |
 | pendingModifiedValues        | PendingModifiedValues            | &check;      |
 | preferredBackupWindow        | String                           | &check;      |
 | preferredMaintenanceWindow   | String                           | &check;      |

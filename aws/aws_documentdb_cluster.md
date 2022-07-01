@@ -25,7 +25,6 @@ aws_documentdb_cluster
 | engineVersion                | String                           | &check;      |
 | hostedZoneId                 | String                           | &check;      |
 | kmsKeyId                     | String                           | &check;      |
-| latestRestorableTime         | String                           | &check;      |
 | masterUsername               | String                           | &check;      |
 | multiAZ                      | Boolean                          | &check;      |
 | percentProgress              | String                           | &check;      |

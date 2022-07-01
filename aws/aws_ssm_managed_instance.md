@@ -17,7 +17,6 @@ aws_ssm_managed_instance
 | ipAddress                              | String                                | &check;      |
 | isLatestVersion                        | Boolean                               | &check;      |
 | lastAssociationExecutionDate           | String                                | &check;      |
-| lastPingDateTime                       | String                                | &check;      |
 | lastSuccessfulAssociationExecutionDate | String                                | &check;      |
 | name                                   | String                                | &check;      |
 | pingStatus                             | String                                | &check;      |

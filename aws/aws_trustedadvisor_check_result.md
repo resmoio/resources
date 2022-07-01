@@ -13,7 +13,6 @@ aws_trustedadvisor_check_result
 | millisUntilNextRefreshable | String                                | &check;      |
 | resourcesSummary           | TrustedAdvisorResourcesSummary        | &check;      |
 | status                     | String                                | &check;      |
-| timestamp                  | String                                | &check;      |
 
 #### TrustedAdvisorCategorySpecificSummary
 | **Name**       | **Type**                            | **Nullable** |
