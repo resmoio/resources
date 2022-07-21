@@ -9,10 +9,10 @@ resmo_variable
 | defaultValue | JSON                 | &check;      |
 | description  | String               | &check;      |
 | isManaged    | Boolean              | &cross;      |
-| isQuery      | Boolean              | &cross;      |
 | modifiedAt   | Timestamp            | &check;      |
 | modifiedBy   | String               | &check;      |
 | name         | String               | &cross;      |
+| type         | String               | &check;      |
 | values       | List<ValuePerDomain> | &cross;      |
 
 #### ValuePerDomain
