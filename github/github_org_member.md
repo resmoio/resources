@@ -20,6 +20,7 @@ github_org_member
 #### User
 | **Name**  | **Type** | **Nullable** |
 | --------- | -------- | ------------ |
+| email     | String   | &check;      |
 | id        | Long     | &cross;      |
 | login     | String   | &cross;      |
 | nodeId    | String   | &check;      |
