@@ -40,6 +40,10 @@ Cloud service
 | CloudWatch Log Group                 | [aws\_cloudwatch\_log\_group](aws\_cloudwatch\_log\_group.md)                                       |                     |
 | CloudWatch Metric Alarm              | [aws\_cloudwatch\_metric\_alarm](aws\_cloudwatch\_metric\_alarm.md)                                 |                     |
 | CloudWatch Metric Filter             | [aws\_cloudwatch\_metric\_filter](aws\_cloudwatch\_metric\_filter.md)                               |                     |
+| Cognito Identity Pool                | [aws\_cognito\_identity\_pool](aws\_cognito\_identity\_pool.md)                                     |                     |
+| Cognito User Pool                    | [aws\_cognito\_user\_pool](aws\_cognito\_user\_pool.md)                                             |                     |
+| Cognito User Pool Group              | [aws\_cognito\_user\_pool\_group](aws\_cognito\_user\_pool\_group.md)                               |                     |
+| Cognito User Pool User               | [aws\_cognito\_user\_pool\_user](aws\_cognito\_user\_pool\_user.md)                                 |                     |
 | Config Recorder Status               | [aws\_config\_recorder\_status](aws\_config\_recorder\_status.md)                                   |                     |
 | DocumentDB Cluster                   | [aws\_documentdb\_cluster](aws\_documentdb\_cluster.md)                                             |                     |
 | DocumentDB Instance                  | [aws\_documentdb\_instance](aws\_documentdb\_instance.md)                                           |                     |
