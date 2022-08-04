@@ -94,6 +94,7 @@
   * [aws\_iam\_account\_summary](aws/aws_iam_account_summary.md)
   * [aws\_iam\_credential\_report](aws/aws_iam_credential_report.md)
   * [aws\_iam\_group](aws/aws_iam_group.md)
+  * [aws\_iam\_instance\_profile](aws/aws_iam_instance_profile.md)
   * [aws\_iam\_managed\_policy](aws/aws_iam_managed_policy.md)
   * [aws\_iam\_password\_policy](aws/aws_iam_password_policy.md)
   * [aws\_iam\_policy](aws/aws_iam_policy.md)

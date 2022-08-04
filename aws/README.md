@@ -98,6 +98,7 @@ Cloud service
 | IAM Account Summary                  | [aws\_iam\_account\_summary](aws\_iam\_account\_summary.md)                                         |                     |
 | IAM Credential Report                | [aws\_iam\_credential\_report](aws\_iam\_credential\_report.md)                                     |                     |
 | IAM Group                            | [aws\_iam\_group](aws\_iam\_group.md)                                                               |                     |
+| IAM Instance Profile                 | [aws\_iam\_instance\_profile](aws\_iam\_instance\_profile.md)                                       |                     |
 | IAM Managed Policy                   | [aws\_iam\_managed\_policy](aws\_iam\_managed\_policy.md)                                           |                     |
 | IAM Password Policy                  | [aws\_iam\_password\_policy](aws\_iam\_password\_policy.md)                                         |                     |
 | IAM Policy                           | [aws\_iam\_policy](aws\_iam\_policy.md)                                                             |                     |
