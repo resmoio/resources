@@ -478,7 +478,7 @@
   * [slack\_user\_group](slack/slack_user_group.md)
 * [Snowflake](snowflake/README.md)
   * [snowflake\_database](snowflake/snowflake_database.md)
-  * [snowflake\_scheme](snowflake/snowflake_scheme.md)
+  * [snowflake\_schema](snowflake/snowflake_schema.md)
   * [snowflake\_table](snowflake/snowflake_table.md)
   * [snowflake\_user](snowflake/snowflake_user.md)
   * [snowflake\_warehouse](snowflake/snowflake_warehouse.md)
