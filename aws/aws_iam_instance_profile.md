@@ -21,6 +21,10 @@ aws_iam_instance_profile
 | permissionsBoundaryArn  | String   | &check;      |
 | permissionsBoundaryType | String   | &check;      |
 
+#### ResourceCustomComparable
+| **Name** | **Type** | **Nullable** || -------- | -------- | ------------ |
+
+
 #### Role
 | **Name**                 | **Type**                    | **Nullable** |
 | ------------------------ | --------------------------- | ------------ |

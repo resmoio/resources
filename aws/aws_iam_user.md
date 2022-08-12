@@ -12,6 +12,7 @@ aws_iam_user
 | attachedPolicies    | List<AttachedPolicy> | &cross;      |
 | createdDate         | String               | &cross;      |
 | mfaDevices          | List<MFADevice>      | &cross;      |
+| passwordLastUsed    | String               | &check;      |
 | passwordLastUsedIn  | PasswordLastUsed     | &check;      |
 | permissionsBoundary | PermissionsBoundary  | &check;      |
 | policies            | List<Policy>         | &cross;      |

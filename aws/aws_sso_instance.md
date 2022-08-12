@@ -50,3 +50,7 @@ aws_sso_instance
 | -------- | -------- | ------------ |
 | arn      | String   | &cross;      |
 | name     | String   | &cross;      |
+
+#### ResourceCustomComparable
+| **Name** | **Type** | **Nullable** || -------- | -------- | ------------ |
+
