@@ -7,6 +7,7 @@ aws_eventbridge_api_destination
 | **Name**                     | **Type** | **Nullable** |
 | ---------------------------- | -------- | ------------ |
 | accountId                    | String   | &cross;      |
+| accountName                  | String   | &check;      |
 | arn                          | String   | &cross;      |
 | connectionArn                | String   | &cross;      |
 | creationTime                 | String   | &check;      |

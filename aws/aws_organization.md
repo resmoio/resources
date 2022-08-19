@@ -7,6 +7,7 @@ aws_organization
 | **Name**             | **Type**         | **Nullable** |
 | -------------------- | ---------------- | ------------ |
 | accountId            | String           | &check;      |
+| accountName          | String           | &check;      |
 | arn                  | String           | &cross;      |
 | availablePolicyTypes | List<PolicyType> | &cross;      |
 | featureSet           | String           | &check;      |

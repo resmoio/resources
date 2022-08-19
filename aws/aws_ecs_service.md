@@ -7,6 +7,7 @@ aws_ecs_service
 | **Name**                      | **Type**                       | **Nullable** |
 | ----------------------------- | ------------------------------ | ------------ |
 | accountId                     | String                         | &cross;      |
+| accountName                   | String                         | &check;      |
 | arn                           | String                         | &cross;      |
 | capacityProviderStrategy      | List<CapacityProviderStrategy> | &check;      |
 | clusterArn                    | String                         | &cross;      |

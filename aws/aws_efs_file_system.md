@@ -7,6 +7,7 @@ aws_efs_file_system
 | **Name**                     | **Type**           | **Nullable** |
 | ---------------------------- | ------------------ | ------------ |
 | accountId                    | String             | &cross;      |
+| accountName                  | String             | &check;      |
 | availabilityZoneId           | String             | &check;      |
 | availabilityZoneName         | String             | &check;      |
 | creationTime                 | String             | &check;      |

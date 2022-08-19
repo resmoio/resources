@@ -7,6 +7,7 @@ aws_ecr_repository
 | **Name**                   | **Type**                   | **Nullable** |
 | -------------------------- | -------------------------- | ------------ |
 | accountId                  | String                     | &cross;      |
+| accountName                | String                     | &check;      |
 | createdAt                  | String                     | &check;      |
 | encryptionConfiguration    | EncryptionConfiguration    | &check;      |
 | imageScanningConfiguration | ImageScanningConfiguration | &check;      |

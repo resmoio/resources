@@ -7,6 +7,7 @@ aws_vpc_security_group
 | **Name**    | **Type**           | **Nullable** |
 | ----------- | ------------------ | ------------ |
 | accountId   | String             | &cross;      |
+| accountName | String             | &check;      |
 | description | String             | &cross;      |
 | egress      | List<IPPermission> | &cross;      |
 | id          | String             | &cross;      |

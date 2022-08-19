@@ -7,6 +7,7 @@ aws_cloudformation_stack_set
 | **Name**              | **Type**           | **Nullable** |
 | --------------------- | ------------------ | ------------ |
 | accountId             | String             | &cross;      |
+| accountName           | String             | &check;      |
 | administrationRoleArn | String             | &check;      |
 | arn                   | String             | &cross;      |
 | autoDeployment        | AutoDeployment     | &check;      |

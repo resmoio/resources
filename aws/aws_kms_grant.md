@@ -7,6 +7,7 @@ aws_kms_grant
 | **Name**          | **Type**         | **Nullable** |
 | ----------------- | ---------------- | ------------ |
 | accountId         | String           | &cross;      |
+| accountName       | String           | &check;      |
 | constraints       | GrantConstraints | &check;      |
 | creationDate      | String           | &check;      |
 | granteePrincipal  | String           | &cross;      |

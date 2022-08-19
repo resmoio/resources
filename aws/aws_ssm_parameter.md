@@ -7,6 +7,7 @@ aws_ssm_parameter
 | **Name**         | **Type**                    | **Nullable** |
 | ---------------- | --------------------------- | ------------ |
 | accountId        | String                      | &cross;      |
+| accountName      | String                      | &check;      |
 | allowedPattern   | String                      | &check;      |
 | dataType         | String                      | &check;      |
 | description      | String                      | &check;      |

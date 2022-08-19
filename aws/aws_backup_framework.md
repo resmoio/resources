@@ -7,6 +7,7 @@ aws_backup_framework
 | **Name**         | **Type**               | **Nullable** |
 | ---------------- | ---------------------- | ------------ |
 | accountId        | String                 | &cross;      |
+| accountName      | String                 | &check;      |
 | arn              | String                 | &cross;      |
 | controls         | List<FrameworkControl> | &check;      |
 | creationTime     | String                 | &check;      |

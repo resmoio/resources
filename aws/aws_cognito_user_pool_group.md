@@ -7,6 +7,7 @@ aws_cognito_user_pool_group
 | **Name**         | **Type** | **Nullable** |
 | ---------------- | -------- | ------------ |
 | accountId        | String   | &cross;      |
+| accountName      | String   | &check;      |
 | creationDate     | String   | &check;      |
 | description      | String   | &check;      |
 | groupName        | String   | &cross;      |

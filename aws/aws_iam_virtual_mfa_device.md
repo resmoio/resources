@@ -7,6 +7,7 @@ aws_iam_virtual_mfa_device
 | **Name**     | **Type** | **Nullable** |
 | ------------ | -------- | ------------ |
 | accountId    | String   | &cross;      |
+| accountName  | String   | &check;      |
 | enableDate   | String   | &check;      |
 | serialNumber | String   | &cross;      |
 | user         | User     | &check;      |

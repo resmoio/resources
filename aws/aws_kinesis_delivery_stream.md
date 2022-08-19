@@ -7,6 +7,7 @@ aws_kinesis_delivery_stream
 | **Name**                              | **Type**                              | **Nullable** |
 | ------------------------------------- | ------------------------------------- | ------------ |
 | accountId                             | String                                | &cross;      |
+| accountName                           | String                                | &check;      |
 | createTimestamp                       | String                                | &check;      |
 | deliveryStreamARN                     | String                                | &cross;      |
 | deliveryStreamEncryptionConfiguration | DeliveryStreamEncryptionConfiguration | &check;      |

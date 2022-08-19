@@ -7,6 +7,7 @@ aws_eventbridge_connection
 | **Name**           | **Type**                         | **Nullable** |
 | ------------------ | -------------------------------- | ------------ |
 | accountId          | String                           | &cross;      |
+| accountName        | String                           | &check;      |
 | arn                | String                           | &cross;      |
 | authParameters     | ConnectionAuthResponseParameters | &check;      |
 | authorizationType  | String                           | &cross;      |

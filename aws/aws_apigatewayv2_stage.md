@@ -8,6 +8,7 @@ aws_apigatewayv2_stage
 | --------------------------- | ------------------------- | ------------ |
 | accessLogSettings           | AccessLogSettings         | &check;      |
 | accountId                   | String                    | &cross;      |
+| accountName                 | String                    | &check;      |
 | apiGatewayManaged           | Boolean                   | &check;      |
 | apiId                       | String                    | &check;      |
 | autoDeploy                  | Boolean                   | &check;      |

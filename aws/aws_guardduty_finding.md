@@ -7,6 +7,7 @@ aws_guardduty_finding
 | **Name**         | **Type**                    | **Nullable** |
 | ---------------- | --------------------------- | ------------ |
 | accountId        | String                      | &cross;      |
+| accountName      | String                      | &check;      |
 | arn              | String                      | &cross;      |
 | confidence       | Double                      | &check;      |
 | createdAt        | String                      | &check;      |

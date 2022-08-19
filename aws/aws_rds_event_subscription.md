@@ -7,6 +7,7 @@ aws_rds_event_subscription
 | **Name**                 | **Type**     | **Nullable** |
 | ------------------------ | ------------ | ------------ |
 | accountId                | String       | &cross;      |
+| accountName              | String       | &check;      |
 | custSubscriptionId       | String       | &cross;      |
 | customerAwsId            | String       | &cross;      |
 | enabled                  | Boolean      | &check;      |

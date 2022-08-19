@@ -7,6 +7,7 @@ aws_cloudwatch_log_group
 | **Name**          | **Type** | **Nullable** |
 | ----------------- | -------- | ------------ |
 | accountId         | String   | &cross;      |
+| accountName       | String   | &check;      |
 | arn               | String   | &cross;      |
 | creationTime      | Long     | &check;      |
 | kmsKeyId          | String   | &check;      |

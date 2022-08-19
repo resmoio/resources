@@ -7,6 +7,7 @@ aws_cloudwatch_metric_filter
 | **Name**              | **Type**                   | **Nullable** |
 | --------------------- | -------------------------- | ------------ |
 | accountId             | String                     | &check;      |
+| accountName           | String                     | &check;      |
 | creationTime          | Long                       | &check;      |
 | filterName            | String                     | &cross;      |
 | filterPattern         | String                     | &check;      |

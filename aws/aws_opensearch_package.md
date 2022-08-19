@@ -7,6 +7,7 @@ aws_opensearch_package
 | **Name**                | **Type**     | **Nullable** |
 | ----------------------- | ------------ | ------------ |
 | accountId               | String       | &cross;      |
+| accountName             | String       | &check;      |
 | availablePackageVersion | String       | &cross;      |
 | createdAt               | String       | &check;      |
 | description             | String       | &check;      |

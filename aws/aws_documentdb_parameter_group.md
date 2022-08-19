@@ -7,6 +7,7 @@ aws_documentdb_parameter_group
 | **Name**                    | **Type** | **Nullable** |
 | --------------------------- | -------- | ------------ |
 | accountId                   | String   | &cross;      |
+| accountName                 | String   | &check;      |
 | dbClusterParameterGroupArn  | String   | &cross;      |
 | dbClusterParameterGroupName | String   | &check;      |
 | dbParameterGroupFamily      | String   | &check;      |

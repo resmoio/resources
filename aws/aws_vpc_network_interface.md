@@ -7,6 +7,7 @@ aws_vpc_network_interface
 | **Name**           | **Type**             | **Nullable** |
 | ------------------ | -------------------- | ------------ |
 | accountId          | String               | &cross;      |
+| accountName        | String               | &check;      |
 | association        | Association          | &check;      |
 | attachment         | Attachment           | &check;      |
 | availabilityZone   | String               | &check;      |

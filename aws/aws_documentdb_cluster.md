@@ -7,6 +7,7 @@ aws_documentdb_cluster
 | **Name**                     | **Type**                         | **Nullable** |
 | ---------------------------- | -------------------------------- | ------------ |
 | accountId                    | String                           | &cross;      |
+| accountName                  | String                           | &check;      |
 | associatedRoles              | List<DBClusterRole>              | &check;      |
 | availabilityZones            | List<String>                     | &check;      |
 | backupRetentionPeriod        | Int                              | &check;      |

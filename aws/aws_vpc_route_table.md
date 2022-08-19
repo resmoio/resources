@@ -7,6 +7,7 @@ aws_vpc_route_table
 | **Name**     | **Type**           | **Nullable** |
 | ------------ | ------------------ | ------------ |
 | accountId    | String             | &cross;      |
+| accountName  | String             | &check;      |
 | associations | List<Association>  | &cross;      |
 | id           | String             | &cross;      |
 | ownerId      | String             | &cross;      |

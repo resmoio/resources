@@ -7,6 +7,7 @@ aws_vpc_network_acl
 | **Name**    | **Type**           | **Nullable** |
 | ----------- | ------------------ | ------------ |
 | accountId   | String             | &cross;      |
+| accountName | String             | &check;      |
 | attachments | List<Association>  | &cross;      |
 | entries     | List<Entry>        | &cross;      |
 | id          | String             | &cross;      |

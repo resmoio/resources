@@ -7,6 +7,7 @@ aws_ec2_ami
 | **Name**        | **Type**           | **Nullable** |
 | --------------- | ------------------ | ------------ |
 | accountId       | String             | &cross;      |
+| accountName     | String             | &check;      |
 | arch            | String             | &cross;      |
 | creationDate    | String             | &cross;      |
 | description     | String             | &check;      |

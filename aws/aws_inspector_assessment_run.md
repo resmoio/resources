@@ -7,6 +7,7 @@ aws_inspector_assessment_run
 | **Name**                  | **Type**                        | **Nullable** |
 | ------------------------- | ------------------------------- | ------------ |
 | accountId                 | String                          | &cross;      |
+| accountName               | String                          | &check;      |
 | arn                       | String                          | &cross;      |
 | assessmentTemplateArn     | String                          | &check;      |
 | completedAt               | String                          | &check;      |

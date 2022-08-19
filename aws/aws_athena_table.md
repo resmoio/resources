@@ -7,6 +7,7 @@ aws_athena_table
 | **Name**      | **Type**           | **Nullable** |
 | ------------- | ------------------ | ------------ |
 | accountId     | String             | &cross;      |
+| accountName   | String             | &check;      |
 | columns       | List<Column>       | &check;      |
 | createTime    | String             | &check;      |
 | name          | String             | &cross;      |

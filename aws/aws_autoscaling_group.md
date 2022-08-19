@@ -7,6 +7,7 @@ aws_autoscaling_group
 | **Name**                         | **Type**               | **Nullable** |
 | -------------------------------- | ---------------------- | ------------ |
 | accountId                        | String                 | &cross;      |
+| accountName                      | String                 | &check;      |
 | arn                              | String                 | &cross;      |
 | availabilityZones                | List<String>           | &check;      |
 | capacityRebalance                | Boolean                | &check;      |

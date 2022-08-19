@@ -7,6 +7,7 @@ aws_apigatewayv2_api
 | **Name**                  | **Type**           | **Nullable** |
 | ------------------------- | ------------------ | ------------ |
 | accountId                 | String             | &cross;      |
+| accountName               | String             | &check;      |
 | apiEndpoint               | String             | &check;      |
 | apiGatewayManaged         | Boolean            | &check;      |
 | apiId                     | String             | &cross;      |

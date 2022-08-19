@@ -7,6 +7,7 @@ aws_iam_managed_policy
 | **Name**         | **Type**           | **Nullable** |
 | ---------------- | ------------------ | ------------ |
 | accountId        | String             | &cross;      |
+| accountName      | String             | &check;      |
 | arn              | String             | &cross;      |
 | defaultVersionId | String             | &check;      |
 | description      | String             | &check;      |
@@ -19,6 +20,7 @@ aws_iam_managed_policy
 | **Name**         | **Type**           | **Nullable** |
 | ---------------- | ------------------ | ------------ |
 | accountId        | String             | &cross;      |
+| accountName      | String             | &check;      |
 | arn              | String             | &cross;      |
 | defaultVersionId | String             | &check;      |
 | description      | String             | &check;      |

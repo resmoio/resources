@@ -7,6 +7,7 @@ aws_vpc
 | **Name**                | **Type**                      | **Nullable** |
 | ----------------------- | ----------------------------- | ------------ |
 | accountId               | String                        | &cross;      |
+| accountName             | String                        | &check;      |
 | cidr                    | String                        | &check;      |
 | cidrBlockAssociationSet | List<CIDRBlockAssociationSet> | &cross;      |
 | id                      | String                        | &cross;      |

@@ -9,6 +9,7 @@ aws_route53_domain
 | abuseContactEmail | String           | &check;      |
 | abuseContactPhone | String           | &check;      |
 | accountId         | String           | &cross;      |
+| accountName       | String           | &check;      |
 | adminContact      | ContactDetail    | &check;      |
 | adminPrivacy      | Boolean          | &check;      |
 | autoRenew         | Boolean          | &check;      |

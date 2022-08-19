@@ -7,6 +7,7 @@ aws_kms_alias
 | **Name**        | **Type** | **Nullable** |
 | --------------- | -------- | ------------ |
 | accountId       | String   | &cross;      |
+| accountName     | String   | &check;      |
 | aliasArn        | String   | &cross;      |
 | aliasName       | String   | &cross;      |
 | creationDate    | String   | &check;      |

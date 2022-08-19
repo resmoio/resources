@@ -7,6 +7,7 @@ aws_eventbridge_rule
 | **Name**           | **Type**           | **Nullable** |
 | ------------------ | ------------------ | ------------ |
 | accountId          | String             | &cross;      |
+| accountName        | String             | &check;      |
 | arn                | String             | &cross;      |
 | description        | String             | &check;      |
 | eventBusName       | String             | &check;      |

@@ -7,6 +7,7 @@ aws_lambda_function
 | **Name**                 | **Type**           | **Nullable** |
 | ------------------------ | ------------------ | ------------ |
 | accountId                | String             | &cross;      |
+| accountName              | String             | &check;      |
 | architectures            | List<String>       | &check;      |
 | arn                      | String             | &cross;      |
 | codeSha256               | String             | &check;      |

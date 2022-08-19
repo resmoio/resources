@@ -7,6 +7,7 @@ aws_cognito_identity_pool
 | **Name**                       | **Type**                      | **Nullable** |
 | ------------------------------ | ----------------------------- | ------------ |
 | accountId                      | String                        | &cross;      |
+| accountName                    | String                        | &check;      |
 | allowClassicFlow               | Boolean                       | &check;      |
 | allowUnauthenticatedIdentities | Boolean                       | &check;      |
 | cognitoIdentityProviders       | List<CognitoIdentityProvider> | &check;      |

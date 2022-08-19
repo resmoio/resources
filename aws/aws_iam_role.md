@@ -7,6 +7,7 @@ aws_iam_role
 | **Name**         | **Type**             | **Nullable** |
 | ---------------- | -------------------- | ------------ |
 | accountId        | String               | &cross;      |
+| accountName      | String               | &check;      |
 | arn              | String               | &cross;      |
 | assumeRolePolicy | JSON                 | &check;      |
 | attachedPolicies | List<AttachedPolicy> | &cross;      |

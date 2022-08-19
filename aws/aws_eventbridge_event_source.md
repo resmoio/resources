@@ -7,6 +7,7 @@ aws_eventbridge_event_source
 | **Name**       | **Type**           | **Nullable** |
 | -------------- | ------------------ | ------------ |
 | accountId      | String             | &cross;      |
+| accountName    | String             | &check;      |
 | arn            | String             | &cross;      |
 | createdBy      | String             | &cross;      |
 | creationTime   | String             | &check;      |

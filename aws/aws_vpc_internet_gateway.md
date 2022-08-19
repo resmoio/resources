@@ -7,6 +7,7 @@ aws_vpc_internet_gateway
 | **Name**    | **Type**           | **Nullable** |
 | ----------- | ------------------ | ------------ |
 | accountId   | String             | &cross;      |
+| accountName | String             | &check;      |
 | attachments | List<Attachment>   | &cross;      |
 | id          | String             | &cross;      |
 | ownerId     | String             | &cross;      |

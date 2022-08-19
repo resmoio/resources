@@ -7,6 +7,7 @@ aws_efs_mount_target
 | **Name**             | **Type** | **Nullable** |
 | -------------------- | -------- | ------------ |
 | accountId            | String   | &cross;      |
+| accountName          | String   | &check;      |
 | availabilityZoneId   | String   | &check;      |
 | availabilityZoneName | String   | &check;      |
 | fileSystemId         | String   | &check;      |

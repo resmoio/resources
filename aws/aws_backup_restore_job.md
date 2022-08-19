@@ -7,6 +7,7 @@ aws_backup_restore_job
 | **Name**                      | **Type** | **Nullable** |
 | ----------------------------- | -------- | ------------ |
 | accountId                     | String   | &cross;      |
+| accountName                   | String   | &check;      |
 | backupSizeInBytes             | Long     | &check;      |
 | completionDate                | String   | &check;      |
 | createdResourceArn            | String   | &check;      |

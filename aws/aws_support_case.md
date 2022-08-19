@@ -7,6 +7,7 @@ aws_support_case
 | **Name**             | **Type**                 | **Nullable** |
 | -------------------- | ------------------------ | ------------ |
 | accountId            | String                   | &cross;      |
+| accountName          | String                   | &check;      |
 | caseId               | String                   | &cross;      |
 | categoryCode         | String                   | &check;      |
 | ccEmailAddresses     | List<String>             | &check;      |

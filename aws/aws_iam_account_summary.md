@@ -10,6 +10,7 @@ aws_iam_account_summary
 | accountAccessKeysPresent          | Int      | &check;      |
 | accountId                         | String   | &cross;      |
 | accountMFAEnabled                 | Int      | &check;      |
+| accountName                       | String   | &check;      |
 | accountSigningCertificatesPresent | Int      | &check;      |
 | assumeRolePolicySizeQuota         | Int      | &check;      |
 | attachedPoliciesPerGroupQuota     | Int      | &check;      |

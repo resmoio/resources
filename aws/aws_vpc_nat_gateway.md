@@ -7,6 +7,7 @@ aws_vpc_nat_gateway
 | **Name**             | **Type**             | **Nullable** |
 | -------------------- | -------------------- | ------------ |
 | accountId            | String               | &cross;      |
+| accountName          | String               | &check;      |
 | addresses            | List<Address>        | &cross;      |
 | connectivityType     | String               | &check;      |
 | createTime           | String               | &check;      |

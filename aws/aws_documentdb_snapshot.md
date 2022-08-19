@@ -7,6 +7,7 @@ aws_documentdb_snapshot
 | **Name**                    | **Type**     | **Nullable** |
 | --------------------------- | ------------ | ------------ |
 | accountId                   | String       | &cross;      |
+| accountName                 | String       | &check;      |
 | availabilityZones           | List<String> | &check;      |
 | clusterCreateTime           | String       | &check;      |
 | dbClusterIdentifier         | String       | &check;      |

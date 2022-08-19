@@ -7,6 +7,7 @@ aws_ssm_association
 | **Name**           | **Type**            | **Nullable** |
 | ------------------ | ------------------- | ------------ |
 | accountId          | String              | &cross;      |
+| accountName        | String              | &check;      |
 | associationId      | String              | &cross;      |
 | associationName    | String              | &check;      |
 | associationVersion | String              | &check;      |

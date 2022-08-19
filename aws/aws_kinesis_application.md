@@ -7,6 +7,7 @@ aws_kinesis_application
 | **Name**                                       | **Type**                                       | **Nullable** |
 | ---------------------------------------------- | ---------------------------------------------- | ------------ |
 | accountId                                      | String                                         | &cross;      |
+| accountName                                    | String                                         | &check;      |
 | applicationARN                                 | String                                         | &cross;      |
 | applicationConfigurationDescription            | JSON                                           | &check;      |
 | applicationDescription                         | String                                         | &check;      |

@@ -7,6 +7,7 @@ aws_rds_cluster
 | **Name**                           | **Type**                         | **Nullable** |
 | ---------------------------------- | -------------------------------- | ------------ |
 | accountId                          | String                           | &cross;      |
+| accountName                        | String                           | &check;      |
 | activityStreamKinesisStreamName    | String                           | &check;      |
 | activityStreamKmsKeyId             | String                           | &check;      |
 | activityStreamMode                 | String                           | &check;      |

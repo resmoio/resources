@@ -7,6 +7,7 @@ aws_guardduty_member
 | **Name**           | **Type** | **Nullable** |
 | ------------------ | -------- | ------------ |
 | accountId          | String   | &cross;      |
+| accountName        | String   | &check;      |
 | detectorId         | String   | &check;      |
 | email              | String   | &check;      |
 | invitedAt          | String   | &check;      |

@@ -7,6 +7,7 @@ aws_cognito_user_pool_user
 | **Name**             | **Type**        | **Nullable** |
 | -------------------- | --------------- | ------------ |
 | accountId            | String          | &cross;      |
+| accountName          | String          | &check;      |
 | attributes           | List<Attribute> | &check;      |
 | enabled              | Boolean         | &check;      |
 | mfaOptions           | List<MFAOption> | &check;      |

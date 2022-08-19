@@ -7,6 +7,7 @@ aws_ecs_task_definition
 | **Name**              | **Type**                   | **Nullable** |
 | --------------------- | -------------------------- | ------------ |
 | accountId             | String                     | &cross;      |
+| accountName           | String                     | &check;      |
 | arn                   | String                     | &cross;      |
 | compatibilities       | List<String>               | &check;      |
 | containerDefinitions  | List<ContainerDefinition>  | &check;      |

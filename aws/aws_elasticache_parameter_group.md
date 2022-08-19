@@ -7,6 +7,7 @@ aws_elasticache_parameter_group
 | **Name**                  | **Type** | **Nullable** |
 | ------------------------- | -------- | ------------ |
 | accountId                 | String   | &cross;      |
+| accountName               | String   | &check;      |
 | arn                       | String   | &check;      |
 | cacheParameterGroupFamily | String   | &check;      |
 | cacheParameterGroupName   | String   | &cross;      |

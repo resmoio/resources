@@ -8,6 +8,7 @@ aws_sso_instance
 | ----------------------- | ---------------------------- | ------------ |
 | accessControlAttributes | List<AccessControlAttribute> | &check;      |
 | accountId               | String                       | &cross;      |
+| accountName             | String                       | &check;      |
 | arn                     | String                       | &cross;      |
 | id                      | String                       | &cross;      |
 | permissionSets          | List<PermissionSet>          | &check;      |

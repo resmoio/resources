@@ -7,6 +7,7 @@ aws_ec2_snapshot
 | **Name**    | **Type**           | **Nullable** |
 | ----------- | ------------------ | ------------ |
 | accountId   | String             | &cross;      |
+| accountName | String             | &check;      |
 | description | String             | &cross;      |
 | encrypted   | Boolean            | &cross;      |
 | id          | String             | &cross;      |

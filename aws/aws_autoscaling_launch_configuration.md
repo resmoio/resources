@@ -7,6 +7,7 @@ aws_autoscaling_launch_configuration
 | **Name**                     | **Type**                 | **Nullable** |
 | ---------------------------- | ------------------------ | ------------ |
 | accountId                    | String                   | &cross;      |
+| accountName                  | String                   | &check;      |
 | arn                          | String                   | &cross;      |
 | associatePublicIpAddress     | Boolean                  | &check;      |
 | blockDeviceMappings          | List<BlockDeviceMapping> | &check;      |

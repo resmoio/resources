@@ -7,6 +7,7 @@ aws_ses_identity
 | **Name**                 | **Type**               | **Nullable** |
 | ------------------------ | ---------------------- | ------------ |
 | accountId                | String                 | &cross;      |
+| accountName              | String                 | &check;      |
 | configurationSetName     | String                 | &check;      |
 | dkimAttributes           | DkimAttributes         | &check;      |
 | feedbackForwardingStatus | Boolean                | &check;      |

@@ -7,6 +7,7 @@ aws_route53_hosted_zone
 | **Name**        | **Type**                | **Nullable** |
 | --------------- | ----------------------- | ------------ |
 | accountId       | String                  | &cross;      |
+| accountName     | String                  | &check;      |
 | callerReference | String                  | &check;      |
 | id              | String                  | &cross;      |
 | isPrivateZone   | Boolean                 | &cross;      |

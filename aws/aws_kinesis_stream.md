@@ -7,6 +7,7 @@ aws_kinesis_stream
 | **Name**             | **Type**     | **Nullable** |
 | -------------------- | ------------ | ------------ |
 | accountId            | String       | &cross;      |
+| accountName          | String       | &check;      |
 | arn                  | String       | &cross;      |
 | creationTimestamp    | String       | &check;      |
 | encryptionType       | String       | &cross;      |

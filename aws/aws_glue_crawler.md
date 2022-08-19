@@ -7,6 +7,7 @@ aws_glue_crawler
 | **Name**                     | **Type**                   | **Nullable** |
 | ---------------------------- | -------------------------- | ------------ |
 | accountId                    | String                     | &cross;      |
+| accountName                  | String                     | &check;      |
 | classifiers                  | List<String>               | &check;      |
 | configuration                | String                     | &check;      |
 | crawlElapsedTime             | Long                       | &check;      |

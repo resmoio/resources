@@ -7,6 +7,7 @@ aws_account
 | **Name**        | **Type**           | **Nullable** |
 | --------------- | ------------------ | ------------ |
 | accountId       | String             | &check;      |
+| accountName     | String             | &check;      |
 | arn             | String             | &cross;      |
 | canAssumeRole   | Boolean            | &check;      |
 | email           | String             | &check;      |

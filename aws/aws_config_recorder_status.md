@@ -7,6 +7,7 @@ aws_config_recorder_status
 | **Name**       | **Type**       | **Nullable** |
 | -------------- | -------------- | ------------ |
 | accountId      | String         | &cross;      |
+| accountName    | String         | &check;      |
 | name           | String         | &cross;      |
 | recordingGroup | RecordingGroup | &cross;      |
 | region         | String         | &check;      |

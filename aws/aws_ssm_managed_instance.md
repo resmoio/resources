@@ -7,6 +7,7 @@ aws_ssm_managed_instance
 | **Name**                               | **Type**                              | **Nullable** |
 | -------------------------------------- | ------------------------------------- | ------------ |
 | accountId                              | String                                | &cross;      |
+| accountName                            | String                                | &check;      |
 | activationId                           | String                                | &check;      |
 | agentVersion                           | String                                | &check;      |
 | associationOverview                    | InstanceAggregatedAssociationOverview | &check;      |

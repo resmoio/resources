@@ -17,6 +17,7 @@ aws_iam_credential_report
 | accessKey2LastUsed      | String     | &check;      |
 | accessKey2LastUsedIn    | LastUsedIn | &cross;      |
 | accountId               | String     | &cross;      |
+| accountName             | String     | &check;      |
 | arn                     | String     | &cross;      |
 | cert1Active             | String     | &check;      |
 | cert1LastRotated        | String     | &check;      |

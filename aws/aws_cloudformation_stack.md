@@ -7,6 +7,7 @@ aws_cloudformation_stack
 | **Name**                    | **Type**              | **Nullable** |
 | --------------------------- | --------------------- | ------------ |
 | accountId                   | String                | &cross;      |
+| accountName                 | String                | &check;      |
 | capabilities                | List<String>          | &check;      |
 | changeSetId                 | String                | &check;      |
 | creationTime                | String                | &check;      |

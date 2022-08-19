@@ -7,6 +7,7 @@ aws_eks_identity_provider
 | **Name**       | **Type**           | **Nullable** |
 | -------------- | ------------------ | ------------ |
 | accountId      | String             | &cross;      |
+| accountName    | String             | &check;      |
 | arn            | String             | &cross;      |
 | clientId       | String             | &check;      |
 | clusterName    | String             | &check;      |

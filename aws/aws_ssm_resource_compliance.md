@@ -7,6 +7,7 @@ aws_ssm_resource_compliance
 | **Name**         | **Type**                   | **Nullable** |
 | ---------------- | -------------------------- | ------------ |
 | accountId        | String                     | &cross;      |
+| accountName      | String                     | &check;      |
 | complianceType   | String                     | &check;      |
 | executionSummary | ComplianceExecutionSummary | &check;      |
 | overallSeverity  | String                     | &check;      |

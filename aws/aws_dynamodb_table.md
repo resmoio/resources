@@ -7,6 +7,7 @@ aws_dynamodb_table
 | **Name**           | **Type**                     | **Nullable** |
 | ------------------ | ---------------------------- | ------------ |
 | accountId          | String                       | &cross;      |
+| accountName        | String                       | &check;      |
 | arn                | String                       | &cross;      |
 | attributes         | List<Attribute>              | &cross;      |
 | backup             | ContinuousBackupsDescription | &cross;      |

@@ -7,6 +7,7 @@ aws_cloudwatch_composite_alarm
 | **Name**                           | **Type**     | **Nullable** |
 | ---------------------------------- | ------------ | ------------ |
 | accountId                          | String       | &cross;      |
+| accountName                        | String       | &check;      |
 | actionsEnabled                     | Boolean      | &check;      |
 | alarmActions                       | List<String> | &check;      |
 | alarmArn                           | String       | &cross;      |

@@ -7,6 +7,7 @@ aws_elb_load_balancer
 | **Name**              | **Type**               | **Nullable** |
 | --------------------- | ---------------------- | ------------ |
 | accountId             | String                 | &cross;      |
+| accountName           | String                 | &check;      |
 | attributes            | Map<String,String>     | &check;      |
 | availabilityZones     | List<AvailabilityZone> | &cross;      |
 | canonicalHostedZoneId | String                 | &check;      |

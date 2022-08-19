@@ -7,6 +7,7 @@ aws_rds_db_security_group
 | **Name**          | **Type**               | **Nullable** |
 | ----------------- | ---------------------- | ------------ |
 | accountId         | String                 | &cross;      |
+| accountName       | String                 | &check;      |
 | arn               | String                 | &cross;      |
 | description       | String                 | &check;      |
 | ec2SecurityGroups | List<EC2SecurityGroup> | &check;      |

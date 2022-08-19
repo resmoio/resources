@@ -7,6 +7,7 @@ aws_documentdb_instance
 | **Name**                     | **Type**                         | **Nullable** |
 | ---------------------------- | -------------------------------- | ------------ |
 | accountId                    | String                           | &cross;      |
+| accountName                  | String                           | &check;      |
 | autoMinorVersionUpgrade      | Boolean                          | &check;      |
 | availabilityZone             | String                           | &check;      |
 | backupRetentionPeriod        | Int                              | &check;      |

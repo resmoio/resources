@@ -7,6 +7,7 @@ aws_vpc_endpoint
 | **Name**            | **Type**           | **Nullable** |
 | ------------------- | ------------------ | ------------ |
 | accountId           | String             | &cross;      |
+| accountName         | String             | &check;      |
 | creationTimestamp   | String             | &cross;      |
 | dnsEntries          | List<DnsEntry>     | &cross;      |
 | groups              | List<Group>        | &cross;      |

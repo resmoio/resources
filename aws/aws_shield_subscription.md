@@ -7,6 +7,7 @@ aws_shield_subscription
 | **Name**                  | **Type**           | **Nullable** |
 | ------------------------- | ------------------ | ------------ |
 | accountId                 | String             | &cross;      |
+| accountName               | String             | &check;      |
 | arn                       | String             | &cross;      |
 | autoRenew                 | String             | &check;      |
 | endTime                   | String             | &check;      |

@@ -7,6 +7,7 @@ aws_rds_instance
 | **Name**                                      | **Type**                         | **Nullable** |
 | --------------------------------------------- | -------------------------------- | ------------ |
 | accountId                                     | String                           | &cross;      |
+| accountName                                   | String                           | &check;      |
 | activityStreamEngineNativeAuditFieldsIncluded | Boolean                          | &check;      |
 | activityStreamKinesisStreamName               | String                           | &check;      |
 | activityStreamKmsKeyId                        | String                           | &check;      |

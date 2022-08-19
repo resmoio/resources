@@ -7,6 +7,7 @@ aws_guardduty_detector
 | **Name**                   | **Type**                       | **Nullable** |
 | -------------------------- | ------------------------------ | ------------ |
 | accountId                  | String                         | &cross;      |
+| accountName                | String                         | &check;      |
 | administratorAccount       | AdministratorAccount           | &check;      |
 | createdAt                  | String                         | &check;      |
 | dataSources                | DataSourceConfigurationsResult | &check;      |

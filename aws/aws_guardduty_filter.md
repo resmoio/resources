@@ -7,6 +7,7 @@ aws_guardduty_filter
 | **Name**        | **Type**           | **Nullable** |
 | --------------- | ------------------ | ------------ |
 | accountId       | String             | &cross;      |
+| accountName     | String             | &check;      |
 | action          | String             | &check;      |
 | description     | String             | &check;      |
 | detectorId      | String             | &check;      |

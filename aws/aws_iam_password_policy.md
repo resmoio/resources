@@ -7,6 +7,7 @@ aws_iam_password_policy
 | **Name**                   | **Type** | **Nullable** |
 | -------------------------- | -------- | ------------ |
 | accountId                  | String   | &cross;      |
+| accountName                | String   | &check;      |
 | allowUsersToChangePassword | Boolean  | &check;      |
 | defined                    | Boolean  | &cross;      |
 | expirePasswords            | Boolean  | &check;      |

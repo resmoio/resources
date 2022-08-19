@@ -8,6 +8,7 @@ aws_backup_vault
 | ---------------------- | ------------------ | ------------ |
 | accessPolicy           | JSON               | &check;      |
 | accountId              | String             | &cross;      |
+| accountName            | String             | &check;      |
 | arn                    | String             | &cross;      |
 | creationDate           | String             | &check;      |
 | creatorRequestId       | String             | &cross;      |

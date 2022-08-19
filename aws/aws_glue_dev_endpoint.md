@@ -7,6 +7,7 @@ aws_glue_dev_endpoint
 | **Name**                           | **Type**           | **Nullable** |
 | ---------------------------------- | ------------------ | ------------ |
 | accountId                          | String             | &cross;      |
+| accountName                        | String             | &check;      |
 | arguments                          | Map<String,String> | &check;      |
 | availabilityZone                   | String             | &check;      |
 | createdTimestamp                   | String             | &check;      |

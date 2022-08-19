@@ -7,6 +7,7 @@ aws_iam_instance_profile
 | **Name**            | **Type**           | **Nullable** |
 | ------------------- | ------------------ | ------------ |
 | accountId           | String             | &cross;      |
+| accountName         | String             | &check;      |
 | arn                 | String             | &cross;      |
 | createDate          | String             | &check;      |
 | instanceProfileId   | String             | &check;      |

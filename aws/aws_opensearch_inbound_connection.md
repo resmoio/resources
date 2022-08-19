@@ -7,6 +7,7 @@ aws_opensearch_inbound_connection
 | **Name**         | **Type**                   | **Nullable** |
 | ---------------- | -------------------------- | ------------ |
 | accountId        | String                     | &cross;      |
+| accountName      | String                     | &check;      |
 | id               | String                     | &cross;      |
 | localDomainInfo  | DomainInformationContainer | &cross;      |
 | region           | String                     | &cross;      |

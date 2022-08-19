@@ -7,6 +7,7 @@ aws_inspector_finding
 | **Name**              | **Type**                   | **Nullable** |
 | --------------------- | -------------------------- | ------------ |
 | accountId             | String                     | &cross;      |
+| accountName           | String                     | &check;      |
 | arn                   | String                     | &cross;      |
 | assetAttributes       | AssetAttributes            | &check;      |
 | assetType             | String                     | &check;      |

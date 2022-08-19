@@ -7,6 +7,7 @@ aws_dynamodb_backup
 | **Name**               | **Type** | **Nullable** |
 | ---------------------- | -------- | ------------ |
 | accountId              | String   | &cross;      |
+| accountName            | String   | &check;      |
 | backupArn              | String   | &cross;      |
 | backupCreationDateTime | String   | &check;      |
 | backupExpiryDateTime   | String   | &check;      |

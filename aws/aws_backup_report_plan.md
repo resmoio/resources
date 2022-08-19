@@ -7,6 +7,7 @@ aws_backup_report_plan
 | **Name**                    | **Type**              | **Nullable** |
 | --------------------------- | --------------------- | ------------ |
 | accountId                   | String                | &cross;      |
+| accountName                 | String                | &check;      |
 | arn                         | String                | &cross;      |
 | creationTime                | String                | &check;      |
 | deliveryChannel             | ReportDeliveryChannel | &check;      |

@@ -7,6 +7,7 @@ aws_backup_plan
 | **Name**               | **Type**                    | **Nullable** |
 | ---------------------- | --------------------------- | ------------ |
 | accountId              | String                      | &cross;      |
+| accountName            | String                      | &check;      |
 | advancedBackupSettings | List<AdvancedBackupSetting> | &check;      |
 | arn                    | String                      | &cross;      |
 | creationDate           | String                      | &check;      |

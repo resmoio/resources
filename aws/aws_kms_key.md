@@ -7,6 +7,7 @@ aws_kms_key
 | **Name**        | **Type**           | **Nullable** |
 | --------------- | ------------------ | ------------ |
 | accountId       | String             | &cross;      |
+| accountName     | String             | &check;      |
 | arn             | String             | &cross;      |
 | id              | String             | &cross;      |
 | metadata        | Metadata           | &check;      |

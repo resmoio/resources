@@ -7,6 +7,7 @@ aws_backup_report_job
 | **Name**          | **Type**          | **Nullable** |
 | ----------------- | ----------------- | ------------ |
 | accountId         | String            | &cross;      |
+| accountName       | String            | &check;      |
 | completionTime    | String            | &check;      |
 | creationTime      | String            | &check;      |
 | id                | String            | &cross;      |

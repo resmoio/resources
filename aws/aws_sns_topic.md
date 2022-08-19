@@ -7,6 +7,7 @@ aws_sns_topic
 | **Name**                    | **Type** | **Nullable** |
 | --------------------------- | -------- | ------------ |
 | accountId                   | String   | &cross;      |
+| accountName                 | String   | &check;      |
 | arn                         | String   | &cross;      |
 | content_based_deduplication | Boolean  | &cross;      |
 | display_name                | String   | &check;      |

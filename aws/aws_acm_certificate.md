@@ -7,6 +7,7 @@ aws_acm_certificate
 | **Name**                | **Type**     | **Nullable** |
 | ----------------------- | ------------ | ------------ |
 | accountId               | String       | &cross;      |
+| accountName             | String       | &check;      |
 | certificateArn          | String       | &cross;      |
 | certificateAuthorityArn | String       | &check;      |
 | createdAt               | String       | &check;      |

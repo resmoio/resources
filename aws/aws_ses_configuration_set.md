@@ -7,6 +7,7 @@ aws_ses_configuration_set
 | **Name**             | **Type**           | **Nullable** |
 | -------------------- | ------------------ | ------------ |
 | accountId            | String             | &cross;      |
+| accountName          | String             | &check;      |
 | configurationSetName | String             | &cross;      |
 | deliveryOptions      | DeliveryOptions    | &check;      |
 | region               | String             | &cross;      |

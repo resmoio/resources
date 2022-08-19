@@ -7,6 +7,7 @@ aws_guardduty_publishing_destination
 | **Name**                        | **Type**              | **Nullable** |
 | ------------------------------- | --------------------- | ------------ |
 | accountId                       | String                | &cross;      |
+| accountName                     | String                | &check;      |
 | destinationId                   | String                | &cross;      |
 | destinationProperties           | DestinationProperties | &check;      |
 | destinationType                 | String                | &check;      |

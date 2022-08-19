@@ -7,6 +7,7 @@ aws_ecs_task
 | **Name**              | **Type**                   | **Nullable** |
 | --------------------- | -------------------------- | ------------ |
 | accountId             | String                     | &cross;      |
+| accountName           | String                     | &check;      |
 | arn                   | String                     | &cross;      |
 | attachments           | List<Attachment>           | &cross;      |
 | attributes            | List<Attribute>            | &cross;      |

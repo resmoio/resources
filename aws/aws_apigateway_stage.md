@@ -8,6 +8,7 @@ aws_apigateway_stage
 | -------------------- | ------------------------- | ------------ |
 | accessLogSettings    | AccessLogSettings         | &check;      |
 | accountId            | String                    | &cross;      |
+| accountName          | String                    | &check;      |
 | apiId                | String                    | &check;      |
 | cacheClusterEnabled  | Boolean                   | &check;      |
 | cacheClusterSize     | String                    | &check;      |

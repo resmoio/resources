@@ -7,6 +7,7 @@ aws_backup_selection
 | **Name**         | **Type**        | **Nullable** |
 | ---------------- | --------------- | ------------ |
 | accountId        | String          | &cross;      |
+| accountName      | String          | &check;      |
 | backupPlanId     | String          | &cross;      |
 | conditions       | Conditions      | &check;      |
 | creationDate     | String          | &check;      |

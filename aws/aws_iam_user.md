@@ -8,6 +8,7 @@ aws_iam_user
 | ------------------- | -------------------- | ------------ |
 | accessKeys          | List<AccessKey>      | &cross;      |
 | accountId           | String               | &cross;      |
+| accountName         | String               | &check;      |
 | arn                 | String               | &cross;      |
 | attachedPolicies    | List<AttachedPolicy> | &cross;      |
 | createdDate         | String               | &cross;      |

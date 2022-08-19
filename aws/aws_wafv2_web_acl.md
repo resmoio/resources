@@ -7,6 +7,7 @@ aws_wafv2_web_acl
 | **Name**                             | **Type**                       | **Nullable** |
 | ------------------------------------ | ------------------------------ | ------------ |
 | accountId                            | String                         | &cross;      |
+| accountName                          | String                         | &check;      |
 | arn                                  | String                         | &cross;      |
 | capacity                             | Long                           | &check;      |
 | captchaConfig                        | CaptchaConfig                  | &check;      |

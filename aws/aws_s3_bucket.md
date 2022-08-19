@@ -7,6 +7,7 @@ aws_s3_bucket
 | **Name**                       | **Type**                  | **Nullable** |
 | ------------------------------ | ------------------------- | ------------ |
 | accountId                      | String                    | &cross;      |
+| accountName                    | String                    | &check;      |
 | acl                            | ACL                       | &cross;      |
 | creationDate                   | String                    | &cross;      |
 | kmsMasterKeyID                 | String                    | &check;      |

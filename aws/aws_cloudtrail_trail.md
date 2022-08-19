@@ -7,6 +7,7 @@ aws_cloudtrail_trail
 | **Name**                   | **Type**               | **Nullable** |
 | -------------------------- | ---------------------- | ------------ |
 | accountId                  | String                 | &cross;      |
+| accountName                | String                 | &check;      |
 | advancedSelectors          | List<AdvancedSelector> | &cross;      |
 | cloudWatchLogsLogGroupArn  | String                 | &check;      |
 | cloudWatchLogsRoleArn      | String                 | &check;      |

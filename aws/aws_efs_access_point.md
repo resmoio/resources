@@ -9,6 +9,7 @@ aws_efs_access_point
 | accessPointArn | String             | &check;      |
 | accessPointId  | String             | &cross;      |
 | accountId      | String             | &cross;      |
+| accountName    | String             | &check;      |
 | clientToken    | String             | &check;      |
 | fileSystemId   | String             | &check;      |
 | lifeCycleState | String             | &check;      |

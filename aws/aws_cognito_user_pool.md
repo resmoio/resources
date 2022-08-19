@@ -7,6 +7,7 @@ aws_cognito_user_pool
 | **Name**                    | **Type**                    | **Nullable** |
 | --------------------------- | --------------------------- | ------------ |
 | accountId                   | String                      | &cross;      |
+| accountName                 | String                      | &check;      |
 | accountRecoverySetting      | AccountRecoverySetting      | &check;      |
 | adminCreateUserConfig       | AdminCreateUserConfig       | &check;      |
 | aliasAttributes             | List<String>                | &check;      |

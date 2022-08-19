@@ -7,6 +7,7 @@ aws_documentdb_subnet_group
 | **Name**                 | **Type**     | **Nullable** |
 | ------------------------ | ------------ | ------------ |
 | accountId                | String       | &cross;      |
+| accountName              | String       | &check;      |
 | dbSubnetGroupArn         | String       | &check;      |
 | dbSubnetGroupDescription | String       | &check;      |
 | dbSubnetGroupName        | String       | &cross;      |

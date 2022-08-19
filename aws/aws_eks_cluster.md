@@ -7,6 +7,7 @@ aws_eks_cluster
 | **Name**                | **Type**                        | **Nullable** |
 | ----------------------- | ------------------------------- | ------------ |
 | accountId               | String                          | &cross;      |
+| accountName             | String                          | &check;      |
 | arn                     | String                          | &cross;      |
 | certificateAuthority    | Certificate                     | &check;      |
 | clientRequestToken      | String                          | &check;      |

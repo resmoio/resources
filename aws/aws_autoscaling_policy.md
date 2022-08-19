@@ -7,6 +7,7 @@ aws_autoscaling_policy
 | **Name**                       | **Type**                       | **Nullable** |
 | ------------------------------ | ------------------------------ | ------------ |
 | accountId                      | String                         | &cross;      |
+| accountName                    | String                         | &check;      |
 | adjustmentType                 | String                         | &check;      |
 | alarms                         | List<String>                   | &check;      |
 | arn                            | String                         | &cross;      |

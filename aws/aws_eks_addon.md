@@ -7,6 +7,7 @@ aws_eks_addon
 | **Name**              | **Type**               | **Nullable** |
 | --------------------- | ---------------------- | ------------ |
 | accountId             | String                 | &cross;      |
+| accountName           | String                 | &check;      |
 | arn                   | String                 | &cross;      |
 | clusterName           | String                 | &check;      |
 | createdAt             | String                 | &check;      |

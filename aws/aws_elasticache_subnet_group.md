@@ -7,6 +7,7 @@ aws_elasticache_subnet_group
 | **Name**                    | **Type**     | **Nullable** |
 | --------------------------- | ------------ | ------------ |
 | accountId                   | String       | &cross;      |
+| accountName                 | String       | &check;      |
 | arn                         | String       | &check;      |
 | cacheSubnetGroupDescription | String       | &check;      |
 | cacheSubnetGroupName        | String       | &cross;      |

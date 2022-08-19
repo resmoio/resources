@@ -7,6 +7,7 @@ aws_cloudfront_distribution
 | **Name**             | **Type**                  | **Nullable** |
 | -------------------- | ------------------------- | ------------ |
 | accountId            | String                    | &cross;      |
+| accountName          | String                    | &check;      |
 | aliasICPRecordals    | List<AliasICPRecordal>    | &check;      |
 | aliases              | List<String>              | &cross;      |
 | arn                  | String                    | &cross;      |

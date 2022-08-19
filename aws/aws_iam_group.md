@@ -7,6 +7,7 @@ aws_iam_group
 | **Name**         | **Type**             | **Nullable** |
 | ---------------- | -------------------- | ------------ |
 | accountId        | String               | &cross;      |
+| accountName      | String               | &check;      |
 | attachedPolicies | List<AttachedPolicy> | &cross;      |
 | id               | String               | &cross;      |
 | name             | String               | &cross;      |

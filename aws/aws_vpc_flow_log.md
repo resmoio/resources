@@ -7,6 +7,7 @@ aws_vpc_flow_log
 | **Name**                 | **Type**           | **Nullable** |
 | ------------------------ | ------------------ | ------------ |
 | accountId                | String             | &cross;      |
+| accountName              | String             | &check;      |
 | creationTime             | Long               | &check;      |
 | deliverLogsErrorMessage  | String             | &check;      |
 | deliverLogsPermissionArn | String             | &check;      |

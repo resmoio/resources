@@ -7,6 +7,7 @@ aws_rds_certificate
 | **Name**                  | **Type** | **Nullable** |
 | ------------------------- | -------- | ------------ |
 | accountId                 | String   | &cross;      |
+| accountName               | String   | &check;      |
 | arn                       | String   | &cross;      |
 | customerOverride          | Boolean  | &check;      |
 | customerOverrideValidTill | String   | &check;      |

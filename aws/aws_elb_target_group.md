@@ -7,6 +7,7 @@ aws_elb_target_group
 | **Name**                   | **Type**           | **Nullable** |
 | -------------------------- | ------------------ | ------------ |
 | accountId                  | String             | &cross;      |
+| accountName                | String             | &check;      |
 | attributes                 | Map<String,String> | &check;      |
 | healthCheckEnabled         | Boolean            | &check;      |
 | healthCheckIntervalSeconds | Int                | &check;      |

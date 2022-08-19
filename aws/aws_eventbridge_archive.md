@@ -7,6 +7,7 @@ aws_eventbridge_archive
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
 | accountId      | String   | &cross;      |
+| accountName    | String   | &check;      |
 | arn            | String   | &cross;      |
 | creationTime   | String   | &check;      |
 | description    | String   | &check;      |

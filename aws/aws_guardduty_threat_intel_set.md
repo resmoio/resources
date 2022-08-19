@@ -7,6 +7,7 @@ aws_guardduty_threat_intel_set
 | **Name**         | **Type**           | **Nullable** |
 | ---------------- | ------------------ | ------------ |
 | accountId        | String             | &cross;      |
+| accountName      | String             | &check;      |
 | detectorId       | String             | &cross;      |
 | format           | String             | &check;      |
 | location         | String             | &check;      |

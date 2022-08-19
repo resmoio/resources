@@ -7,6 +7,7 @@ aws_autoscaling_scheduled_action
 | **Name**             | **Type** | **Nullable** |
 | -------------------- | -------- | ------------ |
 | accountId            | String   | &cross;      |
+| accountName          | String   | &check;      |
 | autoScalingGroupName | String   | &check;      |
 | desiredCapacity      | Int      | &check;      |
 | endTime              | String   | &check;      |

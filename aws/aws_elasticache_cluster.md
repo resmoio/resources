@@ -7,6 +7,7 @@ aws_elasticache_cluster
 | **Name**                           | **Type**                           | **Nullable** |
 | ---------------------------------- | ---------------------------------- | ------------ |
 | accountId                          | String                             | &cross;      |
+| accountName                        | String                             | &check;      |
 | arn                                | String                             | &check;      |
 | atRestEncryptionEnabled            | Boolean                            | &check;      |
 | authTokenEnabled                   | Boolean                            | &check;      |

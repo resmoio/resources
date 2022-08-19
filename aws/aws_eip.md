@@ -7,6 +7,7 @@ aws_eip
 | **Name**                | **Type**           | **Nullable** |
 | ----------------------- | ------------------ | ------------ |
 | accountId               | String             | &cross;      |
+| accountName             | String             | &check;      |
 | allocationId            | String             | &cross;      |
 | associationId           | String             | &check;      |
 | carrierIp               | String             | &check;      |

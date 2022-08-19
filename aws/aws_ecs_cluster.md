@@ -7,6 +7,7 @@ aws_ecs_cluster
 | **Name**                        | **Type**                              | **Nullable** |
 | ------------------------------- | ------------------------------------- | ------------ |
 | accountId                       | String                                | &cross;      |
+| accountName                     | String                                | &check;      |
 | arn                             | String                                | &cross;      |
 | attachmentStatus                | String                                | &check;      |
 | attachments                     | List<Attachment>                      | &cross;      |

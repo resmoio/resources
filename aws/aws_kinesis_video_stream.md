@@ -7,6 +7,7 @@ aws_kinesis_video_stream
 | **Name**             | **Type** | **Nullable** |
 | -------------------- | -------- | ------------ |
 | accountId            | String   | &cross;      |
+| accountName          | String   | &check;      |
 | creationTime         | String   | &check;      |
 | dataRetentionInHours | Int      | &check;      |
 | deviceName           | String   | &check;      |

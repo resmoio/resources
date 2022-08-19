@@ -7,6 +7,7 @@ aws_glue_catalog_table
 | **Name**                      | **Type**           | **Nullable** |
 | ----------------------------- | ------------------ | ------------ |
 | accountId                     | String             | &cross;      |
+| accountName                   | String             | &check;      |
 | catalogId                     | String             | &check;      |
 | createTime                    | String             | &check;      |
 | createdBy                     | String             | &check;      |

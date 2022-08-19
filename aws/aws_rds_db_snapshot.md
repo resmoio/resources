@@ -7,6 +7,7 @@ aws_rds_db_snapshot
 | **Name**                         | **Type**           | **Nullable** |
 | -------------------------------- | ------------------ | ------------ |
 | accountId                        | String             | &cross;      |
+| accountName                      | String             | &check;      |
 | allocatedStorage                 | Int                | &check;      |
 | arn                              | String             | &cross;      |
 | attributes                       | Map<String,List>   | &check;      |

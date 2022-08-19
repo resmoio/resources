@@ -7,6 +7,7 @@ aws_ssm_document
 | **Name**        | **Type**               | **Nullable** |
 | --------------- | ---------------------- | ------------ |
 | accountId       | String                 | &cross;      |
+| accountName     | String                 | &check;      |
 | author          | String                 | &check;      |
 | createdDate     | String                 | &check;      |
 | displayName     | String                 | &check;      |

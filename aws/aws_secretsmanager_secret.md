@@ -7,6 +7,7 @@ aws_secretsmanager_secret
 | **Name**          | **Type**           | **Nullable** |
 | ----------------- | ------------------ | ------------ |
 | accountId         | String             | &cross;      |
+| accountName       | String             | &check;      |
 | arn               | String             | &cross;      |
 | createdDate       | String             | &check;      |
 | deletedDate       | String             | &check;      |

@@ -7,6 +7,7 @@ aws_waf_web_acl
 | **Name**      | **Type**   | **Nullable** |
 | ------------- | ---------- | ------------ |
 | accountId     | String     | &cross;      |
+| accountName   | String     | &check;      |
 | arn           | String     | &cross;      |
 | defaultAction | String     | &check;      |
 | id            | String     | &cross;      |

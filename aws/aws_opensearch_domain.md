@@ -8,6 +8,7 @@ aws_opensearch_domain
 | --------------------------- | ------------------------------- | ------------ |
 | accessPolicies              | JSON                            | &check;      |
 | accountId                   | String                          | &cross;      |
+| accountName                 | String                          | &check;      |
 | advancedOptions             | Map<String,String>              | &check;      |
 | advancedSecurityOptions     | AdvancedSecurityOptions         | &check;      |
 | arn                         | String                          | &cross;      |

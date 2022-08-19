@@ -7,6 +7,7 @@ aws_backup_backup_job
 | **Name**               | **Type**             | **Nullable** |
 | ---------------------- | -------------------- | ------------ |
 | accountId              | String               | &cross;      |
+| accountName            | String               | &check;      |
 | backupJobAccountId     | String               | &cross;      |
 | backupOptions          | Map<String,String>   | &check;      |
 | backupSizeInBytes      | Long                 | &check;      |

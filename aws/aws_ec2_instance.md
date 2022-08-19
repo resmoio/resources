@@ -7,6 +7,7 @@ aws_ec2_instance
 | **Name**                         | **Type**                         | **Nullable** |
 | -------------------------------- | -------------------------------- | ------------ |
 | accountId                        | String                           | &cross;      |
+| accountName                      | String                           | &check;      |
 | amiLaunchIndex                   | Int                              | &cross;      |
 | architecture                     | String                           | &check;      |
 | blockDeviceMappings              | List<BlockDeviceMapping>         | &cross;      |

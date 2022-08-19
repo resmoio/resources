@@ -7,6 +7,7 @@ aws_athena_work_group
 | **Name**      | **Type**               | **Nullable** |
 | ------------- | ---------------------- | ------------ |
 | accountId     | String                 | &cross;      |
+| accountName   | String                 | &check;      |
 | configuration | WorkGroupConfiguration | &check;      |
 | creationTime  | String                 | &check;      |
 | description   | String                 | &check;      |

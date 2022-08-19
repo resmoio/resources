@@ -7,6 +7,7 @@ aws_ssm_maintenance_window
 | **Name**          | **Type** | **Nullable** |
 | ----------------- | -------- | ------------ |
 | accountId         | String   | &cross;      |
+| accountName       | String   | &check;      |
 | cutoff            | Int      | &check;      |
 | description       | String   | &check;      |
 | duration          | Int      | &check;      |

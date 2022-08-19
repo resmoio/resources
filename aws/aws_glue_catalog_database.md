@@ -7,6 +7,7 @@ aws_glue_catalog_database
 | **Name**                      | **Type**                  | **Nullable** |
 | ----------------------------- | ------------------------- | ------------ |
 | accountId                     | String                    | &cross;      |
+| accountName                   | String                    | &check;      |
 | catalogId                     | String                    | &check;      |
 | createTableDefaultPermissions | List<PrincipalPermission> | &check;      |
 | createTime                    | String                    | &check;      |

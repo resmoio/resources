@@ -7,6 +7,7 @@ aws_sns_subscription
 | **Name**                     | **Type** | **Nullable** |
 | ---------------------------- | -------- | ------------ |
 | accountId                    | String   | &cross;      |
+| accountName                  | String   | &check;      |
 | confirmationWasAuthenticated | Boolean  | &cross;      |
 | endpoint                     | String   | &cross;      |
 | filterPolicy                 | JSON     | &check;      |

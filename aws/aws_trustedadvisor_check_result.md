@@ -7,6 +7,7 @@ aws_trustedadvisor_check_result
 | **Name**                   | **Type**                              | **Nullable** |
 | -------------------------- | ------------------------------------- | ------------ |
 | accountId                  | String                                | &cross;      |
+| accountName                | String                                | &check;      |
 | categorySpecificSummary    | TrustedAdvisorCategorySpecificSummary | &check;      |
 | checkId                    | String                                | &cross;      |
 | hasFlaggedResources        | Boolean                               | &check;      |

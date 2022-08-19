@@ -8,6 +8,7 @@ aws_vpc_peering_connection
 | ---------------- | ------------------ | ------------ |
 | accepterVpcInfo  | VpcInfo            | &cross;      |
 | accountId        | String             | &cross;      |
+| accountName      | String             | &check;      |
 | expirationTime   | String             | &check;      |
 | id               | String             | &cross;      |
 | region           | String             | &cross;      |

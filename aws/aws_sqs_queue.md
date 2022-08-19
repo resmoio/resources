@@ -7,6 +7,7 @@ aws_sqs_queue
 | **Name**                     | **Type** | **Nullable** |
 | ---------------------------- | -------- | ------------ |
 | accountId                    | String   | &cross;      |
+| accountName                  | String   | &check;      |
 | arn                          | String   | &cross;      |
 | createdTimestamp             | String   | &check;      |
 | deduplicationScope           | String   | &check;      |

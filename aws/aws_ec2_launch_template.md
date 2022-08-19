@@ -7,6 +7,7 @@ aws_ec2_launch_template
 | **Name**             | **Type**                    | **Nullable** |
 | -------------------- | --------------------------- | ------------ |
 | accountId            | String                      | &cross;      |
+| accountName          | String                      | &check;      |
 | createTime           | String                      | &check;      |
 | createdBy            | String                      | &check;      |
 | defaultVersionNumber | Long                        | &check;      |

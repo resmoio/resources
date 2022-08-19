@@ -7,6 +7,7 @@ aws_apigateway_rest_api
 | **Name**                  | **Type**              | **Nullable** |
 | ------------------------- | --------------------- | ------------ |
 | accountId                 | String                | &cross;      |
+| accountName               | String                | &check;      |
 | apiKeySource              | String                | &check;      |
 | binaryMediaTypes          | List<String>          | &check;      |
 | createdDate               | String                | &check;      |

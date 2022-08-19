@@ -7,6 +7,7 @@ aws_vpc_subnet
 | **Name**            | **Type**           | **Nullable** |
 | ------------------- | ------------------ | ------------ |
 | accountId           | String             | &cross;      |
+| accountName         | String             | &check;      |
 | availabilityZoneId  | String             | &cross;      |
 | cidr                | String             | &check;      |
 | defaultForAz        | Boolean            | &cross;      |

@@ -7,6 +7,7 @@ aws_ssm_patch_baseline
 | **Name**                         | **Type**          | **Nullable** |
 | -------------------------------- | ----------------- | ------------ |
 | accountId                        | String            | &cross;      |
+| accountName                      | String            | &check;      |
 | approvalRules                    | PatchRuleGroup    | &check;      |
 | approvedPatches                  | List<String>      | &check;      |
 | approvedPatchesComplianceLevel   | String            | &check;      |
