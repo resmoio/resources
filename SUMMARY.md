@@ -39,7 +39,6 @@
   * [aws\_cognito\_identity\_pool](aws/aws_cognito_identity_pool.md)
   * [aws\_cognito\_user\_pool](aws/aws_cognito_user_pool.md)
   * [aws\_cognito\_user\_pool\_group](aws/aws_cognito_user_pool_group.md)
-  * [aws\_cognito\_user\_pool\_user](aws/aws_cognito_user_pool_user.md)
   * [aws\_config\_recorder\_status](aws/aws_config_recorder_status.md)
   * [aws\_documentdb\_cluster](aws/aws_documentdb_cluster.md)
   * [aws\_documentdb\_instance](aws/aws_documentdb_instance.md)
