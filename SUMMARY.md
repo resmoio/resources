@@ -250,6 +250,8 @@
   * [duo\_mfa\_token](duo/duo_mfa_token.md)
   * [duo\_phone](duo/duo_phone.md)
   * [duo\_user](duo/duo_user.md)
+* [Entity](basic/README.md)
+  * [user](basic/user.md)
 * [Gandi](gandi/README.md)
   * [gandi\_certificate](gandi/gandi_certificate.md)
   * [gandi\_dnssec\_key\_detail](gandi/gandi_dnssec_key_detail.md)
