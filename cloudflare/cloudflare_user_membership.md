@@ -15,6 +15,6 @@ cloudflare_user_membership
 #### Account
 | **Name** | **Type**           | **Nullable** |
 | -------- | ------------------ | ------------ |
-| id       | String             | &cross;      |
+| id       | String             | &check;      |
 | name     | String             | &check;      |
 | settings | Map<String,String> | &check;      |
