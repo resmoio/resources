@@ -8,6 +8,7 @@ aws_iam_group
 | ---------------- | -------------------- | ------------ |
 | accountId        | String               | &cross;      |
 | accountName      | String               | &check;      |
+| arn              | String               | &check;      |
 | attachedPolicies | List<AttachedPolicy> | &cross;      |
 | id               | String               | &cross;      |
 | name             | String               | &cross;      |

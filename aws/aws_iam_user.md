@@ -12,6 +12,7 @@ aws_iam_user
 | arn                 | String               | &cross;      |
 | attachedPolicies    | List<AttachedPolicy> | &cross;      |
 | createdDate         | String               | &cross;      |
+| groups              | List<Group>          | &cross;      |
 | mfaDevices          | List<MFADevice>      | &cross;      |
 | passwordLastUsed    | String               | &check;      |
 | passwordLastUsedIn  | PasswordLastUsed     | &check;      |
@@ -42,6 +43,15 @@ aws_iam_user
 | -------- | -------- | ------------ |
 | arn      | String   | &cross;      |
 | name     | String   | &cross;      |
+
+#### Group
+| **Name**   | **Type** | **Nullable** |
+| ---------- | -------- | ------------ |
+| arn        | String   | &cross;      |
+| createDate | String   | &check;      |
+| groupId    | String   | &cross;      |
+| groupName  | String   | &cross;      |
+| path       | String   | &check;      |
 
 #### MFADevice
 | **Name**     | **Type** | **Nullable** |

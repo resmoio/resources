@@ -12,6 +12,7 @@ heroku_team_member
 | id                      | String           | &cross;      |
 | identityProvider        | IdentityProvider | &check;      |
 | role                    | String           | &check;      |
+| team                    | Team             | &check;      |
 | twoFactorAuthentication | Boolean          | &check;      |
 | updatedAt               | String           | &check;      |
 | user                    | User             | &check;      |
@@ -30,6 +31,12 @@ heroku_team_member
 | id       | String   | &check;      |
 | name     | String   | &check;      |
 | type     | String   | &check;      |
+
+#### Team
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &cross;      |
+| name     | String   | &check;      |
 
 #### User
 | **Name** | **Type** | **Nullable** |

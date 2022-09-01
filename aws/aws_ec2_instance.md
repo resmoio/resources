@@ -32,6 +32,7 @@ aws_ec2_instance
 | platformDetails                  | String                           | &check;      |
 | privateDnsName                   | String                           | &check;      |
 | privateDnsNameOptions            | PrivateDnsNameOptions            | &check;      |
+| publicDnsName                    | String                           | &check;      |
 | publicIpAddress                  | String                           | &check;      |
 | region                           | String                           | &cross;      |
 | reservationId                    | String                           | &cross;      |

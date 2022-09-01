@@ -6,9 +6,12 @@ resmo_resource_group
 
 | **Name**   | **Type**                      | **Nullable** |
 | ---------- | ----------------------------- | ------------ |
+| accountId  | String                        | &check;      |
+| createdBy  | String                        | &check;      |
 | expression | ResmoResourceFilterExpression | &check;      |
 | id         | String                        | &cross;      |
 | name       | String                        | &check;      |
+| updatedBy  | String                        | &check;      |
 
 #### ResmoResourceFilterExpression
 | **Name** | **Type**                                   | **Nullable** |

@@ -10,6 +10,7 @@ opsgenie_escalation
 | description | String     | &cross;      |
 | id          | String     | &cross;      |
 | name        | String     | &cross;      |
+| ownerTeam   | Team       | &check;      |
 | repeat      | Repeat     | &check;      |
 | rules       | List<Rule> | &check;      |
 
@@ -42,3 +43,9 @@ opsgenie_escalation
 | name     | String   | &check;      |
 | type     | String   | &check;      |
 | username | String   | &check;      |
+
+#### Team
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &cross;      |
+| name     | String   | &cross;      |

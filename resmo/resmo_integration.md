@@ -6,7 +6,9 @@ resmo_integration
 
 | **Name**    | **Type**     | **Nullable** |
 | ----------- | ------------ | ------------ |
+| accountId   | String       | &check;      |
 | createdAt   | Timestamp    | &cross;      |
+| createdBy   | String       | &check;      |
 | deletedAt   | Timestamp    | &check;      |
 | description | String       | &check;      |
 | errorDetail | String       | &check;      |
@@ -16,3 +18,4 @@ resmo_integration
 | name        | String       | &cross;      |
 | tags        | List<String> | &cross;      |
 | type        | String       | &cross;      |
+| updatedBy   | String       | &check;      |

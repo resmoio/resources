@@ -11,7 +11,7 @@ aws_backup_vault
 | accountName            | String             | &check;      |
 | arn                    | String             | &cross;      |
 | creationDate           | String             | &check;      |
-| creatorRequestId       | String             | &cross;      |
+| creatorRequestId       | String             | &check;      |
 | encryptionKeyArn       | String             | &check;      |
 | lockDate               | String             | &check;      |
 | locked                 | Boolean            | &check;      |

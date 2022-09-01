@@ -10,6 +10,7 @@ aws_s3_bucket
 | accountName                    | String                    | &check;      |
 | acl                            | ACL                       | &cross;      |
 | creationDate                   | String                    | &cross;      |
+| hostname                       | String                    | &check;      |
 | kmsMasterKeyID                 | String                    | &check;      |
 | logging                        | LoggingEnabled            | &check;      |
 | mfaDelete                      | String                    | &check;      |

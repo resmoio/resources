@@ -21,7 +21,7 @@ opsgenie_schedule
 | id              | String                     | &cross;      |
 | length          | Int                        | &cross;      |
 | name            | String                     | &cross;      |
-| participants    | List<Rotation.Participant> | &cross;      |
+| participants    | List<Rotation.Participant> | &check;      |
 | startDate       | String                     | &cross;      |
 | timeRestriction | Rotation.TimeRestriction   | &check;      |
 | type            | String                     | &cross;      |
@@ -29,9 +29,9 @@ opsgenie_schedule
 #### Rotation.Participant
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | String   | &cross;      |
-| type     | String   | &cross;      |
-| username | String   | &cross;      |
+| id       | String   | &check;      |
+| type     | String   | &check;      |
+| username | String   | &check;      |
 
 #### Rotation.TimeRestriction
 | **Name**     | **Type**                                   | **Nullable** |
