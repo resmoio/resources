@@ -33,9 +33,3 @@ device
 | -------- | -------- | ------------ |
 | name     | String   | &cross;      |
 | ordinal  | Int      | &cross;      |
-
-#### Owner
-| **Name** | **Type** | **Nullable** |
-| -------- | -------- | ------------ |
-| email    | String   | &check;      |
-| name     | String   | &check;      |
