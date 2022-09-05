@@ -265,8 +265,6 @@
   * [fastly\_account\_contact](fastly/fastly_account_contact.md)
   * [fastly\_api\_token](fastly/fastly_api_token.md)
   * [fastly\_service](fastly/fastly_service.md)
-  * [fastly\_service\_backend](fastly/fastly_service_backend.md)
-  * [fastly\_service\_domain](fastly/fastly_service_domain.md)
   * [fastly\_user](fastly/fastly_user.md)
 * [Gandi](gandi/README.md)
   * [gandi\_certificate](gandi/gandi_certificate.md)
