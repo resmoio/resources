@@ -8,3 +8,4 @@ snyk_integration
 | -------- | -------- | ------------ |
 | id       | String   | &cross;      |
 | name     | String   | &cross;      |
+| orgId    | String   | &cross;      |

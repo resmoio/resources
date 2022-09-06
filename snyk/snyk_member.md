@@ -9,5 +9,6 @@ snyk_member
 | email    | String   | &check;      |
 | id       | String   | &cross;      |
 | name     | String   | &check;      |
+| orgId    | String   | &cross;      |
 | role     | String   | &check;      |
 | username | String   | &check;      |

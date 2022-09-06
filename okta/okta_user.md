@@ -10,6 +10,7 @@ okta_user
 | created         | String      | &check;      |
 | credentials     | Credentials | &check;      |
 | id              | String      | &cross;      |
+| lastLogin       | String      | &check;      |
 | lastUpdated     | String      | &check;      |
 | passwordChanged | String      | &check;      |
 | profile         | Profile     | &check;      |
