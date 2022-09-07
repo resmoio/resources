@@ -24,7 +24,7 @@ aws_backup_report_plan
 | ------------ | ------------ | ------------ |
 | formats      | List<String> | &check;      |
 | s3BucketName | String       | &cross;      |
-| s3KeyPrefix  | String       | &cross;      |
+| s3KeyPrefix  | String       | &check;      |
 
 #### ReportSetting
 | **Name**           | **Type**     | **Nullable** |
