@@ -30,18 +30,11 @@ mongodb_organization
 | orgId        | String     | &check;      |
 
 #### OrganizationUser
-| **Name**     | **Type**     | **Nullable** |
-| ------------ | ------------ | ------------ |
-| country      | String       | &check;      |
-| emailAddress | String       | &check;      |
-| firstName    | String       | &check;      |
-| id           | String       | &check;      |
-| lastName     | String       | &check;      |
-| links        | List<Link>   | &cross;      |
-| mobileNumber | String       | &check;      |
-| roles        | List<Role>   | &cross;      |
-| teamIds      | List<String> | &check;      |
-| username     | String       | &check;      |
+| **Name**     | **Type** | **Nullable** |
+| ------------ | -------- | ------------ |
+| emailAddress | String   | &check;      |
+| id           | String   | &check;      |
+| username     | String   | &check;      |
 
 #### Role
 | **Name** | **Type** | **Nullable** |

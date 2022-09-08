@@ -422,6 +422,7 @@
   * [mongodb\_network\_peering\_connection](mongodbatlas/mongodb_network_peering_connection.md)
   * [mongodb\_network\_peering\_container](mongodbatlas/mongodb_network_peering_container.md)
   * [mongodb\_organization](mongodbatlas/mongodb_organization.md)
+  * [mongodb\_organization\_user](mongodbatlas/mongodb_organization_user.md)
   * [mongodb\_private\_endpoint\_service](mongodbatlas/mongodb_private_endpoint_service.md)
   * [mongodb\_programmatic\_api\_key](mongodbatlas/mongodb_programmatic_api_key.md)
   * [mongodb\_project](mongodbatlas/mongodb_project.md)

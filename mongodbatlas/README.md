@@ -10,6 +10,7 @@ MongoDB Atlas is a multi-cloud application data platform. At its core is our ful
 | Network Peering Connection | [mongodb\_network\_peering\_connection](mongodb\_network\_peering\_connection.md) |                     |
 | Network Peering Container  | [mongodb\_network\_peering\_container](mongodb\_network\_peering\_container.md)   |                     |
 | Organization               | [mongodb\_organization](mongodb\_organization.md)                                 |                     |
+| Organization User          | [mongodb\_organization\_user](mongodb\_organization\_user.md)                     |                     |
 | Private Endpoint Service   | [mongodb\_private\_endpoint\_service](mongodb\_private\_endpoint\_service.md)     |                     |
 | API Key                    | [mongodb\_programmatic\_api\_key](mongodb\_programmatic\_api\_key.md)             |                     |
 | Project                    | [mongodb\_project](mongodb\_project.md)                                           |                     |
