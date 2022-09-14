@@ -22,7 +22,7 @@ aws_backup_backup_job
 | iamRoleArn             | String               | &cross;      |
 | id                     | String               | &cross;      |
 | percentDone            | String               | &check;      |
-| recoveryPointArn       | String               | &cross;      |
+| recoveryPointArn       | String               | &check;      |
 | region                 | String               | &cross;      |
 | resourceArn            | String               | &cross;      |
 | resourceType           | String               | &cross;      |
