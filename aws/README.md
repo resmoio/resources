@@ -97,6 +97,10 @@ Cloud service
 | IAM Account Summary                  | [aws\_iam\_account\_summary](aws\_iam\_account\_summary.md)                                         |                     |
 | IAM Credential Report                | [aws\_iam\_credential\_report](aws\_iam\_credential\_report.md)                                     |                     |
 | IAM Group                            | [aws\_iam\_group](aws\_iam\_group.md)                                                               |                     |
+| IAM Identity Center Group            | [aws\_iam\_identity\_center\_group](aws\_iam\_identity\_center\_group.md)                           |                     |
+| IAM Identity Center Instance         | [aws\_iam\_identity\_center\_instance](aws\_iam\_identity\_center\_instance.md)                     |                     |
+| IAM Identity Center Permission Set   | [aws\_iam\_identity\_center\_permission\_set](aws\_iam\_identity\_center\_permission\_set.md)       |                     |
+| IAM Identity Center User             | [aws\_iam\_identity\_center\_user](aws\_iam\_identity\_center\_user.md)                             |                     |
 | IAM Instance Profile                 | [aws\_iam\_instance\_profile](aws\_iam\_instance\_profile.md)                                       |                     |
 | IAM Managed Policy                   | [aws\_iam\_managed\_policy](aws\_iam\_managed\_policy.md)                                           |                     |
 | IAM Password Policy                  | [aws\_iam\_password\_policy](aws\_iam\_password\_policy.md)                                         |                     |
@@ -153,7 +157,6 @@ Cloud service
 | SSM Parameter                        | [aws\_ssm\_parameter](aws\_ssm\_parameter.md)                                                       |                     |
 | SSM Patch Baseline                   | [aws\_ssm\_patch\_baseline](aws\_ssm\_patch\_baseline.md)                                           |                     |
 | SSM Resource Compliance              | [aws\_ssm\_resource\_compliance](aws\_ssm\_resource\_compliance.md)                                 |                     |
-| SSO Instance                         | [aws\_sso\_instance](aws\_sso\_instance.md)                                                         |                     |
 | Support Case                         | [aws\_support\_case](aws\_support\_case.md)                                                         |                     |
 | Support Severity Level               | [aws\_support\_severity\_level](aws\_support\_severity\_level.md)                                   |                     |
 | TrustedAdvisor Check                 | [aws\_trustedadvisor\_check](aws\_trustedadvisor\_check.md)                                         |                     |
