@@ -6,6 +6,7 @@ aws_iam_identity_center_user
 
 | **Name**          | **Type**          | **Nullable** |
 | ----------------- | ----------------- | ------------ |
+| accountId         | String            | &cross;      |
 | addresses         | List<Address>     | &cross;      |
 | displayName       | String            | &cross;      |
 | email             | String            | &check;      |
@@ -18,6 +19,7 @@ aws_iam_identity_center_user
 | phoneNumbers      | List<PhoneNumber> | &cross;      |
 | preferredLanguage | String            | &check;      |
 | profileUrl        | String            | &check;      |
+| region            | String            | &cross;      |
 | title             | String            | &check;      |
 | userId            | String            | &cross;      |
 | userName          | String            | &cross;      |

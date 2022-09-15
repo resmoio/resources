@@ -6,10 +6,12 @@ aws_iam_identity_center_group
 
 | **Name**        | **Type**     | **Nullable** |
 | --------------- | ------------ | ------------ |
+| accountId       | String       | &cross;      |
 | displayName     | String       | &cross;      |
 | groupId         | String       | &cross;      |
 | identityStoreId | String       | &cross;      |
 | memberships     | List<Member> | &cross;      |
+| region          | String       | &cross;      |
 
 #### Member
 | **Name**     | **Type**        | **Nullable** |

@@ -96,6 +96,7 @@
   * [aws\_iam\_identity\_center\_group](aws/aws_iam_identity_center_group.md)
   * [aws\_iam\_identity\_center\_instance](aws/aws_iam_identity_center_instance.md)
   * [aws\_iam\_identity\_center\_permission\_set](aws/aws_iam_identity_center_permission_set.md)
+  * [aws\_iam\_identity\_center\_permission\_set\_assignment](aws/aws_iam_identity_center_permission_set_assignment.md)
   * [aws\_iam\_identity\_center\_user](aws/aws_iam_identity_center_user.md)
   * [aws\_iam\_instance\_profile](aws/aws_iam_instance_profile.md)
   * [aws\_iam\_managed\_policy](aws/aws_iam_managed_policy.md)
