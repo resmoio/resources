@@ -8,6 +8,7 @@ user
 | -------------- | -------- | ------------ |
 | active         | Boolean  | &check;      |
 | data           | JSON     | &check;      |
+| displayName    | String   | &check;      |
 | email          | String   | &check;      |
 | emailDomain    | String   | &check;      |
 | firstName      | String   | &check;      |
