@@ -131,16 +131,16 @@ azure_storage_account
 | table    | EncryptionService | &check;      |
 
 #### Endpoints
-| **Name**           | **Type**  | **Nullable** |
-| ------------------ | --------- | ------------ |
-| blob               | String    | &check;      |
-| dfs                | String    | &check;      |
-| file               | String    | &check;      |
-| internetEndpoints  | Endpoints | &check;      |
-| microsoftEndpoints | Endpoints | &check;      |
-| queue              | String    | &check;      |
-| table              | String    | &check;      |
-| web                | String    | &check;      |
+| **Name**           | **Type**          | **Nullable** |
+| ------------------ | ----------------- | ------------ |
+| blob               | String            | &check;      |
+| dfs                | String            | &check;      |
+| file               | String            | &check;      |
+| internetEndpoints  | InternetEndpoints | &check;      |
+| microsoftEndpoints | InternetEndpoints | &check;      |
+| queue              | String            | &check;      |
+| table              | String            | &check;      |
+| web                | String            | &check;      |
 
 #### GeoReplicationStats
 | **Name**     | **Type** | **Nullable** |
@@ -164,6 +164,16 @@ azure_storage_account
 | enabled                               | Boolean  | &check;      |
 | immutabilityPeriodSinceCreationInDays | Int      | &check;      |
 | state                                 | String   | &check;      |
+
+#### InternetEndpoints
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| blob     | String   | &check;      |
+| dfs      | String   | &check;      |
+| file     | String   | &check;      |
+| queue    | String   | &check;      |
+| table    | String   | &check;      |
+| web      | String   | &check;      |
 
 #### IpRule
 | **Name**         | **Type** | **Nullable** |
