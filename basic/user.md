@@ -11,10 +11,8 @@ user
 | displayName    | String   | &check;      |
 | email          | String   | &check;      |
 | emailDomain    | String   | &check;      |
-| firstName      | String   | &check;      |
 | id             | String   | &cross;      |
 | isAdmin        | Boolean  | &check;      |
-| lastName       | String   | &check;      |
 | lastSignIn     | String   | &check;      |
 | mfaEnabled     | Boolean  | &check;      |
 | referencedType | String   | &cross;      |
