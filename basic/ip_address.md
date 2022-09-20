@@ -8,6 +8,7 @@ ip_address
 | -------------- | -------- | ------------ |
 | data           | JSON     | &check;      |
 | dnsName        | String   | &check;      |
+| id             | String   | &cross;      |
 | ip             | String   | &check;      |
 | public         | Boolean  | &check;      |
 | referencedType | String   | &cross;      |
