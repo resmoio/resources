@@ -7,6 +7,7 @@ ip_address
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
 | dnsName        | String   | &check;      |
+| id             | String   | &cross;      |
 | ip             | String   | &check;      |
 | public         | Boolean  | &check;      |
 | referencedType | String   | &cross;      |
