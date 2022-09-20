@@ -141,6 +141,7 @@ Cloud service
 | Region                                        | [aws\_region](aws\_region.md)                                                                                         |                     |
 | Route53 Domain                                | [aws\_route53\_domain](aws\_route53\_domain.md)                                                                       |                     |
 | Route53 Hosted Zone                           | [aws\_route53\_hosted\_zone](aws\_route53\_hosted\_zone.md)                                                           |                     |
+| Route53 Hosted Zone Record                    | [aws\_route53\_hosted\_zone\_record](aws\_route53\_hosted\_zone\_record.md)                                           |                     |
 | S3 Account Level Public Access Block          | [aws\_s3\_account\_level\_public\_access\_block](aws\_s3\_account\_level\_public\_access\_block.md)                   |                     |
 | S3 Bucket                                     | [aws\_s3\_bucket](aws\_s3\_bucket.md)                                                                                 |                     |
 | Secrets Manager Secret                        | [aws\_secretsmanager\_secret](aws\_secretsmanager\_secret.md)                                                         |                     |

@@ -8,7 +8,6 @@ object_storage
 | --------------- | -------- | ------------ |
 | backupEnabled   | Boolean  | &check;      |
 | backupRetention | Long     | &check;      |
-| data            | JSON     | &check;      |
 | encrypted       | Boolean  | &check;      |
 | isEu            | Boolean  | &check;      |
 | name            | String   | &cross;      |
@@ -18,5 +17,4 @@ object_storage
 #### BasicResource
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | referencedType | String   | &cross;      |

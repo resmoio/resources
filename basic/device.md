@@ -6,7 +6,6 @@ device
 
 | **Name**               | **Type**     | **Nullable** |
 | ---------------------- | ------------ | ------------ |
-| data                   | JSON         | &check;      |
 | encrypted              | Boolean      | &check;      |
 | firewallEnabled        | Boolean      | &check;      |
 | id                     | String       | &cross;      |
@@ -25,7 +24,6 @@ device
 #### BasicResource
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | referencedType | String   | &cross;      |
 
 #### DeviceType

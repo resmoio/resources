@@ -137,6 +137,7 @@
   * [aws\_region](aws/aws_region.md)
   * [aws\_route53\_domain](aws/aws_route53_domain.md)
   * [aws\_route53\_hosted\_zone](aws/aws_route53_hosted_zone.md)
+  * [aws\_route53\_hosted\_zone\_record](aws/aws_route53_hosted_zone_record.md)
   * [aws\_s3\_account\_level\_public\_access\_block](aws/aws_s3_account_level_public_access_block.md)
   * [aws\_s3\_bucket](aws/aws_s3_bucket.md)
   * [aws\_secretsmanager\_secret](aws/aws_secretsmanager_secret.md)

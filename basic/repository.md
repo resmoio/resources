@@ -6,7 +6,6 @@ repository
 
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | id             | String   | &cross;      |
 | license        | String   | &check;      |
 | name           | String   | &check;      |
@@ -17,5 +16,4 @@ repository
 #### BasicResource
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | referencedType | String   | &cross;      |

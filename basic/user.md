@@ -7,7 +7,6 @@ user
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
 | active         | Boolean  | &check;      |
-| data           | JSON     | &check;      |
 | displayName    | String   | &check;      |
 | email          | String   | &check;      |
 | emailDomain    | String   | &check;      |
@@ -22,7 +21,6 @@ user
 #### BasicResource
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | referencedType | String   | &cross;      |
 
 #### UserType

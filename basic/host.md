@@ -7,7 +7,6 @@ host
 | **Name**               | **Type**     | **Nullable** |
 | ---------------------- | ------------ | ------------ |
 | cpu                    | String       | &check;      |
-| data                   | JSON         | &check;      |
 | hostName               | String       | &check;      |
 | id                     | String       | &cross;      |
 | macAddress             | String       | &check;      |
@@ -26,7 +25,6 @@ host
 #### BasicResource
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | referencedType | String   | &cross;      |
 
 #### State

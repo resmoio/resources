@@ -6,7 +6,6 @@ dns_record
 
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | domain         | String   | &cross;      |
 | name           | String   | &cross;      |
 | referencedType | String   | &cross;      |
@@ -17,5 +16,4 @@ dns_record
 #### BasicResource
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | referencedType | String   | &cross;      |

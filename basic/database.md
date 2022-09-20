@@ -6,7 +6,6 @@ database
 
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | encrypted      | Boolean  | &check;      |
 | endpoint       | String   | &check;      |
 | engine         | String   | &check;      |
@@ -19,7 +18,6 @@ database
 #### BasicResource
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
-| data           | JSON     | &check;      |
 | referencedType | String   | &cross;      |
 
 #### Type
