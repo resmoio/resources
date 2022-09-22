@@ -30,15 +30,15 @@ aws_cloudtrail_trail
 #### AdvancedSelector
 | **Name**       | **Type**                             | **Nullable** |
 | -------------- | ------------------------------------ | ------------ |
-| fieldSelectors | List<AdvancedSelector.FieldSelector> | &cross;      |
-| name           | String                               | &cross;      |
+| fieldSelectors | List<AdvancedSelector.FieldSelector> | &check;      |
+| name           | String                               | &check;      |
 
 #### AdvancedSelector.FieldSelector
 | **Name**      | **Type**     | **Nullable** |
 | ------------- | ------------ | ------------ |
 | endsWith      | List<String> | &check;      |
 | equals        | List<String> | &check;      |
-| field         | String       | &cross;      |
+| field         | String       | &check;      |
 | notEndsWith   | List<String> | &check;      |
 | notEquals     | List<String> | &check;      |
 | notStartsWith | List<String> | &check;      |
