@@ -10,6 +10,7 @@ slack_user
 | appUser                | Boolean        | &check;      |
 | billingActive          | Boolean        | &check;      |
 | bot                    | Boolean        | &check;      |
+| channels               | List<String>   | &check;      |
 | color                  | String         | &check;      |
 | deleted                | Boolean        | &check;      |
 | emailConfirmed         | Boolean        | &check;      |

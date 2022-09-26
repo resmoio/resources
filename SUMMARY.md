@@ -541,7 +541,6 @@
   * [resmo\_variable](resmo/resmo_variable.md)
 * [Slack](slack/README.md)
   * [slack\_channel](slack/slack_channel.md)
-  * [slack\_channel\_member](slack/slack_channel_member.md)
   * [slack\_team](slack/slack_team.md)
   * [slack\_user](slack/slack_user.md)
   * [slack\_user\_group](slack/slack_user_group.md)
