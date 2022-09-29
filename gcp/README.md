@@ -35,6 +35,7 @@ Google Cloud Platform, offered by Google, is a suite of cloud computing services
 | Compute Target HttpsProxy    | [gcp\_compute\_target\_https\_proxy](gcp\_compute\_target\_https\_proxy.md)   |                     |
 | Compute Target SSLProxy      | [gcp\_compute\_target\_ssl\_proxy](gcp\_compute\_target\_ssl\_proxy.md)       |                     |
 | DNS Managed Zone             | [gcp\_dns\_managed\_zone](gcp\_dns\_managed\_zone.md)                         |                     |
+| DNS Policy                   | [gcp\_dns\_policy](gcp\_dns\_policy.md)                                       |                     |
 | DNS Record Set               | [gcp\_dns\_record\_set](gcp\_dns\_record\_set.md)                             |                     |
 | GKE Cluster                  | [gcp\_gke\_cluster](gcp\_gke\_cluster.md)                                     | &check;             |
 | IAM Policy                   | [gcp\_iam\_policy](gcp\_iam\_policy.md)                                       |                     |
@@ -46,9 +47,14 @@ Google Cloud Platform, offered by Google, is a suite of cloud computing services
 | Logging Metric               | [gcp\_logging\_metric](gcp\_logging\_metric.md)                               |                     |
 | Logging Sink                 | [gcp\_logging\_sink](gcp\_logging\_sink.md)                                   |                     |
 | Memcache Instance            | [gcp\_memcache\_instance](gcp\_memcache\_instance.md)                         |                     |
+| Monitoring Alert Policy      | [gcp\_monitoring\_alert\_policy](gcp\_monitoring\_alert\_policy.md)           |                     |
+| GCP Organization             | [gcp\_organization](gcp\_organization.md)                                     |                     |
+| GCP Project                  | [gcp\_project](gcp\_project.md)                                               |                     |
+| GCP Project Service          | [gcp\_project\_service](gcp\_project\_service.md)                             |                     |
 | PUB/SUB Subscription         | [gcp\_pubsub\_subscription](gcp\_pubsub\_subscription.md)                     | &check;             |
 | PUB/SUB Topic                | [gcp\_pubsub\_topic](gcp\_pubsub\_topic.md)                                   | &check;             |
 | Redis Instance               | [gcp\_redis\_instance](gcp\_redis\_instance.md)                               |                     |
+| GCP Region                   | [gcp\_region](gcp\_region.md)                                                 |                     |
 | Spanner Database             | [gcp\_spanner\_database](gcp\_spanner\_database.md)                           |                     |
 | Spanner Instance             | [gcp\_spanner\_instance](gcp\_spanner\_instance.md)                           |                     |
 | Spanner Instance Config      | [gcp\_spanner\_instance\_config](gcp\_spanner\_instance\_config.md)           |                     |

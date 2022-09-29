@@ -25,6 +25,7 @@ gcp_cloudstorage_bucket
 | name                    | String              | &cross;      |
 | notFoundPage            | String              | &check;      |
 | owner                   | Entity              | &check;      |
+| policy                  | IAMPolicy           | &check;      |
 | project                 | String              | &cross;      |
 | requesterPays           | Boolean             | &check;      |
 | retentionEffectiveTime  | Long                | &check;      |
@@ -51,6 +52,20 @@ gcp_cloudstorage_bucket
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
 | type     | String   | &check;      |
+
+#### Binding
+| **Name**  | **Type**     | **Nullable** |
+| --------- | ------------ | ------------ |
+| condition | Condition    | &check;      |
+| members   | List<String> | &check;      |
+| role      | String       | &check;      |
+
+#### Condition
+| **Name**    | **Type** | **Nullable** |
+| ----------- | -------- | ------------ |
+| description | String   | &check;      |
+| expression  | String   | &check;      |
+| title       | String   | &check;      |
 
 #### Cors
 | **Name**        | **Type**              | **Nullable** |
@@ -79,6 +94,13 @@ gcp_cloudstorage_bucket
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
 | groupKey | String   | &cross;      |
+
+#### IAMPolicy
+| **Name** | **Type**      | **Nullable** |
+| -------- | ------------- | ------------ |
+| bindings | List<Binding> | &check;      |
+| etag     | String        | &check;      |
+| version  | Int           | &check;      |
 
 #### IamConfiguration
 | **Name**                           | **Type**                                | **Nullable** |
