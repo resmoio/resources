@@ -33,10 +33,8 @@ github_deployment
 | name     | String   | &check;      |
 
 #### User
-| **Name**  | **Type** | **Nullable** |
-| --------- | -------- | ------------ |
-| id        | Long     | &check;      |
-| login     | String   | &check;      |
-| nodeId    | String   | &check;      |
-| siteAdmin | Boolean  | &check;      |
-| type      | String   | &check;      |
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| login    | String   | &check;      |
+| type     | String   | &check;      |
+| url      | String   | &check;      |
