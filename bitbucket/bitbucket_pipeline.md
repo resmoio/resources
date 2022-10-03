@@ -8,8 +8,8 @@ bitbucket_pipeline
 | ------------------ | ---------- | ------------ |
 | build_number       | Int        | &check;      |
 | build_seconds_used | String     | &check;      |
-| completed_on       | String     | &check;      |
-| created_on         | String     | &check;      |
+| completed_on       | Date       | &check;      |
+| created_on         | Date       | &check;      |
 | creator            | Creator    | &check;      |
 | repository         | Repository | &check;      |
 | state              | State      | &check;      |
@@ -22,7 +22,7 @@ bitbucket_pipeline
 | **Name**        | **Type** | **Nullable** |
 | --------------- | -------- | ------------ |
 | account_status  | String   | &check;      |
-| created_on      | String   | &check;      |
+| created_on      | Date     | &check;      |
 | display_name    | String   | &check;      |
 | has_2fa_enabled | Boolean  | &check;      |
 | nickname        | String   | &check;      |
@@ -34,7 +34,7 @@ bitbucket_pipeline
 #### Repository
 | **Name**    | **Type**           | **Nullable** |
 | ----------- | ------------------ | ------------ |
-| created_on  | String             | &check;      |
+| created_on  | Date               | &check;      |
 | description | String             | &check;      |
 | fork_policy | String             | &check;      |
 | full_name   | String             | &check;      |
@@ -49,7 +49,7 @@ bitbucket_pipeline
 | project     | Repository.Project | &check;      |
 | scm         | String             | &check;      |
 | size        | Int                | &check;      |
-| updated_on  | String             | &check;      |
+| updated_on  | Date               | &check;      |
 | uuid        | String             | &check;      |
 
 #### Repository.Branch

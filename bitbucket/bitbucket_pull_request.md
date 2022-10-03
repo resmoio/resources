@@ -10,7 +10,7 @@ bitbucket_pull_request
 | close_source_branch | Boolean             | &cross;      |
 | closed_by           | Account             | &check;      |
 | comment_count       | Int                 | &check;      |
-| created_on          | String              | &check;      |
+| created_on          | Date                | &check;      |
 | destination         | PullRequestEndpoint | &check;      |
 | id                  | String              | &cross;      |
 | merge_commit        | Commit              | &check;      |
@@ -19,10 +19,11 @@ bitbucket_pull_request
 | rendered            | JSON                | &check;      |
 | reviewers           | List<Account>       | &check;      |
 | source              | PullRequestEndpoint | &check;      |
+| state               | String              | &check;      |
 | summary             | JSON                | &check;      |
 | task_count          | Int                 | &check;      |
 | title               | String              | &check;      |
-| updated_on          | String              | &check;      |
+| updated_on          | Date                | &check;      |
 | workspace_id        | String              | &cross;      |
 
 #### Account
@@ -43,7 +44,7 @@ bitbucket_pull_request
 | **Name**        | **Type**         | **Nullable** |
 | --------------- | ---------------- | ------------ |
 | approved        | Boolean          | &cross;      |
-| participated_on | String           | &cross;      |
+| participated_on | Date             | &cross;      |
 | role            | List<String>     | &cross;      |
 | state           | String           | &cross;      |
 | user            | Participant.User | &cross;      |

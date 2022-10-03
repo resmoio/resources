@@ -9,7 +9,7 @@ bitbucket_deployment
 | deployable       | JSON        | &cross;      |
 | environment      | Environment | &check;      |
 | key              | String      | &check;      |
-| last_update_time | String      | &check;      |
+| last_update_time | Date        | &check;      |
 | number           | Int         | &check;      |
 | release          | Release     | &check;      |
 | repository_id    | String      | &cross;      |
