@@ -12,7 +12,7 @@ gitlab_merge_request
 | author                      | User                 | &check;      |
 | blockingDiscussionsResolved | Boolean              | &check;      |
 | closedAt                    | Date                 | &check;      |
-| closedBy                    | String               | &check;      |
+| closedBy                    | User                 | &check;      |
 | createdAt                   | Date                 | &check;      |
 | description                 | String               | &check;      |
 | discussionLocked            | String               | &check;      |
@@ -27,8 +27,8 @@ gitlab_merge_request
 | mergeStatus                 | String               | &check;      |
 | mergeWhenPipelineSucceeds   | Boolean              | &check;      |
 | mergedAt                    | Date                 | &check;      |
-| mergedBy                    | String               | &check;      |
-| milestone                   | String               | &check;      |
+| mergedBy                    | User                 | &check;      |
+| milestone                   | Milestone            | &check;      |
 | projectId                   | Int                  | &check;      |
 | reference                   | String               | &check;      |
 | references                  | References           | &check;      |
@@ -50,6 +50,22 @@ gitlab_merge_request
 | userNotesCount              | Int                  | &check;      |
 | webUrl                      | String               | &check;      |
 | workInProgress              | Boolean              | &check;      |
+
+#### Milestone
+| **Name**    | **Type** | **Nullable** |
+| ----------- | -------- | ------------ |
+| createdAt   | Date     | &check;      |
+| description | String   | &check;      |
+| dueDate     | Date     | &check;      |
+| expired     | Boolean  | &check;      |
+| groupId     | Long     | &check;      |
+| id          | Long     | &check;      |
+| iid         | Long     | &check;      |
+| startDate   | Date     | &check;      |
+| state       | String   | &check;      |
+| title       | String   | &check;      |
+| updatedAt   | Date     | &check;      |
+| webUrl      | String   | &check;      |
 
 #### References
 | **Name** | **Type** | **Nullable** |

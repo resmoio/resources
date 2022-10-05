@@ -11,13 +11,13 @@ azure_devops_pullrequest
 | artifactId            | String            | &check;      |
 | autoCompleteSetBy     | Identity          | &check;      |
 | closedBy              | Identity          | &check;      |
-| closedDate            | String            | &check;      |
+| closedDate            | Date              | &check;      |
 | codeReviewId          | Int               | &check;      |
 | commits               | List<Commit>      | &check;      |
 | completionOptions     | CompletionOptions | &check;      |
 | completionQueueTime   | String            | &check;      |
 | createdBy             | Identity          | &check;      |
-| creationDate          | String            | &check;      |
+| creationDate          | Date              | &check;      |
 | description           | String            | &check;      |
 | forkSource            | Fork              | &check;      |
 | hasMultipleMergeBases | Boolean           | &check;      |
@@ -114,7 +114,7 @@ azure_devops_pullrequest
 | **Name**       | **Type** | **Nullable** |
 | -------------- | -------- | ------------ |
 | id             | String   | &check;      |
-| lastUpdateTime | String   | &check;      |
+| lastUpdateTime | Date     | &check;      |
 | name           | String   | &check;      |
 | state          | String   | &check;      |
 | visibility     | String   | &check;      |
