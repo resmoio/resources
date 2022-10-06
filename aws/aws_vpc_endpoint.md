@@ -12,18 +12,18 @@ aws_vpc_endpoint
 | dnsEntries          | List<DnsEntry>     | &check;      |
 | groups              | List<Group>        | &check;      |
 | id                  | String             | &cross;      |
-| networkInterfaceIds | List<String>       | &cross;      |
-| ownerId             | String             | &cross;      |
+| networkInterfaceIds | List<String>       | &check;      |
+| ownerId             | String             | &check;      |
 | policyDocument      | JSON               | &check;      |
-| privateDnsEnabled   | Boolean            | &cross;      |
+| privateDnsEnabled   | Boolean            | &check;      |
 | region              | String             | &cross;      |
-| requesterManaged    | Boolean            | &cross;      |
-| routeTableIds       | List<String>       | &cross;      |
-| serviceName         | String             | &cross;      |
-| state               | String             | &cross;      |
-| subnetIds           | List<String>       | &cross;      |
+| requesterManaged    | Boolean            | &check;      |
+| routeTableIds       | List<String>       | &check;      |
+| serviceName         | String             | &check;      |
+| state               | String             | &check;      |
+| subnetIds           | List<String>       | &check;      |
 | tags                | Map<String,String> | &check;      |
-| type                | String             | &cross;      |
+| type                | String             | &check;      |
 
 #### DnsEntry
 | **Name**     | **Type** | **Nullable** |
