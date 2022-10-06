@@ -8,9 +8,9 @@ aws_vpc_endpoint
 | ------------------- | ------------------ | ------------ |
 | accountId           | String             | &cross;      |
 | accountName         | String             | &check;      |
-| creationTimestamp   | String             | &cross;      |
-| dnsEntries          | List<DnsEntry>     | &cross;      |
-| groups              | List<Group>        | &cross;      |
+| creationTimestamp   | String             | &check;      |
+| dnsEntries          | List<DnsEntry>     | &check;      |
+| groups              | List<Group>        | &check;      |
 | id                  | String             | &cross;      |
 | networkInterfaceIds | List<String>       | &cross;      |
 | ownerId             | String             | &cross;      |
@@ -22,7 +22,7 @@ aws_vpc_endpoint
 | serviceName         | String             | &cross;      |
 | state               | String             | &cross;      |
 | subnetIds           | List<String>       | &cross;      |
-| tags                | Map<String,String> | &cross;      |
+| tags                | Map<String,String> | &check;      |
 | type                | String             | &cross;      |
 
 #### DnsEntry
