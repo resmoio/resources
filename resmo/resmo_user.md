@@ -13,5 +13,6 @@ resmo_user
 | isActive   | Boolean   | &cross;      |
 | isEnabled  | Boolean   | &cross;      |
 | isVerified | Boolean   | &cross;      |
+| mfaEnabled | Boolean   | &check;      |
 | name       | String    | &cross;      |
 | role       | String    | &cross;      |
