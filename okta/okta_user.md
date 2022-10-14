@@ -12,6 +12,7 @@ okta_user
 | id              | String      | &cross;      |
 | lastLogin       | String      | &check;      |
 | lastUpdated     | String      | &check;      |
+| mfaEnabled      | Boolean     | &check;      |
 | passwordChanged | String      | &check;      |
 | profile         | Profile     | &check;      |
 | status          | String      | &check;      |
