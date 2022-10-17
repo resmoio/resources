@@ -141,6 +141,7 @@
   * [aws\_s3\_account\_level\_public\_access\_block](aws/aws_s3_account_level_public_access_block.md)
   * [aws\_s3\_bucket](aws/aws_s3_bucket.md)
   * [aws\_secretsmanager\_secret](aws/aws_secretsmanager_secret.md)
+  * [aws\_securityhub\_hub](aws/aws_securityhub_hub.md)
   * [aws\_ses\_configuration\_set](aws/aws_ses_configuration_set.md)
   * [aws\_ses\_identity](aws/aws_ses_identity.md)
   * [aws\_shield\_subscription](aws/aws_shield_subscription.md)

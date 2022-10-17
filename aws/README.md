@@ -145,6 +145,7 @@ Cloud service
 | S3 Account Level Public Access Block          | [aws\_s3\_account\_level\_public\_access\_block](aws\_s3\_account\_level\_public\_access\_block.md)                   |                     |
 | S3 Bucket                                     | [aws\_s3\_bucket](aws\_s3\_bucket.md)                                                                                 |                     |
 | Secrets Manager Secret                        | [aws\_secretsmanager\_secret](aws\_secretsmanager\_secret.md)                                                         |                     |
+| SecurityHub Hub                               | [aws\_securityhub\_hub](aws\_securityhub\_hub.md)                                                                     |                     |
 | SES Configuration Set                         | [aws\_ses\_configuration\_set](aws\_ses\_configuration\_set.md)                                                       |                     |
 | SES Identity                                  | [aws\_ses\_identity](aws\_ses\_identity.md)                                                                           |                     |
 | Shield Subscription                           | [aws\_shield\_subscription](aws\_shield\_subscription.md)                                                             |                     |
