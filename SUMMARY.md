@@ -557,7 +557,6 @@
   * [resmo\_variable](resmo/resmo_variable.md)
 * [Sentry](sentry/README.md)
   * [sentry\_integration](sentry/sentry_integration.md)
-  * [sentry\_member](sentry/sentry_member.md)
   * [sentry\_organization](sentry/sentry_organization.md)
   * [sentry\_project](sentry/sentry_project.md)
   * [sentry\_repository](sentry/sentry_repository.md)
