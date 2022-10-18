@@ -1,6 +1,6 @@
 Qualys
 ======
-
+Qualys, Inc. helps your business automate the full spectrum of auditing, compliance and protection of your IT systems and web applications.
 
 | **Resources**   | **Key**                                                   | **Supports Events** |
 | --------------- | --------------------------------------------------------- | ------------------- |
