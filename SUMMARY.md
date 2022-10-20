@@ -317,6 +317,8 @@
   * [gandi\_organization](gandi/gandi_organization.md)
   * [gandi\_user](gandi/gandi_user.md)
 * [GitHub](github/README.md)
+  * [github\_actions\_workflow](github/github_actions_workflow.md)
+  * [github\_actions\_workflow\_run](github/github_actions_workflow_run.md)
   * [github\_deploy\_key](github/github_deploy_key.md)
   * [github\_deployment](github/github_deployment.md)
   * [github\_deployment\_env](github/github_deployment_env.md)
