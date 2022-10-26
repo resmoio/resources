@@ -275,6 +275,7 @@
   * [datadog\_permission](datadog/datadog_permission.md)
   * [datadog\_role](datadog/datadog_role.md)
   * [datadog\_user](datadog/datadog_user.md)
+* [Demo Data](demo/README.md)
 * [Duo](duo/README.md)
   * [duo\_account](duo/duo_account.md)
   * [duo\_admin](duo/duo_admin.md)
