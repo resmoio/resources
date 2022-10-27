@@ -46,9 +46,11 @@ jumpcloud_device
 | sshdParams                     | List<SshdParam>        | &check;      |
 | systemInsights                 | SystemInsights         | &check;      |
 | systemTimezone                 | Int                    | &check;      |
+| systemToken                    | String                 | &check;      |
 | tags                           | List<String>           | &check;      |
 | templateName                   | String                 | &check;      |
 | userMetrics                    | List<UserMetric>       | &check;      |
+| usernameHashes                 | Map<String,String>     | &check;      |
 | version                        | String                 | &check;      |
 
 #### BuiltInCommand
@@ -70,14 +72,23 @@ jumpcloud_device
 | keyPresent | Boolean  | &check;      |
 
 #### Mdm
-| **Name**          | **Type** | **Nullable** |
-| ----------------- | -------- | ------------ |
-| dep               | Boolean  | &check;      |
-| deviceId          | String   | &check;      |
-| enrollmentType    | String   | &check;      |
-| profileIdentifier | String   | &check;      |
-| userApproved      | Boolean  | &check;      |
-| vendor            | String   | &check;      |
+| **Name**          | **Type**     | **Nullable** |
+| ----------------- | ------------ | ------------ |
+| createdAt         | String       | &check;      |
+| dep               | Boolean      | &check;      |
+| enrollmentType    | String       | &check;      |
+| internal          | Mdm.Internal | &check;      |
+| isSupervised      | Boolean      | &check;      |
+| policyConf        | String       | &check;      |
+| profileIdentifier | String       | &check;      |
+| updatedAt         | String       | &check;      |
+| userApproved      | Boolean      | &check;      |
+| vendor            | String       | &check;      |
+
+#### Mdm.Internal
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| deviceId | String   | &check;      |
 
 #### NetworkInterface
 | **Name** | **Type** | **Nullable** |
@@ -88,14 +99,15 @@ jumpcloud_device
 | name     | String   | &check;      |
 
 #### OsVersionDetail
-| **Name**    | **Type** | **Nullable** |
-| ----------- | -------- | ------------ |
-| major       | String   | &check;      |
-| minor       | String   | &check;      |
-| osName      | String   | &check;      |
-| patch       | String   | &check;      |
-| releaseName | String   | &check;      |
-| revision    | String   | &check;      |
+| **Name**         | **Type** | **Nullable** |
+| ---------------- | -------- | ------------ |
+| distributionName | String   | &check;      |
+| major            | String   | &check;      |
+| minor            | String   | &check;      |
+| osName           | String   | &check;      |
+| patch            | String   | &check;      |
+| releaseName      | String   | &check;      |
+| revision         | String   | &check;      |
 
 #### ProvisionMetadata
 | **Name**    | **Type**    | **Nullable** |
@@ -109,11 +121,23 @@ jumpcloud_device
 | type          | String   | &check;      |
 
 #### ServiceAccountState
-| **Name**          | **Type** | **Nullable** |
-| ----------------- | -------- | ------------ |
-| hasSecureToken    | Boolean  | &check;      |
-| passwordAPFSValid | Boolean  | &check;      |
-| passwordODValid   | Boolean  | &check;      |
+| **Name**                | **Type** | **Nullable** |
+| ----------------------- | -------- | ------------ |
+| createDatetime          | String   | &check;      |
+| createMethod            | String   | &check;      |
+| createUser              | String   | &check;      |
+| hasSecureToken          | Boolean  | &check;      |
+| keychainExists          | Boolean  | &check;      |
+| legacyPasswordAPFSValid | Boolean  | &check;      |
+| legacyPasswordODValid   | Boolean  | &check;      |
+| newPasswordAPFSValid    | Boolean  | &check;      |
+| newPasswordODValid      | Boolean  | &check;      |
+| passwordAPFSValid       | Boolean  | &check;      |
+| passwordFileExists      | Boolean  | &check;      |
+| passwordLastRotated     | String   | &check;      |
+| passwordLastValid       | String   | &check;      |
+| passwordODValid         | Boolean  | &check;      |
+| passwordRecordExists    | Boolean  | &check;      |
 
 #### SshdParam
 | **Name** | **Type** | **Nullable** |
@@ -126,17 +150,18 @@ jumpcloud_device
 | -------- | -------- | ------------ |
 | state    | String   | &check;      |
 
-#### User
-| **Name** | **Type** | **Nullable** |
-| -------- | -------- | ------------ |
-| email    | String   | &cross;      |
-| name     | String   | &cross;      |
-
 #### UserMetric
-| **Name**           | **Type** | **Nullable** |
-| ------------------ | -------- | ------------ |
-| admin              | Boolean  | &check;      |
-| managed            | Boolean  | &check;      |
-| secureTokenEnabled | Boolean  | &check;      |
-| suspended          | Boolean  | &check;      |
-| userName           | String   | &check;      |
+| **Name**                 | **Type** | **Nullable** |
+| ------------------------ | -------- | ------------ |
+| admin                    | Boolean  | &check;      |
+| collectionTime           | String   | &check;      |
+| creationTime             | String   | &check;      |
+| isFDEUser                | Boolean  | &check;      |
+| lastLogin                | String   | &check;      |
+| lastPasswordChange       | String   | &check;      |
+| managed                  | Boolean  | &check;      |
+| secureTokenEnabled       | Boolean  | &check;      |
+| secureTokenPwEnteredTime | String   | &check;      |
+| suspended                | Boolean  | &check;      |
+| userName                 | String   | &check;      |
+| userNameHash             | String   | &check;      |
