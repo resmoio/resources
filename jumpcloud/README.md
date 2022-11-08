@@ -14,6 +14,5 @@ JumpCloud's cloud based directory as a service platform is used to securely mana
 | Organization          | [jumpcloud\_organization](jumpcloud\_organization.md)                     |                     |
 | Policy                | [jumpcloud\_policy](jumpcloud\_policy.md)                                 |                     |
 | Policy Group          | [jumpcloud\_policy\_group](jumpcloud\_policy\_group.md)                   |                     |
-| Policy Result         | [jumpcloud\_policy\_result](jumpcloud\_policy\_result.md)                 |                     |
 | User                  | [jumpcloud\_user](jumpcloud\_user.md)                                     |                     |
 | User Group            | [jumpcloud\_user\_group](jumpcloud\_user\_group.md)                       |                     |

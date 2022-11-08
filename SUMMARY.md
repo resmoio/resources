@@ -461,7 +461,6 @@
   * [jumpcloud\_organization](jumpcloud/jumpcloud_organization.md)
   * [jumpcloud\_policy](jumpcloud/jumpcloud_policy.md)
   * [jumpcloud\_policy\_group](jumpcloud/jumpcloud_policy_group.md)
-  * [jumpcloud\_policy\_result](jumpcloud/jumpcloud_policy_result.md)
   * [jumpcloud\_user](jumpcloud/jumpcloud_user.md)
   * [jumpcloud\_user\_group](jumpcloud/jumpcloud_user_group.md)
 * [Kolide](kolide/README.md)
