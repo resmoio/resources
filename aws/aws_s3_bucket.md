@@ -72,7 +72,7 @@ aws_s3_bucket
 #### NotificationConfiguration
 | **Name**                     | **Type**                          | **Nullable** |
 | ---------------------------- | --------------------------------- | ------------ |
-| eventBridgeConfiguration     | JSON                              | &check;      |
+| eventBridgeConfiguration     | Boolean                           | &check;      |
 | lambdaFunctionConfigurations | List<LambdaFunctionConfiguration> | &check;      |
 | queueConfigurations          | List<QueueConfiguration>          | &check;      |
 | topicConfigurations          | List<TopicConfiguration>          | &check;      |
