@@ -29,6 +29,7 @@ aws_kms_key
 | expirationModel             | String       | &check;      |
 | keyManager                  | String       | &check;      |
 | keySpec                     | String       | &check;      |
+| keyState                    | String       | &check;      |
 | keyUsage                    | String       | &check;      |
 | multiRegion                 | Boolean      | &cross;      |
 | multiRegionKeyType          | String       | &check;      |

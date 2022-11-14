@@ -17,6 +17,7 @@ aws_cloudformation_stack
 | enableTerminationProtection | Boolean               | &check;      |
 | id                          | String                | &cross;      |
 | name                        | String                | &check;      |
+| notificationArns            | List<String>          | &check;      |
 | outputs                     | List<String>          | &check;      |
 | parentId                    | String                | &check;      |
 | region                      | String                | &cross;      |

@@ -8,6 +8,7 @@ aws_efs_file_system
 | ---------------------------- | ------------------ | ------------ |
 | accountId                    | String             | &cross;      |
 | accountName                  | String             | &check;      |
+| automaticBackups             | String             | &check;      |
 | availabilityZoneId           | String             | &check;      |
 | availabilityZoneName         | String             | &check;      |
 | creationTime                 | String             | &check;      |

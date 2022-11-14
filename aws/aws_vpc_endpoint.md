@@ -24,6 +24,7 @@ aws_vpc_endpoint
 | subnetIds           | List<String>       | &check;      |
 | tags                | Map<String,String> | &check;      |
 | type                | String             | &check;      |
+| vpcId               | String             | &check;      |
 
 #### DnsEntry
 | **Name**     | **Type** | **Nullable** |

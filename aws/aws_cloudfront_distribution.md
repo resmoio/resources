@@ -155,6 +155,8 @@ aws_cloudfront_distribution
 | **Name**                     | **Type** | **Nullable** |
 | ---------------------------- | -------- | ------------ |
 | acmCertificateArn            | String   | &check;      |
+| certificate                  | String   | &check;      |
+| certificateSource            | String   | &check;      |
 | cloudFrontDefaultCertificate | Boolean  | &check;      |
 | iamCertificateId             | String   | &check;      |
 | minimumProtocolVersion       | String   | &check;      |

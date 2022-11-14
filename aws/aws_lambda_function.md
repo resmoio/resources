@@ -23,6 +23,7 @@ aws_lambda_function
 | memorySize               | Int                | &check;      |
 | name                     | String             | &check;      |
 | packageType              | String             | &check;      |
+| policy                   | JSON               | &check;      |
 | region                   | String             | &cross;      |
 | revisionId               | String             | &check;      |
 | role                     | String             | &check;      |

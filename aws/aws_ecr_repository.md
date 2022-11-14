@@ -12,6 +12,7 @@ aws_ecr_repository
 | encryptionConfiguration    | EncryptionConfiguration    | &check;      |
 | imageScanningConfiguration | ImageScanningConfiguration | &check;      |
 | imageTagMutability         | String                     | &check;      |
+| lifecyclePolicy            | JSON                       | &check;      |
 | region                     | String                     | &cross;      |
 | registryId                 | String                     | &check;      |
 | repositoryArn              | String                     | &cross;      |

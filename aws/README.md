@@ -12,6 +12,7 @@ Cloud service
 | ApiGateway Stage                              | [aws\_apigateway\_stage](aws\_apigateway\_stage.md)                                                                   |                     |
 | ApiGatewayV2 API                              | [aws\_apigatewayv2\_api](aws\_apigatewayv2\_api.md)                                                                   |                     |
 | ApiGatewayV2 Stage                            | [aws\_apigatewayv2\_stage](aws\_apigatewayv2\_stage.md)                                                               |                     |
+| Application Auto Scaling Target               | [aws\_appautoscaling\_target](aws\_appautoscaling\_target.md)                                                         |                     |
 | Athena Data Source                            | [aws\_athena\_data\_source](aws\_athena\_data\_source.md)                                                             |                     |
 | Athena Database                               | [aws\_athena\_database](aws\_athena\_database.md)                                                                     |                     |
 | Athena Table                                  | [aws\_athena\_table](aws\_athena\_table.md)                                                                           |                     |
@@ -40,10 +41,15 @@ Cloud service
 | CloudWatch Log Group                          | [aws\_cloudwatch\_log\_group](aws\_cloudwatch\_log\_group.md)                                                         |                     |
 | CloudWatch Metric Alarm                       | [aws\_cloudwatch\_metric\_alarm](aws\_cloudwatch\_metric\_alarm.md)                                                   |                     |
 | CloudWatch Metric Filter                      | [aws\_cloudwatch\_metric\_filter](aws\_cloudwatch\_metric\_filter.md)                                                 |                     |
+| CodeBuild Project                             | [aws\_codebuild\_project](aws\_codebuild\_project.md)                                                                 |                     |
+| CodeBuild Source Credential                   | [aws\_codebuild\_source\_credential](aws\_codebuild\_source\_credential.md)                                           |                     |
 | Cognito Identity Pool                         | [aws\_cognito\_identity\_pool](aws\_cognito\_identity\_pool.md)                                                       |                     |
 | Cognito User Pool                             | [aws\_cognito\_user\_pool](aws\_cognito\_user\_pool.md)                                                               |                     |
 | Cognito User Pool Group                       | [aws\_cognito\_user\_pool\_group](aws\_cognito\_user\_pool\_group.md)                                                 |                     |
 | Config Recorder Status                        | [aws\_config\_recorder\_status](aws\_config\_recorder\_status.md)                                                     |                     |
+| DAX Cluster                                   | [aws\_dax\_cluster](aws\_dax\_cluster.md)                                                                             |                     |
+| DAX Subnet Group                              | [aws\_dax\_subnet\_group](aws\_dax\_subnet\_group.md)                                                                 |                     |
+| DMS Replication Instance                      | [aws\_dms\_replication\_instance](aws\_dms\_replication\_instance.md)                                                 |                     |
 | DocumentDB Cluster                            | [aws\_documentdb\_cluster](aws\_documentdb\_cluster.md)                                                               |                     |
 | DocumentDB Instance                           | [aws\_documentdb\_instance](aws\_documentdb\_instance.md)                                                             |                     |
 | DocumentDB Parameter Group                    | [aws\_documentdb\_parameter\_group](aws\_documentdb\_parameter\_group.md)                                             |                     |
@@ -56,6 +62,7 @@ Cloud service
 | EC2 Instance                                  | [aws\_ec2\_instance](aws\_ec2\_instance.md)                                                                           |                     |
 | EC2 Launch Template                           | [aws\_ec2\_launch\_template](aws\_ec2\_launch\_template.md)                                                           |                     |
 | EC2 Snapshot                                  | [aws\_ec2\_snapshot](aws\_ec2\_snapshot.md)                                                                           |                     |
+| EC2 Transit Gateway                           | [aws\_ec2\_transit\_gateway](aws\_ec2\_transit\_gateway.md)                                                           |                     |
 | EC2 Volume                                    | [aws\_ec2\_volume](aws\_ec2\_volume.md)                                                                               |                     |
 | ECR Repository                                | [aws\_ecr\_repository](aws\_ecr\_repository.md)                                                                       |                     |
 | ECR Public Repository                         | [aws\_ecrpublic\_repository](aws\_ecrpublic\_repository.md)                                                           |                     |
@@ -75,8 +82,13 @@ Cloud service
 | ElastiCache Parameter Group                   | [aws\_elasticache\_parameter\_group](aws\_elasticache\_parameter\_group.md)                                           |                     |
 | ElastiCache Replication Group                 | [aws\_elasticache\_replication\_group](aws\_elasticache\_replication\_group.md)                                       |                     |
 | ElastiCache Subnet Group                      | [aws\_elasticache\_subnet\_group](aws\_elasticache\_subnet\_group.md)                                                 |                     |
+| Elastic Beanstalk Application                 | [aws\_elasticbeanstalk\_application](aws\_elasticbeanstalk\_application.md)                                           |                     |
+| Elastic Beanstalk Environment                 | [aws\_elasticbeanstalk\_environment](aws\_elasticbeanstalk\_environment.md)                                           |                     |
 | ELB Load Balancer                             | [aws\_elb\_load\_balancer](aws\_elb\_load\_balancer.md)                                                               |                     |
 | ELB Target Group                              | [aws\_elb\_target\_group](aws\_elb\_target\_group.md)                                                                 |                     |
+| EMR Cluster                                   | [aws\_emr\_cluster](aws\_emr\_cluster.md)                                                                             |                     |
+| EMR Instance                                  | [aws\_emr\_instance](aws\_emr\_instance.md)                                                                           |                     |
+| EMR Instance Fleet                            | [aws\_emr\_instance\_fleet](aws\_emr\_instance\_fleet.md)                                                             |                     |
 | EventBridge API Destination                   | [aws\_eventbridge\_api\_destination](aws\_eventbridge\_api\_destination.md)                                           |                     |
 | EventBridge Archive                           | [aws\_eventbridge\_archive](aws\_eventbridge\_archive.md)                                                             |                     |
 | EventBridge Connection                        | [aws\_eventbridge\_connection](aws\_eventbridge\_connection.md)                                                       |                     |
@@ -123,6 +135,8 @@ Cloud service
 | KMS Grant                                     | [aws\_kms\_grant](aws\_kms\_grant.md)                                                                                 |                     |
 | KMS Key                                       | [aws\_kms\_key](aws\_kms\_key.md)                                                                                     |                     |
 | Lambda Function                               | [aws\_lambda\_function](aws\_lambda\_function.md)                                                                     |                     |
+| Network Firewall Policy                       | [aws\_networkfirewall\_policy](aws\_networkfirewall\_policy.md)                                                       |                     |
+| Network Firewall Rule Group                   | [aws\_networkfirewall\_rule\_group](aws\_networkfirewall\_rule\_group.md)                                             |                     |
 | OpenSearch Domain                             | [aws\_opensearch\_domain](aws\_opensearch\_domain.md)                                                                 |                     |
 | OpenSearch Inbound Connection                 | [aws\_opensearch\_inbound\_connection](aws\_opensearch\_inbound\_connection.md)                                       |                     |
 | OpenSearch Outbound Connection                | [aws\_opensearch\_outbound\_connection](aws\_opensearch\_outbound\_connection.md)                                     |                     |
@@ -138,12 +152,19 @@ Cloud service
 | RDS DB Snapshot                               | [aws\_rds\_db\_snapshot](aws\_rds\_db\_snapshot.md)                                                                   |                     |
 | RDS Event Subscription                        | [aws\_rds\_event\_subscription](aws\_rds\_event\_subscription.md)                                                     |                     |
 | RDS Instance                                  | [aws\_rds\_instance](aws\_rds\_instance.md)                                                                           |                     |
+| Redshift Cluster                              | [aws\_redshift\_cluster](aws\_redshift\_cluster.md)                                                                   |                     |
+| Redshift Event Subscription                   | [aws\_redshift\_event\_subscription](aws\_redshift\_event\_subscription.md)                                           |                     |
+| Redshift Parameter Group                      | [aws\_redshift\_parameter\_group](aws\_redshift\_parameter\_group.md)                                                 |                     |
+| Redshift Snapshot                             | [aws\_redshift\_snapshot](aws\_redshift\_snapshot.md)                                                                 |                     |
 | Region                                        | [aws\_region](aws\_region.md)                                                                                         |                     |
 | Route53 Domain                                | [aws\_route53\_domain](aws\_route53\_domain.md)                                                                       |                     |
 | Route53 Hosted Zone                           | [aws\_route53\_hosted\_zone](aws\_route53\_hosted\_zone.md)                                                           |                     |
 | Route53 Hosted Zone Record                    | [aws\_route53\_hosted\_zone\_record](aws\_route53\_hosted\_zone\_record.md)                                           |                     |
 | S3 Account Level Public Access Block          | [aws\_s3\_account\_level\_public\_access\_block](aws\_s3\_account\_level\_public\_access\_block.md)                   |                     |
 | S3 Bucket                                     | [aws\_s3\_bucket](aws\_s3\_bucket.md)                                                                                 |                     |
+| SageMaker App                                 | [aws\_sagemaker\_app](aws\_sagemaker\_app.md)                                                                         |                     |
+| SageMaker Domain                              | [aws\_sagemaker\_domain](aws\_sagemaker\_domain.md)                                                                   |                     |
+| SageMaker Notebook Instance                   | [aws\_sagemaker\_notebook\_instance](aws\_sagemaker\_notebook\_instance.md)                                           |                     |
 | Secrets Manager Secret                        | [aws\_secretsmanager\_secret](aws\_secretsmanager\_secret.md)                                                         |                     |
 | SecurityHub Hub                               | [aws\_securityhub\_hub](aws\_securityhub\_hub.md)                                                                     |                     |
 | SES Configuration Set                         | [aws\_ses\_configuration\_set](aws\_ses\_configuration\_set.md)                                                       |                     |
@@ -175,5 +196,8 @@ Cloud service
 | VPC Route Table                               | [aws\_vpc\_route\_table](aws\_vpc\_route\_table.md)                                                                   |                     |
 | VPC Security Group                            | [aws\_vpc\_security\_group](aws\_vpc\_security\_group.md)                                                             |                     |
 | VPC Subnet                                    | [aws\_vpc\_subnet](aws\_vpc\_subnet.md)                                                                               |                     |
+| WAF Rule                                      | [aws\_waf\_rule](aws\_waf\_rule.md)                                                                                   |                     |
+| WAF Rule Group                                | [aws\_waf\_rule\_group](aws\_waf\_rule\_group.md)                                                                     |                     |
+| WAF V2 Rule Group                             | [aws\_waf\_v2\_rule\_group](aws\_waf\_v2\_rule\_group.md)                                                             |                     |
 | WAF Web ACL                                   | [aws\_waf\_web\_acl](aws\_waf\_web\_acl.md)                                                                           |                     |
 | WAF V2 Web ACL                                | [aws\_wafv2\_web\_acl](aws\_wafv2\_web\_acl.md)                                                                       |                     |

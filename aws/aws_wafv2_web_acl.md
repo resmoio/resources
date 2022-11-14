@@ -16,6 +16,7 @@ aws_wafv2_web_acl
 | description                          | String                         | &check;      |
 | id                                   | String                         | &cross;      |
 | labelNamespace                       | String                         | &check;      |
+| loggingConfiguration                 | LoggingConfiguration           | &check;      |
 | managedByFirewallManager             | Boolean                        | &check;      |
 | name                                 | String                         | &cross;      |
 | postProcessFirewallManagerRuleGroups | List<FirewallManagerRuleGroup> | &check;      |
@@ -43,6 +44,15 @@ aws_wafv2_web_acl
 | overrideAction           | JSON             | &check;      |
 | priority                 | Int              | &cross;      |
 | visibilityConfig         | VisibilityConfig | &check;      |
+
+#### LoggingConfiguration
+| **Name**                 | **Type**     | **Nullable** |
+| ------------------------ | ------------ | ------------ |
+| logDestinationConfigs    | List<String> | &check;      |
+| loggingFilter            | JSON         | &check;      |
+| managedByFirewallManager | Boolean      | &check;      |
+| redactedFields           | List<JSON>   | &check;      |
+| resourceArn              | String       | &check;      |
 
 #### Rule
 | **Name**         | **Type**         | **Nullable** |

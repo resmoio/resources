@@ -12,9 +12,11 @@ aws_s3_bucket
 | creationDate                   | String                    | &cross;      |
 | hostname                       | String                    | &check;      |
 | kmsMasterKeyID                 | String                    | &check;      |
+| lifeCycleConfig                | List<JSON>                | &check;      |
 | logging                        | LoggingEnabled            | &check;      |
 | mfaDelete                      | String                    | &check;      |
 | name                           | String                    | &cross;      |
+| notificationConfiguration      | NotificationConfiguration | &check;      |
 | policy                         | JSON                      | &check;      |
 | policyStatus                   | PolicyStatus              | &check;      |
 | publicAccessBlockConfiguration | PublicAccessConfiguration | &check;      |
@@ -36,6 +38,14 @@ aws_s3_bucket
 | permission | String   | &check;      |
 | type       | String   | &check;      |
 | uri        | String   | &check;      |
+
+#### LambdaFunctionConfiguration
+| **Name**          | **Type**                        | **Nullable** |
+| ----------------- | ------------------------------- | ------------ |
+| events            | List<String>                    | &check;      |
+| filter            | NotificationConfigurationFilter | &check;      |
+| id                | String                          | &check;      |
+| lambdaFunctionArn | String                          | &check;      |
 
 #### LoggingEnabled
 | **Name**     | **Type**                   | **Nullable** |
@@ -59,6 +69,30 @@ aws_s3_bucket
 | type         | String   | &check;      |
 | uri          | String   | &check;      |
 
+#### NotificationConfiguration
+| **Name**                     | **Type**                          | **Nullable** |
+| ---------------------------- | --------------------------------- | ------------ |
+| eventBridgeConfiguration     | JSON                              | &check;      |
+| lambdaFunctionConfigurations | List<LambdaFunctionConfiguration> | &check;      |
+| queueConfigurations          | List<QueueConfiguration>          | &check;      |
+| topicConfigurations          | List<TopicConfiguration>          | &check;      |
+
+#### NotificationConfigurationFilter
+| **Name** | **Type**                                    | **Nullable** |
+| -------- | ------------------------------------------- | ------------ |
+| key      | NotificationConfigurationFilter.S3KeyFilter | &check;      |
+
+#### NotificationConfigurationFilter.FilterRule
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| name     | String   | &check;      |
+| value    | String   | &check;      |
+
+#### NotificationConfigurationFilter.S3KeyFilter
+| **Name**    | **Type**                                         | **Nullable** |
+| ----------- | ------------------------------------------------ | ------------ |
+| filterRules | List<NotificationConfigurationFilter.FilterRule> | &check;      |
+
 #### PolicyStatus
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
@@ -72,6 +106,22 @@ aws_s3_bucket
 | ignorePublicAcls      | Boolean  | &cross;      |
 | restrictPublicBuckets | Boolean  | &cross;      |
 
+#### QueueConfiguration
+| **Name** | **Type**                        | **Nullable** |
+| -------- | ------------------------------- | ------------ |
+| events   | List<String>                    | &check;      |
+| filter   | NotificationConfigurationFilter | &check;      |
+| id       | String                          | &check;      |
+| queueArn | String                          | &check;      |
+
 #### ResourceCustomComparable
 | **Name** | **Type** | **Nullable** || -------- | -------- | ------------ |
 
+
+#### TopicConfiguration
+| **Name** | **Type**                        | **Nullable** |
+| -------- | ------------------------------- | ------------ |
+| events   | List<String>                    | &check;      |
+| filter   | NotificationConfigurationFilter | &check;      |
+| id       | String                          | &check;      |
+| topicArn | String                          | &check;      |
