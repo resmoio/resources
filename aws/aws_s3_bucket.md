@@ -12,7 +12,7 @@ aws_s3_bucket
 | creationDate                   | String                    | &cross;      |
 | hostname                       | String                    | &check;      |
 | kmsMasterKeyID                 | String                    | &check;      |
-| lifeCycleConfig                | List<JSON>                | &check;      |
+| lifeCycleConfig                | List<LifecycleRule>       | &check;      |
 | logging                        | LoggingEnabled            | &check;      |
 | mfaDelete                      | String                    | &check;      |
 | name                           | String                    | &cross;      |
@@ -39,6 +39,11 @@ aws_s3_bucket
 | type       | String   | &check;      |
 | uri        | String   | &check;      |
 
+#### AbortIncompleteMultipartUpload
+| **Name**            | **Type** | **Nullable** |
+| ------------------- | -------- | ------------ |
+| daysAfterInitiation | Int      | &check;      |
+
 #### LambdaFunctionConfiguration
 | **Name**          | **Type**                        | **Nullable** |
 | ----------------- | ------------------------------- | ------------ |
@@ -46,6 +51,44 @@ aws_s3_bucket
 | filter            | NotificationConfigurationFilter | &check;      |
 | id                | String                          | &check;      |
 | lambdaFunctionArn | String                          | &check;      |
+
+#### LifecycleExpiration
+| **Name**                  | **Type** | **Nullable** |
+| ------------------------- | -------- | ------------ |
+| date                      | String   | &check;      |
+| days                      | Int      | &check;      |
+| expiredObjectDeleteMarker | Boolean  | &check;      |
+
+#### LifecycleRule
+| **Name**                       | **Type**                          | **Nullable** |
+| ------------------------------ | --------------------------------- | ------------ |
+| abortIncompleteMultipartUpload | AbortIncompleteMultipartUpload    | &check;      |
+| expiration                     | LifecycleExpiration               | &check;      |
+| filter                         | LifecycleRuleFilter               | &check;      |
+| id                             | String                            | &check;      |
+| noncurrentVersionExpiration    | NoncurrentVersionExpiration       | &check;      |
+| noncurrentVersionTransitions   | List<NoncurrentVersionTransition> | &check;      |
+| prefix                         | String                            | &check;      |
+| status                         | String                            | &check;      |
+| transitions                    | List<Transition>                  | &check;      |
+
+#### LifecycleRuleAndOperator
+| **Name**              | **Type**           | **Nullable** |
+| --------------------- | ------------------ | ------------ |
+| objectSizeGreaterThan | Long               | &check;      |
+| objectSizeLessThan    | Long               | &check;      |
+| prefix                | String             | &check;      |
+| tags                  | Map<String,String> | &check;      |
+
+#### LifecycleRuleFilter
+| **Name**              | **Type**                 | **Nullable** |
+| --------------------- | ------------------------ | ------------ |
+| and                   | LifecycleRuleAndOperator | &check;      |
+| objectSizeGreaterThan | Long                     | &check;      |
+| objectSizeLessThan    | Long                     | &check;      |
+| prefix                | String                   | &check;      |
+| tag                   | Map<String,String>       | &check;      |
+| type                  | String                   | &check;      |
 
 #### LoggingEnabled
 | **Name**     | **Type**                   | **Nullable** |
@@ -68,6 +111,19 @@ aws_s3_bucket
 | id           | String   | &check;      |
 | type         | String   | &check;      |
 | uri          | String   | &check;      |
+
+#### NoncurrentVersionExpiration
+| **Name**                | **Type** | **Nullable** |
+| ----------------------- | -------- | ------------ |
+| newerNoncurrentVersions | Int      | &check;      |
+| noncurrentDays          | Int      | &check;      |
+
+#### NoncurrentVersionTransition
+| **Name**                | **Type** | **Nullable** |
+| ----------------------- | -------- | ------------ |
+| newerNoncurrentVersions | Int      | &check;      |
+| noncurrentDays          | Int      | &check;      |
+| storageClass            | String   | &check;      |
 
 #### NotificationConfiguration
 | **Name**                     | **Type**                          | **Nullable** |
@@ -125,3 +181,10 @@ aws_s3_bucket
 | filter   | NotificationConfigurationFilter | &check;      |
 | id       | String                          | &check;      |
 | topicArn | String                          | &check;      |
+
+#### Transition
+| **Name**     | **Type** | **Nullable** |
+| ------------ | -------- | ------------ |
+| date         | String   | &check;      |
+| days         | Int      | &check;      |
+| storageClass | String   | &check;      |
