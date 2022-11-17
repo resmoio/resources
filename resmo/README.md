@@ -9,8 +9,10 @@ You can even query your Resmo resources and changes from Resmo itself! Pretty ex
 | Integration          | [resmo\_integration](resmo\_integration.md)                     | &check;             |
 | Notification Channel | [resmo\_notification\_channel](resmo\_notification\_channel.md) | &check;             |
 | Pack                 | [resmo\_pack](resmo\_pack.md)                                   | &check;             |
+| Policy               | [resmo\_policy](resmo\_policy.md)                               | &check;             |
 | Resource Group       | [resmo\_resource\_group](resmo\_resource\_group.md)             | &check;             |
 | Resources            | [resmo\_resources](resmo\_resources.md)                         |                     |
+| Role                 | [resmo\_role](resmo\_role.md)                                   | &check;             |
 | Rule                 | [resmo\_rule](resmo\_rule.md)                                   | &check;             |
 | Rule Notification    | [resmo\_rule\_notification](resmo\_rule\_notification.md)       | &check;             |
 | Saved Query          | [resmo\_saved\_query](resmo\_saved\_query.md)                   | &check;             |
