@@ -11,14 +11,12 @@ googledrive_document
 | customerId         | String           | &cross;      |
 | folderId           | String           | &check;      |
 | id                 | String           | &cross;      |
-| isEncrypted        | Boolean          | &check;      |
 | owner              | String           | &check;      |
 | ownerIsSharedDrive | Boolean          | &check;      |
-| ownerIsTeamDrive   | Boolean          | &check;      |
 | title              | String           | &check;      |
 | type               | String           | &check;      |
-| userAccess         | List<UserAccess> | &check;      |
-| visibility         | Visibility       | &check;      |
+| userAccess         | List<UserAccess> | &cross;      |
+| visibility         | Visibility       | &cross;      |
 
 #### UserAccess
 | **Name** | **Type** | **Nullable** |
@@ -29,7 +27,7 @@ googledrive_document
 #### Visibility
 | **Name**     | **Type** | **Nullable** |
 | ------------ | -------- | ------------ |
-| change       | String   | &check;      |
-| scope        | String   | &check;      |
+| change       | String   | &cross;      |
+| changeAt     | Date     | &check;      |
 | targetDomain | String   | &check;      |
-| type         | String   | &check;      |
+| type         | String   | &cross;      |
