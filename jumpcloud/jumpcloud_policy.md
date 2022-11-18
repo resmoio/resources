@@ -13,6 +13,7 @@ jumpcloud_policy
 | organizationName | String       | &cross;      |
 | policyGroups     | List<String> | &cross;      |
 | template         | Template     | &check;      |
+| values           | List<Value>  | &cross;      |
 
 #### AppleRestrictions
 | **Name**                 | **Type**     | **Nullable** |
@@ -46,6 +47,12 @@ jumpcloud_policy
 | osRestrictions | List<OsRestriction> | &check;      |
 | reference      | String              | &check;      |
 | state          | String              | &check;      |
+
+#### Value
+| **Name**      | **Type** | **Nullable** |
+| ------------- | -------- | ------------ |
+| configFieldID | String   | &check;      |
+| value         | String   | &check;      |
 
 #### WithAppleRestrictions
 | **Name**          | **Type**          | **Nullable** |
