@@ -5,6 +5,9 @@ You can even query your Resmo resources and changes from Resmo itself! Pretty ex
 | **Resources**        | **Key**                                                         | **Supports Events** |
 | -------------------- | --------------------------------------------------------------- | ------------------- |
 | Account              | [resmo\_account](resmo\_account.md)                             | &check;             |
+| API Key              | [resmo\_api\_key](resmo\_api\_key.md)                           | &check;             |
+| Custom Schema        | [resmo\_custom\_schema](resmo\_custom\_schema.md)               | &check;             |
+| Custom Schema Group  | [resmo\_custom\_schema\_group](resmo\_custom\_schema\_group.md) | &check;             |
 | Dashboard            | [resmo\_dashboard](resmo\_dashboard.md)                         | &check;             |
 | Integration          | [resmo\_integration](resmo\_integration.md)                     | &check;             |
 | Notification Channel | [resmo\_notification\_channel](resmo\_notification\_channel.md) | &check;             |
