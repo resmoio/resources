@@ -10,7 +10,9 @@ azure_storage_account
 | allowCrossTenantReplication                     | Boolean                               | &check;      |
 | allowedCopyScope                                | String                                | &check;      |
 | azureFilesIdentityBasedAuthentication           | AzureFilesIdentityBasedAuthentication | &check;      |
+| blobProperties                                  | ServiceProperties                     | &check;      |
 | blobRestoreStatus                               | BlobRestoreStatus                     | &check;      |
+| blobServiceProperties                           | BlobServiceProperties                 | &check;      |
 | canAccessFromAzureServices                      | Boolean                               | &check;      |
 | canReadLogEntriesFromAnyNetwork                 | Boolean                               | &check;      |
 | canReadMetricsFromAnyNetwork                    | Boolean                               | &check;      |
@@ -52,6 +54,7 @@ azure_storage_account
 | privateLinkResources                            | List<PrivateLinkResource>             | &check;      |
 | provisioningState                               | String                                | &check;      |
 | publicNetworkAccess                             | String                                | &check;      |
+| queueProperties                                 | ServiceProperties                     | &check;      |
 | resourceGroupName                               | String                                | &cross;      |
 | routingReference                                | RoutingReference                      | &check;      |
 | sasPolicy                                       | SasPolicy                             | &check;      |
@@ -77,6 +80,16 @@ azure_storage_account
 | netBiosDomainName | String   | &check;      |
 | samAccountName    | String   | &check;      |
 
+#### AnalyticsLogging
+| **Name**            | **Type** | **Nullable** |
+| ------------------- | -------- | ------------ |
+| delete              | Boolean  | &check;      |
+| read                | Boolean  | &check;      |
+| retentionPolicy     | Boolean  | &check;      |
+| retentionPolicyDays | Int      | &check;      |
+| version             | String   | &check;      |
+| write               | Boolean  | &check;      |
+
 #### AzureFilesIdentityBasedAuthentication
 | **Name**                  | **Type**                  | **Nullable** |
 | ------------------------- | ------------------------- | ------------ |
@@ -98,6 +111,25 @@ azure_storage_account
 | restoreId     | String                 | &check;      |
 | status        | String                 | &check;      |
 | timeToRestore | String                 | &check;      |
+
+#### BlobServiceProperties
+| **Name**                  | **Type**       | **Nullable** |
+| ------------------------- | -------------- | ------------ |
+| cors                      | List<CorsRule> | &check;      |
+| defaultServiceVersion     | String         | &check;      |
+| deleteRetentionPolicy     | Boolean        | &check;      |
+| deleteRetentionPolicyDays | Int            | &check;      |
+| id                        | String         | &check;      |
+| name                      | String         | &check;      |
+
+#### CorsRule
+| **Name**        | **Type**     | **Nullable** |
+| --------------- | ------------ | ------------ |
+| allowedHeaders  | List<String> | &check;      |
+| allowedMethods  | List<String> | &check;      |
+| allowedOrigins  | List<String> | &check;      |
+| exposedHeaders  | List<String> | &check;      |
+| maxAgeInSeconds | Int          | &check;      |
 
 #### CustomDomain
 | **Name**     | **Type** | **Nullable** |
@@ -191,6 +223,15 @@ azure_storage_account
 | keyVersion                             | String   | &check;      |
 | lastKeyRotationTimestamp               | String   | &check;      |
 
+#### Metrics
+| **Name**            | **Type** | **Nullable** |
+| ------------------- | -------- | ------------ |
+| enabled             | Boolean  | &check;      |
+| includeApis         | Boolean  | &check;      |
+| retentionPolicy     | Boolean  | &check;      |
+| retentionPolicyDays | Int      | &check;      |
+| version             | String   | &cross;      |
+
 #### NetworkRuleSet
 | **Name**            | **Type**                 | **Nullable** |
 | ------------------- | ------------------------ | ------------ |
@@ -242,6 +283,13 @@ azure_storage_account
 | ------------------- | -------- | ------------ |
 | expirationAction    | String   | &check;      |
 | sasExpirationPeriod | String   | &check;      |
+
+#### ServiceProperties
+| **Name**         | **Type**         | **Nullable** |
+| ---------------- | ---------------- | ------------ |
+| analyticsLogging | AnalyticsLogging | &check;      |
+| hourMetrics      | Metrics          | &check;      |
+| minuteMetrics    | Metrics          | &check;      |
 
 #### UserAssignedIdentity
 | **Name**    | **Type** | **Nullable** |

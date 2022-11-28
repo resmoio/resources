@@ -8,6 +8,7 @@ azure_key_vault
 | ---------------------------- | ------------------------------- | ------------ |
 | accessPolicies               | List<AccessPolicyEntry>         | &check;      |
 | createMode                   | String                          | &check;      |
+| diagnosticSettings           | List<DiagnosticSetting>         | &check;      |
 | enabledForDeployment         | Boolean                         | &check;      |
 | enabledForDiskEncryption     | Boolean                         | &check;      |
 | enabledForTemplateDeployment | Boolean                         | &check;      |
@@ -41,6 +42,17 @@ azure_key_vault
 | permissions   | Permissions | &check;      |
 | tenantId      | String      | &check;      |
 
+#### DiagnosticSetting
+| **Name**                    | **Type**             | **Nullable** |
+| --------------------------- | -------------------- | ------------ |
+| eventHubAuthorizationRuleId | String               | &check;      |
+| eventHubName                | String               | &check;      |
+| logs                        | List<LogSettings>    | &check;      |
+| metrics                     | List<MetricSettings> | &check;      |
+| resourceId                  | String               | &check;      |
+| storageAccountId            | String               | &check;      |
+| workspaceId                 | String               | &check;      |
+
 #### JsonWebKey
 | **Name** | **Type**     | **Nullable** |
 | -------- | ------------ | ------------ |
@@ -65,6 +77,23 @@ azure_key_vault
 | tags            | Map<String,String> | &check;      |
 | updatedOn       | String             | &check;      |
 | version         | String             | &check;      |
+
+#### LogSettings
+| **Name**               | **Type** | **Nullable** |
+| ---------------------- | -------- | ------------ |
+| category               | String   | &check;      |
+| enabled                | Boolean  | &check;      |
+| retentionDays          | Int      | &check;      |
+| retentionPolicyEnabled | Boolean  | &check;      |
+
+#### MetricSettings
+| **Name**               | **Type** | **Nullable** |
+| ---------------------- | -------- | ------------ |
+| category               | String   | &check;      |
+| enabled                | Boolean  | &check;      |
+| retentionDays          | Int      | &check;      |
+| retentionPolicyEnabled | Boolean  | &check;      |
+| timeGrain              | String   | &check;      |
 
 #### NetworkRuleSet
 | **Name**            | **Type**                 | **Nullable** |
