@@ -15,4 +15,5 @@ resmo_user
 | isVerified | Boolean   | &cross;      |
 | mfaEnabled | Boolean   | &check;      |
 | name       | String    | &cross;      |
+| rbacRole   | String    | &check;      |
 | role       | String    | &cross;      |
