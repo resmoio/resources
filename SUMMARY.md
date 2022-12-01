@@ -299,6 +299,7 @@
   * [cloudflare\_zone\_user\_agent\_blocking\_rule](cloudflare/cloudflare_zone_user_agent_blocking_rule.md)
 * [Confluence](confluence/README.md)
   * [confluence\_space](confluence/confluence_space.md)
+* [Custom Data](customdata/README.md)
 * [Datadog](datadog/README.md)
   * [datadog\_api\_key](datadog/datadog_api_key.md)
   * [datadog\_app\_key](datadog/datadog_app_key.md)
