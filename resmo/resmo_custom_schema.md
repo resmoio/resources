@@ -8,7 +8,8 @@ resmo_custom_schema
 | ------------ | --------- | ------------ |
 | createdAt    | Timestamp | &check;      |
 | createdBy    | String    | &check;      |
-| group        | String    | &check;      |
+| groupName    | String    | &check;      |
+| groupPrefix  | String    | &check;      |
 | name         | String    | &check;      |
 | resourceName | String    | &cross;      |
 | schema       | JSON      | &check;      |
