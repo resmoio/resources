@@ -12,6 +12,7 @@ resmo_user
 | id         | String    | &cross;      |
 | isActive   | Boolean   | &cross;      |
 | isEnabled  | Boolean   | &cross;      |
+| isOwner    | Boolean   | &check;      |
 | isVerified | Boolean   | &cross;      |
 | mfaEnabled | Boolean   | &check;      |
 | name       | String    | &cross;      |
