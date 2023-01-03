@@ -378,6 +378,7 @@
   * [github\_org\_member](github/github_org_member.md)
   * [github\_pull\_request](github/github_pull_request.md)
   * [github\_repo](github/github_repo.md)
+  * [github\_repo\_webhook](github/github_repo_webhook.md)
   * [github\_team](github/github_team.md)
   * [github\_team\_member](github/github_team_member.md)
   * [github\_team\_repo](github/github_team_repo.md)

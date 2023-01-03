@@ -16,6 +16,7 @@ GitHub is a provider of Internet hosting for software development and version co
 | Organization Member       | [github\_org\_member](github\_org\_member.md)                       | &check;             |
 | Pull Request              | [github\_pull\_request](github\_pull\_request.md)                   | &check;             |
 | Repository                | [github\_repo](github\_repo.md)                                     | &check;             |
+| Repository Webhook        | [github\_repo\_webhook](github\_repo\_webhook.md)                   |                     |
 | Team                      | [github\_team](github\_team.md)                                     | &check;             |
 | Team Member               | [github\_team\_member](github\_team\_member.md)                     | &check;             |
 | Team Repository           | [github\_team\_repo](github\_team\_repo.md)                         |                     |
