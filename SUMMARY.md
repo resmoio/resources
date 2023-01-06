@@ -765,6 +765,8 @@
   * [webflow\_domain](webflow/webflow_domain.md)
   * [webflow\_site](webflow/webflow_site.md)
   * [webflow\_webhook](webflow/webflow_webhook.md)
+* [Wizer](wizer/README.md)
+  * [wizer\_user\_progress](wizer/wizer_user_progress.md)
 * [Zendesk](zendesk/README.md)
   * [zendesk\_account](zendesk/zendesk_account.md)
   * [zendesk\_app\_installation](zendesk/zendesk_app_installation.md)
