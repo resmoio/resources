@@ -5,6 +5,7 @@ Google Workspace (formerly GSuite) is a collection of cloud computing, productiv
 | **Resources**                 | **Key**                                                     | **Supports Events** |
 | ----------------------------- | ----------------------------------------------------------- | ------------------- |
 | Application Specific Password | [gsuite\_asp](gsuite\_asp.md)                               |                     |
+| Chrome Browser                | [gsuite\_chrome\_browser](gsuite\_chrome\_browser.md)       |                     |
 | Customer                      | [gsuite\_customer](gsuite\_customer.md)                     |                     |
 | Domain                        | [gsuite\_domain](gsuite\_domain.md)                         | &check;             |
 | Group                         | [gsuite\_group](gsuite\_group.md)                           | &check;             |

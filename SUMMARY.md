@@ -465,6 +465,7 @@
   * [googledrive\_document](googledrive/googledrive_document.md)
 * [Google Workspace](gsuite/README.md)
   * [gsuite\_asp](gsuite/gsuite_asp.md)
+  * [gsuite\_chrome\_browser](gsuite/gsuite_chrome_browser.md)
   * [gsuite\_customer](gsuite/gsuite_customer.md)
   * [gsuite\_domain](gsuite/gsuite_domain.md)
   * [gsuite\_group](gsuite/gsuite_group.md)
