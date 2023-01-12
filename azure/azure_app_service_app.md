@@ -218,7 +218,7 @@ azure_app_service_app
 | principalId            | String                           | &check;      |
 | tenantId               | String                           | &check;      |
 | type                   | String                           | &check;      |
-| userAssignedIdentities | Map<String,UserAssignedIdentity> | &cross;      |
+| userAssignedIdentities | Map<String,UserAssignedIdentity> | &check;      |
 
 #### PushSettings
 | **Name**          | **Type** | **Nullable** |
