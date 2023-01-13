@@ -6,6 +6,7 @@ GitHub is a provider of Internet hosting for software development and version co
 | ------------------------- | ------------------------------------------------------------------- | ------------------- |
 | Actions Workflow          | [github\_actions\_workflow](github\_actions\_workflow.md)           |                     |
 | Actions Workflow Run      | [github\_actions\_workflow\_run](github\_actions\_workflow\_run.md) | &check;             |
+| App Installation          | [github\_app\_installation](github\_app\_installation.md)           |                     |
 | Deploy Key                | [github\_deploy\_key](github\_deploy\_key.md)                       | &check;             |
 | Deployment                | [github\_deployment](github\_deployment.md)                         | &check;             |
 | Deployment Environment    | [github\_deployment\_env](github\_deployment\_env.md)               |                     |
