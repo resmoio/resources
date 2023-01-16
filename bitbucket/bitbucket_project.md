@@ -31,4 +31,4 @@ bitbucket_project
 | name     | String   | &check;      |
 | slug     | String   | &check;      |
 | type     | String   | &check;      |
-| uuid     | String   | &check;      |
+| uuid     | String   | &cross;      |

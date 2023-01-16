@@ -15,7 +15,6 @@ bitbucket_pull_request
 | id                  | String              | &cross;      |
 | merge_commit        | Commit              | &check;      |
 | reason              | String              | &check;      |
-| reviewers           | List<Account>       | &check;      |
 | source              | PullRequestEndpoint | &check;      |
 | state               | String              | &check;      |
 | summary             | JSON                | &check;      |
