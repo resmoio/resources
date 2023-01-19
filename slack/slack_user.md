@@ -8,7 +8,6 @@ slack_user
 | ---------------------- | -------------- | ------------ |
 | admin                  | Boolean        | &check;      |
 | appUser                | Boolean        | &check;      |
-| billingActive          | Boolean        | &check;      |
 | bot                    | Boolean        | &check;      |
 | channels               | List<String>   | &check;      |
 | color                  | String         | &check;      |
