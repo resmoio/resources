@@ -366,7 +366,7 @@
   * [gandi\_domain\_glue\_record](gandi/gandi_domain_glue_record.md)
   * [gandi\_domain\_livedns\_information](gandi/gandi_domain_livedns_information.md)
   * [gandi\_domain\_record](gandi/gandi_domain_record.md)
-  * [gandi\_domain\_renewal-information](gandi/gandi_domain_renewal-information.md)
+  * [gandi\_domain\_renewal\_information](gandi/gandi_domain_renewal_information.md)
   * [gandi\_domain\_webredir](gandi/gandi_domain_webredir.md)
   * [gandi\_organization](gandi/gandi_organization.md)
   * [gandi\_user](gandi/gandi_user.md)
