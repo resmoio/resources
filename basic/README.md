@@ -4,6 +4,7 @@ Entity
 
 | **Resources**  | **Key**                               | **Supports Events** |
 | -------------- | ------------------------------------- | ------------------- |
+| Container      | [container](container.md)             |                     |
 | Database       | [database](database.md)               |                     |
 | Device         | [device](device.md)                   |                     |
 | DNS Record     | [dns\_record](dns\_record.md)         |                     |

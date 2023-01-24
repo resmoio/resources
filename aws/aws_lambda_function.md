@@ -35,6 +35,13 @@ aws_lambda_function
 | version                  | String             | &check;      |
 | vpcConfig                | VpcConfig          | &check;      |
 
+#### Code
+| **Name**         | **Type** | **Nullable** |
+| ---------------- | -------- | ------------ |
+| imageUri         | String   | &check;      |
+| repositoryType   | String   | &check;      |
+| resolvedImageUri | String   | &check;      |
+
 #### DeadLetterConfig
 | **Name**  | **Type** | **Nullable** |
 | --------- | -------- | ------------ |

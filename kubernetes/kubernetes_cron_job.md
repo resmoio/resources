@@ -340,15 +340,24 @@ kubernetes_cron_job
 | value             | String   | &check;      |
 
 #### PodStatus
-| **Name**          | **Type**              | **Nullable** |
-| ----------------- | --------------------- | ------------ |
-| hostIP            | String                | &check;      |
-| message           | String                | &check;      |
-| nominatedNodeName | String                | &check;      |
-| podIP             | String                | &check;      |
-| podIPs            | List<PodStatus.PodIP> | &check;      |
-| qosClass          | String                | &check;      |
-| startTime         | String                | &check;      |
+| **Name**          | **Type**                        | **Nullable** |
+| ----------------- | ------------------------------- | ------------ |
+| containerStatuses | List<PodStatus.ContainerStatus> | &cross;      |
+| hostIP            | String                          | &check;      |
+| message           | String                          | &check;      |
+| nominatedNodeName | String                          | &check;      |
+| podIP             | String                          | &check;      |
+| podIPs            | List<PodStatus.PodIP>           | &check;      |
+| qosClass          | String                          | &check;      |
+| startTime         | String                          | &check;      |
+
+#### PodStatus.ContainerStatus
+| **Name**    | **Type** | **Nullable** |
+| ----------- | -------- | ------------ |
+| containerID | String   | &check;      |
+| image       | String   | &check;      |
+| imageID     | String   | &check;      |
+| name        | String   | &check;      |
 
 #### PodStatus.PodIP
 | **Name** | **Type** | **Nullable** |
