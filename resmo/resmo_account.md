@@ -11,4 +11,4 @@ resmo_account
 | isEnabled | Boolean  | &cross;      |
 | name      | String   | &cross;      |
 | ownerId   | String   | &cross;      |
-| settings  | JSON     | &cross;      |
+| settings  | JSON     | &check;      |

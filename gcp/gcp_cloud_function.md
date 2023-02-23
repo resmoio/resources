@@ -31,7 +31,7 @@ gcp_cloud_function
 | sourceArchiveUrl           | String             | &check;      |
 | sourceRepository           | SourceRepository   | &check;      |
 | sourceToken                | String             | &check;      |
-| sourceUploadUrl            | String             | &cross;      |
+| sourceUploadUrl            | String             | &check;      |
 | status                     | String             | &check;      |
 | timeout                    | String             | &check;      |
 | updateTime                 | String             | &check;      |

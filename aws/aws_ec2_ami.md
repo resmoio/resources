@@ -14,7 +14,7 @@ aws_ec2_ami
 | hypervisor      | String             | &cross;      |
 | id              | String             | &cross;      |
 | kernelId        | String             | &check;      |
-| name            | String             | &cross;      |
+| name            | String             | &check;      |
 | platform        | String             | &check;      |
 | platformDetails | String             | &cross;      |
 | region          | String             | &cross;      |

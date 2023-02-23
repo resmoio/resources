@@ -61,7 +61,7 @@ gsuite_chrome_browser
 | appType         | String       | &check;      |
 | description     | String       | &check;      |
 | disabled        | Boolean      | &check;      |
-| extensionId     | String       | &check;      |
+| extensionId     | String       | &cross;      |
 | homepageUrl     | String       | &check;      |
 | installType     | String       | &check;      |
 | manifestVersion | Int          | &check;      |
@@ -94,7 +94,7 @@ gsuite_chrome_browser
 | ----------------------- | --------------- | ------------ |
 | chromeSignedInUserEmail | String          | &check;      |
 | extensions              | List<Extension> | &check;      |
-| id                      | String          | &check;      |
+| id                      | String          | &cross;      |
 | lastPolicyFetchTime     | String          | &check;      |
 | lastStatusReportTime    | String          | &check;      |
 | name                    | String          | &check;      |

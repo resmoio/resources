@@ -42,7 +42,8 @@ newrelic_account
 | description         | String                                          | &check;      |
 | enabled             | Boolean                                         | &cross;      |
 | id                  | String                                          | &cross;      |
-| matchingCriteria    | DataPartitionRuleConfiguration.MatchingCriteria | &cross;      |
+| matchingCriteria    | DataPartitionRuleConfiguration.MatchingCriteria | &check;      |
+| nrql                | String                                          | &check;      |
 | retentionPolicy     | String                                          | &cross;      |
 | targetDataPartition | String                                          | &cross;      |
 | updatedAt           | String                                          | &check;      |
@@ -51,9 +52,9 @@ newrelic_account
 #### DataPartitionRuleConfiguration.MatchingCriteria
 | **Name**           | **Type** | **Nullable** |
 | ------------------ | -------- | ------------ |
-| attributeName      | String   | &cross;      |
-| matchingExpression | String   | &cross;      |
-| matchingOperator   | String   | &cross;      |
+| attributeName      | String   | &check;      |
+| matchingExpression | String   | &check;      |
+| matchingOperator   | String   | &check;      |
 
 #### Detail
 | **Name** | **Type** | **Nullable** |

@@ -15,4 +15,4 @@ tailscale_access_control_list
 | -------- | ------------ | ------------ |
 | action   | String       | &cross;      |
 | ports    | List<String> | &check;      |
-| users    | List<String> | &cross;      |
+| users    | List<String> | &check;      |
