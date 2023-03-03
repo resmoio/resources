@@ -13,6 +13,7 @@ tinybird_datasource
 | engine             | Engine             | &check;      |
 | headers            | Map<String,String> | &check;      |
 | id                 | String             | &cross;      |
+| isColumnsDetected  | Boolean            | &check;      |
 | name               | String             | &check;      |
 | newColumnsDetected | Map<String,Column> | &check;      |
 | project            | String             | &check;      |
@@ -26,15 +27,15 @@ tinybird_datasource
 | version            | Int                | &check;      |
 
 #### Column
-| **Name**       | **Type** | **Nullable** |
-| -------------- | -------- | ------------ |
-| codec          | String   | &check;      |
-| defaultValue   | String   | &check;      |
-| jsonpath       | String   | &check;      |
-| name           | String   | &check;      |
-| normalizedName | String   | &check;      |
-| nullable       | Boolean  | &check;      |
-| type           | String   | &check;      |
+| **Name**        | **Type** | **Nullable** |
+| --------------- | -------- | ------------ |
+| codec           | String   | &check;      |
+| default_value   | String   | &check;      |
+| jsonpath        | String   | &check;      |
+| name            | String   | &check;      |
+| normalized_name | String   | &check;      |
+| nullable        | Boolean  | &check;      |
+| type            | String   | &check;      |
 
 #### Engine
 | **Name**           | **Type** | **Nullable** |

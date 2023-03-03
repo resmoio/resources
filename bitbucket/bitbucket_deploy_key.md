@@ -4,16 +4,17 @@ description: Bitbucket Deploy Key
 bitbucket_deploy_key
 --------------------
 
-| **Name**     | **Type**   | **Nullable** |
-| ------------ | ---------- | ------------ |
-| added_on     | String     | &check;      |
-| comment      | String     | &check;      |
-| key          | String     | &cross;      |
-| label        | String     | &check;      |
-| last_used    | String     | &check;      |
-| owner        | Owner      | &check;      |
-| repository   | Repository | &cross;      |
-| workspace_id | String     | &cross;      |
+| **Name**       | **Type**   | **Nullable** |
+| -------------- | ---------- | ------------ |
+| added_on       | String     | &check;      |
+| comment        | String     | &check;      |
+| key            | String     | &cross;      |
+| label          | String     | &check;      |
+| last_used      | String     | &check;      |
+| owner          | Owner      | &check;      |
+| repository     | Repository | &cross;      |
+| workspace_id   | String     | &cross;      |
+| workspace_name | String     | &check;      |
 
 #### Owner
 | **Name**     | **Type** | **Nullable** |

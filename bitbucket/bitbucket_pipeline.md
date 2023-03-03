@@ -17,6 +17,7 @@ bitbucket_pipeline
 | trigger            | Trigger    | &check;      |
 | uuid               | String     | &cross;      |
 | workspace_id       | String     | &cross;      |
+| workspace_name     | String     | &check;      |
 
 #### Creator
 | **Name**        | **Type** | **Nullable** |

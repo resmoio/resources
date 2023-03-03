@@ -15,11 +15,13 @@ bitbucket_environment
 | name                     | String             | &check;      |
 | rank                     | Int                | &check;      |
 | repository_id            | String             | &cross;      |
+| repository_name          | String             | &check;      |
 | restrictions             | Restrictions       | &check;      |
 | slug                     | String             | &check;      |
 | type                     | String             | &check;      |
 | uuid                     | String             | &cross;      |
 | workspace_id             | String             | &cross;      |
+| workspace_name           | String             | &check;      |
 
 #### EnvironmentType
 | **Name** | **Type** | **Nullable** |

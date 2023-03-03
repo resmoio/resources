@@ -10,6 +10,7 @@ Bitbucket Cloud is a Git based code hosting and collaboration tool, built for te
 | Deployment           | [bitbucket\_deployment](bitbucket\_deployment.md)                       |                     |
 | Environment          | [bitbucket\_environment](bitbucket\_environment.md)                     |                     |
 | Environment Variable | [bitbucket\_environment\_variable](bitbucket\_environment\_variable.md) |                     |
+| Group                | [bitbucket\_group](bitbucket\_group.md)                                 |                     |
 | Pipeline             | [bitbucket\_pipeline](bitbucket\_pipeline.md)                           |                     |
 | Project              | [bitbucket\_project](bitbucket\_project.md)                             |                     |
 | Pull Request         | [bitbucket\_pull\_request](bitbucket\_pull\_request.md)                 |                     |

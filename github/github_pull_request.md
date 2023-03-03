@@ -8,7 +8,6 @@ github_pull_request
 | ------------------- | ------------------- | ------------ |
 | activeLockReason    | String              | &check;      |
 | additions           | Long                | &check;      |
-| assignee            | User                | &check;      |
 | assignees           | List<User>          | &check;      |
 | authorAssociation   | String              | &check;      |
 | autoMerge           | AutoMerge           | &check;      |
@@ -87,7 +86,6 @@ github_pull_request
 | color       | String   | &check;      |
 | default     | Boolean  | &check;      |
 | description | String   | &check;      |
-| id          | Long     | &cross;      |
 | name        | String   | &cross;      |
 | nodeId      | String   | &cross;      |
 
@@ -109,7 +107,6 @@ github_pull_request
 | creator      | User     | &check;      |
 | description  | String   | &check;      |
 | dueOn        | Date     | &check;      |
-| id           | Long     | &cross;      |
 | nodeId       | String   | &cross;      |
 | number       | Long     | &cross;      |
 | openIssues   | Long     | &check;      |
@@ -156,7 +153,6 @@ github_pull_request
 | id          | Long     | &cross;      |
 | name        | String   | &cross;      |
 | nodeId      | String   | &cross;      |
-| permission  | String   | &check;      |
 | privacy     | String   | &check;      |
 | slug        | String   | &check;      |
 

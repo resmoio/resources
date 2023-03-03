@@ -13,12 +13,14 @@ bitbucket_deployment
 | number           | Int         | &check;      |
 | release          | Release     | &check;      |
 | repository_id    | String      | &cross;      |
+| repository_name  | String      | &check;      |
 | state            | State       | &check;      |
 | step             | Step        | &check;      |
 | type             | String      | &check;      |
 | uuid             | String      | &cross;      |
 | version          | Int         | &check;      |
 | workspace_id     | String      | &cross;      |
+| workspace_name   | String      | &check;      |
 
 #### Commit
 | **Name** | **Type** | **Nullable** |

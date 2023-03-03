@@ -22,6 +22,7 @@ bitbucket_pull_request
 | title               | String              | &check;      |
 | updated_on          | Date                | &check;      |
 | workspace_id        | String              | &cross;      |
+| workspace_name      | String              | &check;      |
 
 #### Account
 | **Name** | **Type** | **Nullable** |

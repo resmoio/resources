@@ -22,7 +22,6 @@ bamboohr_employee
 | location                | String   | &check;      |
 | mobilePhone             | String   | &check;      |
 | photoUploaded           | Boolean  | &check;      |
-| photoUrl                | String   | &check;      |
 | preferredName           | String   | &check;      |
 | pronouns                | String   | &check;      |
 | status                  | String   | &check;      |

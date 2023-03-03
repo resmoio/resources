@@ -13,8 +13,11 @@ bitbucket_branch_restriction
 | kind              | String        | &check;      |
 | pattern           | String        | &check;      |
 | repository_id     | String        | &cross;      |
+| repository_name   | String        | &check;      |
 | users             | List<Account> | &check;      |
 | value             | Int           | &check;      |
+| workspace_id      | String        | &check;      |
+| workspace_name    | String        | &check;      |
 
 #### Account
 | **Name**        | **Type** | **Nullable** |

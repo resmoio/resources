@@ -13,6 +13,7 @@ bitbucket_repository_webhook
 | history_enabled        | Boolean      | &cross;      |
 | read_only              | String       | &check;      |
 | repository_id          | String       | &cross;      |
+| repository_name        | String       | &check;      |
 | skip_cert_verification | Boolean      | &cross;      |
 | source                 | String       | &check;      |
 | subject                | Subject      | &check;      |
@@ -20,6 +21,7 @@ bitbucket_repository_webhook
 | url                    | String       | &check;      |
 | uuid                   | String       | &cross;      |
 | workspace_id           | String       | &cross;      |
+| workspace_name         | String       | &check;      |
 
 #### Subject
 | **Name**  | **Type** | **Nullable** |
