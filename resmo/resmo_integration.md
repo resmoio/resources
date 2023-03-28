@@ -15,7 +15,7 @@ resmo_integration
 | id          | String       | &cross;      |
 | isEnabled   | Boolean      | &cross;      |
 | isReady     | Boolean      | &cross;      |
+| labels      | List<String> | &check;      |
 | name        | String       | &cross;      |
-| tags        | List<String> | &cross;      |
 | type        | String       | &cross;      |
 | updatedBy   | String       | &check;      |

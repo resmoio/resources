@@ -13,9 +13,9 @@ resmo_pack
 | description | String           | &check;      |
 | id          | String           | &cross;      |
 | isManaged   | Boolean          | &check;      |
+| labels      | List<String>     | &check;      |
 | name        | String           | &check;      |
 | sources     | List<Datasource> | &check;      |
-| tags        | List<String>     | &check;      |
 | updatedAt   | Timestamp        | &check;      |
 | updatedBy   | String           | &check;      |
 

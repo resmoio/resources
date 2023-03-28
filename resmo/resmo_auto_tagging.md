@@ -18,12 +18,12 @@ resmo_auto_tagging
 #### ResmoResourceFilterExpression
 | **Name** | **Type**                                   | **Nullable** |
 | -------- | ------------------------------------------ | ------------ |
-| filters  | List<ResmoResourceFilterExpression.Filter> | &cross;      |
+| filters  | List<ResmoResourceFilterExpression.Filter> | &check;      |
 
 #### ResmoResourceFilterExpression.Filter
 | **Name**         | **Type**         | **Nullable** |
 | ---------------- | ---------------- | ------------ |
-| fields           | Map<String,List> | &cross;      |
-| integrationTypes | List<String>     | &cross;      |
-| resources        | List<String>     | &cross;      |
-| tags             | Set              | &cross;      |
+| fields           | Map<String,List> | &check;      |
+| integrationTypes | List<String>     | &check;      |
+| labels           | Set              | &check;      |
+| resources        | List<String>     | &check;      |
