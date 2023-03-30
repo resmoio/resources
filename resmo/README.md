@@ -12,6 +12,7 @@ You can even query your Resmo resources and changes from Resmo itself! Pretty ex
 | Custom Schema Group          | [resmo\_custom\_schema\_group](resmo\_custom\_schema\_group.md)         | &check;             |
 | Dashboard                    | [resmo\_dashboard](resmo\_dashboard.md)                                 | &check;             |
 | Integration                  | [resmo\_integration](resmo\_integration.md)                             | &check;             |
+| Resmo Notebook               | [resmo\_notebook](resmo\_notebook.md)                                   | &check;             |
 | Notification Channel         | [resmo\_notification\_channel](resmo\_notification\_channel.md)         | &check;             |
 | Pack                         | [resmo\_pack](resmo\_pack.md)                                           | &check;             |
 | Policy                       | [resmo\_policy](resmo\_policy.md)                                       | &check;             |
