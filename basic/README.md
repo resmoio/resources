@@ -4,6 +4,7 @@ Entity
 
 | **Resources**  | **Key**                               | **Supports Events** |
 | -------------- | ------------------------------------- | ------------------- |
+| Account        | [account](account.md)                 |                     |
 | Container      | [container](container.md)             |                     |
 | Database       | [database](database.md)               |                     |
 | Device         | [device](device.md)                   |                     |
@@ -14,3 +15,4 @@ Entity
 | Object Storage | [object\_storage](object\_storage.md) |                     |
 | Repository     | [repository](repository.md)           |                     |
 | User           | [user](user.md)                       |                     |
+| Vulnerability  | [vulnerability](vulnerability.md)     |                     |

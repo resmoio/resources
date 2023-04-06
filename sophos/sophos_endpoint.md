@@ -8,7 +8,7 @@ sophos_endpoint
 | ----------------------- | --------------------- | ------------ |
 | assignedProducts        | List<AssignedProduct> | &check;      |
 | associatedPerson        | AssociatedPerson      | &check;      |
-| cloud                   | String                | &check;      |
+| cloud                   | Cloud                 | &check;      |
 | encryption              | Encryption            | &check;      |
 | group                   | Group                 | &check;      |
 | health                  | Health                | &check;      |
@@ -43,8 +43,8 @@ sophos_endpoint
 #### Cloud
 | **Name**   | **Type** | **Nullable** |
 | ---------- | -------- | ------------ |
-| instanceId | String   | &cross;      |
-| provider   | String   | &cross;      |
+| instanceId | String   | &check;      |
+| provider   | String   | &check;      |
 
 #### Encryption
 | **Name** | **Type**     | **Nullable** |
@@ -74,7 +74,7 @@ sophos_endpoint
 #### Lockdown
 | **Name**     | **Type** | **Nullable** |
 | ------------ | -------- | ------------ |
-| status       | String   | &cross;      |
+| status       | String   | &check;      |
 | updateStatus | String   | &check;      |
 
 #### Os
@@ -113,5 +113,5 @@ sophos_endpoint
 #### Volume
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| status   | String   | &cross;      |
-| volumeId | String   | &cross;      |
+| status   | String   | &check;      |
+| volumeId | String   | &check;      |

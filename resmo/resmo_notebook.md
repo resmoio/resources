@@ -1,5 +1,5 @@
 ---
-description: Resmo Resmo Notebook
+description: Resmo Notebook
 ---
 resmo_notebook
 --------------

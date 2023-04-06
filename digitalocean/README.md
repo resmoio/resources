@@ -4,6 +4,7 @@ DigitalOcean is a cloud hosting provider that offers cloud computing services an
 
 | **Resources**      | **Key**                                                                   | **Supports Events** |
 | ------------------ | ------------------------------------------------------------------------- | ------------------- |
+| Account            | [digitalocean\_account](digitalocean\_account.md)                         |                     |
 | App                | [digitalocean\_app](digitalocean\_app.md)                                 |                     |
 | CDN Endpoint       | [digitalocean\_cdn\_endpoint](digitalocean\_cdn\_endpoint.md)             |                     |
 | Certificate        | [digitalocean\_certificate](digitalocean\_certificate.md)                 |                     |
