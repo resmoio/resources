@@ -242,6 +242,7 @@
 * [Azure Active Directory](azuread/README.md)
   * [azure\_ad\_authorization\_policy](azuread/azure_ad_authorization_policy.md)
   * [azure\_ad\_conditional\_access\_policy](azuread/azure_ad_conditional_access_policy.md)
+  * [azure\_ad\_oauth2\_permission\_grant](azuread/azure_ad_oauth2_permission_grant.md)
   * [azure\_ad\_organization](azuread/azure_ad_organization.md)
   * [azure\_ad\_service\_principal](azuread/azure_ad_service_principal.md)
   * [azure\_ad\_user](azuread/azure_ad_user.md)

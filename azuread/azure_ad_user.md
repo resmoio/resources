@@ -42,7 +42,6 @@ azure_ad_user
 | manager                         | DirectoryObject                   | &check;      |
 | mobilePhone                     | String                            | &check;      |
 | oDataType                       | String                            | &check;      |
-| oauth2PermissionGrants          | List<OAuth2PermissionGrant>       | &check;      |
 | officeLocation                  | String                            | &check;      |
 | onPremisesDistinguishedName     | String                            | &check;      |
 | onPremisesDomainName            | String                            | &check;      |
@@ -209,17 +208,6 @@ azure_ad_user
 | userId                                  | String                   | &check;      |
 | userPrincipalName                       | String                   | &check;      |
 | wiFiMacAddress                          | String                   | &check;      |
-
-#### OAuth2PermissionGrant
-| **Name**    | **Type** | **Nullable** |
-| ----------- | -------- | ------------ |
-| clientId    | String   | &check;      |
-| consentType | String   | &check;      |
-| id          | String   | &check;      |
-| oDataType   | String   | &check;      |
-| principalId | String   | &check;      |
-| resourceId  | String   | &check;      |
-| scope       | String   | &check;      |
 
 #### ObjectIdentity
 | **Name**         | **Type** | **Nullable** |

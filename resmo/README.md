@@ -5,7 +5,7 @@ You can even query your Resmo resources and changes from Resmo itself! Pretty ex
 | **Resources**                | **Key**                                                                 | **Supports Events** |
 | ---------------------------- | ----------------------------------------------------------------------- | ------------------- |
 | Account                      | [resmo\_account](resmo\_account.md)                                     | &check;             |
-| Alerting                     | [resmo\_alerting](resmo\_alerting.md)                                   | &check;             |
+| Alert Configuration          | [resmo\_alerting](resmo\_alerting.md)                                   | &check;             |
 | API Key                      | [resmo\_api\_key](resmo\_api\_key.md)                                   | &check;             |
 | Resource Auto Tagging Config | [resmo\_auto\_tagging](resmo\_auto\_tagging.md)                         | &check;             |
 | Custom Schema                | [resmo\_custom\_schema](resmo\_custom\_schema.md)                       | &check;             |

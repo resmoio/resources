@@ -58,7 +58,7 @@ aws_ecs_task
 | **Name**          | **Type**                         | **Nullable** |
 | ----------------- | -------------------------------- | ------------ |
 | containerArn      | String                           | &cross;      |
-| cpu               | String                           | &cross;      |
+| cpu               | String                           | &check;      |
 | gpuIds            | List<String>                     | &cross;      |
 | healthStatus      | String                           | &check;      |
 | image             | String                           | &check;      |

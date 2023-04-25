@@ -1,5 +1,5 @@
 ---
-description: Resmo Alerting
+description: Resmo Alert Configuration
 ---
 resmo_alerting
 --------------

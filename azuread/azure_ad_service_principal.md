@@ -29,7 +29,6 @@ azure_ad_service_principal
 | logoutUrl                              | String                           | &check;      |
 | notes                                  | String                           | &check;      |
 | oDataType                              | String                           | &check;      |
-| oauth2PermissionGrants                 | List<OAuth2PermissionGrant>      | &check;      |
 | oauth2Permissions                      | List<PermissionScope>            | &check;      |
 | passwordCredentials                    | List<PasswordCredential>         | &check;      |
 | preferredSingleSignOnMode              | String                           | &check;      |

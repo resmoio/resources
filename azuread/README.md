@@ -6,6 +6,7 @@ Azure Active Directory is a system that enables the identity management to confi
 | ------------------------- | ----------------------------------------------------------------------------------- | ------------------- |
 | Authorization Policy      | [azure\_ad\_authorization\_policy](azure\_ad\_authorization\_policy.md)             |                     |
 | Conditional Access Policy | [azure\_ad\_conditional\_access\_policy](azure\_ad\_conditional\_access\_policy.md) |                     |
+| OAuth2 Permission Grant   | [azure\_ad\_oauth2\_permission\_grant](azure\_ad\_oauth2\_permission\_grant.md)     |                     |
 | Organization              | [azure\_ad\_organization](azure\_ad\_organization.md)                               |                     |
 | Service Principal         | [azure\_ad\_service\_principal](azure\_ad\_service\_principal.md)                   |                     |
 | User                      | [azure\_ad\_user](azure\_ad\_user.md)                                               |                     |
