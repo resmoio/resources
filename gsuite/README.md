@@ -1,6 +1,22 @@
 Google Workspace
 ================
-Google Workspace (formerly GSuite) is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google
+Google Workspace (formerly known as G Suite) is a suite of cloud computing, productivity, and collaboration tools, software, and products developed and marketed by Google. Resmo can connect to a Google Workspace account to collect configuration data from various resources, including user accounts, groups, mobile devices, and calendars. Resmo can help users monitor the configuration of their Google Workspace resources, detect security issues, and ensure best practices are followed.
+
+With Resmo's SQL queries, users can ask complex questions about their Google Workspace configuration data. For example:
+
+* Which users have not logged into their Google Workspace account in the last 30 days?
+* Which groups have external members with access to sensitive information?
+* Which devices have not received a security update in the last 60 days?
+* Which resources are being shared with users outside of the organization?
+* Which users have been granted administrative privileges?
+
+Users can also set alarms to receive notifications when critical changes occur in their Google Workspace resources. For example:
+
+* Receive an alert when a new user is added to the domain.
+* Receive an alert when a user's account is accessed from a new device.
+* Receive an alert when a group's membership changes.
+* Receive an alert when a device is wiped remotely.
+* Receive an alert when a user's password is changed by an administrator.
 
 | **Resources**                 | **Key**                                                     | **Supports Events** |
 | ----------------------------- | ----------------------------------------------------------- | ------------------- |

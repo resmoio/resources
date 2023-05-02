@@ -1,6 +1,22 @@
 Amazon Web Services
 ===================
-Cloud service
+AWS (Amazon Web Services) is a cloud computing platform provided by Amazon. Resmo can connect to an AWS account to collect configuration data from various AWS resources, including EC2 instances, S3 buckets, security groups, and IAM users. Resmo can help users monitor the configuration of their AWS resources, detect security issues, and ensure best practices are followed.
+
+With Resmo's SQL queries, users can ask complex questions about their AWS configuration data. For example:
+
+* Which EC2 instances have public IP addresses?
+* Which S3 buckets are publicly accessible?
+* Which security groups allow traffic from all IP addresses?
+* Which IAM users have not logged in within the last 90 days?
+* Which RDS instances are not encrypted?
+
+Users can also set alarms to receive notifications when critical changes occur in their AWS resources. For example:
+
+* Receive an alert when a new IAM user is created.
+* Receive an alert when a security group's rules are modified.
+* Receive an alert when an EC2 instance is terminated.
+* Receive an alert when an S3 bucket's permissions are changed.
+* Receive an alert when an RDS instance's encryption status changes.
 
 | **Resources**                                 | **Key**                                                                                                               | **Supports Events** |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------- |

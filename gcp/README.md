@@ -1,6 +1,22 @@
 Google Cloud Platform
 =====================
-Google Cloud Platform, offered by Google, is a suite of cloud computing services
+GCP (Google Cloud Platform) is a cloud computing platform provided by Google. Resmo can connect to a GCP account to collect configuration data from various GCP resources, including Compute Engine instances, Cloud Storage buckets, VPC firewall rules, and IAM users. Resmo can help users monitor the configuration of their GCP resources, detect security issues, and ensure best practices are followed.
+
+With Resmo's SQL queries, users can ask complex questions about their GCP configuration data. For example:
+
+* Which Compute Engine instances are exposed to the internet?
+* Which Cloud Storage buckets are publicly accessible?
+* Which VPC firewall rules allow traffic from all IP addresses?
+* Which IAM users have not logged in within the last 90 days?
+* Which databases are not encrypted?
+
+Users can also set alarms to receive notifications when critical changes occur in their GCP resources. For example:
+
+* Receive an alert when a new Compute Engine instance is created.
+* Receive an alert when a VPC firewall rule's configuration is changed.
+* Receive an alert when a Cloud Storage bucket's permissions are changed.
+* Receive an alert when a new IAM user is created.
+* Receive an alert when a database's encryption status changes.
 
 | **Resources**                | **Key**                                                                       | **Supports Events** |
 | ---------------------------- | ----------------------------------------------------------------------------- | ------------------- |

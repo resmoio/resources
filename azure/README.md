@@ -1,6 +1,22 @@
 Azure
 =====
-Cloud Service
+Azure is a cloud computing platform provided by Microsoft. Resmo can connect to an Azure account to collect configuration data from various Azure resources, including virtual machines, storage accounts, network security groups, and Cosmos DB accounts. Resmo can help users monitor the configuration of their Azure resources, detect security issues, and ensure best practices are followed.
+
+With Resmo's SQL queries, users can ask complex questions about their Azure configuration data. For example:
+
+* Which virtual machines have open ports to the internet?
+* Which storage accounts are publicly accessible?
+* Which network security groups allow traffic from all IP addresses?
+* Which Cosmos DB accounts are not encrypted?
+* Which Azure Kubernetes Service (AKS) clusters have outdated node versions?
+
+Users can also set alarms to receive notifications when critical changes occur in their Azure resources. For example:
+
+* Receive an alert when a new virtual machine is created.
+* Receive an alert when a network security group's rules are modified.
+* Receive an alert when a storage account's permissions are changed.
+* Receive an alert when a Cosmos DB account's encryption status changes.
+* Receive an alert when an AKS cluster's node version is outdated.
 
 | **Resources**                             | **Key**                                                                                                         | **Supports Events** |
 | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------- |
