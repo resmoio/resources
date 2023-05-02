@@ -19,7 +19,6 @@ You can even query your Resmo resources and changes from Resmo itself! Pretty ex
 | Resources                    | [resmo\_resources](resmo\_resources.md)                                 |                     |
 | Role                         | [resmo\_role](resmo\_role.md)                                           | &check;             |
 | Rule                         | [resmo\_rule](resmo\_rule.md)                                           | &check;             |
-| Rule Notification            | [resmo\_rule\_notification](resmo\_rule\_notification.md)               | &check;             |
 | Saas Discovery Settings      | [resmo\_saas\_discovery\_settings](resmo\_saas\_discovery\_settings.md) | &check;             |
 | Saved Query                  | [resmo\_saved\_query](resmo\_saved\_query.md)                           | &check;             |
 | User                         | [resmo\_user](resmo\_user.md)                                           | &check;             |

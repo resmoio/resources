@@ -740,7 +740,6 @@
   * [resmo\_resources](resmo/resmo_resources.md)
   * [resmo\_role](resmo/resmo_role.md)
   * [resmo\_rule](resmo/resmo_rule.md)
-  * [resmo\_rule\_notification](resmo/resmo_rule_notification.md)
   * [resmo\_saas\_discovery\_settings](resmo/resmo_saas_discovery_settings.md)
   * [resmo\_saved\_query](resmo/resmo_saved_query.md)
   * [resmo\_user](resmo/resmo_user.md)
