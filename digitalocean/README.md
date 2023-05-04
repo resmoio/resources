@@ -1,6 +1,24 @@
 DigitalOcean
 ============
-DigitalOcean is a cloud hosting provider that offers cloud computing services and Infrastructure as a Service (IaaS)
+Integrating your DigitalOcean account with Resmo offers valuable insights into your organization's cloud infrastructure management. DigitalOcean is a cloud platform that provides various resources such as virtual machines (Droplets), databases, storage volumes, and more. Resmo can collect and analyze data from DigitalOcean, which can be useful for monitoring resource utilization, managing configurations, and ensuring adherence to best practices.
+
+Using Resmo's SQL query capabilities, users can ask complex questions about their DigitalOcean data, such as:
+
+* Which Droplets are associated with specific images, regions, or projects?
+* What are the details of databases, including their cluster size, version, and status?
+* How many domains and domain records are in the system, and what are their configurations?
+* What are the configurations of load balancers, firewalls, and Kubernetes clusters?
+* How many volumes and snapshots are in the system, and what are their sizes and associated resources?
+
+Setting up change alerts can be helpful for monitoring critical changes in your DigitalOcean data. For example:
+
+* Get notified when a new Droplet, database, or other resource is created, updated, or deleted.
+* Receive an alert when a domain or domain record is modified or removed.
+* Get notified when a firewall or load balancer configuration changes.
+* Receive an alert when a Kubernetes cluster or node pool is updated or scaled.
+* Get notified when a new snapshot is created or when a volume is attached or detached from a Droplet.
+
+In conclusion, integrating your DigitalOcean account with Resmo provides valuable insights into your organization's cloud infrastructure management. By leveraging Resmo's SQL query capabilities and change alerting, you can stay on top of important changes and ensure that your DigitalOcean configurations are optimized for maximum efficiency and effectiveness.
 
 | **Resources**      | **Key**                                                                   | **Supports Events** |
 | ------------------ | ------------------------------------------------------------------------- | ------------------- |

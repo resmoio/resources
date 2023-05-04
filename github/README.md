@@ -1,6 +1,24 @@
 GitHub
 ======
-GitHub is a provider of Internet hosting for software development and version control using Git. Resmo collects important data in your Github organization and repositories to detect changes that might be ..
+Integrating Resmo with GitHub can offer numerous advantages for monitoring and optimizing your code repositories and collaboration processes. GitHub is a web-based platform for version control and collaboration, allowing developers to work together on projects from anywhere. Resmo can collect and analyze various resources from GitHub's API, such as Deploy Key, Deployment, Deployment Environment, Issue, Pull Request, and more.
+
+With Resmo's SQL query capabilities, users can ask intricate questions about their GitHub configuration data. For instance:
+
+* Which repositories have the most open issues?
+* What are the recent pull requests made by a specific user?
+* How many deployments were made in a particular environment?
+* Which team members have access to specific repositories?
+* What are the most common webhook events in a given repository?
+
+Setting up configuration alerts in Resmo can also be beneficial for proactively monitoring critical changes in your GitHub settings. For example:
+
+* Get notified when a new deploy key is created or deleted.
+* Receive an alert when a new issue is opened or closed in a specific repository.
+* Get notified when a pull request is created, updated, or merged.
+* Receive an alert when an Actions Workflow Run changes its status or conclusion.
+* Get notified when a new team member is added or removed from a team.
+
+In conclusion, connecting your GitHub account to Resmo can provide valuable insights into your code repositories and collaboration processes, helping you optimize your development workflows for maximum efficiency. By leveraging Resmo's SQL query capabilities and configuration alerting, you can stay on top of important changes and enhance your GitHub settings for optimal performance and collaboration.
 
 | **Resources**             | **Key**                                                             | **Supports Events** |
 | ------------------------- | ------------------------------------------------------------------- | ------------------- |

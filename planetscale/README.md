@@ -1,6 +1,24 @@
 PlanetScale
 ===========
-PlanetScale is a MySQL-compatible, serverless database platform powered by Vitess, which is a database clustering system for horizontal scaling of MySQL (as well as Percona and MariaDB).
+Integrating your Planetscale account with Resmo allows you to gain valuable insights into your organization's database management, branching, deployments, and promotions. Planetscale is a scalable, serverless relational database platform that enables you to manage and deploy databases easily. By collecting and analyzing data from Planetscale, Resmo can help you understand your database configurations, branch settings, deploy requests, and promotion requests.
+
+With Resmo's SQL query capabilities, users can ask complex questions about their Planetscale data, such as:
+
+* What are the details of each database, including its branches, state, region, and other configurations?
+* How are database branches set up, and what are their parent branches, states, and shard counts?
+* Which deploy requests have been approved, and what are the details of the deployments?
+* How are promotion requests created, started, and finished, and what are their states?
+* What are the organization's settings, such as admin access, billing information, and single tenancy configurations?
+
+Setting up change alerts can be beneficial for monitoring critical changes in your Planetscale data. For example:
+
+* Get notified when a new database is created, updated, or deleted.
+* Receive an alert when a database branch is created, updated, or deleted.
+* Get notified when a deploy request is created, approved, or closed.
+* Receive an alert when a promotion request is created, started, or finished.
+* Get notified when changes are made to your organization's settings, such as billing information or access configurations.
+
+In conclusion, integrating your Planetscale account with Resmo provides valuable insights into your organization's database management, branching, deployments, and promotions. By leveraging Resmo's SQL query capabilities and change alerting, you can stay on top of important changes and ensure that your Planetscale configurations are optimized for maximum efficiency and effectiveness.
 
 | **Resources**              | **Key**                                                                                   | **Supports Events** |
 | -------------------------- | ----------------------------------------------------------------------------------------- | ------------------- |

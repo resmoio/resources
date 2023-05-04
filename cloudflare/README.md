@@ -1,6 +1,24 @@
 Cloudflare
 ==========
-Cloudflare is a global network designed to make everything you connect to the Internet secure, private, fast, and reliable.
+Integrating your Cloudflare account with Resmo can offer numerous benefits by providing insights into your organization's web security, performance, and efficiency. Cloudflare is a renowned web infrastructure and security company offering services such as Content Delivery Network (CDN), Domain Name System (DNS), Distributed Denial of Service (DDoS) protection, and more. Resmo collects and analyzes configuration data from Cloudflare, enabling the identification of security vulnerabilities, adherence to best practices, and optimization of configurations.
+
+Utilizing Resmo's SQL query capabilities, users can ask complex questions about their Cloudflare configuration data, such as:
+
+* Which users have access to specific Cloudflare accounts or zones?
+* How many DNS records are configured across all zones?
+* What are the most common zone settings?
+* Which firewall rules and security configurations are in place?
+* How are users and roles distributed across accounts and teams?
+
+Setting up change alerts in Resmo for your Cloudflare account can also be helpful for monitoring critical configuration changes, such as:
+
+* Notifications when new DNS records are created, updated, or deleted.
+* Alerts when zone settings like SSL configuration or security levels are modified.
+* Updates when firewall rules, rate limits, or security measures are added, changed, or removed.
+* Notifications when users are added, removed, or when their roles or permissions change.
+* Alerts when new resources or settings, such as Page Rules or Transform Rules, are created or modified.
+
+In conclusion, integrating your Cloudflare account with Resmo offers valuable insights into your organization's web security, performance, and configuration efficiency. By leveraging Resmo's SQL query capabilities and change alerting, you can stay on top of important changes and ensure that your Cloudflare configurations are optimized for maximum performance and security.
 
 | **Resources**                 | **Key**                                                                                           | **Supports Events** |
 | ----------------------------- | ------------------------------------------------------------------------------------------------- | ------------------- |

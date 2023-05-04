@@ -1,6 +1,24 @@
 Gandi
 =====
-Gandi is a domain name registrar, a web host, and an email and SSL certificate provider whose guiding ambition is to make the internet accessible to all.
+Integrating your Gandi account with Resmo can provide valuable insights into your domain management, SSL certificates, and DNS configurations. Gandi is a popular domain registrar and web hosting company that offers a wide range of services, including domain registration, SSL certificates, and DNS management. Resmo collects and analyzes Gandi's configuration data, which can help identify security risks, ensure adherence to best practices, and optimize configurations for efficiency and security.
+
+Using Resmo's SQL query capabilities, users can ask complex questions about their Gandi configuration data, such as:
+
+* Which domains have auto-renew enabled or disabled, and when are they set to expire?
+* What are the SSL certificate details, including issuance and expiration dates, for each domain?
+* How many glue records and DNSSEC keys are configured for each domain, and what are their details?
+* What web redirection settings are in place for each domain, and are they using the correct protocols?
+* How are contacts and organizations associated with domains, and what roles do they play?
+
+Setting up change alerts in Resmo for your Gandi account can also be beneficial for monitoring critical configuration changes, such as:
+
+* Notifications when domains are registered, updated, or deleted.
+* Alerts when SSL certificates are issued, renewed, or expire.
+* Updates when domain contacts or organizations are modified or removed.
+* Notifications when DNS configurations, such as glue records or DNSSEC keys, are changed.
+* Alerts when domain web redirection settings or LiveDNS information are modified.
+
+In conclusion, integrating your Gandi account with Resmo offers valuable insights into your organization's domain management, SSL certificates, and DNS configurations. By leveraging Resmo's SQL query capabilities and change alerting, you can stay on top of important changes and ensure that your Gandi configurations are optimized for maximum security and efficiency.
 
 | **Resources**              | **Key**                                                                       | **Supports Events** |
 | -------------------------- | ----------------------------------------------------------------------------- | ------------------- |
