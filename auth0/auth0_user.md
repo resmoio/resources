@@ -19,10 +19,8 @@ auth0_user
 | multifactor    | List<String>   | &check;      |
 | name           | String         | &check;      |
 | nickname       | String         | &check;      |
-| organizations  | List<String>   | &check;      |
 | phone_number   | String         | &check;      |
 | phone_verified | Boolean        | &check;      |
-| roles          | List<String>   | &check;      |
 | updated_at     | String         | &check;      |
 | user_id        | String         | &cross;      |
 | username       | String         | &check;      |
