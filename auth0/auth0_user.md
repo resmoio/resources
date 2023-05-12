@@ -6,6 +6,7 @@ auth0_user
 
 | **Name**       | **Type**       | **Nullable** |
 | -------------- | -------------- | ------------ |
+| app_metadata   | JSON           | &check;      |
 | blocked        | Boolean        | &check;      |
 | created_at     | String         | &check;      |
 | email          | String         | &check;      |
@@ -23,6 +24,7 @@ auth0_user
 | phone_verified | Boolean        | &check;      |
 | updated_at     | String         | &check;      |
 | user_id        | String         | &cross;      |
+| user_metadata  | JSON           | &check;      |
 | username       | String         | &check;      |
 
 #### Identity
