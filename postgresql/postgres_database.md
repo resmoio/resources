@@ -8,7 +8,7 @@ postgres_database
 | --------------- | -------- | ------------ |
 | allowConnection | String   | &check;      |
 | connectionLimit | String   | &check;      |
-| dbEndpoint      | String   | &check;      |
+| dbIdentifier    | String   | &check;      |
 | id              | String   | &cross;      |
 | name            | String   | &check;      |
 | template        | String   | &check;      |

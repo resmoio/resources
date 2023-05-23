@@ -15,7 +15,7 @@ mysql_user
 | createTmpTablesPrivilege  | String   | &check;      |
 | createUserPrivilege       | String   | &check;      |
 | createViewPrivilege       | String   | &check;      |
-| dbEndpoint                | String   | &check;      |
+| dbIdentifier              | String   | &check;      |
 | deletePrivilege           | String   | &check;      |
 | dropPrivilege             | String   | &check;      |
 | dropRolePrivilege         | String   | &check;      |

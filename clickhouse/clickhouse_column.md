@@ -7,7 +7,7 @@ clickhouse_column
 | **Name**     | **Type** | **Nullable** |
 | ------------ | -------- | ------------ |
 | dataType     | String   | &check;      |
-| dbEndpoint   | String   | &check;      |
+| dbIdentifier | String   | &check;      |
 | default      | String   | &check;      |
 | id           | String   | &cross;      |
 | name         | String   | &check;      |

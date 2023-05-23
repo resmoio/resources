@@ -11,7 +11,7 @@ postgres_role
 | connectionLimit | String   | &check;      |
 | createDatabase  | String   | &check;      |
 | createRole      | String   | &check;      |
-| dbEndpoint      | String   | &check;      |
+| dbIdentifier    | String   | &check;      |
 | id              | String   | &cross;      |
 | inherit         | String   | &check;      |
 | name            | String   | &check;      |

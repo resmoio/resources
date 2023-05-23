@@ -7,7 +7,7 @@ postgres_column
 | **Name**        | **Type** | **Nullable** |
 | --------------- | -------- | ------------ |
 | dataType        | String   | &check;      |
-| dbEndpoint      | String   | &check;      |
+| dbIdentifier    | String   | &check;      |
 | generated       | String   | &check;      |
 | id              | String   | &cross;      |
 | identity        | String   | &check;      |

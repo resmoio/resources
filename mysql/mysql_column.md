@@ -7,7 +7,7 @@ mysql_column
 | **Name**     | **Type** | **Nullable** |
 | ------------ | -------- | ------------ |
 | dataType     | String   | &check;      |
-| dbEndpoint   | String   | &check;      |
+| dbIdentifier | String   | &check;      |
 | id           | String   | &cross;      |
 | name         | String   | &check;      |
 | nullable     | String   | &check;      |

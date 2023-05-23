@@ -9,7 +9,7 @@ mysql_table
 | autoIncrement | String   | &check;      |
 | catalog       | String   | &check;      |
 | createTime    | String   | &check;      |
-| dbEndpoint    | String   | &check;      |
+| dbIdentifier  | String   | &check;      |
 | engine        | String   | &check;      |
 | id            | String   | &cross;      |
 | name          | String   | &check;      |

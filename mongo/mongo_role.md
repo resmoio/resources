@@ -7,7 +7,7 @@ mongo_role
 | **Name**       | **Type**  | **Nullable** |
 | -------------- | --------- | ------------ |
 | db             | String    | &check;      |
-| dbEndpoint     | String    | &check;      |
+| dbIdentifier   | String    | &check;      |
 | id             | String    | &cross;      |
 | inheritedRoles | List<Map> | &check;      |
 | name           | String    | &check;      |

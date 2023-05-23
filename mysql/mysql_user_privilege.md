@@ -6,7 +6,7 @@ mysql_user_privilege
 
 | **Name**      | **Type** | **Nullable** |
 | ------------- | -------- | ------------ |
-| dbEndpoint    | String   | &check;      |
+| dbIdentifier  | String   | &check;      |
 | grantable     | String   | &check;      |
 | grantee       | String   | &check;      |
 | id            | String   | &cross;      |

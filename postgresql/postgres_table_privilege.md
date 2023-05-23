@@ -6,7 +6,7 @@ postgres_table_privilege
 
 | **Name**      | **Type** | **Nullable** |
 | ------------- | -------- | ------------ |
-| dbEndpoint    | String   | &check;      |
+| dbIdentifier  | String   | &check;      |
 | grantable     | String   | &check;      |
 | grantee       | String   | &check;      |
 | grantor       | String   | &check;      |

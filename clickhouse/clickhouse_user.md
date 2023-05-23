@@ -6,7 +6,7 @@ clickhouse_user
 
 | **Name**           | **Type**     | **Nullable** |
 | ------------------ | ------------ | ------------ |
-| dbEndpoint         | String       | &check;      |
+| dbIdentifier       | String       | &check;      |
 | defaultRolesAll    | String       | &check;      |
 | defaultRolesExcept | List<String> | &check;      |
 | defaultRolesList   | List<String> | &check;      |
