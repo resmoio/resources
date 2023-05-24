@@ -7,8 +7,7 @@ mysql_column
 | **Name**     | **Type** | **Nullable** |
 | ------------ | -------- | ------------ |
 | dataType     | String   | &check;      |
-| dbIdentifier | String   | &check;      |
-| id           | String   | &cross;      |
+| dbIdentifier | String   | &cross;      |
 | name         | String   | &check;      |
 | nullable     | String   | &check;      |
 | privileges   | String   | &check;      |
@@ -16,3 +15,8 @@ mysql_column
 | tableName    | String   | &check;      |
 | tableSchema  | String   | &check;      |
 | type         | String   | &check;      |
+
+#### MySqlResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

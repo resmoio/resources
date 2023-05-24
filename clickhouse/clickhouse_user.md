@@ -6,7 +6,7 @@ clickhouse_user
 
 | **Name**           | **Type**     | **Nullable** |
 | ------------------ | ------------ | ------------ |
-| dbIdentifier       | String       | &check;      |
+| dbIdentifier       | String       | &cross;      |
 | defaultRolesAll    | String       | &check;      |
 | defaultRolesExcept | List<String> | &check;      |
 | defaultRolesList   | List<String> | &check;      |
@@ -18,3 +18,8 @@ clickhouse_user
 | id                 | String       | &cross;      |
 | name               | String       | &check;      |
 | storage            | String       | &check;      |
+
+#### ClickHouseResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

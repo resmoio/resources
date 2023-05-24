@@ -8,7 +8,11 @@ postgres_database
 | --------------- | -------- | ------------ |
 | allowConnection | String   | &check;      |
 | connectionLimit | String   | &check;      |
-| dbIdentifier    | String   | &check;      |
-| id              | String   | &cross;      |
-| name            | String   | &check;      |
+| dbIdentifier    | String   | &cross;      |
+| name            | String   | &cross;      |
 | template        | String   | &check;      |
+
+#### PostgresResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

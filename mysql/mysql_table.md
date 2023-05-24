@@ -9,9 +9,8 @@ mysql_table
 | autoIncrement | String   | &check;      |
 | catalog       | String   | &check;      |
 | createTime    | String   | &check;      |
-| dbIdentifier  | String   | &check;      |
+| dbIdentifier  | String   | &cross;      |
 | engine        | String   | &check;      |
-| id            | String   | &cross;      |
 | name          | String   | &check;      |
 | rowFormat     | String   | &check;      |
 | rows          | String   | &check;      |
@@ -19,3 +18,8 @@ mysql_table
 | type          | String   | &check;      |
 | updateTime    | String   | &check;      |
 | version       | String   | &check;      |
+
+#### MySqlResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

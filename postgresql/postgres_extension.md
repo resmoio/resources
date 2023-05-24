@@ -6,9 +6,13 @@ postgres_extension
 
 | **Name**     | **Type** | **Nullable** |
 | ------------ | -------- | ------------ |
-| dbIdentifier | String   | &check;      |
-| id           | String   | &cross;      |
-| name         | String   | &check;      |
+| dbIdentifier | String   | &cross;      |
+| name         | String   | &cross;      |
 | owner        | String   | &check;      |
 | relocatable  | String   | &check;      |
 | version      | String   | &check;      |
+
+#### PostgresResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

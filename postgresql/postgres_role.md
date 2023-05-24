@@ -11,9 +11,13 @@ postgres_role
 | connectionLimit | String   | &check;      |
 | createDatabase  | String   | &check;      |
 | createRole      | String   | &check;      |
-| dbIdentifier    | String   | &check;      |
-| id              | String   | &cross;      |
+| dbIdentifier    | String   | &cross;      |
 | inherit         | String   | &check;      |
-| name            | String   | &check;      |
+| name            | String   | &cross;      |
 | replication     | String   | &check;      |
 | superRole       | String   | &check;      |
+
+#### PostgresResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

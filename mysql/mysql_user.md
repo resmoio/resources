@@ -15,7 +15,7 @@ mysql_user
 | createTmpTablesPrivilege  | String   | &check;      |
 | createUserPrivilege       | String   | &check;      |
 | createViewPrivilege       | String   | &check;      |
-| dbIdentifier              | String   | &check;      |
+| dbIdentifier              | String   | &cross;      |
 | deletePrivilege           | String   | &check;      |
 | dropPrivilege             | String   | &check;      |
 | dropRolePrivilege         | String   | &check;      |
@@ -24,7 +24,6 @@ mysql_user
 | filePrivilege             | String   | &check;      |
 | grantPrivilege            | String   | &check;      |
 | host                      | String   | &check;      |
-| id                        | String   | &cross;      |
 | indexPrivilege            | String   | &check;      |
 | insertPrivilege           | String   | &check;      |
 | lockTablesPrivilege       | String   | &check;      |
@@ -42,4 +41,9 @@ mysql_user
 | superPrivilege            | String   | &check;      |
 | triggerPrivilege          | String   | &check;      |
 | updatePrivilege           | String   | &check;      |
-| user                      | String   | &check;      |
+| user                      | String   | &cross;      |
+
+#### MySqlResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

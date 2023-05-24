@@ -9,8 +9,12 @@ postgres_user
 | byPassRls         | String   | &check;      |
 | canCreateDatabase | String   | &check;      |
 | config            | String   | &check;      |
-| dbIdentifier      | String   | &check;      |
-| id                | String   | &cross;      |
-| name              | String   | &check;      |
+| dbIdentifier      | String   | &cross;      |
+| name              | String   | &cross;      |
 | repl              | String   | &check;      |
 | superUser         | String   | &check;      |
+
+#### PostgresResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

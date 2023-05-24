@@ -7,9 +7,8 @@ postgres_column
 | **Name**        | **Type** | **Nullable** |
 | --------------- | -------- | ------------ |
 | dataType        | String   | &check;      |
-| dbIdentifier    | String   | &check;      |
+| dbIdentifier    | String   | &cross;      |
 | generated       | String   | &check;      |
-| id              | String   | &cross;      |
 | identity        | String   | &check;      |
 | identityCycle   | String   | &check;      |
 | name            | String   | &check;      |
@@ -22,3 +21,8 @@ postgres_column
 | udtName         | String   | &check;      |
 | udtSchema       | String   | &check;      |
 | updatable       | String   | &check;      |
+
+#### PostgresResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |

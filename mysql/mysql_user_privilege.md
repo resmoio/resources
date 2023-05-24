@@ -6,9 +6,13 @@ mysql_user_privilege
 
 | **Name**      | **Type** | **Nullable** |
 | ------------- | -------- | ------------ |
-| dbIdentifier  | String   | &check;      |
+| dbIdentifier  | String   | &cross;      |
 | grantable     | String   | &check;      |
 | grantee       | String   | &check;      |
-| id            | String   | &cross;      |
 | privilegeType | String   | &check;      |
 | tableCatalog  | String   | &check;      |
+
+#### MySqlResource
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| groupKey | String   | &cross;      |
