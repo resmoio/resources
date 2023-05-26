@@ -4,23 +4,16 @@ Integrating your PostgreSQL database with Resmo offers valuable insights into yo
 
 Using Resmo's SQL query capabilities, users can ask complex questions about their PostgreSQL database configuration and data. Some examples include:
 
-* What are the columns and their attributes in each table?
 * Who has specific privileges on certain columns?
 * Which databases are currently active and their properties?
-* What extensions are installed in the database and their versions?
-* How are the tables indexed and what are their sizes?
 * What roles and permissions are assigned to different users?
-* Which schemas are available in the database?
-* What are the triggers defined on specific tables?
 * Who has specific privileges on certain tables?
 * How are the users and their associated properties defined in the database?
 
 By setting up change alerts, you can monitor critical changes in your PostgreSQL database configuration and data. For example:
 
-* Get notified when a new column is added to a table.
 * Receive an alert when a user's privileges are modified.
 * Get notified when a new database or schema is created.
-* Receive an alert when an index is added or removed.
 * Get notified when a table's structure or privileges are altered.
 * Receive an alert when a trigger is created or modified.
 * Get notified when a new user is added or their properties are changed.
