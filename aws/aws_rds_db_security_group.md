@@ -20,9 +20,9 @@ aws_rds_db_security_group
 #### EC2SecurityGroup
 | **Name**                | **Type** | **Nullable** |
 | ----------------------- | -------- | ------------ |
-| ec2SecurityGroupId      | String   | &cross;      |
+| ec2SecurityGroupId      | String   | &check;      |
 | ec2SecurityGroupName    | String   | &check;      |
-| ec2SecurityGroupOwnerId | String   | &cross;      |
+| ec2SecurityGroupOwnerId | String   | &check;      |
 | status                  | String   | &check;      |
 
 #### IPRange
