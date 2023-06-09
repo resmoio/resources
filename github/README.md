@@ -20,23 +20,33 @@ Setting up configuration alerts in Resmo can also be beneficial for proactively 
 
 In conclusion, connecting your GitHub account to Resmo can provide valuable insights into your code repositories and collaboration processes, helping you optimize your development workflows for maximum efficiency. By leveraging Resmo's SQL query capabilities and configuration alerting, you can stay on top of important changes and enhance your GitHub settings for optimal performance and collaboration.
 
-| **Resources**             | **Key**                                                             | **Supports Events** |
-| ------------------------- | ------------------------------------------------------------------- | ------------------- |
-| Actions Workflow          | [github\_actions\_workflow](github\_actions\_workflow.md)           |                     |
-| Actions Workflow Run      | [github\_actions\_workflow\_run](github\_actions\_workflow\_run.md) | &check;             |
-| App Installation          | [github\_app\_installation](github\_app\_installation.md)           |                     |
-| Dependabot Alert          | [github\_dependabot\_alert](github\_dependabot\_alert.md)           |                     |
-| Deploy Key                | [github\_deploy\_key](github\_deploy\_key.md)                       | &check;             |
-| Deployment                | [github\_deployment](github\_deployment.md)                         | &check;             |
-| Deployment Environment    | [github\_deployment\_env](github\_deployment\_env.md)               |                     |
-| Issue                     | [github\_issue](github\_issue.md)                                   | &check;             |
-| Organization              | [github\_org](github\_org.md)                                       | &check;             |
-| Organization Blocked User | [github\_org\_blocked\_user](github\_org\_blocked\_user.md)         | &check;             |
-| Organization Invitation   | [github\_org\_invitation](github\_org\_invitation.md)               | &check;             |
-| Organization Member       | [github\_org\_member](github\_org\_member.md)                       | &check;             |
-| Pull Request              | [github\_pull\_request](github\_pull\_request.md)                   | &check;             |
-| Repository                | [github\_repo](github\_repo.md)                                     | &check;             |
-| Repository Webhook        | [github\_repo\_webhook](github\_repo\_webhook.md)                   |                     |
-| Team                      | [github\_team](github\_team.md)                                     | &check;             |
-| Team Member               | [github\_team\_member](github\_team\_member.md)                     | &check;             |
-| Team Repository           | [github\_team\_repo](github\_team\_repo.md)                         |                     |
+| **Resources**                           | **Key**                                                                                                     | **Supports Events** |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------- |
+| Actions Environment Secret              | [github\_actions\_env\_secret](github\_actions\_env\_secret.md)                                             |                     |
+| Actions Environment Variable            | [github\_actions\_env\_variable](github\_actions\_env\_variable.md)                                         |                     |
+| Actions Organization Self-Hosted Runner | [github\_actions\_organization\_runner](github\_actions\_organization\_runner.md)                           |                     |
+| Actions Organization Runner Application | [github\_actions\_organization\_runner\_application](github\_actions\_organization\_runner\_application.md) |                     |
+| Actions Organization Secret             | [github\_actions\_organization\_secret](github\_actions\_organization\_secret.md)                           |                     |
+| Actions Organization Variable           | [github\_actions\_organization\_variable](github\_actions\_organization\_variable.md)                       |                     |
+| Actions Repository Secret               | [github\_actions\_repo\_secret](github\_actions\_repo\_secret.md)                                           |                     |
+| Actions Repository Variable             | [github\_actions\_repo\_variable](github\_actions\_repo\_variable.md)                                       |                     |
+| Actions Workflow                        | [github\_actions\_workflow](github\_actions\_workflow.md)                                                   |                     |
+| Actions Workflow Run                    | [github\_actions\_workflow\_run](github\_actions\_workflow\_run.md)                                         | &check;             |
+| App Installation                        | [github\_app\_installation](github\_app\_installation.md)                                                   |                     |
+| Dependabot Alert                        | [github\_dependabot\_alert](github\_dependabot\_alert.md)                                                   |                     |
+| Dependabot Secret                       | [github\_dependabot\_secret](github\_dependabot\_secret.md)                                                 |                     |
+| Deploy Key                              | [github\_deploy\_key](github\_deploy\_key.md)                                                               | &check;             |
+| Deployment                              | [github\_deployment](github\_deployment.md)                                                                 | &check;             |
+| Deployment Environment                  | [github\_deployment\_env](github\_deployment\_env.md)                                                       |                     |
+| Issue                                   | [github\_issue](github\_issue.md)                                                                           | &check;             |
+| Organization                            | [github\_org](github\_org.md)                                                                               | &check;             |
+| Organization Blocked User               | [github\_org\_blocked\_user](github\_org\_blocked\_user.md)                                                 | &check;             |
+| Organization Invitation                 | [github\_org\_invitation](github\_org\_invitation.md)                                                       | &check;             |
+| Organization Member                     | [github\_org\_member](github\_org\_member.md)                                                               | &check;             |
+| Outside Collaborator                    | [github\_outside\_collaborator](github\_outside\_collaborator.md)                                           |                     |
+| Pull Request                            | [github\_pull\_request](github\_pull\_request.md)                                                           | &check;             |
+| Repository                              | [github\_repo](github\_repo.md)                                                                             | &check;             |
+| Repository Webhook                      | [github\_repo\_webhook](github\_repo\_webhook.md)                                                           |                     |
+| Team                                    | [github\_team](github\_team.md)                                                                             | &check;             |
+| Team Member                             | [github\_team\_member](github\_team\_member.md)                                                             | &check;             |
+| Team Repository                         | [github\_team\_repo](github\_team\_repo.md)                                                                 |                     |
