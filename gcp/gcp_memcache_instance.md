@@ -62,7 +62,7 @@ gcp_memcache_instance
 | **Name**   | **Type**           | **Nullable** |
 | ---------- | ------------------ | ------------ |
 | host       | String             | &check;      |
-| nodeId     | String             | &check;      |
+| nodeId     | String             | &cross;      |
 | parameters | MemcacheParameters | &check;      |
 | port       | Int                | &check;      |
 | state      | String             | &check;      |

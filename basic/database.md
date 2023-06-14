@@ -10,7 +10,7 @@ database
 | endpoint           | String             | &check;      |
 | engine             | String             | &check;      |
 | isPublic           | Boolean            | &check;      |
-| name               | String             | &check;      |
+| name               | String             | &cross;      |
 | referencedResource | ReferencedResource | &check;      |
 | referencedType     | String             | &cross;      |
 | type               | String             | &cross;      |

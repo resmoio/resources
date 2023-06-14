@@ -44,7 +44,7 @@ aws_elasticache_cluster
 | **Name**                 | **Type** | **Nullable** |
 | ------------------------ | -------- | ------------ |
 | cacheNodeCreateTime      | String   | &check;      |
-| cacheNodeId              | String   | &check;      |
+| cacheNodeId              | String   | &cross;      |
 | cacheNodeStatus          | String   | &check;      |
 | customerAvailabilityZone | String   | &check;      |
 | customerOutpostArn       | String   | &check;      |
