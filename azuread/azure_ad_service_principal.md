@@ -4,43 +4,56 @@ description: Azure Active Directory Service Principal
 azure_ad_service_principal
 --------------------------
 
-| **Name**                               | **Type**                         | **Nullable** |
-| -------------------------------------- | -------------------------------- | ------------ |
-| accountEnabled                         | Boolean                          | &check;      |
-| addIns                                 | List<AddIn>                      | &check;      |
-| alternativeNames                       | List<String>                     | &check;      |
-| appDescription                         | String                           | &check;      |
-| appDisplayName                         | String                           | &check;      |
-| appId                                  | String                           | &check;      |
-| appOwnerOrganizationId                 | String                           | &check;      |
-| appRoleAssignmentRequired              | Boolean                          | &check;      |
-| appRoleAssignments                     | List<AppRoleAssignment>          | &check;      |
-| appRoles                               | List<AppRole>                    | &check;      |
-| applicationTemplateId                  | String                           | &check;      |
-| deletedDateTime                        | String                           | &check;      |
-| description                            | String                           | &check;      |
-| disabledByMicrosoftStatus              | String                           | &check;      |
-| displayName                            | String                           | &check;      |
-| homepage                               | String                           | &check;      |
-| id                                     | String                           | &cross;      |
-| info                                   | JSON                             | &check;      |
-| keyCredentials                         | List<KeyCredential>              | &check;      |
-| loginUrl                               | String                           | &check;      |
-| logoutUrl                              | String                           | &check;      |
-| notes                                  | String                           | &check;      |
-| oDataType                              | String                           | &check;      |
-| oauth2Permissions                      | List<PermissionScope>            | &check;      |
-| passwordCredentials                    | List<PasswordCredential>         | &check;      |
-| preferredSingleSignOnMode              | String                           | &check;      |
-| preferredTokenSigningKeyThumbprint     | String                           | &check;      |
-| replyUrls                              | List<String>                     | &check;      |
-| resourceSpecificApplicationPermissions | List<ResourceSpecificPermission> | &check;      |
-| samlSingleSignOnSettings               | SamlSingleSignOnSettings         | &check;      |
-| servicePrincipalNames                  | List<String>                     | &check;      |
-| servicePrincipalType                   | String                           | &check;      |
-| signInAudience                         | String                           | &check;      |
-| tags                                   | List<String>                     | &check;      |
-| tokenEncryptionKeyId                   | String                           | &check;      |
+| **Name**                               | **Type**                                | **Nullable** |
+| -------------------------------------- | --------------------------------------- | ------------ |
+| accountEnabled                         | Boolean                                 | &check;      |
+| addIns                                 | List<AddIn>                             | &check;      |
+| alternativeNames                       | List<String>                            | &check;      |
+| appDescription                         | String                                  | &check;      |
+| appDisplayName                         | String                                  | &check;      |
+| appId                                  | String                                  | &check;      |
+| appOwnerOrganizationId                 | String                                  | &check;      |
+| appRoleAssignedTo                      | List<AppRoleAssignment>                 | &check;      |
+| appRoleAssignmentRequired              | Boolean                                 | &check;      |
+| appRoleAssignments                     | List<AppRoleAssignment>                 | &check;      |
+| appRoles                               | List<AppRole>                           | &check;      |
+| applicationTemplateId                  | String                                  | &check;      |
+| claimsMappingPolicies                  | List<Policy>                            | &check;      |
+| createdObjects                         | List<DirectoryObject>                   | &check;      |
+| delegatedPermissionClassifications     | List<DelegatedPermissionClassification> | &check;      |
+| deletedDateTime                        | String                                  | &check;      |
+| description                            | String                                  | &check;      |
+| disabledByMicrosoftStatus              | String                                  | &check;      |
+| displayName                            | String                                  | &check;      |
+| endpoints                              | List<Endpoint>                          | &check;      |
+| federatedIdentityCredentials           | List<FederatedIdentityCredential>       | &check;      |
+| homeRealmDiscoveryPolicies             | List<Policy>                            | &check;      |
+| homepage                               | String                                  | &check;      |
+| id                                     | String                                  | &cross;      |
+| info                                   | JSON                                    | &check;      |
+| keyCredentials                         | List<KeyCredential>                     | &check;      |
+| loginUrl                               | String                                  | &check;      |
+| logoutUrl                              | String                                  | &check;      |
+| memberOf                               | List<DirectoryObject>                   | &check;      |
+| notes                                  | String                                  | &check;      |
+| oDataType                              | String                                  | &check;      |
+| oauth2Permissions                      | List<PermissionScope>                   | &check;      |
+| ownedObjects                           | List<DirectoryObject>                   | &check;      |
+| owners                                 | List<DirectoryObject>                   | &check;      |
+| passwordCredentials                    | List<PasswordCredential>                | &check;      |
+| preferredSingleSignOnMode              | String                                  | &check;      |
+| preferredTokenSigningKeyThumbprint     | String                                  | &check;      |
+| replyUrls                              | List<String>                            | &check;      |
+| resourceSpecificApplicationPermissions | List<ResourceSpecificPermission>        | &check;      |
+| samlSingleSignOnSettings               | SamlSingleSignOnSettings                | &check;      |
+| servicePrincipalNames                  | List<String>                            | &check;      |
+| servicePrincipalType                   | String                                  | &check;      |
+| signInAudience                         | String                                  | &check;      |
+| tags                                   | List<String>                            | &check;      |
+| tokenEncryptionKeyId                   | String                                  | &check;      |
+| tokenIssuancePolicies                  | List<Policy>                            | &check;      |
+| tokenLifetimePolicies                  | List<Policy>                            | &check;      |
+| transitiveMemberOf                     | List<DirectoryObject>                   | &check;      |
 
 #### AddIn
 | **Name**   | **Type**           | **Nullable** |
@@ -99,6 +112,17 @@ azure_ad_service_principal
 | providerResourceId | String   | &check;      |
 | uri                | String   | &check;      |
 
+#### FederatedIdentityCredential
+| **Name**    | **Type**     | **Nullable** |
+| ----------- | ------------ | ------------ |
+| audiences   | List<String> | &check;      |
+| description | String       | &check;      |
+| id          | String       | &cross;      |
+| issuer      | String       | &check;      |
+| name        | String       | &check;      |
+| oDataType   | String       | &check;      |
+| subject     | String       | &check;      |
+
 #### KeyCredential
 | **Name**      | **Type** | **Nullable** |
 | ------------- | -------- | ------------ |
@@ -108,17 +132,6 @@ azure_ad_service_principal
 | oDataType     | String   | &check;      |
 | startDateTime | String   | &check;      |
 | type          | String   | &check;      |
-
-#### OAuth2PermissionGrant
-| **Name**    | **Type** | **Nullable** |
-| ----------- | -------- | ------------ |
-| clientId    | String   | &check;      |
-| consentType | String   | &check;      |
-| id          | String   | &check;      |
-| oDataType   | String   | &check;      |
-| principalId | String   | &check;      |
-| resourceId  | String   | &check;      |
-| scope       | String   | &check;      |
 
 #### PasswordCredential
 | **Name**      | **Type** | **Nullable** |
@@ -153,6 +166,7 @@ azure_ad_service_principal
 | description           | String       | &check;      |
 | displayName           | String       | &check;      |
 | id                    | String       | &check;      |
+| isEnabled             | Boolean      | &check;      |
 | isOrganizationDefault | Boolean      | &check;      |
 | oDataType             | String       | &check;      |
 
@@ -171,10 +185,3 @@ azure_ad_service_principal
 | ---------- | -------- | ------------ |
 | oDataType  | String   | &check;      |
 | relayState | String   | &check;      |
-
-#### test
-| **Name**                    | **Type** | **Nullable** |
-| --------------------------- | -------- | ------------ |
-| alternateNotificationEmails | String   | &check;      |
-| groupLifetimeInDays         | Int      | &check;      |
-| managedGroupTypes           | String   | &check;      |

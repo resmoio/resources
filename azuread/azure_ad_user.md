@@ -8,18 +8,23 @@ azure_ad_user
 | ------------------------------- | --------------------------------- | ------------ |
 | accountEnabled                  | Boolean                           | &check;      |
 | ageGroup                        | String                            | &check;      |
+| agreementAcceptances            | List<AgreementAcceptance>         | &check;      |
 | appRoleAssignments              | List<AppRoleAssignment>           | &check;      |
 | assignedLicenses                | List<AssignedLicense>             | &check;      |
 | assignedPlans                   | List<AssignedPlan>                | &check;      |
+| authorizationInfo               | AuthorizationInfo                 | &check;      |
+| businessPhones                  | List<String>                      | &check;      |
 | city                            | String                            | &check;      |
 | companyName                     | String                            | &check;      |
 | consentProvidedForMinor         | String                            | &check;      |
 | contacts                        | List<DirectoryObject>             | &check;      |
 | country                         | String                            | &check;      |
 | createdDateTime                 | String                            | &check;      |
+| createdObjects                  | List<DirectoryObject>             | &check;      |
 | creationType                    | String                            | &check;      |
 | deletedDateTime                 | String                            | &check;      |
 | department                      | String                            | &check;      |
+| directReports                   | List<DirectoryObject>             | &check;      |
 | displayName                     | String                            | &check;      |
 | employeeHireDate                | String                            | &check;      |
 | employeeId                      | String                            | &check;      |
@@ -28,6 +33,7 @@ azure_ad_user
 | externalUserState               | String                            | &check;      |
 | externalUserStateChangeDateTime | String                            | &check;      |
 | faxNumber                       | String                            | &check;      |
+| followedSites                   | List<DirectoryObject>             | &check;      |
 | givenName                       | String                            | &check;      |
 | id                              | String                            | &cross;      |
 | identities                      | List<ObjectIdentity>              | &check;      |
@@ -36,10 +42,12 @@ azure_ad_user
 | jobTitle                        | String                            | &check;      |
 | lastPasswordChangeDateTime      | String                            | &check;      |
 | legalAgeGroupClassification     | String                            | &check;      |
+| licenseDetails                  | List<LicenseDetails>              | &check;      |
 | licenseProcessingStates         | List<LicenseAssignmentState>      | &check;      |
 | mail                            | String                            | &check;      |
 | mailNickname                    | String                            | &check;      |
-| manager                         | DirectoryObject                   | &check;      |
+| manager                         | List<DirectoryObject>             | &check;      |
+| memberOf                        | List<DirectoryObject>             | &check;      |
 | mobilePhone                     | String                            | &check;      |
 | oDataType                       | String                            | &check;      |
 | officeLocation                  | String                            | &check;      |
@@ -54,6 +62,7 @@ azure_ad_user
 | onPremisesSyncEnabled           | Boolean                           | &check;      |
 | onPremisesUserPrincipalName     | String                            | &check;      |
 | otherMails                      | List<String>                      | &check;      |
+| ownedObjects                    | List<DirectoryObject>             | &check;      |
 | passwordPolicies                | String                            | &check;      |
 | passwordProfile                 | PasswordProfile                   | &check;      |
 | postalCode                      | String                            | &check;      |
@@ -61,22 +70,45 @@ azure_ad_user
 | preferredLanguage               | String                            | &check;      |
 | provisionedPlans                | List<ProvisionedPlan>             | &check;      |
 | proxyAddresses                  | List<String>                      | &check;      |
-| registeredDevices               | List<DirectoryObject>             | &check;      |
-| scopedRoleMemberships           | List<ScopedRoleMembership>        | &check;      |
+| scopedRoleMemberOf              | List<ScopedRoleMembership>        | &check;      |
+| securityIdentifier              | String                            | &check;      |
 | showInAddressList               | Boolean                           | &check;      |
+| signInActivity                  | SignInActivity                    | &check;      |
 | signInSessionsValidFromDateTime | String                            | &check;      |
 | state                           | String                            | &check;      |
 | streetAddress                   | String                            | &check;      |
 | surname                         | String                            | &check;      |
+| transitiveMemberOf              | List<DirectoryObject>             | &check;      |
 | usageLocation                   | String                            | &check;      |
 | userPrincipalName               | String                            | &check;      |
 | userType                        | String                            | &check;      |
+
+#### AgreementAcceptance
+| **Name**           | **Type** | **Nullable** |
+| ------------------ | -------- | ------------ |
+| agreementFileId    | String   | &check;      |
+| agreementId        | String   | &check;      |
+| deviceDisplayName  | String   | &check;      |
+| deviceId           | String   | &check;      |
+| deviceOSType       | String   | &check;      |
+| deviceOSVersion    | String   | &check;      |
+| expirationDateTime | String   | &check;      |
+| id                 | String   | &check;      |
+| oDataType          | String   | &check;      |
+| recordedDateTime   | String   | &check;      |
+| state              | String   | &check;      |
+| userDisplayName    | String   | &check;      |
+| userEmail          | String   | &check;      |
+| userId             | String   | &check;      |
+| userPrincipalName  | String   | &check;      |
 
 #### AppRoleAssignment
 | **Name**             | **Type** | **Nullable** |
 | -------------------- | -------- | ------------ |
 | appRoleId            | String   | &check;      |
 | createdDateTime      | String   | &check;      |
+| id                   | String   | &check;      |
+| oDataType            | String   | &check;      |
 | principalDisplayName | String   | &check;      |
 | principalId          | String   | &check;      |
 | principalType        | String   | &check;      |
@@ -99,14 +131,10 @@ azure_ad_user
 | service          | String   | &check;      |
 | servicePlanId    | String   | &check;      |
 
-#### DeviceActionResult
-| **Name**            | **Type** | **Nullable** |
-| ------------------- | -------- | ------------ |
-| actionName          | String   | &check;      |
-| actionState         | String   | &check;      |
-| lastUpdatedDateTime | String   | &check;      |
-| oDataType           | String   | &check;      |
-| startDateTime       | String   | &check;      |
+#### AuthorizationInfo
+| **Name**           | **Type**     | **Nullable** |
+| ------------------ | ------------ | ------------ |
+| certificateUserIds | List<String> | &check;      |
 
 #### DirectoryObject
 | **Name**  | **Type** | **Nullable** |
@@ -126,7 +154,6 @@ azure_ad_user
 | ----------- | -------- | ------------ |
 | displayName | String   | &check;      |
 | id          | String   | &check;      |
-| oDataType   | String   | &check;      |
 
 #### LicenseAssignmentState
 | **Name**            | **Type**     | **Nullable** |
@@ -142,72 +169,11 @@ azure_ad_user
 #### LicenseDetails
 | **Name**      | **Type**              | **Nullable** |
 | ------------- | --------------------- | ------------ |
+| id            | String                | &check;      |
 | oDataType     | String                | &check;      |
 | servicePlans  | List<ServicePlanInfo> | &check;      |
 | skuId         | String                | &check;      |
 | skuPartNumber | String                | &check;      |
-
-#### ManagedAppRegistration
-| **Name**             | **Type**     | **Nullable** |
-| -------------------- | ------------ | ------------ |
-| androidPackageId     | String       | &check;      |
-| applicationVersion   | String       | &check;      |
-| deviceName           | String       | &check;      |
-| deviceTag            | String       | &check;      |
-| deviceType           | String       | &check;      |
-| flaggedReasons       | List<String> | &check;      |
-| iosBundleId          | String       | &check;      |
-| managementSdkVersion | String       | &check;      |
-| platformVersion      | String       | &check;      |
-| userId               | String       | &check;      |
-| version              | String       | &check;      |
-
-#### ManagedDevice
-| **Name**                                | **Type**                 | **Nullable** |
-| --------------------------------------- | ------------------------ | ------------ |
-| activationLockBypassCode                | String                   | &check;      |
-| androidSecurityPatchLevel               | String                   | &check;      |
-| azureADDeviceId                         | String                   | &check;      |
-| complianceGracePeriodExpirationDateTime | String                   | &check;      |
-| complianceState                         | String                   | &check;      |
-| deviceActionResults                     | List<DeviceActionResult> | &check;      |
-| deviceCategory                          | String                   | &check;      |
-| deviceCategoryDisplayName               | String                   | &check;      |
-| deviceEnrollmentType                    | String                   | &check;      |
-| deviceName                              | String                   | &check;      |
-| deviceRegistrationState                 | String                   | &check;      |
-| easActivated                            | Boolean                  | &check;      |
-| easActivationDateTime                   | String                   | &check;      |
-| easDeviceId                             | String                   | &check;      |
-| emailAddress                            | String                   | &check;      |
-| exchangeAccessState                     | String                   | &check;      |
-| exchangeAccessStateReason               | String                   | &check;      |
-| iccid                                   | String                   | &check;      |
-| id                                      | String                   | &check;      |
-| imei                                    | String                   | &check;      |
-| isEncrypted                             | Boolean                  | &check;      |
-| isSupervised                            | Boolean                  | &check;      |
-| jailBroken                              | String                   | &check;      |
-| lastSyncDateTime                        | String                   | &check;      |
-| managedDeviceName                       | String                   | &check;      |
-| managedDeviceOwnerType                  | String                   | &check;      |
-| managementAgent                         | String                   | &check;      |
-| manufacturer                            | String                   | &check;      |
-| meid                                    | String                   | &check;      |
-| model                                   | String                   | &check;      |
-| notes                                   | String                   | &check;      |
-| oDataType                               | String                   | &check;      |
-| operatingSystem                         | String                   | &check;      |
-| osVersion                               | String                   | &check;      |
-| partnerReportedThreatState              | String                   | &check;      |
-| phoneNumber                             | String                   | &check;      |
-| serialNumber                            | String                   | &check;      |
-| subscriberCarrier                       | String                   | &check;      |
-| udid                                    | String                   | &check;      |
-| userDisplayName                         | String                   | &check;      |
-| userId                                  | String                   | &check;      |
-| userPrincipalName                       | String                   | &check;      |
-| wiFiMacAddress                          | String                   | &check;      |
 
 #### ObjectIdentity
 | **Name**         | **Type** | **Nullable** |
@@ -265,3 +231,11 @@ azure_ad_user
 | provisioningStatus | String   | &check;      |
 | servicePlanId      | String   | &check;      |
 | servicePlanName    | String   | &check;      |
+
+#### SignInActivity
+| **Name**                          | **Type** | **Nullable** |
+| --------------------------------- | -------- | ------------ |
+| lastNonInteractiveSignInDateTime  | String   | &check;      |
+| lastNonInteractiveSignInRequestId | String   | &check;      |
+| lastSignInDateTime                | String   | &check;      |
+| lastSignInRequestId               | String   | &check;      |

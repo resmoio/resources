@@ -6,30 +6,27 @@ azure_ad_user_group
 
 | **Name**                      | **Type**                              | **Nullable** |
 | ----------------------------- | ------------------------------------- | ------------ |
-| allowExternalSenders          | Boolean                               | &check;      |
+| acceptedSenders               | List<DirectoryObject>                 | &check;      |
 | appRoleAssignments            | List<AppRoleAssignment>               | &check;      |
 | assignedLabels                | List<AssignedLabel>                   | &check;      |
 | assignedLicenses              | List<AssignedLicense>                 | &check;      |
-| autoSubscribeNewMembers       | Boolean                               | &check;      |
 | classification                | String                                | &check;      |
+| createdOnBehalfOf             | DirectoryObject                       | &check;      |
 | deletedDateTime               | String                                | &check;      |
 | description                   | String                                | &check;      |
 | displayName                   | String                                | &check;      |
 | expirationDateTime            | String                                | &check;      |
 | groupTypes                    | List<String>                          | &check;      |
 | hasMembersWithLicenseErrors   | Boolean                               | &check;      |
-| hideFromAddressLists          | Boolean                               | &check;      |
-| hideFromOutlookClients        | Boolean                               | &check;      |
 | id                            | String                                | &cross;      |
-| isArchived                    | Boolean                               | &check;      |
 | isAssignableToRole            | Boolean                               | &check;      |
-| isSubscribedByMail            | Boolean                               | &check;      |
 | licenseProcessingState        | LicenseProcessingState                | &check;      |
 | mail                          | String                                | &check;      |
 | mailEnabled                   | Boolean                               | &check;      |
 | mailNickname                  | String                                | &check;      |
 | memberOf                      | List<DirectoryObject>                 | &check;      |
 | members                       | List<DirectoryObject>                 | &check;      |
+| membersWithLicenseErrors      | List<DirectoryObject>                 | &check;      |
 | membershipRule                | String                                | &check;      |
 | membershipRuleProcessingState | String                                | &check;      |
 | oDataType                     | String                                | &check;      |
@@ -50,7 +47,8 @@ azure_ad_user_group
 | securityIdentifier            | String                                | &check;      |
 | settings                      | List<GroupSetting>                    | &check;      |
 | theme                         | String                                | &check;      |
-| unseenCount                   | Int                                   | &check;      |
+| transitiveMemberOf            | List<DirectoryObject>                 | &check;      |
+| transitiveMembers             | List<DirectoryObject>                 | &check;      |
 | visibility                    | String                                | &check;      |
 
 #### AppRoleAssignment
@@ -58,6 +56,8 @@ azure_ad_user_group
 | -------------------- | -------- | ------------ |
 | appRoleId            | String   | &check;      |
 | createdDateTime      | String   | &check;      |
+| id                   | String   | &check;      |
+| oDataType            | String   | &check;      |
 | principalDisplayName | String   | &check;      |
 | principalId          | String   | &check;      |
 | principalType        | String   | &check;      |
@@ -88,6 +88,8 @@ azure_ad_user_group
 | **Name**    | **Type**           | **Nullable** |
 | ----------- | ------------------ | ------------ |
 | displayName | String             | &check;      |
+| id          | String             | &check;      |
+| oDataType   | String             | &check;      |
 | templateId  | String             | &check;      |
 | values      | Map<String,String> | &check;      |
 
