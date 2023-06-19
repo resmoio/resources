@@ -160,17 +160,15 @@ azure_ad_application
 | termsOfServiceUrl   | String   | &check;      |
 
 #### KeyCredential
-| **Name**            | **Type** | **Nullable** |
-| ------------------- | -------- | ------------ |
-| customKeyIdentifier | String   | &check;      |
-| displayName         | String   | &check;      |
-| endDateTime         | String   | &check;      |
-| key                 | String   | &check;      |
-| keyId               | String   | &check;      |
-| oDataType           | String   | &check;      |
-| startDateTime       | String   | &check;      |
-| type                | String   | &check;      |
-| usage               | String   | &check;      |
+| **Name**      | **Type** | **Nullable** |
+| ------------- | -------- | ------------ |
+| displayName   | String   | &check;      |
+| endDateTime   | String   | &check;      |
+| keyId         | String   | &check;      |
+| oDataType     | String   | &check;      |
+| startDateTime | String   | &check;      |
+| type          | String   | &check;      |
+| usage         | String   | &check;      |
 
 #### OptionalClaim
 | **Name**             | **Type**     | **Nullable** |
