@@ -49,5 +49,5 @@ In conclusion, connecting your Azure AD account to Resmo can provide valuable in
 | Tenant App Management Policy                  | [azure\_ad\_tenant\_app\_management\_policy](azure\_ad\_tenant\_app\_management\_policy.md)                                     |                     |
 | Token Issuance Policy                         | [azure\_ad\_token\_issuance\_policy](azure\_ad\_token\_issuance\_policy.md)                                                     |                     |
 | Token Lifetime Policy                         | [azure\_ad\_token\_lifetime\_policy](azure\_ad\_token\_lifetime\_policy.md)                                                     |                     |
-| User                                          | [azure\_ad\_user](azure\_ad\_user.md)                                                                                           |                     |
-| User Group                                    | [azure\_ad\_user\_group](azure\_ad\_user\_group.md)                                                                             |                     |
+| User                                          | [azure\_ad\_user](azure\_ad\_user.md)                                                                                           | &check;             |
+| User Group                                    | [azure\_ad\_user\_group](azure\_ad\_user\_group.md)                                                                             | &check;             |
