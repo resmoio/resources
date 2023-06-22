@@ -11,8 +11,6 @@ hetzner_cloud_server
 | datacenter        | Datacenter         | &check;      |
 | id                | Long               | &cross;      |
 | image             | Image              | &check;      |
-| included_traffic  | Long               | &check;      |
-| ingoing_traffic   | Long               | &check;      |
 | iso               | Iso                | &check;      |
 | labels            | Map<String,String> | &check;      |
 | load_balancers    | List<Long>         | &check;      |
@@ -51,11 +49,9 @@ hetzner_cloud_server
 | network_zone | String   | &check;      |
 
 #### Datacenter.ServerTypes
-| **Name**                | **Type**   | **Nullable** |
-| ----------------------- | ---------- | ------------ |
-| available               | List<Long> | &check;      |
-| available_for_migration | List<Long> | &check;      |
-| supported               | List<Long> | &check;      |
+| **Name**  | **Type**   | **Nullable** |
+| --------- | ---------- | ------------ |
+| supported | List<Long> | &check;      |
 
 #### Image
 | **Name**     | **Type**           | **Nullable** |
