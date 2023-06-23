@@ -778,6 +778,7 @@
   * [newrelic\_synthetic\_monitor](newrelic/newrelic_synthetic_monitor.md)
   * [newrelic\_user](newrelic/newrelic_user.md)
   * [newrelic\_workload](newrelic/newrelic_workload.md)
+* [Office 365](office365/README.md)
 * [Okta](okta/README.md)
   * [okta\_application](okta/okta_application.md)
   * [okta\_application\_group](okta/okta_application_group.md)
