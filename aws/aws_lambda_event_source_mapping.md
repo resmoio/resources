@@ -12,7 +12,7 @@ aws_lambda_event_source_mapping
 | batchSize                           | Int                             | &check;      |
 | bisectBatchOnFunctionError          | Boolean                         | &check;      |
 | destinationConfig                   | DestinationConfig               | &check;      |
-| eventSourceArn                      | String                          | &cross;      |
+| eventSourceArn                      | String                          | &check;      |
 | filterCriteria                      | FilterCriteria                  | &check;      |
 | functionArn                         | String                          | &check;      |
 | functionResponseTypes               | List<String>                    | &check;      |
