@@ -150,7 +150,9 @@ Users can also set alarms to receive notifications when critical changes occur i
 | KMS Alias                                     | [aws\_kms\_alias](aws\_kms\_alias.md)                                                                                 |                     |
 | KMS Grant                                     | [aws\_kms\_grant](aws\_kms\_grant.md)                                                                                 |                     |
 | KMS Key                                       | [aws\_kms\_key](aws\_kms\_key.md)                                                                                     |                     |
+| Lambda Event Source Mapping                   | [aws\_lambda\_event\_source\_mapping](aws\_lambda\_event\_source\_mapping.md)                                         |                     |
 | Lambda Function                               | [aws\_lambda\_function](aws\_lambda\_function.md)                                                                     |                     |
+| Lambda Layer                                  | [aws\_lambda\_layer](aws\_lambda\_layer.md)                                                                           |                     |
 | Network Firewall Policy                       | [aws\_networkfirewall\_policy](aws\_networkfirewall\_policy.md)                                                       |                     |
 | Network Firewall Rule Group                   | [aws\_networkfirewall\_rule\_group](aws\_networkfirewall\_rule\_group.md)                                             |                     |
 | OpenSearch Domain                             | [aws\_opensearch\_domain](aws\_opensearch\_domain.md)                                                                 |                     |
