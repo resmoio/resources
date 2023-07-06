@@ -8,20 +8,20 @@ newrelic_browser_application
 | ------------------------ | ----------------------------- | ------------ |
 | accountId                | Int                           | &cross;      |
 | agentInstallType         | String                        | &check;      |
-| alertSeverity            | String                        | &cross;      |
-| applicationId            | Long                          | &cross;      |
+| alertSeverity            | String                        | &check;      |
+| applicationId            | Long                          | &check;      |
 | browserSettings          | Setting                       | &check;      |
-| entityType               | String                        | &cross;      |
+| entityType               | String                        | &check;      |
 | guid                     | String                        | &cross;      |
-| indexedAt                | Date                          | &cross;      |
+| indexedAt                | Date                          | &check;      |
 | metricNormalizationRules | List<MetricNormalizationRule> | &check;      |
-| name                     | String                        | &cross;      |
-| reporting                | Boolean                       | &cross;      |
+| name                     | String                        | &check;      |
+| reporting                | Boolean                       | &check;      |
 | runningAgentVersions     | RunningAgentVersion           | &check;      |
 | servingApmApplicationId  | Int                           | &check;      |
-| settings                 | Setting                       | &cross;      |
-| tags                     | List<Tag>                     | &cross;      |
-| type                     | String                        | &cross;      |
+| settings                 | Setting                       | &check;      |
+| tags                     | List<Tag>                     | &check;      |
+| type                     | String                        | &check;      |
 
 #### MetricNormalizationRule
 | **Name**        | **Type** | **Nullable** |
