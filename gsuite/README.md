@@ -18,20 +18,22 @@ Users can also set alarms to receive notifications when critical changes occur i
 * Receive an alert when a device is wiped remotely.
 * Receive an alert when a user's password is changed by an administrator.
 
-| **Resources**                 | **Key**                                                     | **Supports Events** |
-| ----------------------------- | ----------------------------------------------------------- | ------------------- |
-| Application Specific Password | [gsuite\_asp](gsuite\_asp.md)                               |                     |
-| Chrome Browser                | [gsuite\_chrome\_browser](gsuite\_chrome\_browser.md)       |                     |
-| Customer                      | [gsuite\_customer](gsuite\_customer.md)                     |                     |
-| Domain                        | [gsuite\_domain](gsuite\_domain.md)                         | &check;             |
-| Group                         | [gsuite\_group](gsuite\_group.md)                           | &check;             |
-| Group Member                  | [gsuite\_group\_member](gsuite\_group\_member.md)           | &check;             |
-| Group Settings                | [gsuite\_group\_settings](gsuite\_group\_settings.md)       | &check;             |
-| Mobile Device                 | [gsuite\_mobile\_device](gsuite\_mobile\_device.md)         | &check;             |
-| Organizational Unit           | [gsuite\_org\_unit](gsuite\_org\_unit.md)                   |                     |
-| Building                      | [gsuite\_resource\_building](gsuite\_resource\_building.md) | &check;             |
-| Calendar                      | [gsuite\_resource\_calendar](gsuite\_resource\_calendar.md) | &check;             |
-| Role                          | [gsuite\_role](gsuite\_role.md)                             | &check;             |
-| Role Assignment               | [gsuite\_role\_assignment](gsuite\_role\_assignment.md)     | &check;             |
-| Token                         | [gsuite\_token](gsuite\_token.md)                           |                     |
-| User                          | [gsuite\_user](gsuite\_user.md)                             | &check;             |
+| **Resources**                 | **Key**                                                                     | **Supports Events** |
+| ----------------------------- | --------------------------------------------------------------------------- | ------------------- |
+| Application Specific Password | [gsuite\_asp](gsuite\_asp.md)                                               |                     |
+| Browser Enrollment Token      | [gsuite\_browser\_enrollment\_token](gsuite\_browser\_enrollment\_token.md) |                     |
+| Chrome Browser                | [gsuite\_chrome\_browser](gsuite\_chrome\_browser.md)                       |                     |
+| Customer                      | [gsuite\_customer](gsuite\_customer.md)                                     |                     |
+| Domain                        | [gsuite\_domain](gsuite\_domain.md)                                         | &check;             |
+| Group                         | [gsuite\_group](gsuite\_group.md)                                           | &check;             |
+| Group Member                  | [gsuite\_group\_member](gsuite\_group\_member.md)                           | &check;             |
+| Group Settings                | [gsuite\_group\_settings](gsuite\_group\_settings.md)                       | &check;             |
+| Mobile Device                 | [gsuite\_mobile\_device](gsuite\_mobile\_device.md)                         | &check;             |
+| Organizational Unit           | [gsuite\_org\_unit](gsuite\_org\_unit.md)                                   |                     |
+| Privilege                     | [gsuite\_privilege](gsuite\_privilege.md)                                   |                     |
+| Building                      | [gsuite\_resource\_building](gsuite\_resource\_building.md)                 | &check;             |
+| Calendar                      | [gsuite\_resource\_calendar](gsuite\_resource\_calendar.md)                 | &check;             |
+| Role                          | [gsuite\_role](gsuite\_role.md)                                             | &check;             |
+| Role Assignment               | [gsuite\_role\_assignment](gsuite\_role\_assignment.md)                     | &check;             |
+| Token                         | [gsuite\_token](gsuite\_token.md)                                           |                     |
+| User                          | [gsuite\_user](gsuite\_user.md)                                             | &check;             |
