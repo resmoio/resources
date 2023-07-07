@@ -20,6 +20,9 @@ Users can also set alarms to receive notifications when critical changes occur i
 
 | **Resources**                 | **Key**                                                                     | **Supports Events** |
 | ----------------------------- | --------------------------------------------------------------------------- | ------------------- |
+| Delegate                      | [gmail\_delegate](gmail\_delegate.md)                                       |                     |
+| Filter                        | [gmail\_filter](gmail\_filter.md)                                           |                     |
+| Forwarding Address            | [gmail\_forwarding\_address](gmail\_forwarding\_address.md)                 |                     |
 | Application Specific Password | [gsuite\_asp](gsuite\_asp.md)                                               |                     |
 | Browser Enrollment Token      | [gsuite\_browser\_enrollment\_token](gsuite\_browser\_enrollment\_token.md) |                     |
 | Chrome Browser                | [gsuite\_chrome\_browser](gsuite\_chrome\_browser.md)                       |                     |
