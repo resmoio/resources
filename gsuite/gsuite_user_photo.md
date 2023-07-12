@@ -8,9 +8,9 @@ gsuite_user_photo
 | ---------- | -------- | ------------ |
 | customerId | String   | &cross;      |
 | etag       | String   | &cross;      |
-| height     | Int      | &cross;      |
+| height     | Int      | &check;      |
 | mimeType   | String   | &cross;      |
 | photoData  | String   | &cross;      |
 | userEmail  | String   | &cross;      |
 | userId     | String   | &cross;      |
-| width      | Int      | &cross;      |
+| width      | Int      | &check;      |

@@ -6,11 +6,11 @@ azure_ad_user_photo
 
 | **Name**         | **Type** | **Nullable** |
 | ---------------- | -------- | ------------ |
-| height           | Int      | &cross;      |
+| height           | Int      | &check;      |
 | id               | String   | &cross;      |
 | mediaContentType | String   | &cross;      |
 | mediaEtag        | String   | &cross;      |
 | photoData        | String   | &check;      |
 | userEmail        | String   | &cross;      |
 | userId           | String   | &cross;      |
-| width            | Int      | &cross;      |
+| width            | Int      | &check;      |
