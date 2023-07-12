@@ -40,3 +40,4 @@ Users can also set alarms to receive notifications when critical changes occur i
 | Role Assignment               | [gsuite\_role\_assignment](gsuite\_role\_assignment.md)                     | &check;             |
 | Token                         | [gsuite\_token](gsuite\_token.md)                                           |                     |
 | User                          | [gsuite\_user](gsuite\_user.md)                                             | &check;             |
+| User Photo                    | [gsuite\_user\_photo](gsuite\_user\_photo.md)                               |                     |
