@@ -9,7 +9,6 @@ gsuite_browser_enrollment_token
 | creationTime     | String     | &check;      |
 | creatorId        | String     | &check;      |
 | expiration       | Expiration | &check;      |
-| kind             | String     | &cross;      |
 | orgUnitPath      | String     | &check;      |
 | revokeTime       | String     | &check;      |
 | revokerId        | String     | &check;      |
