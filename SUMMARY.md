@@ -884,6 +884,7 @@
   * [resmo\_user](resmo/resmo_user.md)
   * [resmo\_variable](resmo/resmo_variable.md)
 * [SaaS](saas/README.md)
+  * [saas\_installed\_extension](saas/saas_installed_extension.md)
   * [saas\_login](saas/saas_login.md)
   * [saas\_user](saas/saas_user.md)
 * [Salesforce](salesforce/README.md)
