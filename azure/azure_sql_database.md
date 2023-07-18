@@ -18,14 +18,16 @@ azure_sql_database
 | elasticPoolId                     | String                    | &check;      |
 | elasticPoolName                   | String                    | &check;      |
 | failoverGroupId                   | String                    | &check;      |
+| highAvailabilityReplicaCount      | Int                       | &check;      |
 | id                                | String                    | &cross;      |
+| isInfraEncryptionEnabled          | Boolean                   | &check;      |
+| isLedgerOn                        | Boolean                   | &check;      |
 | kind                              | String                    | &check;      |
 | location                          | String                    | &cross;      |
 | longTermRetentionBackupResourceId | String                    | &check;      |
 | managedBy                         | String                    | &check;      |
 | name                              | String                    | &cross;      |
 | parentId                          | String                    | &check;      |
-| readReplicaCount                  | Int                       | &check;      |
 | readScale                         | String                    | &check;      |
 | recoverableDatabaseId             | String                    | &check;      |
 | recoveryServicesRecoveryPointId   | String                    | &check;      |
@@ -33,6 +35,7 @@ azure_sql_database
 | resourceGroupName                 | String                    | &cross;      |
 | restorableDroppedDatabaseId       | String                    | &check;      |
 | sampleName                        | String                    | &check;      |
+| secondaryType                     | String                    | &check;      |
 | sku                               | String                    | &check;      |
 | sourceDatabaseId                  | String                    | &check;      |
 | sqlServerName                     | String                    | &check;      |

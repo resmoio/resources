@@ -89,9 +89,8 @@ azure_network_interface
 #### DdosSettings
 | **Name**           | **Type** | **Nullable** |
 | ------------------ | -------- | ------------ |
-| ddosCustomPolicyId | String   | &check;      |
-| protectedIp        | Boolean  | &check;      |
-| protectionCoverage | String   | &check;      |
+| ddosProtectionPlan | String   | &check;      |
+| protectionMode     | String   | &check;      |
 
 #### ExtendedLocation
 | **Name** | **Type** | **Nullable** |
