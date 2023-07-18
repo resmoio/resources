@@ -90,8 +90,9 @@ azure_public_ip_address
 #### DdosSettings
 | **Name**           | **Type** | **Nullable** |
 | ------------------ | -------- | ------------ |
-| ddosProtectionPlan | String   | &check;      |
-| protectionMode     | String   | &check;      |
+| ddosCustomPolicyId | String   | &check;      |
+| protectedIp        | Boolean  | &cross;      |
+| protectionCoverage | String   | &check;      |
 
 #### DnsSettings
 | **Name**        | **Type** | **Nullable** |

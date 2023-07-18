@@ -12,6 +12,7 @@ azure_kubernetes_cluster
 | apiAccessProfile                                | ApiAccessProfile                       | &check;      |
 | autoScalerProfile                               | AutoScalerProfile                      | &check;      |
 | autoUpgradeProfileChannel                       | String                                 | &check;      |
+| azureDefenderEnabled                            | Boolean                                | &check;      |
 | azurePortalFqdn                                 | String                                 | &check;      |
 | disableLocalAccounts                            | Boolean                                | &check;      |
 | diskEncryptionSetId                             | String                                 | &check;      |
@@ -36,7 +37,6 @@ azure_kubernetes_cluster
 | provisioningState                               | String                                 | &check;      |
 | publicNetworkAccess                             | String                                 | &check;      |
 | resourceGroupName                               | String                                 | &cross;      |
-| securityProfile                                 | SecurityProfile                        | &check;      |
 | servicePrincipalClientId                        | String                                 | &check;      |
 | servicePrincipalSecret                          | String                                 | &check;      |
 | sku                                             | Sku                                    | &check;      |
@@ -85,14 +85,6 @@ azure_kubernetes_cluster
 | scanInterval                  | String   | &check;      |
 | skipNodesWithLocalStorage     | String   | &check;      |
 | skipNodesWithSystemPods       | String   | &check;      |
-
-#### AzureKeyVaultKms
-| **Name**              | **Type** | **Nullable** |
-| --------------------- | -------- | ------------ |
-| enabled               | Boolean  | &check;      |
-| keyId                 | String   | &check;      |
-| keyVaultNetworkAccess | String   | &check;      |
-| keyVaultResourceId    | String   | &check;      |
 
 #### HttpProxyConfig
 | **Name**   | **Type**     | **Nullable** |
@@ -199,14 +191,13 @@ azure_kubernetes_cluster
 | **Name**            | **Type**     | **Nullable** |
 | ------------------- | ------------ | ------------ |
 | dnsServiceIP        | String       | &check;      |
+| dockerBridgeCidr    | String       | &check;      |
 | ipFamilies          | List<String> | &check;      |
 | loadBalancerProfile | JSON         | &check;      |
 | loadBalancerSku     | String       | &check;      |
 | natGatewayProfile   | JSON         | &check;      |
-| networkDataplane    | String       | &check;      |
 | networkMode         | String       | &check;      |
 | networkPlugin       | String       | &check;      |
-| networkPluginMode   | String       | &check;      |
 | networkPolicy       | String       | &check;      |
 | outboundType        | String       | &check;      |
 | podCidr             | String       | &check;      |
@@ -269,36 +260,6 @@ azure_kubernetes_cluster
 | actionsRequired | String   | &check;      |
 | description     | String   | &check;      |
 | status          | String   | &check;      |
-
-#### SecurityProfile
-| **Name**         | **Type**                        | **Nullable** |
-| ---------------- | ------------------------------- | ------------ |
-| azureKeyVaultKms | AzureKeyVaultKms                | &check;      |
-| defender         | SecurityProfileDefender         | &check;      |
-| imageCleaner     | SecurityProfileImageCleaner     | &check;      |
-| workloadIdentity | SecurityProfileWorkloadIdentity | &check;      |
-
-#### SecurityProfileDefender
-| **Name**                        | **Type**                                  | **Nullable** |
-| ------------------------------- | ----------------------------------------- | ------------ |
-| logAnalyticsWorkspaceResourceId | String                                    | &check;      |
-| securityMonitoring              | SecurityProfileDefenderSecurityMonitoring | &check;      |
-
-#### SecurityProfileDefenderSecurityMonitoring
-| **Name** | **Type** | **Nullable** |
-| -------- | -------- | ------------ |
-| enabled  | Boolean  | &check;      |
-
-#### SecurityProfileImageCleaner
-| **Name**      | **Type** | **Nullable** |
-| ------------- | -------- | ------------ |
-| enabled       | Boolean  | &check;      |
-| intervalHours | Int      | &check;      |
-
-#### SecurityProfileWorkloadIdentity
-| **Name** | **Type** | **Nullable** |
-| -------- | -------- | ------------ |
-| enabled  | Boolean  | &check;      |
 
 #### Sku
 | **Name** | **Type** | **Nullable** |
