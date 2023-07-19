@@ -7,13 +7,17 @@ user
 | **Name**           | **Type**           | **Nullable** |
 | ------------------ | ------------------ | ------------ |
 | active             | Boolean            | &check;      |
+| alternativeEmails  | List<String>       | &check;      |
 | displayName        | String             | &check;      |
 | email              | String             | &check;      |
 | emailDomain        | String             | &check;      |
 | id                 | String             | &cross;      |
 | isAdmin            | Boolean            | &check;      |
+| isDeleted          | Boolean            | &cross;      |
+| isDirectoryUser    | Boolean            | &cross;      |
 | lastSignIn         | String             | &check;      |
 | mfaEnabled         | Boolean            | &check;      |
+| phoneNumber        | String             | &check;      |
 | referencedResource | ReferencedResource | &check;      |
 | referencedType     | String             | &cross;      |
 | type               | String             | &check;      |

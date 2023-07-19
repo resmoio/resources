@@ -4,25 +4,23 @@ description: SaaS User
 saas_user
 ---------
 
-| **Name**    | **Type**     | **Nullable** |
-| ----------- | ------------ | ------------ |
-| apps        | Int          | &cross;      |
-| createdAt   | String       | &check;      |
-| devices     | Int          | &cross;      |
-| email       | String       | &check;      |
-| firstName   | String       | &check;      |
-| id          | String       | &cross;      |
-| isActive    | Boolean      | &cross;      |
-| isDeleted   | Boolean      | &cross;      |
-| isMonitored | Boolean      | &cross;      |
-| issues      | Issues       | &cross;      |
-| lastName    | String       | &check;      |
-| phoneNumber | String       | &check;      |
-| riskScore   | Double       | &cross;      |
-| slackHandle | String       | &check;      |
-| source      | Source       | &cross;      |
-| teamIds     | List<String> | &cross;      |
-| type        | String       | &cross;      |
+| **Name**          | **Type**     | **Nullable** |
+| ----------------- | ------------ | ------------ |
+| alternativeEmails | List<String> | &check;      |
+| apps              | List<String> | &cross;      |
+| createdDate       | String       | &cross;      |
+| deletedDate       | String       | &check;      |
+| devices           | Int          | &cross;      |
+| email             | String       | &cross;      |
+| isActive          | Boolean      | &cross;      |
+| isMonitored       | Boolean      | &cross;      |
+| issues            | Issues       | &cross;      |
+| name              | String       | &cross;      |
+| offBoardDate      | String       | &check;      |
+| phoneNumber       | String       | &check;      |
+| riskScore         | Double       | &cross;      |
+| slackHandle       | String       | &check;      |
+| teams             | List<Team>   | &cross;      |
 
 #### Issues
 | **Name** | **Type** | **Nullable** |
@@ -31,9 +29,10 @@ saas_user
 | high     | Int      | &cross;      |
 | low      | Int      | &cross;      |
 | medium   | Int      | &cross;      |
+| total    | Int      | &cross;      |
 
-#### Source
-| **Name**      | **Type** | **Nullable** |
-| ------------- | -------- | ------------ |
-| integrationId | String   | &cross;      |
-| resourceId    | String   | &cross;      |
+#### Team
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &cross;      |
+| name     | String   | &cross;      |
