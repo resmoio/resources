@@ -28,6 +28,7 @@ gsuite_user
 | isMailboxSetup             | Boolean            | &check;      |
 | keywords                   | List<Keyword>      | &check;      |
 | languages                  | List<Language>     | &check;      |
+| lastLoginTime              | String             | &check;      |
 | locations                  | List<Location>     | &check;      |
 | name                       | Name               | &check;      |
 | nonEditableAliases         | List<String>       | &check;      |
