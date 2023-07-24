@@ -7,6 +7,7 @@ saas_installed_extension
 | **Name**           | **Type**   | **Nullable** |
 | ------------------ | ---------- | ------------ |
 | browser            | Browser    | &cross;      |
+| email              | String     | &check;      |
 | extensionVersion   | String     | &cross;      |
 | id                 | String     | &cross;      |
 | installedAt        | String     | &check;      |
