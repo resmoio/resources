@@ -886,6 +886,7 @@
 * [SaaS](saas/README.md)
   * [saas\_installed\_extension](saas/saas_installed_extension.md)
   * [saas\_login](saas/saas_login.md)
+  * [saas\_team](saas/saas_team.md)
   * [saas\_user](saas/saas_user.md)
 * [Salesforce](salesforce/README.md)
   * [salesforce\_group](salesforce/salesforce_group.md)
