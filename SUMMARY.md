@@ -429,7 +429,6 @@
   * [ip\_address](basic/ip_address.md)
   * [object\_storage](basic/object_storage.md)
   * [repository](basic/repository.md)
-  * [user](basic/user.md)
   * [user\_account](basic/user_account.md)
   * [vulnerability](basic/vulnerability.md)
 * [Fastly](fastly/README.md)

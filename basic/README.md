@@ -14,6 +14,5 @@ Entity
 | IP Address     | [ip\_address](ip\_address.md)         |                     |
 | Object Storage | [object\_storage](object\_storage.md) |                     |
 | Repository     | [repository](repository.md)           |                     |
-| User           | [user](user.md)                       |                     |
 | User Account   | [user\_account](user\_account.md)     |                     |
 | Vulnerability  | [vulnerability](vulnerability.md)     |                     |
