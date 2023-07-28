@@ -8,6 +8,7 @@ login
 | ------------------ | ---------------- | ------------ |
 | appName            | String           | &cross;      |
 | browserId          | String           | &cross;      |
+| email              | String           | &check;      |
 | firstLogin         | String           | &check;      |
 | identifier         | String           | &cross;      |
 | lastLogin          | String           | &cross;      |
