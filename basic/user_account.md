@@ -8,6 +8,8 @@ user_account
 | ------------------ | ------------------ | ------------ |
 | active             | Boolean            | &check;      |
 | alternativeEmails  | List<String>       | &check;      |
+| appId              | String             | &check;      |
+| appName            | String             | &check;      |
 | displayName        | String             | &check;      |
 | email              | String             | &check;      |
 | emailDomain        | String             | &check;      |

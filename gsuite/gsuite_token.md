@@ -9,6 +9,7 @@ gsuite_token
 | anonymous   | Boolean      | &cross;      |
 | clientId    | String       | &cross;      |
 | customerId  | String       | &cross;      |
+| deletedAt   | String       | &check;      |
 | displayText | String       | &cross;      |
 | nativeApp   | Boolean      | &cross;      |
 | scopes      | List<String> | &cross;      |

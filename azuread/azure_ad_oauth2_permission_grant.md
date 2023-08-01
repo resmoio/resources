@@ -8,6 +8,7 @@ azure_ad_oauth2_permission_grant
 | ----------- | -------- | ------------ |
 | clientId    | String   | &check;      |
 | consentType | String   | &check;      |
+| deletedAt   | String   | &check;      |
 | id          | String   | &cross;      |
 | oDataType   | String   | &check;      |
 | principalId | String   | &check;      |

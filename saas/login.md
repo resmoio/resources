@@ -8,7 +8,7 @@ login
 | ------------------ | ---------------- | ------------ |
 | appName            | String           | &cross;      |
 | browserId          | String           | &cross;      |
-| email              | String           | &check;      |
+| email              | String           | &cross;      |
 | firstLogin         | String           | &check;      |
 | identifier         | String           | &cross;      |
 | lastLogin          | String           | &cross;      |
@@ -19,7 +19,6 @@ login
 | status             | String           | &cross;      |
 | type               | String           | &cross;      |
 | url                | String           | &cross;      |
-| userId             | String           | &cross;      |
 
 #### SharedInfo
 | **Name**   | **Type** | **Nullable** |
