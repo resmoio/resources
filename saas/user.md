@@ -19,7 +19,7 @@ user
 | offBoardDate      | String       | &check;      |
 | phoneNumber       | String       | &check;      |
 | riskScore         | Double       | &cross;      |
-| slackHandle       | String       | &check;      |
+| slackHandle       | SlackHandle  | &check;      |
 | teams             | List<Team>   | &cross;      |
 
 #### Issues
@@ -30,6 +30,12 @@ user
 | low      | Int      | &cross;      |
 | medium   | Int      | &cross;      |
 | total    | Int      | &cross;      |
+
+#### SlackHandle
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| name     | String   | &cross;      |
+| url      | String   | &cross;      |
 
 #### Team
 | **Name** | **Type** | **Nullable** |
