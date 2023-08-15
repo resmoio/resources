@@ -36,6 +36,6 @@ browser_extension
 | app                 | String    | &check;      |
 | eventTime           | Timestamp | &cross;      |
 | hasCorrectLoginInfo | Boolean   | &check;      |
-| identifier          | String    | &cross;      |
+| identifier          | String    | &check;      |
 | initiator           | String    | &cross;      |
 | relatedURLPart      | String    | &check;      |
