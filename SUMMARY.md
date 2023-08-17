@@ -1,4 +1,5 @@
 * [Resources](README.md)
+* [1Password](onepassword/README.md)
 * [Amazon Web Services](aws/README.md)
   * [aws\_access\_analyzer](aws/aws_access_analyzer.md)
   * [aws\_account](aws/aws_account.md)
