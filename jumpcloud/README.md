@@ -26,6 +26,7 @@ Integrating your JumpCloud account with Resmo allows you to efficiently monitor 
 | Application           | [jumpcloud\_application](jumpcloud\_application.md)                       |                     |
 | Authentication Policy | [jumpcloud\_authentication\_policy](jumpcloud\_authentication\_policy.md) |                     |
 | Device                | [jumpcloud\_device](jumpcloud\_device.md)                                 |                     |
+| Device App            | [jumpcloud\_device\_app](jumpcloud\_device\_app.md)                       |                     |
 | Device Group          | [jumpcloud\_device\_group](jumpcloud\_device\_group.md)                   |                     |
 | Directory             | [jumpcloud\_directory](jumpcloud\_directory.md)                           |                     |
 | IP List               | [jumpcloud\_ip\_list](jumpcloud\_ip\_list.md)                             |                     |

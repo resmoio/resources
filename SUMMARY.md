@@ -673,6 +673,7 @@
   * [jumpcloud\_application](jumpcloud/jumpcloud_application.md)
   * [jumpcloud\_authentication\_policy](jumpcloud/jumpcloud_authentication_policy.md)
   * [jumpcloud\_device](jumpcloud/jumpcloud_device.md)
+  * [jumpcloud\_device\_app](jumpcloud/jumpcloud_device_app.md)
   * [jumpcloud\_device\_group](jumpcloud/jumpcloud_device_group.md)
   * [jumpcloud\_directory](jumpcloud/jumpcloud_directory.md)
   * [jumpcloud\_ip\_list](jumpcloud/jumpcloud_ip_list.md)
