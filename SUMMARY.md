@@ -890,6 +890,7 @@
   * [resmo\_user](resmo/resmo_user.md)
   * [resmo\_variable](resmo/resmo_variable.md)
 * [SaaS](saas/README.md)
+  * [app](saas/app.md)
   * [browser\_extension](saas/browser_extension.md)
   * [login](saas/login.md)
   * [team](saas/team.md)
