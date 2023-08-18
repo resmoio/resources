@@ -18,7 +18,7 @@ user
 | name              | String       | &cross;      |
 | offBoardDate      | String       | &check;      |
 | phoneNumber       | String       | &check;      |
-| riskScore         | Double       | &cross;      |
+| risk              | RiskScore    | &cross;      |
 | slackHandle       | SlackHandle  | &check;      |
 | teams             | List<Team>   | &cross;      |
 
@@ -30,6 +30,12 @@ user
 | low      | Int      | &cross;      |
 | medium   | Int      | &cross;      |
 | total    | Int      | &cross;      |
+
+#### RiskScore
+| **Name**         | **Type** | **Nullable** |
+| ---------------- | -------- | ------------ |
+| distributedScore | Double   | &cross;      |
+| rawScore         | Double   | &cross;      |
 
 #### SlackHandle
 | **Name** | **Type** | **Nullable** |
