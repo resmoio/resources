@@ -4,8 +4,8 @@ You can even query your Resmo SaaS resources from Resmo itself! Pretty exciting,
 
 | **Resources**     | **Key**                                     | **Supports Events** |
 | ----------------- | ------------------------------------------- | ------------------- |
-| App               | [app](app.md)                               | &check;             |
+| Discovered App    | [app](app.md)                               | &check;             |
 | Browser Extension | [browser\_extension](browser\_extension.md) | &check;             |
-| Login             | [login](login.md)                           | &check;             |
+| Browser Login     | [login](login.md)                           | &check;             |
 | Team              | [team](team.md)                             | &check;             |
 | User              | [user](user.md)                             | &check;             |

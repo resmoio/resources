@@ -1,5 +1,5 @@
 ---
-description: SaaS App
+description: SaaS Discovered App
 ---
 app
 ---
