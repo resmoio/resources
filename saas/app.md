@@ -6,16 +6,18 @@ app
 
 | **Name**          | **Type**     | **Nullable** |
 | ----------------- | ------------ | ------------ |
+| approvalReason    | String       | &check;      |
 | category          | String       | &check;      |
 | categoryOwner     | Owner        | &check;      |
 | displayName       | String       | &check;      |
 | domains           | List<String> | &check;      |
+| isApproved        | Boolean      | &cross;      |
 | isIdentified      | Boolean      | &cross;      |
 | issues            | Issues       | &cross;      |
 | name              | String       | &check;      |
 | owner             | Owner        | &check;      |
 | resmoIntegrations | List<String> | &check;      |
-| riskScore         | Double       | &cross;      |
+| risk              | RiskScore    | &cross;      |
 | securityScore     | Double       | &cross;      |
 | status            | String       | &cross;      |
 
@@ -34,6 +36,12 @@ app
 | email        | String   | &check;      |
 | isResmoOwner | Boolean  | &cross;      |
 | name         | String   | &check;      |
+
+#### RiskScore
+| **Name**         | **Type** | **Nullable** |
+| ---------------- | -------- | ------------ |
+| distributedScore | Double   | &cross;      |
+| rawScore         | Double   | &cross;      |
 
 #### Status
 | **Name** | **Type** | **Nullable** |
