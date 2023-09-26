@@ -6,20 +6,21 @@ app
 
 | **Name**          | **Type**     | **Nullable** |
 | ----------------- | ------------ | ------------ |
-| approvalReason    | String       | &check;      |
 | category          | String       | &check;      |
 | categoryOwner     | Owner        | &check;      |
+| discoveredOn      | String       | &check;      |
 | displayName       | String       | &check;      |
 | domains           | List<String> | &check;      |
-| isApproved        | Boolean      | &cross;      |
 | isIdentified      | Boolean      | &cross;      |
 | issues            | Issues       | &cross;      |
+| licence           | Licence      | &check;      |
 | name              | String       | &check;      |
 | owner             | Owner        | &check;      |
 | resmoIntegrations | List<String> | &check;      |
 | risk              | RiskScore    | &cross;      |
-| securityScore     | Double       | &cross;      |
+| securityScore     | Int          | &cross;      |
 | status            | String       | &cross;      |
+| statusReason      | String       | &check;      |
 
 #### Issues
 | **Name** | **Type** | **Nullable** |
@@ -30,12 +31,25 @@ app
 | medium   | Int      | &cross;      |
 | total    | Int      | &cross;      |
 
+#### Licence
+| **Name**    | **Type**      | **Nullable** |
+| ----------- | ------------- | ------------ |
+| notes       | String        | &check;      |
+| period      | String        | &check;      |
+| price       | Licence.Price | &check;      |
+| renewalDate | Timestamp     | &check;      |
+
+#### Licence.Price
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| amount   | Double   | &cross;      |
+| currency | String   | &cross;      |
+
 #### Owner
-| **Name**     | **Type** | **Nullable** |
-| ------------ | -------- | ------------ |
-| email        | String   | &check;      |
-| isResmoOwner | Boolean  | &cross;      |
-| name         | String   | &check;      |
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| email    | String   | &check;      |
+| name     | String   | &check;      |
 
 #### RiskScore
 | **Name**         | **Type** | **Nullable** |

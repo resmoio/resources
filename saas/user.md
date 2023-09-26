@@ -7,19 +7,17 @@ user
 | **Name**          | **Type**     | **Nullable** |
 | ----------------- | ------------ | ------------ |
 | alternativeEmails | List<String> | &check;      |
-| apps              | List<String> | &cross;      |
 | createdDate       | String       | &cross;      |
+| deactivatedDate   | String       | &check;      |
 | deletedDate       | String       | &check;      |
 | devices           | Int          | &cross;      |
 | email             | String       | &cross;      |
-| isActive          | Boolean      | &cross;      |
-| isMonitored       | Boolean      | &cross;      |
 | issues            | Issues       | &cross;      |
 | name              | String       | &cross;      |
-| offBoardDate      | String       | &check;      |
 | phoneNumber       | String       | &check;      |
 | risk              | RiskScore    | &cross;      |
 | slackHandle       | SlackHandle  | &check;      |
+| status            | String       | &check;      |
 | teams             | List<Team>   | &cross;      |
 
 #### Issues
@@ -42,6 +40,12 @@ user
 | -------- | -------- | ------------ |
 | name     | String   | &cross;      |
 | url      | String   | &cross;      |
+
+#### Status
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| name     | String   | &cross;      |
+| ordinal  | Int      | &cross;      |
 
 #### Team
 | **Name** | **Type** | **Nullable** |

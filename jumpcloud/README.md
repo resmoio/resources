@@ -25,6 +25,7 @@ Integrating your JumpCloud account with Resmo allows you to efficiently monitor 
 | Apple MDM             | [jumpcloud\_apple\_mdm](jumpcloud\_apple\_mdm.md)                         |                     |
 | Application           | [jumpcloud\_application](jumpcloud\_application.md)                       |                     |
 | Authentication Policy | [jumpcloud\_authentication\_policy](jumpcloud\_authentication\_policy.md) |                     |
+| Browser Extension     | [jumpcloud\_browser\_extension](jumpcloud\_browser\_extension.md)         | &check;             |
 | Device                | [jumpcloud\_device](jumpcloud\_device.md)                                 |                     |
 | Device App            | [jumpcloud\_device\_app](jumpcloud\_device\_app.md)                       |                     |
 | Device Group          | [jumpcloud\_device\_group](jumpcloud\_device\_group.md)                   |                     |

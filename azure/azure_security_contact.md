@@ -7,7 +7,7 @@ azure_security_contact
 | **Name**           | **Type** | **Nullable** |
 | ------------------ | -------- | ------------ |
 | alertNotifications | String   | &cross;      |
-| alertsToAdmins     | String   | &cross;      |
+| alertsToRoles      | String   | &check;      |
 | email              | String   | &cross;      |
 | id                 | String   | &cross;      |
 | name               | String   | &cross;      |

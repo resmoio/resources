@@ -7,10 +7,7 @@ gsuite_user_photo
 | **Name**   | **Type** | **Nullable** |
 | ---------- | -------- | ------------ |
 | customerId | String   | &cross;      |
-| etag       | String   | &cross;      |
-| height     | Int      | &check;      |
-| mimeType   | String   | &cross;      |
-| photoData  | String   | &cross;      |
+| photoEtag  | String   | &check;      |
+| photoUrl   | String   | &check;      |
 | userEmail  | String   | &cross;      |
 | userId     | String   | &cross;      |
-| width      | Int      | &check;      |
