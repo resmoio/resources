@@ -22,6 +22,7 @@ In conclusion, integrating your Auth0 account with Resmo provides valuable insig
 | **Resources**   | **Key**                                               | **Supports Events** |
 | --------------- | ----------------------------------------------------- | ------------------- |
 | Client          | [auth0\_client](auth0\_client.md)                     |                     |
+| Connection      | [auth0\_connection](auth0\_connection.md)             |                     |
 | Custom Domain   | [auth0\_custom\_domain](auth0\_custom\_domain.md)     |                     |
 | Grant           | [auth0\_grant](auth0\_grant.md)                       |                     |
 | Organization    | [auth0\_organization](auth0\_organization.md)         |                     |

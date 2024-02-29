@@ -24,6 +24,7 @@ In conclusion, integrating your Zendesk account with Resmo provides valuable ins
 | ---------------- | ----------------------------------------------------------- | ------------------- |
 | Account          | [zendesk\_account](zendesk\_account.md)                     |                     |
 | App Installation | [zendesk\_app\_installation](zendesk\_app\_installation.md) |                     |
+| Custom Role      | [zendesk\_custom\_role](zendesk\_custom\_role.md)           |                     |
 | Group            | [zendesk\_group](zendesk\_group.md)                         |                     |
 | OAuth Client     | [zendesk\_oauth\_client](zendesk\_oauth\_client.md)         |                     |
 | OAuth Token      | [zendesk\_oauth\_token](zendesk\_oauth\_token.md)           |                     |
