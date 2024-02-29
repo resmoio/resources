@@ -24,4 +24,3 @@ In conclusion, connecting your Jira account to Resmo can provide valuable insigh
 | Filter        | [jira\_filter](jira\_filter.md)   |                     |
 | Group         | [jira\_group](jira\_group.md)     |                     |
 | Project       | [jira\_project](jira\_project.md) |                     |
-| User          | [jira\_user](jira\_user.md)       |                     |

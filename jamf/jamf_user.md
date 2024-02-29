@@ -12,7 +12,7 @@ jamf_user
 | enableCustomPhotoUrl | Boolean                  | &check;      |
 | extensionAttributes  | List<ExtensionAttribute> | &check;      |
 | fullName             | String                   | &check;      |
-| id                   | Int                      | &check;      |
+| id                   | Int                      | &cross;      |
 | ldapServer           | LdapServer               | &check;      |
 | links                | Links                    | &check;      |
 | managedAppleId       | String                   | &check;      |

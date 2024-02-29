@@ -16,6 +16,7 @@ vercel_team
 | id                      | String              | &cross;      |
 | inviteCode              | String              | &check;      |
 | memberUserIds           | List<String>        | &check;      |
+| membersWithRoles        | List<MemberRole>    | &check;      |
 | membership              | Membership          | &check;      |
 | name                    | String              | &check;      |
 | platformVersion         | String              | &check;      |
@@ -45,6 +46,12 @@ vercel_team
 | status      | String           | &check;      |
 | tax         | String           | &check;      |
 | trial       | Map<String,Long> | &check;      |
+
+#### MemberRole
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| role     | String   | &cross;      |
+| userId   | String   | &cross;      |
 
 #### Membership
 | **Name**  | **Type** | **Nullable** |
