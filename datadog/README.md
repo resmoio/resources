@@ -28,4 +28,5 @@ In conclusion, integrating your Datadog account with Resmo offers valuable insig
 | Organization    | [datadog\_organization](datadog\_organization.md)         |                     |
 | Permission      | [datadog\_permission](datadog\_permission.md)             |                     |
 | Role            | [datadog\_role](datadog\_role.md)                         |                     |
+| Team            | [datadog\_team](datadog\_team.md)                         |                     |
 | User            | [datadog\_user](datadog\_user.md)                         |                     |
