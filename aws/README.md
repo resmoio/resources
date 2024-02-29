@@ -21,6 +21,7 @@ Users can also set alarms to receive notifications when critical changes occur i
 | **Resources**                                 | **Key**                                                                                                               | **Supports Events** |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | Access Analyzer                               | [aws\_access\_analyzer](aws\_access\_analyzer.md)                                                                     |                     |
+| Access Analyzer Finding                       | [aws\_access\_analyzer\_finding](aws\_access\_analyzer\_finding.md)                                                   |                     |
 | Account                                       | [aws\_account](aws\_account.md)                                                                                       |                     |
 | Account Contact                               | [aws\_account\_contact](aws\_account\_contact.md)                                                                     |                     |
 | ACM Certificate                               | [aws\_acm\_certificate](aws\_acm\_certificate.md)                                                                     |                     |
@@ -29,6 +30,11 @@ Users can also set alarms to receive notifications when critical changes occur i
 | ApiGatewayV2 API                              | [aws\_apigatewayv2\_api](aws\_apigatewayv2\_api.md)                                                                   |                     |
 | ApiGatewayV2 Stage                            | [aws\_apigatewayv2\_stage](aws\_apigatewayv2\_stage.md)                                                               |                     |
 | Application Auto Scaling Target               | [aws\_appautoscaling\_target](aws\_appautoscaling\_target.md)                                                         |                     |
+| AppSync API                                   | [aws\_appsync\_api](aws\_appsync\_api.md)                                                                             |                     |
+| AppSync API Key                               | [aws\_appsync\_apikey](aws\_appsync\_apikey.md)                                                                       |                     |
+| AppSync Datasource                            | [aws\_appsync\_datasource](aws\_appsync\_datasource.md)                                                               |                     |
+| AppSync Domain                                | [aws\_appsync\_domain](aws\_appsync\_domain.md)                                                                       |                     |
+| AppSync Function                              | [aws\_appsync\_function](aws\_appsync\_function.md)                                                                   |                     |
 | Athena Data Source                            | [aws\_athena\_data\_source](aws\_athena\_data\_source.md)                                                             |                     |
 | Athena Database                               | [aws\_athena\_database](aws\_athena\_database.md)                                                                     |                     |
 | Athena Table                                  | [aws\_athena\_table](aws\_athena\_table.md)                                                                           |                     |

@@ -4,23 +4,25 @@ description: Sentry User
 sentry_user
 -----------
 
-| **Name**     | **Type**     | **Nullable** |
-| ------------ | ------------ | ------------ |
-| dateCreated  | String       | &check;      |
-| email        | String       | &check;      |
-| expired      | Boolean      | &check;      |
-| flags        | Flag         | &check;      |
-| id           | String       | &cross;      |
-| inviteStatus | String       | &check;      |
-| inviterName  | String       | &check;      |
-| orgRole      | String       | &check;      |
-| organization | Organization | &check;      |
-| pending      | Boolean      | &check;      |
-| projects     | List<String> | &check;      |
-| role         | String       | &check;      |
-| roleName     | String       | &check;      |
-| user         | User         | &check;      |
-| userName     | String       | &check;      |
+| **Name**     | **Type**       | **Nullable** |
+| ------------ | -------------- | ------------ |
+| dateCreated  | String         | &check;      |
+| email        | String         | &check;      |
+| expired      | Boolean        | &check;      |
+| flags        | Flag           | &check;      |
+| id           | String         | &cross;      |
+| inviteStatus | String         | &check;      |
+| inviterName  | String         | &check;      |
+| orgRole      | String         | &check;      |
+| organization | Organization   | &check;      |
+| pending      | Boolean        | &check;      |
+| projects     | List<String>   | &check;      |
+| role         | String         | &check;      |
+| roleName     | String         | &check;      |
+| teamRoles    | List<TeamRole> | &check;      |
+| teams        | List<String>   | &check;      |
+| user         | User           | &check;      |
+| userName     | String         | &check;      |
 
 #### Email
 | **Name**    | **Type** | **Nullable** |
@@ -40,6 +42,12 @@ sentry_user
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
 | slug     | String   | &check;      |
+
+#### TeamRole
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| role     | String   | &check;      |
+| teamSlug | String   | &cross;      |
 
 #### User
 | **Name**        | **Type**    | **Nullable** |

@@ -9,6 +9,7 @@ aws_wafv2_web_acl
 | accountId                            | String                         | &cross;      |
 | accountName                          | String                         | &check;      |
 | arn                                  | String                         | &cross;      |
+| associatedResources                  | List<String>                   | &check;      |
 | capacity                             | Long                           | &check;      |
 | captchaConfig                        | CaptchaConfig                  | &check;      |
 | customResponseBodies                 | Map<String,CustomResponseBody> | &check;      |

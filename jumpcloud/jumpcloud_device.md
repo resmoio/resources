@@ -14,6 +14,7 @@ jumpcloud_device
 | allowSshRootLogin              | Boolean                | &check;      |
 | amazonInstanceID               | String                 | &check;      |
 | arch                           | String                 | &check;      |
+| archFamily                     | String                 | &check;      |
 | azureAdJoined                  | Boolean                | &check;      |
 | builtInCommands                | List<BuiltInCommand>   | &check;      |
 | connectionHistory              | List<Map>              | &check;      |
