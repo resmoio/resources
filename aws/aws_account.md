@@ -18,3 +18,9 @@ aws_account
 | parent          | String             | &check;      |
 | status          | String             | &check;      |
 | tags            | Map<String,String> | &cross;      |
+
+#### AccountProvision
+| **Name**           | **Type**     | **Nullable** |
+| ------------------ | ------------ | ------------ |
+| available          | Boolean      | &cross;      |
+| missingPermissions | List<String> | &cross;      |
