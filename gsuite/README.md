@@ -27,6 +27,7 @@ Users can also set alarms to receive notifications when critical changes occur i
 | Browser Enrollment Token      | [gsuite\_browser\_enrollment\_token](gsuite\_browser\_enrollment\_token.md) |                     |
 | Chrome Browser                | [gsuite\_chrome\_browser](gsuite\_chrome\_browser.md)                       |                     |
 | Customer                      | [gsuite\_customer](gsuite\_customer.md)                                     |                     |
+| Device                        | [gsuite\_device](gsuite\_device.md)                                         |                     |
 | Domain                        | [gsuite\_domain](gsuite\_domain.md)                                         | &check;             |
 | Group                         | [gsuite\_group](gsuite\_group.md)                                           | &check;             |
 | Group Member                  | [gsuite\_group\_member](gsuite\_group\_member.md)                           | &check;             |
@@ -40,4 +41,4 @@ Users can also set alarms to receive notifications when critical changes occur i
 | Role Assignment               | [gsuite\_role\_assignment](gsuite\_role\_assignment.md)                     | &check;             |
 | Token                         | [gsuite\_token](gsuite\_token.md)                                           |                     |
 | User                          | [gsuite\_user](gsuite\_user.md)                                             | &check;             |
-| User Photo                    | [gsuite\_user\_photo](gsuite\_user\_photo.md)                               |                     |
+| User Usage Report             | [gsuite\_user\_usage\_report](gsuite\_user\_usage\_report.md)               |                     |

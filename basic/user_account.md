@@ -8,7 +8,7 @@ user_account
 | ------------------ | ------------------ | ------------ |
 | active             | Boolean            | &check;      |
 | alternativeEmails  | List<String>       | &check;      |
-| appName            | String             | &check;      |
+| appIds             | List<String>       | &check;      |
 | displayName        | String             | &check;      |
 | email              | String             | &check;      |
 | emailDomain        | String             | &check;      |
@@ -16,6 +16,7 @@ user_account
 | isAdmin            | Boolean            | &check;      |
 | isDeleted          | Boolean            | &cross;      |
 | isDirectoryUser    | Boolean            | &cross;      |
+| isSuspended        | Boolean            | &check;      |
 | lastSignIn         | String             | &check;      |
 | mfaEnabled         | Boolean            | &check;      |
 | phoneNumber        | String             | &check;      |

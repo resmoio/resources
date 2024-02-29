@@ -16,7 +16,7 @@ docusign_user
 | enableConnectForUser         | String              | &check;      |
 | firstName                    | String              | &check;      |
 | groupList                    | List<GroupInfo>     | &check;      |
-| homeAddress                  | List<Map>           | &check;      |
+| homeAddress                  | Map<String,String>  | &check;      |
 | isAdmin                      | String              | &check;      |
 | jobTitle                     | String              | &check;      |
 | lastLogin                    | String              | &check;      |
@@ -37,7 +37,7 @@ docusign_user
 | userProfileLastModifiedDate  | String              | &check;      |
 | userStatus                   | String              | &check;      |
 | userType                     | String              | &check;      |
-| workAddress                  | List<Map>           | &check;      |
+| workAddress                  | Map<String,String>  | &check;      |
 
 #### CustomSetting
 | **Name**      | **Type** | **Nullable** |

@@ -19,5 +19,12 @@ datadog_user
 | roles              | List<String> | &check;      |
 | serviceAccount     | Boolean      | &check;      |
 | status             | String       | &check;      |
+| teams              | List<Team>   | &check;      |
 | title              | String       | &check;      |
 | verified           | Boolean      | &check;      |
+
+#### Team
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &cross;      |
+| role     | String   | &check;      |
