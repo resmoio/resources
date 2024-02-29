@@ -27,3 +27,4 @@ In conclusion, integrating your Jamf Pro account with Resmo provides valuable in
 | Mobile Device Configuration | [jamf\_mobile\_device\_configuration](jamf\_mobile\_device\_configuration.md) |                     |
 | OSX Configuration Profile   | [jamf\_osx\_configuration\_profile](jamf\_osx\_configuration\_profile.md)     |                     |
 | User                        | [jamf\_user](jamf\_user.md)                                                   |                     |
+| User Group                  | [jamf\_user\_group](jamf\_user\_group.md)                                     |                     |
