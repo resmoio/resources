@@ -17,3 +17,4 @@ resmo_notebook
 | lastUpdatedAt | Timestamp    | &check;      |
 | managed       | Boolean      | &check;      |
 | name          | String       | &check;      |
+| variables     | List<String> | &check;      |

@@ -51,4 +51,3 @@ In conclusion, connecting your Azure AD account to Resmo can provide valuable in
 | Token Lifetime Policy                         | [azure\_ad\_token\_lifetime\_policy](azure\_ad\_token\_lifetime\_policy.md)                                                     |                     |
 | User                                          | [azure\_ad\_user](azure\_ad\_user.md)                                                                                           | &check;             |
 | User Group                                    | [azure\_ad\_user\_group](azure\_ad\_user\_group.md)                                                                             | &check;             |
-| User Photo                                    | [azure\_ad\_user\_photo](azure\_ad\_user\_photo.md)                                                                             |                     |

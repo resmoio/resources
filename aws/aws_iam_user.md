@@ -18,6 +18,7 @@ aws_iam_user
 | passwordLastUsedIn  | PasswordLastUsed     | &check;      |
 | permissionsBoundary | PermissionsBoundary  | &check;      |
 | policies            | List<Policy>         | &cross;      |
+| tags                | Map<String,String>   | &check;      |
 | userId              | String               | &cross;      |
 | username            | String               | &cross;      |
 
