@@ -40,4 +40,4 @@ okta_group_member
 #### Type
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | String   | &cross;      |
+| id       | String   | &check;      |
