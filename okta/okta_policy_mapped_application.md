@@ -12,9 +12,7 @@ okta_policy_mapped_application
 | id            | String        | &cross;      |
 | label         | String        | &check;      |
 | lastUpdated   | String        | &check;      |
-| name          | String        | &check;      |
 | policyId      | String        | &cross;      |
-| settings      | JSON          | &check;      |
 | signOnMode    | String        | &check;      |
 | status        | String        | &check;      |
 | visibility    | Visibility    | &check;      |

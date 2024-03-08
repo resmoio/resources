@@ -4,20 +4,21 @@ description: Okta User
 okta_user
 ---------
 
-| **Name**        | **Type**    | **Nullable** |
-| --------------- | ----------- | ------------ |
-| activated       | String      | &check;      |
-| created         | String      | &check;      |
-| credentials     | Credentials | &check;      |
-| id              | String      | &cross;      |
-| lastLogin       | String      | &check;      |
-| lastUpdated     | String      | &check;      |
-| mfaEnabled      | Boolean     | &check;      |
-| passwordChanged | String      | &check;      |
-| profile         | Profile     | &check;      |
-| status          | String      | &check;      |
-| statusChanged   | String      | &check;      |
-| type            | Type        | &check;      |
+| **Name**        | **Type**     | **Nullable** |
+| --------------- | ------------ | ------------ |
+| activated       | String       | &check;      |
+| created         | String       | &check;      |
+| credentials     | Credentials  | &check;      |
+| id              | String       | &cross;      |
+| lastLogin       | String       | &check;      |
+| lastUpdated     | String       | &check;      |
+| mfaEnabled      | Boolean      | &check;      |
+| passwordChanged | String       | &check;      |
+| profile         | Profile      | &check;      |
+| roleIds         | List<String> | &check;      |
+| status          | String       | &check;      |
+| statusChanged   | String       | &check;      |
+| type            | Type         | &check;      |
 
 #### Credentials
 | **Name** | **Type**             | **Nullable** |
@@ -41,4 +42,4 @@ okta_user
 #### Type
 | **Name** | **Type** | **Nullable** |
 | -------- | -------- | ------------ |
-| id       | String   | &cross;      |
+| id       | String   | &check;      |
