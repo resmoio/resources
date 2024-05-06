@@ -8,7 +8,7 @@ okta_user_type
 | ------------- | -------- | ------------ |
 | created       | String   | &check;      |
 | createdBy     | String   | &check;      |
-| default       | Boolean  | &cross;      |
+| default       | Boolean  | &check;      |
 | description   | String   | &check;      |
 | displayName   | String   | &check;      |
 | id            | String   | &cross;      |
