@@ -1,8 +1,8 @@
 ---
-description: Okta Policy Rule
+description: Okta Behavior
 ---
-okta_policy_rule
-----------------
+okta_behavior
+-------------
 
 | **Name**    | **Type** | **Nullable** |
 | ----------- | -------- | ------------ |
@@ -10,8 +10,11 @@ okta_policy_rule
 | id          | String   | &cross;      |
 | lastUpdated | String   | &check;      |
 | name        | String   | &check;      |
-| policyId    | String   | &cross;      |
-| priority    | Int      | &check;      |
 | status      | String   | &check;      |
-| system      | Boolean  | &check;      |
 | type        | String   | &check;      |
+
+#### User
+| **Name** | **Type** | **Nullable** |
+| -------- | -------- | ------------ |
+| id       | String   | &cross;      |
+| type     | String   | &check;      |
