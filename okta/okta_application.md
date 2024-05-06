@@ -12,8 +12,6 @@ okta_application
 | id            | String        | &cross;      |
 | label         | String        | &check;      |
 | lastUpdated   | String        | &check;      |
-| name          | String        | &check;      |
-| settings      | JSON          | &check;      |
 | signOnMode    | String        | &check;      |
 | status        | String        | &check;      |
 | visibility    | Visibility    | &check;      |
